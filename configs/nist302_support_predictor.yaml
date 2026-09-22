@@ -1,0 +1,19 @@
+experiment:
+  name: nist302_registered_support_predictor
+  seed: 1729
+data:
+  image_size: [128, 128]
+  num_workers: 0
+model:
+  channels: [16, 32, 64, 128]
+training:
+  epochs: 12
+  batch_size: 8
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+  gradient_clip_norm: 1.0
+  dice_weight: 1.0
+  early_stopping_patience: 4
+  pilot_epochs: 3
+  pilot_train_batches: 64
+  pilot_validation_batches: 16

@@ -1,0 +1,45 @@
+dataset: nist302_registered_approximate
+selection_split: validation
+frozen_filter:
+  determination: INDIV
+  minimum_correspondences: 6
+  maximum_affine_rmse_mm: 0.30
+  minimum_hull_coverage: 0.01
+calibration_summary:
+  validation_comp: 688
+  validation_indiv_with_affine: 547
+  accepted_validation: 302
+  retention_among_indiv_affine: 0.5521023765996343
+target_semantics:
+  label: registered_approximate
+  population_label: correspondence-qualified latent subset
+  pixel_aligned_ground_truth: false
+  allowed_primary_metrics:
+    - orientation_error
+    - ridge_frequency_error
+    - tolerance_aware_ssim
+  pixel_metrics_status: secondary_alignment_sensitive
+notes:
+  - Thresholds were frozen from validation diagnostics only.
+  - The test split must not be used to revise these thresholds.
+  - Official correspondences constrain geometry but do not remove elastic skin deformation.
+  - Six points with a six-parameter affine model can overfit a spatially compact anchor set.
+  - Selection favors latents with sufficiently numerous and dispersed examiner correspondences.
+  - Results must not be generalized to all SD302 latent impressions without qualification.
+required_stratification:
+  distance_to_observed_pixels:
+    - 0-8
+    - greater-than-8
+  distance_to_correspondence_hull_mm:
+    - inside-hull
+    - 0-2
+    - 2-5
+    - greater-than-5
+  distance_to_nearest_verified_correspondence_mm:
+    - 0-2
+    - 2-5
+    - greater-than-5
+sensitivity_filters:
+  - {minimum_correspondences: 8, maximum_affine_rmse_mm: 0.20, minimum_hull_coverage: 0.01}
+  - {minimum_correspondences: 8, maximum_affine_rmse_mm: 0.30, minimum_hull_coverage: 0.01}
+  - {minimum_correspondences: 10, maximum_affine_rmse_mm: 0.20, minimum_hull_coverage: 0.01}

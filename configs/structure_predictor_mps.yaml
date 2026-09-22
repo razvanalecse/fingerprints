@@ -1,0 +1,19 @@
+experiment:
+  name: partial_to_ridge_structure_mps
+  seed: 1729
+data:
+  image_size: [128, 128]
+  structure_size: [32, 32]
+  observed_fractions: [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80]
+  mask_families: [random_rectangles, irregular, central_missing, peripheral_only, central_only, disconnected_fragments, stripes, severe_partial]
+model:
+  channels: [16, 32, 64, 128]
+training:
+  epochs: 18
+  batch_size: 16
+  learning_rate: 0.0002
+  weight_decay: 0.00001
+  gradient_clip_norm: 1.0
+  orientation_weight: 1.0
+  coherence_weight: 0.25
+  early_stopping_patience: 5

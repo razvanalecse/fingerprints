@@ -1,0 +1,42 @@
+experiment:
+  name: conditional_latent_diffusion_v3_structure_adapter_mps
+  seed: 1729
+data:
+  image_size: [128, 128]
+  observed_fractions: [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80]
+  mask_families: [random_rectangles, irregular, central_missing, peripheral_only, central_only, disconnected_fragments, stripes, severe_partial]
+  num_workers: 0
+autoencoder:
+  checkpoint: outputs/latent_autoencoder_full/best-checkpoint.pt
+  latent_scale_batches: 32
+structure_predictor:
+  checkpoint: outputs/structure_predictor_full/best-checkpoint.pt
+model:
+  channels: [32, 64, 128]
+  time_dim: 64
+  multiscale_conditioning: true
+  auxiliary_condition_channels: 4
+  middle_attention: true
+  attention_heads: 4
+diffusion:
+  timesteps: 500
+  pilot_timesteps: 100
+  schedule: cosine
+  beta_start: 0.0001
+  beta_end: 0.02
+training:
+  epochs: 12
+  batch_size: 16
+  learning_rate: 0.0005
+  weight_decay: 0.0
+  gradient_clip_norm: 1.0
+  early_stopping_patience: 4
+  train_auxiliary_only: true
+  pilot_epochs: 3
+  pilot_train_batches: 64
+  pilot_validation_batches: 16
+  pilot_channels: [16, 32, 64]
+  pilot_time_dim: 64
+evaluation:
+  preview_samples: 4
+  preview_ddim_steps: 50
