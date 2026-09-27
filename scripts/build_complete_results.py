@@ -46,7 +46,10 @@ def run_script(script: str, *arguments: str) -> None:
 
 def copy(source: Path, destination: Path) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(source, destination)
+    if source.suffix.lower() in {".csv", ".json", ".md", ".svg"}:
+        destination.write_text(source.read_text(encoding="utf-8"), encoding="utf-8")
+    else:
+        shutil.copyfile(source, destination)
 
 
 def generate_existing_analyses() -> list[dict[str, str]]:
