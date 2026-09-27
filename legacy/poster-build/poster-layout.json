@@ -1,0 +1,6387 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/cv1528",
+    "id": "cv1528",
+    "slide": 1,
+    "layoutId": "874647f4-596c-4f8e-8dab-b3c4eaddad84",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "c764d90b-0fa0-4f4e-8d9d-d053a9123228",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 4493,
+      "height": 3178
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "874647f4-596c-4f8e-8dab-b3c4eaddad84",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "c764d90b-0fa0-4f4e-8d9d-d053a9123228",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "c764d90b-0fa0-4f4e-8d9d-d053a9123228",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1svqto3a",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        4493,
+        330
+      ],
+      "geometry": "rect",
+      "fillColor": "#0B1F33",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ep4ry9kj",
+      "id": "2",
+      "bbox": [
+        0,
+        330,
+        4493,
+        13
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqd8rel4",
+      "id": "3",
+      "bbox": [
+        118,
+        56,
+        3100,
+        116
+      ],
+      "geometry": "rect",
+      "text": "FROM FRAGMENTS TO STRUCTURE",
+      "textPreview": "FROM FRAGMENTS TO STRUCTURE",
+      "resolvedFontSize": 91,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 91,
+        "typeface": "Helvetica Neue",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FROM FRAGMENTS TO STRUCTURE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FROM FRAGMENTS TO STRUCTURE",
+          "resolvedTextStyle": {
+            "fontSize": 91,
+            "typeface": "Helvetica Neue",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FROM FRAGMENTS TO STRUCTURE",
+              "fontSize": 91,
+              "typeface": "Helvetica Neue",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cnm9wz2t",
+      "id": "4",
+      "bbox": [
+        122,
+        178,
+        3220,
+        70
+      ],
+      "geometry": "rect",
+      "text": "Reconstrucția probabilistică și conștientă de incertitudine a amprentelor parțiale",
+      "textPreview": "Reconstrucția probabilistică și conștientă de incertitudine a amprentelor parțiale",
+      "resolvedFontSize": 41,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 41,
+        "typeface": "Helvetica Neue",
+        "color": "#CFE9EA",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reconstrucția probabilistică și conștientă de incertitudine a amprentelor parțiale"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reconstrucția probabilistică și conștientă de incertitudine a amprentelor parțiale",
+          "resolvedTextStyle": {
+            "fontSize": 41,
+            "typeface": "Helvetica Neue",
+            "color": "#CFE9EA",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reconstrucția probabilistică și conștientă de incertitudine a amprentelor parțiale",
+              "fontSize": 41,
+              "typeface": "Helvetica Neue",
+              "color": "#CFE9EA",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dovqp43y",
+      "id": "5",
+      "bbox": [
+        3470,
+        72,
+        880,
+        60
+      ],
+      "geometry": "rect",
+      "text": "Răzvan-Cristian Alecse",
+      "textPreview": "Răzvan-Cristian Alecse",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 39,
+        "typeface": "Helvetica Neue",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Răzvan-Cristian Alecse"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Răzvan-Cristian Alecse",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "typeface": "Helvetica Neue",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Răzvan-Cristian Alecse",
+              "fontSize": 39,
+              "typeface": "Helvetica Neue",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qlkrupkn",
+      "id": "6",
+      "bbox": [
+        3310,
+        142,
+        1040,
+        80
+      ],
+      "geometry": "rect",
+      "text": "Proiect academic · Machine Learning · Computer Vision · Biometrie",
+      "textPreview": "Proiect academic · Machine Learning · Computer Vision · Biometrie",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#BCD0DE",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Proiect academic · Machine Learning · Computer Vision · Biometrie"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Proiect academic · Machine Learning · Computer Vision · Biometrie",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#BCD0DE",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Proiect academic · Machine Learning · Computer Vision · Biometrie",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#BCD0DE",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmt8nul8",
+      "id": "7",
+      "bbox": [
+        3490,
+        237,
+        410,
+        42
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wj69832x",
+      "id": "8",
+      "bbox": [
+        3500,
+        240,
+        390,
+        34
+      ],
+      "geometry": "rect",
+      "text": "PUBLIC / SYNTHETIC BENCHMARKS",
+      "textPreview": "PUBLIC / SYNTHETIC BENCHMARKS",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PUBLIC / SYNTHETIC"
+          },
+          {
+            "index": 2,
+            "text": "BENCHMARKS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PUBLIC / SYNTHETIC BENCHMARKS",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PUBLIC / SYNTHETIC BENCHMARKS",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkfa18ji",
+      "id": "9",
+      "bbox": [
+        3914,
+        237,
+        430,
+        42
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#D97706",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5ob21c76",
+      "id": "10",
+      "bbox": [
+        3924,
+        240,
+        410,
+        34
+      ],
+      "geometry": "rect",
+      "text": "TEST NIST RAPORTAT SEPARAT",
+      "textPreview": "TEST NIST RAPORTAT SEPARAT",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TEST NIST RAPORTAT SEPARAT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TEST NIST RAPORTAT SEPARAT",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TEST NIST RAPORTAT SEPARAT",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kni1s7q1",
+      "id": "11",
+      "bbox": [
+        0,
+        343,
+        4493,
+        300
+      ],
+      "geometry": "rect",
+      "fillColor": "#F5F8FA",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm9kz2pg",
+      "id": "12",
+      "bbox": [
+        120,
+        385,
+        710,
+        48
+      ],
+      "geometry": "rect",
+      "text": "ÎNTREBAREA CENTRALĂ",
+      "textPreview": "ÎNTREBAREA CENTRALĂ",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ÎNTREBAREA CENTRALĂ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ÎNTREBAREA CENTRALĂ",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ÎNTREBAREA CENTRALĂ",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0jqh8v",
+      "id": "13",
+      "bbox": [
+        120,
+        442,
+        2050,
+        130
+      ],
+      "geometry": "rect",
+      "text": "Când regiunea lipsă nu este determinată unic, poate modelul să recupereze structură de creste plauzibilă și să exprime corect incertitudinea?",
+      "textPreview": "Când regiunea lipsă nu este determinată unic, poate modelul să recupereze structură de creste plauzibilă și să exprime corect incertitudi...",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Când regiunea lipsă nu este determinată unic, poate modelul să recupereze structură de creste plauzibilă și să"
+          },
+          {
+            "index": 2,
+            "text": "exprime corect incertitudinea?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Când regiunea lipsă nu este determinată unic, poate modelul să recupereze structură de creste plauzibilă și să exprime corect incertitudinea?",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Când regiunea lipsă nu este determinată unic, poate modelul să recupereze structură de creste plauzibilă și să exprime corect incertitudinea?",
+              "fontSize": 36,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkr2xc7a",
+      "id": "14",
+      "bbox": [
+        2270,
+        390,
+        4,
+        190
+      ],
+      "geometry": "rect",
+      "fillColor": "#C8D5DF",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wji1o7qp",
+      "id": "15",
+      "bbox": [
+        2350,
+        385,
+        430,
+        48
+      ],
+      "geometry": "rect",
+      "text": "FORMULARE",
+      "textPreview": "FORMULARE",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FORMULARE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FORMULARE",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FORMULARE",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vi9kv2p4",
+      "id": "16",
+      "bbox": [
+        2350,
+        445,
+        1840,
+        75
+      ],
+      "geometry": "rect",
+      "text": "Y = M ⊙ X     →     pθ(Xmissing | Xobserved, M)",
+      "textPreview": "Y = M ⊙ X     →     pθ(Xmissing | Xobserved, M)",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 42,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Y = M ⊙ X     →     pθ(Xmissing | Xobserved, M)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Y = M ⊙ X     →     pθ(Xmissing | Xobserved, M)",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Y = M ⊙ X     →     pθ(Xmissing | Xobserved, M)",
+              "fontSize": 42,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ah0jmx8j",
+      "id": "17",
+      "bbox": [
+        2350,
+        528,
+        1840,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Separăm riguros: recuperarea ground truth · plauzibilitatea structurală · incertitudinea predictivă",
+      "textPreview": "Separăm riguros: recuperarea ground truth · plauzibilitatea structurală · incertitudinea predictivă",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Separăm riguros: recuperarea ground truth · plauzibilitatea structurală · incertitudinea predictivă"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Separăm riguros: recuperarea ground truth · plauzibilitatea structurală · incertitudinea predictivă",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Separăm riguros: recuperarea ground truth · plauzibilitatea structurală · incertitudinea predictivă",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgv29w7e",
+      "id": "18",
+      "bbox": [
+        120,
+        687,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gf2l0r6t",
+      "id": "19",
+      "bbox": [
+        192,
+        690,
+        1225,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Design experimental",
+      "textPreview": "Design experimental",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Design experimental"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Design experimental",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Design experimental",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0ja5cfe5",
+      "id": "20",
+      "bbox": [
+        120,
+        748,
+        1297,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1k3m5kfq",
+      "id": "21",
+      "bbox": [
+        120,
+        770,
+        1297,
+        250
+      ],
+      "geometry": "rect",
+      "text": "• Split la nivel de subiect/deget; fără identități comune între train, validation și test.\n• Metricile principale se calculează pe Ωmissing; pixelii observați sunt reinjectați prin data consistency.\n• Modele probabilistice: single sample, mean-K, best-of-K, diversitate și calibrare — raportate separat.",
+      "textPreview": "• Split la nivel de subiect/deget; fără identități comune între train, validation și test. | • Metricile principale se calculează pe Ωmis...",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#132433",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Split la nivel de subiect/deget; fără identități comune între train, validation și test."
+          },
+          {
+            "index": 2,
+            "text": "• Metricile principale se calculează pe Ωmissing; pixelii observați sunt reinjectați prin data consistency."
+          },
+          {
+            "index": 3,
+            "text": "• Modele probabilistice: single sample, mean-K, best-of-K, diversitate și calibrare — raportate separat."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Split la nivel de subiect/deget; fără identități comune între train, validation și test.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Split la nivel de subiect/deget; fără identități comune între train, validation și test.",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• Metricile principale se calculează pe Ωmissing; pixelii observați sunt reinjectați prin data consistency.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Metricile principale se calculează pe Ωmissing; pixelii observați sunt reinjectați prin data consistency.",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Modele probabilistice: single sample, mean-K, best-of-K, diversitate și calibrare — raportate separat.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Modele probabilistice: single sample, mean-K, best-of-K, diversitate și calibrare — raportate separat.",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/exsna5wz",
+      "id": "22",
+      "bbox": [
+        120,
+        1041,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zy143axk",
+      "id": "23",
+      "bbox": [
+        192,
+        1044,
+        1225,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Date și roluri",
+      "textPreview": "Date și roluri",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Date și roluri"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Date și roluri",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Date și roluri",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cval8ve9",
+      "id": "24",
+      "bbox": [
+        120,
+        1102,
+        1297,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dwjm10fu",
+      "id": "25",
+      "bbox": [
+        120,
+        1125,
+        1297,
+        282
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EAF2F8",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qts36lw3",
+      "id": "26",
+      "bbox": [
+        148,
+        1145,
+        300,
+        45
+      ],
+      "geometry": "rect",
+      "text": "SOCOFing",
+      "textPreview": "SOCOFing",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SOCOFing"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SOCOFing",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SOCOFing",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ru14zqxo",
+      "id": "27",
+      "bbox": [
+        148,
+        1200,
+        555,
+        115
+      ],
+      "geometry": "rect",
+      "text": "6.000 imagini · 600 subiecți\nMăști controlate, ablații, transfer inițial",
+      "textPreview": "6.000 imagini · 600 subiecți | Măști controlate, ablații, transfer inițial",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#132433",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6.000 imagini · 600 subiecți"
+          },
+          {
+            "index": 2,
+            "text": "Măști controlate, ablații, transfer inițial"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6.000 imagini · 600 subiecți",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6.000 imagini · 600 subiecți",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Măști controlate, ablații, transfer inițial",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Măști controlate, ablații, transfer inițial",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4rql4vex",
+      "id": "28",
+      "bbox": [
+        745,
+        1145,
+        3,
+        205
+      ],
+      "geometry": "rect",
+      "fillColor": "#C8D5DF",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psjmx0fi",
+      "id": "29",
+      "bbox": [
+        785,
+        1145,
+        350,
+        45
+      ],
+      "geometry": "rect",
+      "text": "NIST SD302",
+      "textPreview": "NIST SD302",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NIST SD302"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NIST SD302",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NIST SD302",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mh47qhk",
+      "id": "30",
+      "bbox": [
+        785,
+        1200,
+        580,
+        145
+      ],
+      "geometry": "rect",
+      "text": "9.990 latente · 200 subiecți\nPerechi latent–exemplar și adnotări EFS; subset înregistrat aproximativ",
+      "textPreview": "9.990 latente · 200 subiecți | Perechi latent–exemplar și adnotări EFS; subset înregistrat aproximativ",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#132433",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "9.990 latente · 200 subiecți"
+          },
+          {
+            "index": 2,
+            "text": "Perechi latent–exemplar și adnotări EFS; subset"
+          },
+          {
+            "index": 3,
+            "text": "înregistrat aproximativ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "9.990 latente · 200 subiecți",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "9.990 latente · 200 subiecți",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Perechi latent–exemplar și adnotări EFS; subset înregistrat aproximativ",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Perechi latent–exemplar și adnotări EFS; subset înregistrat aproximativ",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/618nel0z",
+      "id": "31",
+      "bbox": [
+        148,
+        1323,
+        1218,
+        65
+      ],
+      "geometry": "rect",
+      "text": "Înregistrarea folosește corespondențe de minutiae verificate; țintele NIST sunt registered_approximate, nu ground truth pixel-perfect.",
+      "textPreview": "Înregistrarea folosește corespondențe de minutiae verificate; țintele NIST sunt registered_approximate, nu ground truth pixel-perfect.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#B6463A",
+        "italic": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Înregistrarea folosește corespondențe de minutiae verificate; țintele NIST sunt registered_approximate, nu ground truth"
+          },
+          {
+            "index": 2,
+            "text": "pixel-perfect."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Înregistrarea folosește corespondențe de minutiae verificate; țintele NIST sunt registered_approximate, nu ground truth pixel-perfect.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#B6463A",
+            "italic": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Înregistrarea folosește corespondențe de minutiae verificate; țintele NIST sunt registered_approximate, nu ground truth pixel-perfect.",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#B6463A",
+              "italic": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/toz69gza",
+      "id": "32",
+      "bbox": [
+        120,
+        1442,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nq5gbip",
+      "id": "33",
+      "bbox": [
+        192,
+        1445,
+        1225,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Pipeline reproductibil",
+      "textPreview": "Pipeline reproductibil",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pipeline reproductibil"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pipeline reproductibil",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pipeline reproductibil",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vqhobqhg",
+      "id": "34",
+      "bbox": [
+        120,
+        1503,
+        1297,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/up8nil0v",
+      "id": "35",
+      "bbox": [
+        120,
+        1530,
+        211,
+        128
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F5F8FA",
+      "lineColor": "#C8D5DF",
+      "lineWidth": 2
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsj6d0zm",
+      "id": "36",
+      "bbox": [
+        128,
+        1548,
+        195,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Date",
+      "textPreview": "Date",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Date"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Date",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Date",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/grq5kvi1",
+      "id": "37",
+      "bbox": [
+        128,
+        1593,
+        195,
+        45
+      ],
+      "geometry": "rect",
+      "text": "SOCOFing / SD302",
+      "textPreview": "SOCOFing / SD302",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SOCOFing / SD302"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SOCOFing / SD302",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SOCOFing / SD302",
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3u1ofahc",
+      "id": "38",
+      "bbox": [
+        341,
+        1590,
+        34,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itsnm507",
+      "id": "39",
+      "bbox": [
+        338,
+        1566,
+        40,
+        44
+      ],
+      "geometry": "rect",
+      "text": "›",
+      "textPreview": "›",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 39,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "›"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "›",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "›",
+              "fontSize": 39,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m90zydsf",
+      "id": "40",
+      "bbox": [
+        385,
+        1530,
+        211,
+        128
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F5F8FA",
+      "lineColor": "#C8D5DF",
+      "lineWidth": 2
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/natg7yt0",
+      "id": "41",
+      "bbox": [
+        393,
+        1548,
+        195,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Split",
+      "textPreview": "Split",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Split"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Split",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Split",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ob2h03al",
+      "id": "42",
+      "bbox": [
+        393,
+        1593,
+        195,
+        45
+      ],
+      "geometry": "rect",
+      "text": "subiect / deget",
+      "textPreview": "subiect / deget",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "subiect / deget"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "subiect / deget",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "subiect / deget",
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cby98b6",
+      "id": "43",
+      "bbox": [
+        606,
+        1590,
+        34,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adkz2dsb",
+      "id": "44",
+      "bbox": [
+        603,
+        1566,
+        40,
+        44
+      ],
+      "geometry": "rect",
+      "text": "›",
+      "textPreview": "›",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 39,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "›"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "›",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "›",
+              "fontSize": 39,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/betgbitw",
+      "id": "45",
+      "bbox": [
+        650,
+        1530,
+        211,
+        128
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F5F8FA",
+      "lineColor": "#C8D5DF",
+      "lineWidth": 2
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wz2h4nah",
+      "id": "46",
+      "bbox": [
+        658,
+        1548,
+        195,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Condiție",
+      "textPreview": "Condiție",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Condiție"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Condiție",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Condiție",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0bydsb2",
+      "id": "47",
+      "bbox": [
+        658,
+        1593,
+        195,
+        45
+      ],
+      "geometry": "rect",
+      "text": "Y, M, quality",
+      "textPreview": "Y, M, quality",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Y, M, quality"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Y, M, quality",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Y, M, quality",
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qhgfqtc7",
+      "id": "48",
+      "bbox": [
+        871,
+        1590,
+        34,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ri9gzets",
+      "id": "49",
+      "bbox": [
+        868,
+        1566,
+        40,
+        44
+      ],
+      "geometry": "rect",
+      "text": "›",
+      "textPreview": "›",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 39,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "›"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "›",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "›",
+              "fontSize": 39,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twf25wva",
+      "id": "50",
+      "bbox": [
+        915,
+        1530,
+        211,
+        128
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F5F8FA",
+      "lineColor": "#C8D5DF",
+      "lineWidth": 2
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v61wrup",
+      "id": "51",
+      "bbox": [
+        923,
+        1548,
+        195,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Modele",
+      "textPreview": "Modele",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Modele"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Modele",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Modele",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 52,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7uxk3md4",
+      "id": "52",
+      "bbox": [
+        923,
+        1593,
+        195,
+        45
+      ],
+      "geometry": "rect",
+      "text": "det. + probabilistice",
+      "textPreview": "det. + probabilistice",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "det. + probabilistice"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "det. + probabilistice",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "det. + probabilistice",
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tojuhcj",
+      "id": "53",
+      "bbox": [
+        1136,
+        1590,
+        34,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 54,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0z29wvm",
+      "id": "54",
+      "bbox": [
+        1133,
+        1566,
+        40,
+        44
+      ],
+      "geometry": "rect",
+      "text": "›",
+      "textPreview": "›",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 39,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "›"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "›",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "›",
+              "fontSize": 39,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gz610ru1",
+      "id": "55",
+      "bbox": [
+        1180,
+        1530,
+        211,
+        128
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#DDF2F1",
+      "lineColor": "#C8D5DF",
+      "lineWidth": 2
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vyxk7mdg",
+      "id": "56",
+      "bbox": [
+        1188,
+        1548,
+        195,
+        36
+      ],
+      "geometry": "rect",
+      "text": "K samples",
+      "textPreview": "K samples",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "K samples"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K samples",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "K samples",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 57,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxojyhcv",
+      "id": "57",
+      "bbox": [
+        1188,
+        1593,
+        195,
+        45
+      ],
+      "geometry": "rect",
+      "text": "consistență date",
+      "textPreview": "consistență date",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "consistență date"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "consistență date",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "consistență date",
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4vixcv2",
+      "id": "58",
+      "bbox": [
+        120,
+        1680,
+        1297,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Evaluare → MAE/PSNR/SSIM · orientare π-periodică · frecvența crestelor · diversitate · coverage · teste pereche/mixed effects",
+      "textPreview": "Evaluare → MAE/PSNR/SSIM · orientare π-periodică · frecvența crestelor · diversitate · coverage · teste pereche/mixed effects",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evaluare → MAE/PSNR/SSIM · orientare π-periodică · frecvența crestelor · diversitate · coverage · teste pereche/mixed effects"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evaluare → MAE/PSNR/SSIM · orientare π-periodică · frecvența crestelor · diversitate · coverage · teste pereche/mixed effects",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evaluare → MAE/PSNR/SSIM · orientare π-periodică · frecvența crestelor · diversitate · coverage · teste pereche/mixed effects",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m1o7uh",
+      "id": "59",
+      "bbox": [
+        120,
+        1784,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onq1k7md",
+      "id": "60",
+      "bbox": [
+        192,
+        1787,
+        1225,
+        56
+      ],
+      "geometry": "rect",
+      "text": "SOCOFing: structură vs. pixeli",
+      "textPreview": "SOCOFing: structură vs. pixeli",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SOCOFing: structură vs. pixeli"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SOCOFing: structură vs. pixeli",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SOCOFing: structură vs. pixeli",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/poz2dc3y",
+      "id": "61",
+      "bbox": [
+        120,
+        1845,
+        1297,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 62,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lojix47",
+      "id": "62",
+      "bbox": [
+        116,
+        1866,
+        1305,
+        234
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D5DF",
+      "lineWidth": 2
+    },
+    {
+      "order": 63,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ojipcvm5",
+      "id": "63",
+      "bbox": [
+        120,
+        1870,
+        1297,
+        226
+      ],
+      "geometry": "roundRect",
+      "alt": "Reconstrucție SOCOFing: target, observație, mască, predicții și eroare",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5310"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "9bcdcfb5-ab9d-4796-a7cd-22a8adfdca7d",
+        "contentType": "image/png",
+        "byteLength": 398573
+      }
+    },
+    {
+      "order": 64,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbq1o72p",
+      "id": "64",
+      "bbox": [
+        120,
+        2114,
+        1297,
+        96
+      ],
+      "geometry": "rect",
+      "text": "Model ridge-aware: Orientation error 0,2289 → 0,0991 (−56,7%), cu SSIM 0,2585 → 0,2837; MAE crește ușor 0,1740 → 0,1772.",
+      "textPreview": "Model ridge-aware: Orientation error 0,2289 → 0,0991 (−56,7%), cu SSIM 0,2585 → 0,2837; MAE crește ușor 0,1740 → 0,1772.",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 26,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Model ridge-aware: Orientation error 0,2289 → 0,0991 (−56,7%), cu SSIM 0,2585 → 0,2837; MAE crește"
+          },
+          {
+            "index": 2,
+            "text": "ușor 0,1740 → 0,1772."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Model ridge-aware: Orientation error 0,2289 → 0,0991 (−56,7%), cu SSIM 0,2585 → 0,2837; MAE crește ușor 0,1740 → 0,1772.",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Model ridge-aware: Orientation error 0,2289 → 0,0991 (−56,7%), cu SSIM 0,2585 → 0,2837; MAE crește ușor 0,1740 → 0,1772.",
+              "fontSize": 26,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 65,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcz2hc3a",
+      "id": "65",
+      "bbox": [
+        120,
+        2215,
+        1297,
+        82
+      ],
+      "geometry": "rect",
+      "text": "Interpretare: loss-ul structural poate îmbunătăți geometria crestelor fără a optimiza simultan fidelitatea pixel-wise.",
+      "textPreview": "Interpretare: loss-ul structural poate îmbunătăți geometria crestelor fără a optimiza simultan fidelitatea pixel-wise.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Interpretare: loss-ul structural poate îmbunătăți geometria crestelor fără a optimiza simultan fidelitatea pixel-wise."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Interpretare: loss-ul structural poate îmbunătăți geometria crestelor fără a optimiza simultan fidelitatea pixel-wise.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Interpretare: loss-ul structural poate îmbunătăți geometria crestelor fără a optimiza simultan fidelitatea pixel-wise.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 66,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a98jmhkj",
+      "id": "66",
+      "bbox": [
+        120,
+        2332,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 67,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bahkfml4",
+      "id": "67",
+      "bbox": [
+        192,
+        2335,
+        1225,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Modele comparate",
+      "textPreview": "Modele comparate",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Modele comparate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Modele comparate",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Modele comparate",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 68,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kfa1sr2l",
+      "id": "68",
+      "bbox": [
+        120,
+        2393,
+        1297,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 69,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgj2lw36",
+      "id": "69",
+      "bbox": [
+        120,
+        2420,
+        1297,
+        145
+      ],
+      "geometry": "rect",
+      "text": "Classical inpainting · U-Net · gated/partial convolution · CVAE global/spațial · conditional DDPM · residual DDPM · RePaint · latent diffusion · flow matching · BBDM · ensemble/structure-guided ablations",
+      "textPreview": "Classical inpainting · U-Net · gated/partial convolution · CVAE global/spațial · conditional DDPM · residual DDPM · RePaint · latent diff...",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#132433",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Classical inpainting · U-Net · gated/partial convolution · CVAE global/spațial · conditional DDPM · residual"
+          },
+          {
+            "index": 2,
+            "text": "DDPM · RePaint · latent diffusion · flow matching · BBDM · ensemble/structure-guided ablations"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Classical inpainting · U-Net · gated/partial convolution · CVAE global/spațial · conditional DDPM · residual DDPM · RePaint · latent diffusion · flow matching · BBDM · ensemble/structure-guided ablations",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Classical inpainting · U-Net · gated/partial convolution · CVAE global/spațial · conditional DDPM · residual DDPM · RePaint · latent diffusion · flow matching · BBDM · ensemble/structure-guided ablations",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 70,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fm5w7a9k",
+      "id": "70",
+      "bbox": [
+        120,
+        2580,
+        1297,
+        284
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B1F33",
+      "lineWidth": 0
+    },
+    {
+      "order": 71,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwvyp8z",
+      "id": "71",
+      "bbox": [
+        150,
+        2606,
+        1237,
+        46
+      ],
+      "geometry": "rect",
+      "text": "Principiul de siguranță",
+      "textPreview": "Principiul de siguranță",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#54B8B8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Principiul de siguranță"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Principiul de siguranță",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#54B8B8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Principiul de siguranță",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#54B8B8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 72,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hone9krq",
+      "id": "72",
+      "bbox": [
+        150,
+        2668,
+        1237,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Reconstrucție plauzibilă ≠ recuperarea amprentei reale lipsă.\nScop: benchmark academic, analiză structurală și cuantificarea incertitudinii — nu autentificare, impersonare sau artefacte fizice.",
+      "textPreview": "Reconstrucție plauzibilă ≠ recuperarea amprentei reale lipsă. | Scop: benchmark academic, analiză structurală și cuantificarea incertitud...",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reconstrucție plauzibilă ≠ recuperarea amprentei reale lipsă."
+          },
+          {
+            "index": 2,
+            "text": "Scop: benchmark academic, analiză structurală și cuantificarea incertitudinii — nu autentificare, impersonare"
+          },
+          {
+            "index": 3,
+            "text": "sau artefacte fizice."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reconstrucție plauzibilă ≠ recuperarea amprentei reale lipsă.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reconstrucție plauzibilă ≠ recuperarea amprentei reale lipsă.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Scop: benchmark academic, analiză structurală și cuantificarea incertitudinii — nu autentificare, impersonare sau artefacte fizice.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Scop: benchmark academic, analiză structurală și cuantificarea incertitudinii — nu autentificare, impersonare sau artefacte fizice.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 73,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gned0fq5",
+      "id": "73",
+      "bbox": [
+        1537,
+        687,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 74,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ilc3a9o",
+      "id": "74",
+      "bbox": [
+        1609,
+        690,
+        1225,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Înregistrare NIST SD302",
+      "textPreview": "Înregistrare NIST SD302",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Înregistrare NIST SD302"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Înregistrare NIST SD302",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Înregistrare NIST SD302",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 75,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcvu5s3",
+      "id": "75",
+      "bbox": [
+        1537,
+        748,
+        1297,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 76,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tkne5kre",
+      "id": "76",
+      "bbox": [
+        1533,
+        769,
+        1305,
+        312
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D5DF",
+      "lineWidth": 2
+    },
+    {
+      "order": 77,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3il4nm10",
+      "id": "77",
+      "bbox": [
+        1537,
+        773,
+        1297,
+        304
+      ],
+      "geometry": "roundRect",
+      "alt": "Exemplu de înregistrare latent–exemplar bazată pe corespondențe verificate",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 3947"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "4ec36116-f79b-4d94-a9ed-41c51e374150",
+        "contentType": "image/png",
+        "byteLength": 1830911
+      }
+    },
+    {
+      "order": 78,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/repwfe9s",
+      "id": "78",
+      "bbox": [
+        1537,
+        1090,
+        1297,
+        80
+      ],
+      "geometry": "rect",
+      "text": "Exemplu: 13 corespondențe oficiale, RMSE geometric ≈ 0,102 mm. Validitatea scade în afara înfășurătorii punctelor de ancorare.",
+      "textPreview": "Exemplu: 13 corespondențe oficiale, RMSE geometric ≈ 0,102 mm. Validitatea scade în afara înfășurătorii punctelor de ancorare.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Exemplu: 13 corespondențe oficiale, RMSE geometric ≈ 0,102 mm. Validitatea scade în afara înfășurătorii punctelor de"
+          },
+          {
+            "index": 2,
+            "text": "ancorare."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Exemplu: 13 corespondențe oficiale, RMSE geometric ≈ 0,102 mm. Validitatea scade în afara înfășurătorii punctelor de ancorare.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Exemplu: 13 corespondențe oficiale, RMSE geometric ≈ 0,102 mm. Validitatea scade în afara înfășurătorii punctelor de ancorare.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 79,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qdgv6987",
+      "id": "79",
+      "bbox": [
+        1537,
+        1197,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 80,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2dcb2x83",
+      "id": "80",
+      "bbox": [
+        1609,
+        1200,
+        1225,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Validare probabilistică · K=5",
+      "textPreview": "Validare probabilistică · K=5",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Validare probabilistică · K=5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Validare probabilistică · K=5",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Validare probabilistică · K=5",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 81,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3elcv2po",
+      "id": "81",
+      "bbox": [
+        1537,
+        1258,
+        1297,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 82,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ofut47q9",
+      "id": "82",
+      "bbox": [
+        1537,
+        1272,
+        1297,
+        42
+      ],
+      "geometry": "rect",
+      "text": "NIST SD302 · n=287 imagini de validare · aceeași sămânță și aceleași cazuri",
+      "textPreview": "NIST SD302 · n=287 imagini de validare · aceeași sămânță și aceleași cazuri",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#526474",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NIST SD302 · n=287 imagini de validare · aceeași sămânță și aceleași cazuri"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NIST SD302 · n=287 imagini de validare · aceeași sămânță și aceleași cazuri",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#526474",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NIST SD302 · n=287 imagini de validare · aceeași sămânță și aceleași cazuri",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#526474",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 83,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/p476x8ne",
+      "id": "83",
+      "bbox": [
+        1537,
+        1328,
+        620,
+        420
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 84,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/exw7it4r",
+      "id": "84",
+      "bbox": [
+        2194,
+        1328,
+        640,
+        420
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 85,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fa1cripc",
+      "id": "85",
+      "bbox": [
+        1537,
+        1758,
+        1297,
+        86
+      ],
+      "geometry": "rect",
+      "text": "RePaint are cea mai bună fidelitate, dar ≈31× timpul DDPM direct (19,35 vs 0,63 s/imagine). Residual DDPM este compromisul practic.",
+      "textPreview": "RePaint are cea mai bună fidelitate, dar ≈31× timpul DDPM direct (19,35 vs 0,63 s/imagine). Residual DDPM este compromisul practic.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RePaint are cea mai bună fidelitate, dar ≈31× timpul DDPM direct (19,35 vs 0,63 s/imagine). Residual DDPM"
+          },
+          {
+            "index": 2,
+            "text": "este compromisul practic."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RePaint are cea mai bună fidelitate, dar ≈31× timpul DDPM direct (19,35 vs 0,63 s/imagine). Residual DDPM este compromisul practic.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RePaint are cea mai bună fidelitate, dar ≈31× timpul DDPM direct (19,35 vs 0,63 s/imagine). Residual DDPM este compromisul practic.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 86,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbat0nqx",
+      "id": "86",
+      "bbox": [
+        1537,
+        1877,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "08",
+      "textPreview": "08",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "08"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "08",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "08",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 87,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cjuts7i",
+      "id": "87",
+      "bbox": [
+        1609,
+        1880,
+        1225,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Test final NIST · n=217",
+      "textPreview": "Test final NIST · n=217",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Test final NIST · n=217"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Test final NIST · n=217",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Test final NIST · n=217",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 88,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6lsbud8v",
+      "id": "88",
+      "bbox": [
+        1537,
+        1938,
+        1297,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 89,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/ra5one50",
+      "id": "89",
+      "bbox": [
+        1537,
+        1962,
+        1297,
+        490
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 90,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcr6pkva",
+      "id": "90",
+      "bbox": [
+        1537,
+        2468,
+        1297,
+        390
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EAF2F8",
+      "lineWidth": 0
+    },
+    {
+      "order": 91,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bi5gfep",
+      "id": "91",
+      "bbox": [
+        1565,
+        2492,
+        1241,
+        45
+      ],
+      "geometry": "rect",
+      "text": "Rezultat contraintuitiv, dar important",
+      "textPreview": "Rezultat contraintuitiv, dar important",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Rezultat contraintuitiv, dar important"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Rezultat contraintuitiv, dar important",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Rezultat contraintuitiv, dar important",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 92,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7a9onad4",
+      "id": "92",
+      "bbox": [
+        1565,
+        2555,
+        1241,
+        140
+      ],
+      "geometry": "rect",
+      "text": "Pe testul final, baseline-ul determinist zero-shot este cel mai bun: MAE 0,1054 · SSIM 0,4884 · Orientation error 0,2764. Fine-tuning-ul pe ținte aproximativ înregistrate degradează performanța (MAE 0,1416 · SSIM 0,2802).",
+      "textPreview": "Pe testul final, baseline-ul determinist zero-shot este cel mai bun: MAE 0,1054 · SSIM 0,4884 · Orientation error 0,2764. Fine-tuning-ul ...",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 26,
+        "typeface": "Helvetica Neue",
+        "color": "#132433",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pe testul final, baseline-ul determinist zero-shot este cel mai bun: MAE 0,1054 · SSIM 0,4884 ·"
+          },
+          {
+            "index": 2,
+            "text": "Orientation error 0,2764. Fine-tuning-ul pe ținte aproximativ înregistrate degradează performanța (MAE"
+          },
+          {
+            "index": 3,
+            "text": "0,1416 · SSIM 0,2802)."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pe testul final, baseline-ul determinist zero-shot este cel mai bun: MAE 0,1054 · SSIM 0,4884 · Orientation error 0,2764. Fine-tuning-ul pe ținte aproximativ înregistrate degradează performanța (MAE 0,1416 · SSIM 0,2802).",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pe testul final, baseline-ul determinist zero-shot este cel mai bun: MAE 0,1054 · SSIM 0,4884 · Orientation error 0,2764. Fine-tuning-ul pe ținte aproximativ înregistrate degradează performanța (MAE 0,1416 · SSIM 0,2802).",
+              "fontSize": 26,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 93,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/690ne5wj",
+      "id": "93",
+      "bbox": [
+        1565,
+        2715,
+        1241,
+        102
+      ],
+      "geometry": "rect",
+      "text": "Concluzie metodologică: pseudo-ground-truth-ul geometric imperfect poate induce bias; îmbunătățirea vizuală/structurală nu garantează generalizare.",
+      "textPreview": "Concluzie metodologică: pseudo-ground-truth-ul geometric imperfect poate induce bias; îmbunătățirea vizuală/structurală nu garantează gen...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#B6463A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Concluzie metodologică: pseudo-ground-truth-ul geometric imperfect poate induce bias; îmbunătățirea"
+          },
+          {
+            "index": 2,
+            "text": "vizuală/structurală nu garantează generalizare."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Concluzie metodologică: pseudo-ground-truth-ul geometric imperfect poate induce bias; îmbunătățirea vizuală/structurală nu garantează generalizare.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#B6463A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Concluzie metodologică: pseudo-ground-truth-ul geometric imperfect poate induce bias; îmbunătățirea vizuală/structurală nu garantează generalizare.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#B6463A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 94,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lo76l0vy",
+      "id": "94",
+      "bbox": [
+        2954,
+        687,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "09",
+      "textPreview": "09",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "09"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "09",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "09",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 95,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kny5cved",
+      "id": "95",
+      "bbox": [
+        3026,
+        690,
+        1347,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Incertitudine: unde eșuează calibrarea?",
+      "textPreview": "Incertitudine: unde eșuează calibrarea?",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Incertitudine: unde eșuează calibrarea?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Incertitudine: unde eșuează calibrarea?",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Incertitudine: unde eșuează calibrarea?",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 96,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jmpojqds",
+      "id": "96",
+      "bbox": [
+        2954,
+        748,
+        1419,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 97,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/yx0rexov",
+      "id": "97",
+      "bbox": [
+        2954,
+        780,
+        1419,
+        500
+      ],
+      "chartType": "line"
+    },
+    {
+      "order": 98,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xk7mh0v2",
+      "id": "98",
+      "bbox": [
+        2954,
+        1292,
+        1419,
+        98
+      ],
+      "geometry": "rect",
+      "text": "Eroarea crește cu distanța, dar dispersia predictivă rămâne aproape constantă. Spearman uncertainty–error scade 0,527 → 0,262 → 0,167.",
+      "textPreview": "Eroarea crește cu distanța, dar dispersia predictivă rămâne aproape constantă. Spearman uncertainty–error scade 0,527 → 0,262 → 0,167.",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Eroarea crește cu distanța, dar dispersia predictivă rămâne aproape constantă. Spearman uncertainty–error"
+          },
+          {
+            "index": 2,
+            "text": "scade 0,527 → 0,262 → 0,167."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Eroarea crește cu distanța, dar dispersia predictivă rămâne aproape constantă. Spearman uncertainty–error scade 0,527 → 0,262 → 0,167.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Eroarea crește cu distanța, dar dispersia predictivă rămâne aproape constantă. Spearman uncertainty–error scade 0,527 → 0,262 → 0,167.",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 99,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjy58veh",
+      "id": "99",
+      "bbox": [
+        2954,
+        1417,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 100,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9kf2lkr2",
+      "id": "100",
+      "bbox": [
+        3026,
+        1420,
+        1347,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Predicții probabilistice pe test",
+      "textPreview": "Predicții probabilistice pe test",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Predicții probabilistice pe test"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Predicții probabilistice pe test",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Predicții probabilistice pe test",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 101,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8j61sfah",
+      "id": "101",
+      "bbox": [
+        2954,
+        1478,
+        1419,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 102,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nixkja9w",
+      "id": "102",
+      "bbox": [
+        2950,
+        1498,
+        1427,
+        438
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D5DF",
+      "lineWidth": 2
+    },
+    {
+      "order": 103,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3y9wfux4",
+      "id": "103",
+      "bbox": [
+        2954,
+        1502,
+        1419,
+        430
+      ],
+      "geometry": "roundRect",
+      "alt": "CVAE spațial: observație, pseudo-target, medie, samples și hărți de incertitudine",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 2791"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "2067eb87-42db-41b3-a0e4-c23df1c05282",
+        "contentType": "image/png",
+        "byteLength": 181579
+      }
+    },
+    {
+      "order": 104,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgv2h0rq",
+      "id": "104",
+      "bbox": [
+        2954,
+        1948,
+        1419,
+        86
+      ],
+      "geometry": "rect",
+      "text": "CVAE spațial, K=50: single MAE 0,1562 · mean-K MAE 0,1378 · best-of-50 MAE 0,1277 · SSIM(mean) 0,3647 · ρ(σ,|e|)=−0,1525.",
+      "textPreview": "CVAE spațial, K=50: single MAE 0,1562 · mean-K MAE 0,1378 · best-of-50 MAE 0,1277 · SSIM(mean) 0,3647 · ρ(σ,|e|)=−0,1525.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#132433",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CVAE spațial, K=50: single MAE 0,1562 · mean-K MAE 0,1378 · best-of-50 MAE 0,1277 · SSIM(mean) 0,3647 · ρ(σ,|e|)=−0,1525."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CVAE spațial, K=50: single MAE 0,1562 · mean-K MAE 0,1378 · best-of-50 MAE 0,1277 · SSIM(mean) 0,3647 · ρ(σ,|e|)=−0,1525.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CVAE spațial, K=50: single MAE 0,1562 · mean-K MAE 0,1378 · best-of-50 MAE 0,1277 · SSIM(mean) 0,3647 · ρ(σ,|e|)=−0,1525.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 105,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fm1ova5",
+      "id": "105",
+      "bbox": [
+        2954,
+        2062,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "11",
+      "textPreview": "11",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "11",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "11",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 106,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zedkfq90",
+      "id": "106",
+      "bbox": [
+        3026,
+        2065,
+        1347,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Ce susțin datele acum",
+      "textPreview": "Ce susțin datele acum",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ce susțin datele acum"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ce susțin datele acum",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ce susțin datele acum",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 107,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yd4jmlsf",
+      "id": "107",
+      "bbox": [
+        2954,
+        2123,
+        1419,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 108,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5cz2t4ra",
+      "id": "108",
+      "bbox": [
+        2954,
+        2145,
+        1419,
+        320
+      ],
+      "geometry": "rect",
+      "text": "1. Structura de ridge poate fi îmbunătățită fără câștig pixel-wise.\n2. RePaint maximizează fidelitatea pe validation, cu un cost temporal mare.\n3. Best-of-K măsoară potențialul distribuției, nu performanța unui singur sample.\n4. Varianța samples nu este încă o incertitudine calibrată; corelația poate fi slabă sau negativă.\n5. Transferul către latente reale este limitat de domain gap și de eroarea de înregistrare.",
+      "textPreview": "1. Structura de ridge poate fi îmbunătățită fără câștig pixel-wise. | 2. RePaint maximizează fidelitatea pe validation, cu un cost tempor...",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#132433",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Structura de ridge poate fi îmbunătățită fără câștig pixel-wise."
+          },
+          {
+            "index": 2,
+            "text": "2. RePaint maximizează fidelitatea pe validation, cu un cost temporal mare."
+          },
+          {
+            "index": 3,
+            "text": "3. Best-of-K măsoară potențialul distribuției, nu performanța unui singur sample."
+          },
+          {
+            "index": 4,
+            "text": "4. Varianța samples nu este încă o incertitudine calibrată; corelația poate fi slabă sau negativă."
+          },
+          {
+            "index": 5,
+            "text": "5. Transferul către latente reale este limitat de domain gap și de eroarea de înregistrare."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. Structura de ridge poate fi îmbunătățită fără câștig pixel-wise.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. Structura de ridge poate fi îmbunătățită fără câștig pixel-wise.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "2. RePaint maximizează fidelitatea pe validation, cu un cost temporal mare.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. RePaint maximizează fidelitatea pe validation, cu un cost temporal mare.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "3. Best-of-K măsoară potențialul distribuției, nu performanța unui singur sample.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Best-of-K măsoară potențialul distribuției, nu performanța unui singur sample.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "4. Varianța samples nu este încă o incertitudine calibrată; corelația poate fi slabă sau negativă.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. Varianța samples nu este încă o incertitudine calibrată; corelația poate fi slabă sau negativă.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "5. Transferul către latente reale este limitat de domain gap și de eroarea de înregistrare.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. Transferul către latente reale este limitat de domain gap și de eroarea de înregistrare.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 109,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kbql0zap",
+      "id": "109",
+      "bbox": [
+        2954,
+        2502,
+        72,
+        58
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 110,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x0zu187",
+      "id": "110",
+      "bbox": [
+        3026,
+        2505,
+        1347,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Limitări și pasul următor",
+      "textPreview": "Limitări și pasul următor",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Limitări și pasul următor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Limitări și pasul următor",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Limitări și pasul următor",
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 111,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3y9gnmps",
+      "id": "111",
+      "bbox": [
+        2954,
+        2563,
+        1419,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F8B8D",
+      "lineWidth": 0
+    },
+    {
+      "order": 112,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2hwrqx",
+      "id": "112",
+      "bbox": [
+        2954,
+        2586,
+        1419,
+        272
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F5F8FA",
+      "lineWidth": 0
+    },
+    {
+      "order": 113,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkbipw7i",
+      "id": "113",
+      "bbox": [
+        2978,
+        2605,
+        310,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Limitări",
+      "textPreview": "Limitări",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 29,
+        "typeface": "Helvetica Neue",
+        "color": "#B6463A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Limitări"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Limitări",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Helvetica Neue",
+            "color": "#B6463A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Limitări",
+              "fontSize": 29,
+              "typeface": "Helvetica Neue",
+              "color": "#B6463A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 114,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/et0zqh8v",
+      "id": "114",
+      "bbox": [
+        2978,
+        2652,
+        1371,
+        78
+      ],
+      "geometry": "rect",
+      "text": "subset NIST selectat prin calitatea corespondențelor · deformare elastică nereprezentată complet · ținte pseudo-aliniate · rezoluție/compute limitate",
+      "textPreview": "subset NIST selectat prin calitatea corespondențelor · deformare elastică nereprezentată complet · ținte pseudo-aliniate · rezoluție/comp...",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#132433",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "subset NIST selectat prin calitatea corespondențelor · deformare elastică nereprezentată complet · ținte pseudo-aliniate ·"
+          },
+          {
+            "index": 2,
+            "text": "rezoluție/compute limitate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "subset NIST selectat prin calitatea corespondențelor · deformare elastică nereprezentată complet · ținte pseudo-aliniate · rezoluție/compute limitate",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "subset NIST selectat prin calitatea corespondențelor · deformare elastică nereprezentată complet · ținte pseudo-aliniate · rezoluție/compute limitate",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 115,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu9gjmpg",
+      "id": "115",
+      "bbox": [
+        2978,
+        2735,
+        390,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Direcție prioritară",
+      "textPreview": "Direcție prioritară",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 29,
+        "typeface": "Helvetica Neue",
+        "color": "#0F8B8D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Direcție prioritară"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Direcție prioritară",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Helvetica Neue",
+            "color": "#0F8B8D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Direcție prioritară",
+              "fontSize": 29,
+              "typeface": "Helvetica Neue",
+              "color": "#0F8B8D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 116,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvihsrq1",
+      "id": "116",
+      "bbox": [
+        2978,
+        2780,
+        1371,
+        62
+      ],
+      "geometry": "rect",
+      "text": "diffusion rezidual progresiv, condiționat explicit pe orientare/frecvență și antrenat pe patch-uri native; pierdere ponderată prin încredere geometrică + calibrare post-hoc pe subiecți",
+      "textPreview": "diffusion rezidual progresiv, condiționat explicit pe orientare/frecvență și antrenat pe patch-uri native; pierdere ponderată prin încred...",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#132433",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "diffusion rezidual progresiv, condiționat explicit pe orientare/frecvență și antrenat pe patch-uri native; pierdere ponderată prin"
+          },
+          {
+            "index": 2,
+            "text": "încredere geometrică + calibrare post-hoc pe subiecți"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "diffusion rezidual progresiv, condiționat explicit pe orientare/frecvență și antrenat pe patch-uri native; pierdere ponderată prin încredere geometrică + calibrare post-hoc pe subiecți",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#132433",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "diffusion rezidual progresiv, condiționat explicit pe orientare/frecvență și antrenat pe patch-uri native; pierdere ponderată prin încredere geometrică + calibrare post-hoc pe subiecți",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#132433",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 117,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1wrylw7m",
+      "id": "117",
+      "bbox": [
+        0,
+        2920,
+        4493,
+        258
+      ],
+      "geometry": "rect",
+      "fillColor": "#0B1F33",
+      "lineWidth": 0
+    },
+    {
+      "order": 118,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ypkz2l8f",
+      "id": "118",
+      "bbox": [
+        120,
+        2944,
+        360,
+        38
+      ],
+      "geometry": "rect",
+      "text": "REFERINȚE CHEIE",
+      "textPreview": "REFERINȚE CHEIE",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#54B8B8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "REFERINȚE CHEIE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "REFERINȚE CHEIE",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#54B8B8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "REFERINȚE CHEIE",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#54B8B8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 119,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqd0v6pk",
+      "id": "119",
+      "bbox": [
+        120,
+        2990,
+        3280,
+        90
+      ],
+      "geometry": "rect",
+      "text": "[1] Ho et al., DDPM, NeurIPS 2020 · [2] Lugmayr et al., RePaint, CVPR 2022 · [3] Rombach et al., Latent Diffusion, CVPR 2022 · [4] Li et al., BBDM, CVPR 2023 · [5] NIST SD302 / TN 2190 · [6] Hussein, Jain & Nandakumar, progressive diffusion fingerprint inpainting, IJCB 2026",
+      "textPreview": "[1] Ho et al., DDPM, NeurIPS 2020 · [2] Lugmayr et al., RePaint, CVPR 2022 · [3] Rombach et al., Latent Diffusion, CVPR 2022 · [4] Li et ...",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#D9E4EC",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[1] Ho et al., DDPM, NeurIPS 2020 · [2] Lugmayr et al., RePaint, CVPR 2022 · [3] Rombach et al., Latent Diffusion, CVPR 2022 · [4] Li et al., BBDM, CVPR 2023 · [5] NIST SD302 / TN 2190 · [6] Hussein, Jain & Nandakumar, progressive diffusion fingerprint inpainting, IJCB 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[1] Ho et al., DDPM, NeurIPS 2020 · [2] Lugmayr et al., RePaint, CVPR 2022 · [3] Rombach et al., Latent Diffusion, CVPR 2022 · [4] Li et al., BBDM, CVPR 2023 · [5] NIST SD302 / TN 2190 · [6] Hussein, Jain & Nandakumar, progressive diffusion fingerprint inpainting, IJCB 2026",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#D9E4EC",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[1] Ho et al., DDPM, NeurIPS 2020 · [2] Lugmayr et al., RePaint, CVPR 2022 · [3] Rombach et al., Latent Diffusion, CVPR 2022 · [4] Li et al., BBDM, CVPR 2023 · [5] NIST SD302 / TN 2190 · [6] Hussein, Jain & Nandakumar, progressive diffusion fingerprint inpainting, IJCB 2026",
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#D9E4EC",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 120,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu5wny5c",
+      "id": "120",
+      "bbox": [
+        120,
+        3082,
+        3280,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Metrici din rulările locale ale proiectului · CI 95% salvate per imagine/subiect · cod și configurații reproductibile",
+      "textPreview": "Metrici din rulările locale ale proiectului · CI 95% salvate per imagine/subiect · cod și configurații reproductibile",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#9EB5C6",
+        "italic": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Metrici din rulările locale ale proiectului · CI 95% salvate per imagine/subiect · cod și configurații reproductibile"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Metrici din rulările locale ale proiectului · CI 95% salvate per imagine/subiect · cod și configurații reproductibile",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#9EB5C6",
+            "italic": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Metrici din rulările locale ale proiectului · CI 95% salvate per imagine/subiect · cod și configurații reproductibile",
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#9EB5C6",
+              "italic": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 121,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/atwvudor",
+      "id": "121",
+      "bbox": [
+        3420,
+        2980,
+        950,
+        105
+      ],
+      "geometry": "rect",
+      "text": "GROUND TRUTH RECOVERY  ≠  STRUCTURAL PLAUSIBILITY  ≠  PREDICTIVE UNCERTAINTY",
+      "textPreview": "GROUND TRUTH RECOVERY  ≠  STRUCTURAL PLAUSIBILITY  ≠  PREDICTIVE UNCERTAINTY",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GROUND TRUTH RECOVERY  ≠  STRUCTURAL PLAUSIBILITY  ≠"
+          },
+          {
+            "index": 2,
+            "text": "PREDICTIVE UNCERTAINTY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GROUND TRUTH RECOVERY  ≠  STRUCTURAL PLAUSIBILITY  ≠  PREDICTIVE UNCERTAINTY",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GROUND TRUTH RECOVERY  ≠  STRUCTURAL PLAUSIBILITY  ≠  PREDICTIVE UNCERTAINTY",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 122,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwnep8n2",
+      "id": "122",
+      "bbox": [
+        3600,
+        3090,
+        590,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Academic research only",
+      "textPreview": "Academic research only",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#54B8B8",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Academic research only"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Academic research only",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#54B8B8",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Academic research only",
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#54B8B8",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

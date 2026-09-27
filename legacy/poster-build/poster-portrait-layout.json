@@ -1,0 +1,6941 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/bkinlm",
+    "id": "bkinlm",
+    "slide": 1,
+    "layoutId": "21d3e9a9-7d0f-476f-a67f-dad662ecf200",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ccb62f7a-0208-492f-aa1e-a2b43ef38ae3",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 3178,
+      "height": 4493
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "21d3e9a9-7d0f-476f-a67f-dad662ecf200",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ccb62f7a-0208-492f-aa1e-a2b43ef38ae3",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ccb62f7a-0208-492f-aa1e-a2b43ef38ae3",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mx4r6do",
+      "id": "1",
+      "bbox": [
+        760,
+        60,
+        1658,
+        35
+      ],
+      "geometry": "rect",
+      "text": "ACADEMIC RESEARCH POSTER · 2026",
+      "textPreview": "ACADEMIC RESEARCH POSTER · 2026",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#5B6470",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ACADEMIC RESEARCH POSTER · 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ACADEMIC RESEARCH POSTER · 2026",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#5B6470",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ACADEMIC RESEARCH POSTER · 2026",
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#5B6470",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqlkbet",
+      "id": "2",
+      "bbox": [
+        760,
+        105,
+        1658,
+        86
+      ],
+      "geometry": "rect",
+      "text": "From Fragments to Structure",
+      "textPreview": "From Fragments to Structure",
+      "resolvedFontSize": 66,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 66,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "From Fragments to Structure"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "From Fragments to Structure",
+          "resolvedTextStyle": {
+            "fontSize": 66,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "From Fragments to Structure",
+              "fontSize": 66,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tozmtgve",
+      "id": "3",
+      "bbox": [
+        760,
+        194,
+        1658,
+        112
+      ],
+      "geometry": "rect",
+      "text": "Uncertainty-Aware Reconstruction of Partial Fingerprints Using Diffusion Models",
+      "textPreview": "Uncertainty-Aware Reconstruction of Partial Fingerprints Using Diffusion Models",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 44,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Uncertainty-Aware Reconstruction of Partial Fingerprints Using Diffusion"
+          },
+          {
+            "index": 2,
+            "text": "Models"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Uncertainty-Aware Reconstruction of Partial Fingerprints Using Diffusion Models",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Uncertainty-Aware Reconstruction of Partial Fingerprints Using Diffusion Models",
+              "fontSize": 44,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/up83mlwz",
+      "id": "4",
+      "bbox": [
+        760,
+        315,
+        1658,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Răzvan-Cristian Alecse",
+      "textPreview": "Răzvan-Cristian Alecse",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#5B6470",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Răzvan-Cristian Alecse"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Răzvan-Cristian Alecse",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#5B6470",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Răzvan-Cristian Alecse",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#5B6470",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vqh4vqdk",
+      "id": "5",
+      "bbox": [
+        760,
+        375,
+        1658,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/grqlove5",
+      "id": "6",
+      "bbox": [
+        90,
+        102,
+        610,
+        40
+      ],
+      "geometry": "rect",
+      "text": "RESEARCH SCOPE",
+      "textPreview": "RESEARCH SCOPE",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RESEARCH SCOPE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RESEARCH SCOPE",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RESEARCH SCOPE",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hszmx0vq",
+      "id": "7",
+      "bbox": [
+        90,
+        155,
+        610,
+        122
+      ],
+      "geometry": "rect",
+      "text": "Public and synthetic benchmarks\nNo authentication bypass\nNo physical artefact fabrication",
+      "textPreview": "Public and synthetic benchmarks | No authentication bypass | No physical artefact fabrication",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Public and synthetic benchmarks"
+          },
+          {
+            "index": 2,
+            "text": "No authentication bypass"
+          },
+          {
+            "index": 3,
+            "text": "No physical artefact fabrication"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Public and synthetic benchmarks",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Public and synthetic benchmarks",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "No authentication bypass",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No authentication bypass",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "No physical artefact fabrication",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No physical artefact fabrication",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/id83qlwb",
+      "id": "8",
+      "bbox": [
+        90,
+        305,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3e14zqdw",
+      "id": "9",
+      "bbox": [
+        90,
+        330,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "CORE DISTINCTION",
+      "textPreview": "CORE DISTINCTION",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#B23A32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CORE DISTINCTION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CORE DISTINCTION",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#B23A32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CORE DISTINCTION",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#B23A32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2lkjitg",
+      "id": "10",
+      "bbox": [
+        90,
+        380,
+        610,
+        130
+      ],
+      "geometry": "rect",
+      "text": "Ground-truth recovery\n≠ structural plausibility\n≠ predictive uncertainty",
+      "textPreview": "Ground-truth recovery | ≠ structural plausibility | ≠ predictive uncertainty",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 26,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ground-truth recovery"
+          },
+          {
+            "index": 2,
+            "text": "≠ structural plausibility"
+          },
+          {
+            "index": 3,
+            "text": "≠ predictive uncertainty"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ground-truth recovery",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ground-truth recovery",
+              "fontSize": 26,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "≠ structural plausibility",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "≠ structural plausibility",
+              "fontSize": 26,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "≠ predictive uncertainty",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "≠ predictive uncertainty",
+              "fontSize": 26,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1c3adsv",
+      "id": "11",
+      "bbox": [
+        2480,
+        102,
+        610,
+        40
+      ],
+      "geometry": "rect",
+      "text": "DATASETS",
+      "textPreview": "DATASETS",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DATASETS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DATASETS",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DATASETS",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x432lsbm",
+      "id": "12",
+      "bbox": [
+        2480,
+        155,
+        610,
+        140
+      ],
+      "geometry": "rect",
+      "text": "SOCOFing: 6,000 images / 600 subjects\nNIST SD302: 9,990 latents / 200 subjects\nNIST test: 217 unseen images",
+      "textPreview": "SOCOFing: 6,000 images / 600 subjects | NIST SD302: 9,990 latents / 200 subjects | NIST test: 217 unseen images",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SOCOFing: 6,000 images / 600 subjects"
+          },
+          {
+            "index": 2,
+            "text": "NIST SD302: 9,990 latents / 200 subjects"
+          },
+          {
+            "index": 3,
+            "text": "NIST test: 217 unseen images"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SOCOFing: 6,000 images / 600 subjects",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SOCOFing: 6,000 images / 600 subjects",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "NIST SD302: 9,990 latents / 200 subjects",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NIST SD302: 9,990 latents / 200 subjects",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "NIST test: 217 unseen images",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NIST test: 217 unseen images",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3ulcna1",
+      "id": "13",
+      "bbox": [
+        2480,
+        315,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ny1kfitk",
+      "id": "14",
+      "bbox": [
+        2480,
+        340,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "LEAKAGE CONTROL",
+      "textPreview": "LEAKAGE CONTROL",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#B23A32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LEAKAGE CONTROL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LEAKAGE CONTROL",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#B23A32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LEAKAGE CONTROL",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#B23A32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mxs36dsz",
+      "id": "15",
+      "bbox": [
+        2480,
+        390,
+        610,
+        112
+      ],
+      "geometry": "rect",
+      "text": "Subject/finger-disjoint splits.\nThresholds and model choices frozen before the final test.",
+      "textPreview": "Subject/finger-disjoint splits. | Thresholds and model choices frozen before the final test.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Subject/finger-disjoint splits."
+          },
+          {
+            "index": 2,
+            "text": "Thresholds and model choices frozen before the final"
+          },
+          {
+            "index": 3,
+            "text": "test."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Subject/finger-disjoint splits.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Subject/finger-disjoint splits.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Thresholds and model choices frozen before the final test.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Thresholds and model choices frozen before the final test.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9032hsbq",
+      "id": "16",
+      "bbox": [
+        90,
+        560,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Problem formulation",
+      "textPreview": "Problem formulation",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Problem formulation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Problem formulation",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Problem formulation",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozal8na5",
+      "id": "17",
+      "bbox": [
+        90,
+        614,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7u5kr2to",
+      "id": "18",
+      "bbox": [
+        90,
+        635,
+        610,
+        88
+      ],
+      "geometry": "rect",
+      "text": "A complete fingerprint X∈[0,1]ᴴˣᵂ is observed only through a binary mask M:",
+      "textPreview": "A complete fingerprint X∈[0,1]ᴴˣᵂ is observed only through a binary mask M:",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A complete fingerprint X∈[0,1]ᴴˣᵂ is observed only"
+          },
+          {
+            "index": 2,
+            "text": "through a binary mask M:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A complete fingerprint X∈[0,1]ᴴˣᵂ is observed only through a binary mask M:",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A complete fingerprint X∈[0,1]ᴴˣᵂ is observed only through a binary mask M:",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tw3ixs3",
+      "id": "19",
+      "bbox": [
+        90,
+        735,
+        610,
+        62
+      ],
+      "geometry": "rect",
+      "text": "Y = M ⊙ X",
+      "textPreview": "Y = M ⊙ X",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 42,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Y = M ⊙ X"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Y = M ⊙ X",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Y = M ⊙ X",
+              "fontSize": 42,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2pgna1cb",
+      "id": "20",
+      "bbox": [
+        90,
+        816,
+        610,
+        90
+      ],
+      "geometry": "rect",
+      "text": "The target is not a single deterministic image, but the conditional distribution:",
+      "textPreview": "The target is not a single deterministic image, but the conditional distribution:",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The target is not a single deterministic image, but the"
+          },
+          {
+            "index": 2,
+            "text": "conditional distribution:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The target is not a single deterministic image, but the conditional distribution:",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The target is not a single deterministic image, but the conditional distribution:",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qpoj6dw",
+      "id": "21",
+      "bbox": [
+        90,
+        918,
+        610,
+        76
+      ],
+      "geometry": "rect",
+      "text": "pθ(Xmissing | Xobserved, M)",
+      "textPreview": "pθ(Xmissing | Xobserved, M)",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "pθ(Xmissing | Xobserved, M)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "pθ(Xmissing | Xobserved, M)",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "pθ(Xmissing | Xobserved, M)",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4ri5cbuh",
+      "id": "22",
+      "bbox": [
+        90,
+        1010,
+        610,
+        138
+      ],
+      "geometry": "rect",
+      "text": "For severe partial observations, multiple completions may be structurally plausible while only one matches the unknown original.",
+      "textPreview": "For severe partial observations, multiple completions may be structurally plausible while only one matches the unknown original.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#5B6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "For severe partial observations, multiple completions"
+          },
+          {
+            "index": 2,
+            "text": "may be structurally plausible while only one matches the"
+          },
+          {
+            "index": 3,
+            "text": "unknown original."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "For severe partial observations, multiple completions may be structurally plausible while only one matches the unknown original.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#5B6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "For severe partial observations, multiple completions may be structurally plausible while only one matches the unknown original.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#5B6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psr6lgv2",
+      "id": "23",
+      "bbox": [
+        90,
+        1185,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Experimental setup",
+      "textPreview": "Experimental setup",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Experimental setup"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Experimental setup",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Experimental setup",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qt0nelcn",
+      "id": "24",
+      "bbox": [
+        90,
+        1239,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ru9onqd8",
+      "id": "25",
+      "bbox": [
+        90,
+        1262,
+        610,
+        330
+      ],
+      "geometry": "rect",
+      "text": "▪ 8 observed fractions: r=0.10…0.80\n▪ rectangular, irregular, central, peripheral, fragments and stripe masks\n▪ exact reinjection of observed pixels\n▪ single / mean-K / best-of-K reported separately\n▪ K∈{5,10,20,50} samples",
+      "textPreview": "▪ 8 observed fractions: r=0.10…0.80 | ▪ rectangular, irregular, central, peripheral, fragments and stripe masks | ▪ exact reinjection of ...",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "▪ 8 observed fractions: r=0.10…0.80"
+          },
+          {
+            "index": 2,
+            "text": "▪ rectangular, irregular, central, peripheral, fragments and"
+          },
+          {
+            "index": 3,
+            "text": "stripe masks"
+          },
+          {
+            "index": 4,
+            "text": "▪ exact reinjection of observed pixels"
+          },
+          {
+            "index": 5,
+            "text": "▪ single / mean-K / best-of-K reported separately"
+          },
+          {
+            "index": 6,
+            "text": "▪ K∈{5,10,20,50} samples"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "▪ 8 observed fractions: r=0.10…0.80",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ 8 observed fractions: r=0.10…0.80",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "▪ rectangular, irregular, central, peripheral, fragments and stripe masks",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ rectangular, irregular, central, peripheral, fragments and stripe masks",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "▪ exact reinjection of observed pixels",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ exact reinjection of observed pixels",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "▪ single / mean-K / best-of-K reported separately",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ single / mean-K / best-of-K reported separately",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "▪ K∈{5,10,20,50} samples",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ K∈{5,10,20,50} samples",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvi5gvut",
+      "id": "26",
+      "bbox": [
+        90,
+        1625,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Fingerprint structure",
+      "textPreview": "Fingerprint structure",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fingerprint structure"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fingerprint structure",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fingerprint structure",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgr6pgvy",
+      "id": "27",
+      "bbox": [
+        90,
+        1679,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xwn2hc3",
+      "id": "28",
+      "bbox": [
+        90,
+        1705,
+        610,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Axial ridge orientation is π-periodic:",
+      "textPreview": "Axial ridge orientation is π-periodic:",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Axial ridge orientation is π-periodic:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Axial ridge orientation is π-periodic:",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Axial ridge orientation is π-periodic:",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y54bmdo",
+      "id": "29",
+      "bbox": [
+        90,
+        1765,
+        610,
+        72
+      ],
+      "geometry": "rect",
+      "text": "dθ(θ,θ̂)=1−cos[2(θ−θ̂)]",
+      "textPreview": "dθ(θ,θ̂)=1−cos[2(θ−θ̂)]",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "dθ(θ,θ̂)=1−cos[2(θ−θ̂)]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "dθ(θ,θ̂)=1−cos[2(θ−θ̂)]",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "dθ(θ,θ̂)=1−cos[2(θ−θ̂)]",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvqhkf6",
+      "id": "30",
+      "bbox": [
+        87,
+        1857,
+        616,
+        214
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#B6BEC7",
+      "lineWidth": 3
+    },
+    {
+      "order": 31,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3m5kn2p4",
+      "id": "31",
+      "bbox": [
+        90,
+        1860,
+        610,
+        208
+      ],
+      "geometry": "roundRect",
+      "alt": "ROI, ridge tangents and orientation coherence",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 3846"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "b2cc63a3-f327-4667-8166-8a07d680615f",
+        "contentType": "image/png",
+        "byteLength": 285467
+      }
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nad8fuxg",
+      "id": "32",
+      "bbox": [
+        90,
+        2082,
+        610,
+        112
+      ],
+      "geometry": "rect",
+      "text": "Orientation is estimated only inside the fingerprint foreground; doubled-angle smoothing avoids discontinuities at θ≡θ+π.",
+      "textPreview": "Orientation is estimated only inside the fingerprint foreground; doubled-angle smoothing avoids discontinuities at θ≡θ+π.",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Helvetica Neue",
+        "color": "#5B6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Orientation is estimated only inside the fingerprint"
+          },
+          {
+            "index": 2,
+            "text": "foreground; doubled-angle smoothing avoids discontinuities"
+          },
+          {
+            "index": 3,
+            "text": "at θ≡θ+π."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Orientation is estimated only inside the fingerprint foreground; doubled-angle smoothing avoids discontinuities at θ≡θ+π.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#5B6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Orientation is estimated only inside the fingerprint foreground; doubled-angle smoothing avoids discontinuities at θ≡θ+π.",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#5B6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mpkr6pwv",
+      "id": "33",
+      "bbox": [
+        90,
+        2230,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Metrics",
+      "textPreview": "Metrics",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Metrics"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Metrics",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Metrics",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgvql4fi",
+      "id": "34",
+      "bbox": [
+        90,
+        2284,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfm9czex",
+      "id": "35",
+      "bbox": [
+        90,
+        2305,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Pixel fidelity",
+      "textPreview": "Pixel fidelity",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pixel fidelity"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pixel fidelity",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pixel fidelity",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bed8juxc",
+      "id": "36",
+      "bbox": [
+        90,
+        2355,
+        610,
+        168
+      ],
+      "geometry": "rect",
+      "text": "MAE = |Ω|⁻¹ Σᵢ∈Ω |Xᵢ−X̂ᵢ|\nPSNR = 10 log₁₀(MAX²/MSE)\nSSIM: luminance + contrast + structure",
+      "textPreview": "MAE = |Ω|⁻¹ Σᵢ∈Ω |Xᵢ−X̂ᵢ| | PSNR = 10 log₁₀(MAX²/MSE) | SSIM: luminance + contrast + structure",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MAE = |Ω|⁻¹ Σᵢ∈Ω |Xᵢ−X̂ᵢ|"
+          },
+          {
+            "index": 2,
+            "text": "PSNR = 10 log₁₀(MAX²/MSE)"
+          },
+          {
+            "index": 3,
+            "text": "SSIM: luminance + contrast + structure"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MAE = |Ω|⁻¹ Σᵢ∈Ω |Xᵢ−X̂ᵢ|",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MAE = |Ω|⁻¹ Σᵢ∈Ω |Xᵢ−X̂ᵢ|",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "PSNR = 10 log₁₀(MAX²/MSE)",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PSNR = 10 log₁₀(MAX²/MSE)",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "SSIM: luminance + contrast + structure",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SSIM: luminance + contrast + structure",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ad4rapwr",
+      "id": "37",
+      "bbox": [
+        90,
+        2540,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Structural fidelity",
+      "textPreview": "Structural fidelity",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Structural fidelity"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Structural fidelity",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Structural fidelity",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dkbq90fy",
+      "id": "38",
+      "bbox": [
+        90,
+        2590,
+        610,
+        104
+      ],
+      "geometry": "rect",
+      "text": "orientation error · ridge frequency error · ridge continuity",
+      "textPreview": "orientation error · ridge frequency error · ridge continuity",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "orientation error · ridge frequency error · ridge continuity"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "orientation error · ridge frequency error · ridge continuity",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "orientation error · ridge frequency error · ridge continuity",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cj2p0vet",
+      "id": "39",
+      "bbox": [
+        90,
+        2705,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Probabilistic quality",
+      "textPreview": "Probabilistic quality",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Probabilistic quality"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Probabilistic quality",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Probabilistic quality",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gzqto3y1",
+      "id": "40",
+      "bbox": [
+        90,
+        2755,
+        610,
+        115
+      ],
+      "geometry": "rect",
+      "text": "diversity · uncertainty–error correlation · interval coverage · calibration width",
+      "textPreview": "diversity · uncertainty–error correlation · interval coverage · calibration width",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "diversity · uncertainty–error correlation · interval coverage"
+          },
+          {
+            "index": 2,
+            "text": "· calibration width"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "diversity · uncertainty–error correlation · interval coverage · calibration width",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "diversity · uncertainty–error correlation · interval coverage · calibration width",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0zuh8fm",
+      "id": "41",
+      "bbox": [
+        90,
+        2915,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Statistical protocol",
+      "textPreview": "Statistical protocol",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Statistical protocol"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Statistical protocol",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Statistical protocol",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ud8bmdgb",
+      "id": "42",
+      "bbox": [
+        90,
+        2969,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vehcfihw",
+      "id": "43",
+      "bbox": [
+        90,
+        2992,
+        610,
+        340
+      ],
+      "geometry": "rect",
+      "text": "▪ paired comparisons on the same images\n▪ subject-balanced confidence intervals\n▪ Wilcoxon / paired t-test as distribution permits\n▪ mixed-effects: metric ~ model × r + mask + dataset + (1|subject)\n▪ effect size and multiple-comparison correction",
+      "textPreview": "▪ paired comparisons on the same images | ▪ subject-balanced confidence intervals | ▪ Wilcoxon / paired t-test as distribution permits | ...",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "▪ paired comparisons on the same images"
+          },
+          {
+            "index": 2,
+            "text": "▪ subject-balanced confidence intervals"
+          },
+          {
+            "index": 3,
+            "text": "▪ Wilcoxon / paired t-test as distribution permits"
+          },
+          {
+            "index": 4,
+            "text": "▪ mixed-effects: metric ~ model × r + mask + dataset +"
+          },
+          {
+            "index": 5,
+            "text": "(1|subject)"
+          },
+          {
+            "index": 6,
+            "text": "▪ effect size and multiple-comparison correction"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "▪ paired comparisons on the same images",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ paired comparisons on the same images",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "▪ subject-balanced confidence intervals",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ subject-balanced confidence intervals",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "▪ Wilcoxon / paired t-test as distribution permits",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ Wilcoxon / paired t-test as distribution permits",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "▪ mixed-effects: metric ~ model × r + mask + dataset + (1|subject)",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ mixed-effects: metric ~ model × r + mask + dataset + (1|subject)",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "▪ effect size and multiple-comparison correction",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ effect size and multiple-comparison correction",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bqtk3y5",
+      "id": "44",
+      "bbox": [
+        90,
+        3375,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Methodological risks",
+      "textPreview": "Methodological risks",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Methodological risks"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Methodological risks",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Methodological risks",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tczud8zq",
+      "id": "45",
+      "bbox": [
+        90,
+        3429,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/698bitgz",
+      "id": "46",
+      "bbox": [
+        90,
+        3452,
+        610,
+        305
+      ],
+      "geometry": "rect",
+      "text": "▪ synthetic-to-real domain gap\n▪ pseudo-target misregistration\n▪ selection bias toward correspondence-qualified latents\n▪ pixel metrics may penalize valid ridge shifts\n▪ sample variance is not automatically calibrated uncertainty",
+      "textPreview": "▪ synthetic-to-real domain gap | ▪ pseudo-target misregistration | ▪ selection bias toward correspondence-qualified latents | ▪ pixel met...",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "▪ synthetic-to-real domain gap"
+          },
+          {
+            "index": 2,
+            "text": "▪ pseudo-target misregistration"
+          },
+          {
+            "index": 3,
+            "text": "▪ selection bias toward correspondence-qualified latents"
+          },
+          {
+            "index": 4,
+            "text": "▪ pixel metrics may penalize valid ridge shifts"
+          },
+          {
+            "index": 5,
+            "text": "▪ sample variance is not automatically calibrated uncertainty"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "▪ synthetic-to-real domain gap",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ synthetic-to-real domain gap",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "▪ pseudo-target misregistration",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ pseudo-target misregistration",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "▪ selection bias toward correspondence-qualified latents",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ selection bias toward correspondence-qualified latents",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "▪ pixel metrics may penalize valid ridge shifts",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ pixel metrics may penalize valid ridge shifts",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "▪ sample variance is not automatically calibrated uncertainty",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ sample variance is not automatically calibrated uncertainty",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ahcbyhk",
+      "id": "47",
+      "bbox": [
+        90,
+        3790,
+        610,
+        350
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k76tgjy9",
+      "id": "48",
+      "bbox": [
+        115,
+        3818,
+        560,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Safety & interpretation",
+      "textPreview": "Safety & interpretation",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#70C7E8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Safety & interpretation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Safety & interpretation",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#70C7E8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Safety & interpretation",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#70C7E8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8fa9oze",
+      "id": "49",
+      "bbox": [
+        115,
+        3880,
+        560,
+        220
+      ],
+      "geometry": "rect",
+      "text": "A plausible generated ridge field must never be described as recovery of an individual's true missing fingerprint without evidence. The project is limited to academic benchmark reconstruction and uncertainty analysis.",
+      "textPreview": "A plausible generated ridge field must never be described as recovery of an individual's true missing fingerprint without evidence. The p...",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A plausible generated ridge field must never be"
+          },
+          {
+            "index": 2,
+            "text": "described as recovery of an individual's true missing"
+          },
+          {
+            "index": 3,
+            "text": "fingerprint without evidence. The project is limited to"
+          },
+          {
+            "index": 4,
+            "text": "academic benchmark reconstruction and"
+          },
+          {
+            "index": 5,
+            "text": "uncertainty analysis."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A plausible generated ridge field must never be described as recovery of an individual's true missing fingerprint without evidence. The project is limited to academic benchmark reconstruction and uncertainty analysis.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A plausible generated ridge field must never be described as recovery of an individual's true missing fingerprint without evidence. The project is limited to academic benchmark reconstruction and uncertainty analysis.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2xcje1g",
+      "id": "50",
+      "bbox": [
+        90,
+        4210,
+        610,
+        35
+      ],
+      "geometry": "rect",
+      "text": "github.com/razvanalecse/fingerprints",
+      "textPreview": "github.com/razvanalecse/fingerprints",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#5B6470",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "github.com/razvanalecse/fingerprints"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "github.com/razvanalecse/fingerprints",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#5B6470",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "github.com/razvanalecse/fingerprints",
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#5B6470",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mh4vq90v",
+      "id": "51",
+      "bbox": [
+        760,
+        440,
+        1658,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Controlled partial-fingerprint reconstruction",
+      "textPreview": "Controlled partial-fingerprint reconstruction",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Controlled partial-fingerprint reconstruction"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Controlled partial-fingerprint reconstruction",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Controlled partial-fingerprint reconstruction",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 52,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fulojm",
+      "id": "52",
+      "bbox": [
+        760,
+        494,
+        1658,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o36dsji1",
+      "id": "53",
+      "bbox": [
+        757,
+        517,
+        1664,
+        1586
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#B6BEC7",
+      "lineWidth": 3
+    },
+    {
+      "order": 54,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/8rmpofud",
+      "id": "54",
+      "bbox": [
+        760,
+        520,
+        1658,
+        1580
+      ],
+      "geometry": "roundRect",
+      "alt": "SOCOFing qualitative comparison across masks and ridge-aware models",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 506"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "b9fb6d8c-94b3-4bdf-8f29-d8d63dcc780d",
+        "contentType": "image/png",
+        "byteLength": 1727187
+      }
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5ovut0r",
+      "id": "55",
+      "bbox": [
+        760,
+        2115,
+        1658,
+        76
+      ],
+      "geometry": "rect",
+      "text": "Qualitative comparison across six mask geometries. Ridge-aware variants recover sharper local flow, but the best structural reconstruction is not always the lowest-MAE reconstruction.",
+      "textPreview": "Qualitative comparison across six mask geometries. Ridge-aware variants recover sharper local flow, but the best structural reconstructio...",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Qualitative comparison across six mask geometries. Ridge-aware variants recover sharper local flow, but the best structural"
+          },
+          {
+            "index": 2,
+            "text": "reconstruction is not always the lowest-MAE reconstruction."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Qualitative comparison across six mask geometries. Ridge-aware variants recover sharper local flow, but the best structural reconstruction is not always the lowest-MAE reconstruction.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Qualitative comparison across six mask geometries. Ridge-aware variants recover sharper local flow, but the best structural reconstruction is not always the lowest-MAE reconstruction.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8fup8ji",
+      "id": "56",
+      "bbox": [
+        760,
+        2235,
+        1658,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Conditional generative model",
+      "textPreview": "Conditional generative model",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Conditional generative model"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Conditional generative model",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Conditional generative model",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 57,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w76dw3ix",
+      "id": "57",
+      "bbox": [
+        760,
+        2289,
+        1658,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jahcry1o",
+      "id": "58",
+      "bbox": [
+        760,
+        2310,
+        1658,
+        62
+      ],
+      "geometry": "rect",
+      "text": "xₜ = √ᾱₜ x₀ + √(1−ᾱₜ) ε,     ε~N(0,I)",
+      "textPreview": "xₜ = √ᾱₜ x₀ + √(1−ᾱₜ) ε,     ε~N(0,I)",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "xₜ = √ᾱₜ x₀ + √(1−ᾱₜ) ε,     ε~N(0,I)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "xₜ = √ᾱₜ x₀ + √(1−ᾱₜ) ε,     ε~N(0,I)",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "xₜ = √ᾱₜ x₀ + √(1−ᾱₜ) ε,     ε~N(0,I)",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y9ovyd03",
+      "id": "59",
+      "bbox": [
+        760,
+        2380,
+        1658,
+        66
+      ],
+      "geometry": "rect",
+      "text": "LDDPM = E[‖ε − εθ(xₜ,t,Y,M)‖²]  +  λori Lori  +  λridge Lridge",
+      "textPreview": "LDDPM = E[‖ε − εθ(xₜ,t,Y,M)‖²]  +  λori Lori  +  λridge Lridge",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LDDPM = E[‖ε − εθ(xₜ,t,Y,M)‖²]  +  λori Lori  +  λridge Lridge"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LDDPM = E[‖ε − εθ(xₜ,t,Y,M)‖²]  +  λori Lori  +  λridge Lridge",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LDDPM = E[‖ε − εθ(xₜ,t,Y,M)‖²]  +  λori Lori  +  λridge Lridge",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ehc761on",
+      "id": "60",
+      "bbox": [
+        760,
+        2455,
+        1658,
+        48
+      ],
+      "geometry": "rect",
+      "text": "reverse diffusion  →  K conditional samples  →  data consistency  →  fidelity / structure / uncertainty",
+      "textPreview": "reverse diffusion  →  K conditional samples  →  data consistency  →  fidelity / structure / uncertainty",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#5B6470",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "reverse diffusion  →  K conditional samples  →  data consistency  →  fidelity / structure / uncertainty"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "reverse diffusion  →  K conditional samples  →  data consistency  →  fidelity / structure / uncertainty",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#5B6470",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "reverse diffusion  →  K conditional samples  →  data consistency  →  fidelity / structure / uncertainty",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#5B6470",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/filof6p8",
+      "id": "61",
+      "bbox": [
+        760,
+        2540,
+        1658,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Real-latent registration and evaluation",
+      "textPreview": "Real-latent registration and evaluation",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Real-latent registration and evaluation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Real-latent registration and evaluation",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Real-latent registration and evaluation",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 62,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3up8b6d",
+      "id": "62",
+      "bbox": [
+        760,
+        2594,
+        1658,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 63,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1436hg7y",
+      "id": "63",
+      "bbox": [
+        757,
+        2617,
+        1664,
+        392
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#B6BEC7",
+      "lineWidth": 3
+    },
+    {
+      "order": 64,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/dwnmdwne",
+      "id": "64",
+      "bbox": [
+        760,
+        2620,
+        1658,
+        386
+      ],
+      "geometry": "roundRect",
+      "alt": "NIST SD302 latent–exemplar registration using official correspondences",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 2073"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "6f4d024f-39ad-42ea-a66a-8e34272b26f2",
+        "contentType": "image/png",
+        "byteLength": 1830911
+      }
+    },
+    {
+      "order": 65,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re1obmpw",
+      "id": "65",
+      "bbox": [
+        760,
+        3020,
+        1658,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Examiner-verified minutiae correspondences define similarity/affine registration. The warped exemplar is labeled registered_approximate; evaluation reliability decreases with distance from verified anchors.",
+      "textPreview": "Examiner-verified minutiae correspondences define similarity/affine registration. The warped exemplar is labeled registered_approximate; ...",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Examiner-verified minutiae correspondences define similarity/affine registration. The warped exemplar is labeled registered_approximate; evaluation reliability"
+          },
+          {
+            "index": 2,
+            "text": "decreases with distance from verified anchors."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Examiner-verified minutiae correspondences define similarity/affine registration. The warped exemplar is labeled registered_approximate; evaluation reliability decreases with distance from verified anchors.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Examiner-verified minutiae correspondences define similarity/affine registration. The warped exemplar is labeled registered_approximate; evaluation reliability decreases with distance from verified anchors.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 66,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfu54r6h",
+      "id": "66",
+      "bbox": [
+        760,
+        3140,
+        1658,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Validation: conditional diffusion",
+      "textPreview": "Validation: conditional diffusion",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Validation: conditional diffusion"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Validation: conditional diffusion",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Validation: conditional diffusion",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 67,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tg36dw72",
+      "id": "67",
+      "bbox": [
+        760,
+        3194,
+        1658,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 68,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/e983uhor",
+      "id": "68",
+      "bbox": [
+        760,
+        3218,
+        790,
+        470
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 69,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/zah4nm5c",
+      "id": "69",
+      "bbox": [
+        1595,
+        3218,
+        823,
+        470
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 70,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l47adkri",
+      "id": "70",
+      "bbox": [
+        760,
+        3692,
+        1658,
+        74
+      ],
+      "geometry": "rect",
+      "text": "RePaint gives the strongest validation fidelity, but requires ≈31× the inference time of direct DDPM. Residual DDPM is the practical trade-off.",
+      "textPreview": "RePaint gives the strongest validation fidelity, but requires ≈31× the inference time of direct DDPM. Residual DDPM is the practical trad...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RePaint gives the strongest validation fidelity, but requires ≈31× the inference time of direct DDPM. Residual DDPM is the practical trade-off."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RePaint gives the strongest validation fidelity, but requires ≈31× the inference time of direct DDPM. Residual DDPM is the practical trade-off.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RePaint gives the strongest validation fidelity, but requires ≈31× the inference time of direct DDPM. Residual DDPM is the practical trade-off.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 71,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03y94fqx",
+      "id": "71",
+      "bbox": [
+        760,
+        3795,
+        1658,
+        330
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0A5FA8",
+      "lineWidth": 0
+    },
+    {
+      "order": 72,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2p8ba9c",
+      "id": "72",
+      "bbox": [
+        788,
+        3820,
+        1602,
+        46
+      ],
+      "geometry": "rect",
+      "text": "Findings",
+      "textPreview": "Findings",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Findings"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Findings",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Findings",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 73,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y1gr258r",
+      "id": "73",
+      "bbox": [
+        795,
+        3880,
+        1588,
+        210
+      ],
+      "geometry": "rect",
+      "text": "▪ Ridge-aware loss reduced SOCOFing orientation error by 56.7%, with a small MAE regression.\n▪ Best-of-K improves with K, but does not represent deployable single-sample performance.\n▪ Error increases far from verified geometry; predictive spread often fails to increase with it.\n▪ On final NIST test, zero-shot deterministic transfer outperformed fine-tuning on approximate registered targets.",
+      "textPreview": "▪ Ridge-aware loss reduced SOCOFing orientation error by 56.7%, with a small MAE regression. | ▪ Best-of-K improves with K, but does not ...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "▪ Ridge-aware loss reduced SOCOFing orientation error by 56.7%, with a small MAE regression."
+          },
+          {
+            "index": 2,
+            "text": "▪ Best-of-K improves with K, but does not represent deployable single-sample performance."
+          },
+          {
+            "index": 3,
+            "text": "▪ Error increases far from verified geometry; predictive spread often fails to increase with it."
+          },
+          {
+            "index": 4,
+            "text": "▪ On final NIST test, zero-shot deterministic transfer outperformed fine-tuning on approximate registered targets."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "▪ Ridge-aware loss reduced SOCOFing orientation error by 56.7%, with a small MAE regression.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ Ridge-aware loss reduced SOCOFing orientation error by 56.7%, with a small MAE regression.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "▪ Best-of-K improves with K, but does not represent deployable single-sample performance.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ Best-of-K improves with K, but does not represent deployable single-sample performance.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "▪ Error increases far from verified geometry; predictive spread often fails to increase with it.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ Error increases far from verified geometry; predictive spread often fails to increase with it.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "▪ On final NIST test, zero-shot deterministic transfer outperformed fine-tuning on approximate registered targets.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ On final NIST test, zero-shot deterministic transfer outperformed fine-tuning on approximate registered targets.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 74,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d07q9kr6",
+      "id": "74",
+      "bbox": [
+        760,
+        4145,
+        1658,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Residual diffusion: mean, sample and uncertainty",
+      "textPreview": "Residual diffusion: mean, sample and uncertainty",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Residual diffusion: mean, sample and uncertainty"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Residual diffusion: mean, sample and uncertainty",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Residual diffusion: mean, sample and uncertainty",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 75,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czy90fql",
+      "id": "75",
+      "bbox": [
+        760,
+        4199,
+        1658,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 76,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byp87a9g",
+      "id": "76",
+      "bbox": [
+        757,
+        4215,
+        1664,
+        161
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#B6BEC7",
+      "lineWidth": 3
+    },
+    {
+      "order": 77,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tkzalozy",
+      "id": "77",
+      "bbox": [
+        760,
+        4218,
+        1658,
+        155
+      ],
+      "geometry": "roundRect",
+      "alt": "Residual DDPM outputs and predictive uncertainty on NIST SD302",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5161"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "7cd98852-5739-4a0c-9ad9-e14529eba28c",
+        "contentType": "image/png",
+        "byteLength": 194218
+      }
+    },
+    {
+      "order": 78,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwral4rq",
+      "id": "78",
+      "bbox": [
+        2480,
+        560,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Model family",
+      "textPreview": "Model family",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Model family"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Model family",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Model family",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 79,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wvi9czq5",
+      "id": "79",
+      "bbox": [
+        2480,
+        614,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 80,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/srmdk3ad",
+      "id": "80",
+      "bbox": [
+        2480,
+        637,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Deterministic baselines",
+      "textPreview": "Deterministic baselines",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deterministic baselines"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deterministic baselines",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deterministic baselines",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 81,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvud8by",
+      "id": "81",
+      "bbox": [
+        2480,
+        686,
+        610,
+        80
+      ],
+      "geometry": "rect",
+      "text": "classical · U-Net · partial/gated convolution",
+      "textPreview": "classical · U-Net · partial/gated convolution",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "classical · U-Net · partial/gated convolution"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "classical · U-Net · partial/gated convolution",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "classical · U-Net · partial/gated convolution",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 82,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6p4bits7",
+      "id": "82",
+      "bbox": [
+        2480,
+        785,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Probabilistic baselines",
+      "textPreview": "Probabilistic baselines",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Probabilistic baselines"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Probabilistic baselines",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Probabilistic baselines",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 83,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qdcbyts",
+      "id": "83",
+      "bbox": [
+        2480,
+        834,
+        610,
+        58
+      ],
+      "geometry": "rect",
+      "text": "global/spatial CVAE",
+      "textPreview": "global/spatial CVAE",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "global/spatial CVAE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "global/spatial CVAE",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "global/spatial CVAE",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 84,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvmdona9",
+      "id": "84",
+      "bbox": [
+        2480,
+        910,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Generative restoration",
+      "textPreview": "Generative restoration",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Generative restoration"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Generative restoration",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Generative restoration",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 85,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfuh8bu",
+      "id": "85",
+      "bbox": [
+        2480,
+        960,
+        610,
+        125
+      ],
+      "geometry": "rect",
+      "text": "conditional DDPM · residual DDPM · RePaint · latent diffusion · flow matching · BBDM",
+      "textPreview": "conditional DDPM · residual DDPM · RePaint · latent diffusion · flow matching · BBDM",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "conditional DDPM · residual DDPM · RePaint · latent"
+          },
+          {
+            "index": 2,
+            "text": "diffusion · flow matching · BBDM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "conditional DDPM · residual DDPM · RePaint · latent diffusion · flow matching · BBDM",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "conditional DDPM · residual DDPM · RePaint · latent diffusion · flow matching · BBDM",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 86,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ut4vmds3",
+      "id": "86",
+      "bbox": [
+        2480,
+        1125,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Predictive uncertainty",
+      "textPreview": "Predictive uncertainty",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Predictive uncertainty"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Predictive uncertainty",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Predictive uncertainty",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 87,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fudcfito",
+      "id": "87",
+      "bbox": [
+        2480,
+        1179,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 88,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wz2tcja5",
+      "id": "88",
+      "bbox": [
+        2480,
+        1200,
+        610,
+        55
+      ],
+      "geometry": "rect",
+      "text": "μᵢ = K⁻¹ Σₖ X̂ᵢ⁽ᵏ⁾",
+      "textPreview": "μᵢ = K⁻¹ Σₖ X̂ᵢ⁽ᵏ⁾",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "μᵢ = K⁻¹ Σₖ X̂ᵢ⁽ᵏ⁾"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "μᵢ = K⁻¹ Σₖ X̂ᵢ⁽ᵏ⁾",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "μᵢ = K⁻¹ Σₖ X̂ᵢ⁽ᵏ⁾",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 89,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0bu5obq",
+      "id": "89",
+      "bbox": [
+        2480,
+        1260,
+        610,
+        70
+      ],
+      "geometry": "rect",
+      "text": "σᵢ² = (K−1)⁻¹ Σₖ(X̂ᵢ⁽ᵏ⁾−μᵢ)²",
+      "textPreview": "σᵢ² = (K−1)⁻¹ Σₖ(X̂ᵢ⁽ᵏ⁾−μᵢ)²",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 29,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "σᵢ² = (K−1)⁻¹ Σₖ(X̂ᵢ⁽ᵏ⁾−μᵢ)²"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "σᵢ² = (K−1)⁻¹ Σₖ(X̂ᵢ⁽ᵏ⁾−μᵢ)²",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "σᵢ² = (K−1)⁻¹ Σₖ(X̂ᵢ⁽ᵏ⁾−μᵢ)²",
+              "fontSize": 29,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 90,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zehgbmd8",
+      "id": "90",
+      "bbox": [
+        2480,
+        1345,
+        610,
+        132
+      ],
+      "geometry": "rect",
+      "text": "Calibration asks whether pixels assigned larger σ are actually more erroneous and whether predictive intervals attain nominal coverage.",
+      "textPreview": "Calibration asks whether pixels assigned larger σ are actually more erroneous and whether predictive intervals attain nominal coverage.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Calibration asks whether pixels assigned larger σ are"
+          },
+          {
+            "index": 2,
+            "text": "actually more erroneous and whether predictive intervals"
+          },
+          {
+            "index": 3,
+            "text": "attain nominal coverage."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Calibration asks whether pixels assigned larger σ are actually more erroneous and whether predictive intervals attain nominal coverage.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Calibration asks whether pixels assigned larger σ are actually more erroneous and whether predictive intervals attain nominal coverage.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 91,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/mp43ehgv",
+      "id": "91",
+      "bbox": [
+        2480,
+        1490,
+        610,
+        450
+      ],
+      "chartType": "line"
+    },
+    {
+      "order": 92,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgjydwvy",
+      "id": "92",
+      "bbox": [
+        2480,
+        1948,
+        610,
+        90
+      ],
+      "geometry": "rect",
+      "text": "MAE rises, while predictive σ stays nearly flat. Spearman ρ falls from 0.527 to 0.167.",
+      "textPreview": "MAE rises, while predictive σ stays nearly flat. Spearman ρ falls from 0.527 to 0.167.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#B23A32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MAE rises, while predictive σ stays nearly flat."
+          },
+          {
+            "index": 2,
+            "text": "Spearman ρ falls from 0.527 to 0.167."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MAE rises, while predictive σ stays nearly flat. Spearman ρ falls from 0.527 to 0.167.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#B23A32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MAE rises, while predictive σ stays nearly flat. Spearman ρ falls from 0.527 to 0.167.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#B23A32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 93,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0faxkrut",
+      "id": "93",
+      "bbox": [
+        2480,
+        2080,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Final NIST test · n=217",
+      "textPreview": "Final NIST test · n=217",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Final NIST test · n=217"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Final NIST test · n=217",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Final NIST test · n=217",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 94,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bqhw7mdw",
+      "id": "94",
+      "bbox": [
+        2480,
+        2134,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 95,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/y143axgz",
+      "id": "95",
+      "bbox": [
+        2480,
+        2160,
+        610,
+        500
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 96,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcze9cv2",
+      "id": "96",
+      "bbox": [
+        2480,
+        2673,
+        610,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Zero-shot deterministic baseline",
+      "textPreview": "Zero-shot deterministic baseline",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 26,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Zero-shot deterministic baseline"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Zero-shot deterministic baseline",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Zero-shot deterministic baseline",
+              "fontSize": 26,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 97,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crqxg7uh",
+      "id": "97",
+      "bbox": [
+        2480,
+        2723,
+        610,
+        92
+      ],
+      "geometry": "rect",
+      "text": "MAE 0.1054 · SSIM 0.4884\nOrientation error 0.2764",
+      "textPreview": "MAE 0.1054 · SSIM 0.4884 | Orientation error 0.2764",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MAE 0.1054 · SSIM 0.4884"
+          },
+          {
+            "index": 2,
+            "text": "Orientation error 0.2764"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MAE 0.1054 · SSIM 0.4884",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MAE 0.1054 · SSIM 0.4884",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Orientation error 0.2764",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Orientation error 0.2764",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 98,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3mxw32d0",
+      "id": "98",
+      "bbox": [
+        2480,
+        2830,
+        610,
+        118
+      ],
+      "geometry": "rect",
+      "text": "Fine-tuning on approximate targets degraded test fidelity, revealing pseudo-ground-truth bias rather than a validated gain.",
+      "textPreview": "Fine-tuning on approximate targets degraded test fidelity, revealing pseudo-ground-truth bias rather than a validated gain.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#B23A32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fine-tuning on approximate targets degraded test"
+          },
+          {
+            "index": 2,
+            "text": "fidelity, revealing pseudo-ground-truth bias rather"
+          },
+          {
+            "index": 3,
+            "text": "than a validated gain."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fine-tuning on approximate targets degraded test fidelity, revealing pseudo-ground-truth bias rather than a validated gain.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#B23A32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fine-tuning on approximate targets degraded test fidelity, revealing pseudo-ground-truth bias rather than a validated gain.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#B23A32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 99,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lofaxcf",
+      "id": "99",
+      "bbox": [
+        2480,
+        2990,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Single vs. mean vs. best-of-K",
+      "textPreview": "Single vs. mean vs. best-of-K",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Single vs. mean vs. best-of-K"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Single vs. mean vs. best-of-K",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Single vs. mean vs. best-of-K",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 100,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qtkfupo",
+      "id": "100",
+      "bbox": [
+        2480,
+        3044,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 101,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p0jmp83",
+      "id": "101",
+      "bbox": [
+        2480,
+        3070,
+        610,
+        45
+      ],
+      "geometry": "rect",
+      "text": "Single:  E[d(X,X̂⁽¹⁾)]",
+      "textPreview": "Single:  E[d(X,X̂⁽¹⁾)]",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Single:  E[d(X,X̂⁽¹⁾)]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Single:  E[d(X,X̂⁽¹⁾)]",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Single:  E[d(X,X̂⁽¹⁾)]",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 102,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psb2h47u",
+      "id": "102",
+      "bbox": [
+        2480,
+        3125,
+        610,
+        45
+      ],
+      "geometry": "rect",
+      "text": "Mean:    d(X, K⁻¹ΣₖX̂⁽ᵏ⁾)",
+      "textPreview": "Mean:    d(X, K⁻¹ΣₖX̂⁽ᵏ⁾)",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mean:    d(X, K⁻¹ΣₖX̂⁽ᵏ⁾)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mean:    d(X, K⁻¹ΣₖX̂⁽ᵏ⁾)",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mean:    d(X, K⁻¹ΣₖX̂⁽ᵏ⁾)",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 103,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/or21ozq9",
+      "id": "103",
+      "bbox": [
+        2480,
+        3180,
+        610,
+        45
+      ],
+      "geometry": "rect",
+      "text": "Best:    minₖ d(X,X̂⁽ᵏ⁾)",
+      "textPreview": "Best:    minₖ d(X,X̂⁽ᵏ⁾)",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Best:    minₖ d(X,X̂⁽ᵏ⁾)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Best:    minₖ d(X,X̂⁽ᵏ⁾)",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Best:    minₖ d(X,X̂⁽ᵏ⁾)",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 104,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/butkjep0",
+      "id": "104",
+      "bbox": [
+        2480,
+        3250,
+        610,
+        130
+      ],
+      "geometry": "rect",
+      "text": "CVAE test, K=50: single MAE 0.1562; mean 0.1378; best-of-50 0.1277; uncertainty–error ρ=−0.1525.",
+      "textPreview": "CVAE test, K=50: single MAE 0.1562; mean 0.1378; best-of-50 0.1277; uncertainty–error ρ=−0.1525.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CVAE test, K=50: single MAE 0.1562; mean 0.1378;"
+          },
+          {
+            "index": 2,
+            "text": "best-of-50 0.1277; uncertainty–error ρ=−0.1525."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CVAE test, K=50: single MAE 0.1562; mean 0.1378; best-of-50 0.1277; uncertainty–error ρ=−0.1525.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CVAE test, K=50: single MAE 0.1562; mean 0.1378; best-of-50 0.1277; uncertainty–error ρ=−0.1525.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 105,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtkjq98f",
+      "id": "105",
+      "bbox": [
+        2480,
+        3420,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Interpretation",
+      "textPreview": "Interpretation",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Interpretation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Interpretation",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Interpretation",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 106,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwb2l47q",
+      "id": "106",
+      "bbox": [
+        2480,
+        3474,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 107,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cv21szq5",
+      "id": "107",
+      "bbox": [
+        2480,
+        3500,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Positive evidence",
+      "textPreview": "Positive evidence",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#2F855A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Positive evidence"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Positive evidence",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#2F855A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Positive evidence",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#2F855A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 108,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidknepw",
+      "id": "108",
+      "bbox": [
+        2480,
+        3550,
+        610,
+        120
+      ],
+      "geometry": "rect",
+      "text": "diffusion improves validation fidelity; structural losses can preserve ridge flow; multiple samples expose ambiguity",
+      "textPreview": "diffusion improves validation fidelity; structural losses can preserve ridge flow; multiple samples expose ambiguity",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "diffusion improves validation fidelity; structural losses"
+          },
+          {
+            "index": 2,
+            "text": "can preserve ridge flow; multiple samples expose"
+          },
+          {
+            "index": 3,
+            "text": "ambiguity"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "diffusion improves validation fidelity; structural losses can preserve ridge flow; multiple samples expose ambiguity",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "diffusion improves validation fidelity; structural losses can preserve ridge flow; multiple samples expose ambiguity",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 109,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yh4ju98b",
+      "id": "109",
+      "bbox": [
+        2480,
+        3690,
+        610,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Negative evidence",
+      "textPreview": "Negative evidence",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#B23A32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Negative evidence"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Negative evidence",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#B23A32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Negative evidence",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#B23A32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 110,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wnm14jmp",
+      "id": "110",
+      "bbox": [
+        2480,
+        3740,
+        610,
+        125
+      ],
+      "geometry": "rect",
+      "text": "uncertainty is miscalibrated; fine-tuning can overfit registration artefacts; latent diffusion underperforms without a stronger codec",
+      "textPreview": "uncertainty is miscalibrated; fine-tuning can overfit registration artefacts; latent diffusion underperforms without a stronger codec",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "uncertainty is miscalibrated; fine-tuning can overfit"
+          },
+          {
+            "index": 2,
+            "text": "registration artefacts; latent diffusion underperforms"
+          },
+          {
+            "index": 3,
+            "text": "without a stronger codec"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "uncertainty is miscalibrated; fine-tuning can overfit registration artefacts; latent diffusion underperforms without a stronger codec",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "uncertainty is miscalibrated; fine-tuning can overfit registration artefacts; latent diffusion underperforms without a stronger codec",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 111,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hofidonu",
+      "id": "111",
+      "bbox": [
+        2480,
+        3905,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Next model",
+      "textPreview": "Next model",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Next model"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Next model",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Next model",
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 112,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ul4j294j",
+      "id": "112",
+      "bbox": [
+        2480,
+        3959,
+        610,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 113,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmd0be54",
+      "id": "113",
+      "bbox": [
+        2480,
+        3982,
+        610,
+        76
+      ],
+      "geometry": "rect",
+      "text": "Progressive structure-conditioned residual diffusion",
+      "textPreview": "Progressive structure-conditioned residual diffusion",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#0A5FA8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Progressive structure-conditioned residual"
+          },
+          {
+            "index": 2,
+            "text": "diffusion"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Progressive structure-conditioned residual diffusion",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#0A5FA8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Progressive structure-conditioned residual diffusion",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#0A5FA8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 114,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jm1gjmd",
+      "id": "114",
+      "bbox": [
+        2480,
+        4072,
+        610,
+        255
+      ],
+      "geometry": "rect",
+      "text": "▪ native-resolution ridge patches\n▪ orientation + frequency conditioning\n▪ geometry-confidence weighted losses\n▪ elastic registration uncertainty\n▪ subject-level calibration",
+      "textPreview": "▪ native-resolution ridge patches | ▪ orientation + frequency conditioning | ▪ geometry-confidence weighted losses | ▪ elastic registrati...",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Helvetica Neue",
+        "color": "#111827",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "▪ native-resolution ridge patches"
+          },
+          {
+            "index": 2,
+            "text": "▪ orientation + frequency conditioning"
+          },
+          {
+            "index": 3,
+            "text": "▪ geometry-confidence weighted losses"
+          },
+          {
+            "index": 4,
+            "text": "▪ elastic registration uncertainty"
+          },
+          {
+            "index": 5,
+            "text": "▪ subject-level calibration"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "▪ native-resolution ridge patches",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ native-resolution ridge patches",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "▪ orientation + frequency conditioning",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ orientation + frequency conditioning",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "▪ geometry-confidence weighted losses",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ geometry-confidence weighted losses",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "▪ elastic registration uncertainty",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ elastic registration uncertainty",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "▪ subject-level calibration",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▪ subject-level calibration",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 115,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9kvi94ny",
+      "id": "115",
+      "bbox": [
+        90,
+        4390,
+        3000,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#111827",
+      "lineWidth": 0
+    },
+    {
+      "order": 116,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mx4je9o7",
+      "id": "116",
+      "bbox": [
+        90,
+        4410,
+        3000,
+        52
+      ],
+      "geometry": "rect",
+      "text": "[1] Ho et al., DDPM, NeurIPS 2020  ·  [2] Lugmayr et al., RePaint, CVPR 2022  ·  [3] Rombach et al., Latent Diffusion, CVPR 2022  ·  [4] Li et al., BBDM, CVPR 2023  ·  [5] NIST SD302 / TN 2190  ·  [6] Hussein, Jain & Nandakumar, progressive diffusion fingerprint inpainting, IJCB 2026",
+      "textPreview": "[1] Ho et al., DDPM, NeurIPS 2020  ·  [2] Lugmayr et al., RePaint, CVPR 2022  ·  [3] Rombach et al., Latent Diffusion, CVPR 2022  ·  [4] ...",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Helvetica Neue",
+        "color": "#5B6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[1] Ho et al., DDPM, NeurIPS 2020  ·  [2] Lugmayr et al., RePaint, CVPR 2022  ·  [3] Rombach et al., Latent Diffusion, CVPR 2022  ·  [4] Li et al., BBDM, CVPR 2023  ·  [5] NIST SD302 / TN 2190  ·  [6] Hussein, Jain & Nandakumar, progressive diffusion fingerprint inpainting, IJCB 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[1] Ho et al., DDPM, NeurIPS 2020  ·  [2] Lugmayr et al., RePaint, CVPR 2022  ·  [3] Rombach et al., Latent Diffusion, CVPR 2022  ·  [4] Li et al., BBDM, CVPR 2023  ·  [5] NIST SD302 / TN 2190  ·  [6] Hussein, Jain & Nandakumar, progressive diffusion fingerprint inpainting, IJCB 2026",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Helvetica Neue",
+            "color": "#5B6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[1] Ho et al., DDPM, NeurIPS 2020  ·  [2] Lugmayr et al., RePaint, CVPR 2022  ·  [3] Rombach et al., Latent Diffusion, CVPR 2022  ·  [4] Li et al., BBDM, CVPR 2023  ·  [5] NIST SD302 / TN 2190  ·  [6] Hussein, Jain & Nandakumar, progressive diffusion fingerprint inpainting, IJCB 2026",
+              "fontSize": 16,
+              "typeface": "Helvetica Neue",
+              "color": "#5B6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
