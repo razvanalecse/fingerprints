@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Is the reconstructed ridge field too predictable to be real?
+"""Measure excess predictability in reconstructed ridge-orientation fields.
 
 Section 15's ridge-topology check established *descriptively* that the DDPM
 reconstruction is more locally uniform and less curved than the real ridges it

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Does thin-plate-spline registration generalize better than affine on SD302?
+"""Compare thin-plate-spline and affine registration on SD302.
 
-Motivated by an external review's suggestion that SD302's affine registration
+Motivated by a methodological audit's suggestion that SD302's affine registration
 may not capture genuine local (elastic) skin deformation between the latent
 and exemplar impressions. Fair test: **leave-one-correspondence-out** RMSE
 for both affine and TPS on every manifest row with enough points -- fitting

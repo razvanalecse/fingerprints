@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Poster figure: a generalist image model asked to complete a fingerprint."""
 import hashlib
+import os
 from pathlib import Path
 
 import matplotlib
@@ -12,6 +13,7 @@ from PIL import Image
 DL = Path("/Users/razvanalecse/Downloads")
 CASES = DL / "generalist_baseline_pack" / "cases"
 RED = "#B0413E"
+COMPLETION_GLOB = os.environ.get("GENERALIST_COMPLETION_GLOB", "generalist_completion_*.png")
 
 
 def gray(path):
@@ -20,7 +22,7 @@ def gray(path):
 
 
 seen, uniq = set(), []
-for p in sorted(DL.glob("ChatGPT Image 23 sept*.png")):
+for p in sorted(DL.glob(COMPLETION_GLOB)):
     h = hashlib.md5(p.read_bytes()).hexdigest()
     if h not in seen:
         seen.add(h)

@@ -11,8 +11,8 @@ split. This is the project's original deterministic + probabilistic track.
 
 - Deterministic: `outputs/DETERMINISTIC_BASELINES.md` (classical, U-Net, Gated).
 - Structural-loss variant (this session's contribution): `v3_loss`, and the
-  Codex-built hybrid combining it with ridge-spectrum loss
-  (`outputs/gated_claude_hybrid_full/vs_v3_loss_paired.json`), which beat
+  ridge-aware hybrid combining it with ridge-spectrum loss
+  (`outputs/gated_ridge_hybrid_full/vs_v3_loss_paired.json`), which beat
   `v3_loss` on all four primary metrics simultaneously.
 - Probabilistic: cVAE, DDPM, DDIM, RePaint, latent diffusion, residual latent
   diffusion — all implemented and evaluated on SOCOFing (`outputs/cvae_full_mps`,

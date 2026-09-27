@@ -1,18 +1,23 @@
-import numpy as np, hashlib
-from PIL import Image
+import hashlib
+import os
 from pathlib import Path
+
+import numpy as np
+from PIL import Image
 from fingerprint_reconstruction.preprocessing.orientation import (
     estimate_foreground_mask, estimate_orientation_field, orientation_error)
 from fingerprint_reconstruction.metrics import region_image_metrics, summarize_ridge_topology
 
-dl = Path('/Users/razvanalecse/Downloads'); root = dl/'generalist_baseline_pack'/'cases'
+dl = Path('/Users/razvanalecse/Downloads')
+root = dl / 'generalist_baseline_pack' / 'cases'
+completion_glob = os.environ.get('GENERALIST_COMPLETION_GLOB', 'generalist_completion_*.png')
 def g(p): return np.asarray(Image.open(p).convert('L').resize((128,128), Image.LANCZOS), dtype=np.float32)/255.
 truth = g(root/'case01_rect20'/'ground_truth.png'); fg = estimate_foreground_mask(truth)
 tf = estimate_orientation_field(truth, use_foreground_mask=False)
 tt = summarize_ridge_topology(truth, fg, tf.theta, tf.coherence, tf.valid)
 
 seen=set(); uniq=[]
-for p in sorted(dl.glob('ChatGPT Image 23 sept*.png')):
+for p in sorted(dl.glob(completion_glob)):
     h = hashlib.md5(p.read_bytes()).hexdigest()
     if h not in seen: seen.add(h); uniq.append(p)
 

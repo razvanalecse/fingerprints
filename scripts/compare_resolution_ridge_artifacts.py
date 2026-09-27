@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Does the over-smoothing artifact shrink when the ridge period is resolved?
+"""Compare over-smoothing artifacts at two ridge-resolving image scales.
 
 Section 15 and section 23 established that at 128x128 the reconstruction is
 more orientation-uniform, less curved, carries about half the minutiae density

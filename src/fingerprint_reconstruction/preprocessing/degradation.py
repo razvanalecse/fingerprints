@@ -1,15 +1,13 @@
 """Simulate latent-print-like degradation of a clean fingerprint exemplar.
 
-Motivated by an external review's point 9: SD302's real latent/exemplar
-pairs never give pixel-exact ground truth (`registered_approximate` is a
+SD302 real latent/exemplar pairs do not provide pixel-exact ground truth;
+`registered_approximate` is a
 *different impression*, approximately registered). This module instead
 degrades a **single** clean exemplar image into a synthetic "latent-like"
 version -- elastic warp (skin deformation), blur, contrast reduction, and
-noise -- so that the *undegraded input itself* is exact pixel ground truth
-for whatever the degraded/masked version leaves out. This buys genuine
-ground truth in the SD302 image domain, at the cost of the degradation
-being simulated rather than a real capture process; it is a complement to
-the real-latent tracks (B/C) elsewhere in this project, not a replacement.
+noise, leaving the undegraded input as exact pixel ground truth for masked
+regions. The resulting synthetic track complements, rather than replaces,
+the real-latent tracks.
 """
 
 from __future__ import annotations

@@ -2,9 +2,12 @@ import path from "node:path";
 import fs from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 
-const workspaceDir = "/Users/razvanalecse/Documents/Codex/2026-09-20/ac-ioneaz-ca-un-cercet-tor-2";
-const SKILL_DIR = "/Users/razvanalecse/.codex/plugins/cache/openai-primary-runtime/presentations/26.915.20218/skills/presentations";
-const RUNTIME_PYTHON = "/Users/razvanalecse/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3";
+const workspaceDir = process.env.PROJECT_ROOT;
+const SKILL_DIR = process.env.PRESENTATION_SKILL_DIR;
+const RUNTIME_PYTHON = process.env.RUNTIME_PYTHON;
+if (!workspaceDir || !SKILL_DIR || !RUNTIME_PYTHON) {
+  throw new Error("PROJECT_ROOT, PRESENTATION_SKILL_DIR and RUNTIME_PYTHON are required");
+}
 const { finalizePresentation } = await import(pathToFileURL(path.join(SKILL_DIR,"container_tools/artifact_tool_utils.mjs")).href);
 const stagingDir = path.join(workspaceDir,".poster-build","finalizer");
 const candidatePath = path.join(workspaceDir,".poster-build","poster-portrait-candidate.pptx");

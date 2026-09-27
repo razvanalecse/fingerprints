@@ -1,5 +1,5 @@
 experiment:
-  name: gated_claude_hybrid_finetune
+  name: gated_ridge_hybrid_finetune
   seed: 1729
 data:
   image_size: [128, 128]

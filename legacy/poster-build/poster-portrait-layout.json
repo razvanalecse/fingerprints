@@ -19,7 +19,7 @@
     }
   },
   "theme": {
-    "colorSchemeName": "ChatGPT",
+    "colorSchemeName": "ResearchPoster",
     "colors": {
       "accent1": "#156082",
       "accent2": "#E97132",

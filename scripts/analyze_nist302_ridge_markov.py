@@ -68,7 +68,7 @@ def main() -> None:
             # ridges are the less predictable arm, so a reconstruction that
             # matches them has HIGHER entropy.
             ("entropy", True),
-            # For the self-transition rate the honest direction is the opposite:
+            # The self-transition rate uses the opposite direction:
             # real ridges change orientation more often, so a lower rate is the
             # realistic one.
             ("self_rate", False),

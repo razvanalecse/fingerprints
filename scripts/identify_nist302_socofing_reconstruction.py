@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Does a reconstruction still identify the finger it came from?
+"""Evaluate identity retention in reconstructed SOCOFing regions.
 
-Minutiae density tells us detail is missing. This asks the forensically
-meaningful question instead: if you hide part of a print, reconstruct it, and
-then search a gallery, does the true finger still come first?
+The evaluation hides part of a print, reconstructs it, and measures whether
+the true finger remains first in a gallery search.
 
 Two protocols are run on the same reconstructions, and the gap between them is
 the result:

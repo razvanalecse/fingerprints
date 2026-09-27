@@ -1,19 +1,16 @@
-"""Thin-plate-spline (TPS) registration, compared to affine via leave-one-out.
+"""Compare thin-plate-spline and affine registration via leave-one-out error.
 
-Motivated by an external review's concern that SD302's affine registration
-may leave residual geometric error that grows away from the correspondence
-points -- exactly the pattern the confidence-weighted losses in this project
-already try to compensate for (`docs/nist302_ablation_master_table.md`
-section 4). A non-rigid (thin-plate-spline) warp has more degrees of freedom
-and could in principle fit the true, locally-varying skin deformation better.
+SD302 affine registration may leave residual geometric error that grows away
+from correspondence points. A non-rigid thin-plate-spline warp has additional
+degrees of freedom for locally varying skin deformation.
 
 The manifest's own `affine_rmse_mm` is an **in-sample** residual (the same
-points used to fit the transform), which is not a fair way to ask "does more
-flexibility help" -- a TPS with N free control points fits its own N training
+points used to fit the transform), which favors more flexible models. A TPS
+with N free control points fits its own N training
 points exactly (residual identically zero) regardless of whether it captures
 anything real. The only fair comparison is **leave-one-correspondence-out**:
 fit on N-1 points, predict the held-out point, measure the residual, for
-both methods identically. This module provides exactly that.
+both methods identically.
 """
 
 from __future__ import annotations

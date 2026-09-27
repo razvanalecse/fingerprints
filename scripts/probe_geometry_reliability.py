@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Can we tell which reconstruction is wrong, without ground truth?
+"""Evaluate target-free geometric reliability signals for reconstruction.
 
 Section 26 showed the zero-pole geometric model is bimodal: occasionally as
 accurate as a trained network, catastrophic 39% of the time. That is only a

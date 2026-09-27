@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Does RePaint uncertainty-error correlation hold uniformly, or only near anchors?
+"""Measure RePaint uncertainty-error correlation by anchor-distance stratum.
 
 Stratifies the held-out quality==1 pixels by distance to the nearest verified
 correspondence point (fields already provided by Nist302RegisteredDataset) and

@@ -1,11 +1,12 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { pathToFileURL } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { Presentation, PresentationFile } from "@oai/artifact-tool";
 
-const root = "/Users/razvanalecse/Documents/Codex/2026-09-20/ac-ioneaz-ca-un-cercet-tor-2";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const build = path.join(root, ".poster-build");
-const skillDir = "/Users/razvanalecse/.codex/plugins/cache/openai-primary-runtime/presentations/26.915.20218/skills/presentations";
+const skillDir = process.env.PRESENTATION_SKILL_DIR;
+if (!skillDir) throw new Error("PRESENTATION_SKILL_DIR is required");
 const { resolvePresentationFont, applyPresentationChartFont } = await import(pathToFileURL(path.join(skillDir, "container_tools/artifact_tool_utils.mjs")).href);
 const family = resolvePresentationFont();
 const W = 3178, H = 4493;
@@ -98,7 +99,7 @@ txt("github.com/razvanalecse/fingerprints",lx,4210,lw,35,{size:20,color:C.gray,a
 
 // Center column — visual narrative
 head("Controlled partial-fingerprint reconstruction",cx,440,cw);
-await img("outputs/claude_integration_showcase.png",cx,520,cw,1580,"SOCOFing qualitative comparison across masks and ridge-aware models");
+await img("outputs/ridge_integration_showcase.png",cx,520,cw,1580,"SOCOFing qualitative comparison across masks and ridge-aware models");
 txt("Qualitative comparison across six mask geometries. Ridge-aware variants recover sharper local flow, but the best structural reconstruction is not always the lowest-MAE reconstruction.",cx,2115,cw,76,{size:25,bold:true});
 
 head("Conditional generative model",cx,2235,cw);
@@ -175,7 +176,7 @@ bullet([
 rule(90,4390,3000);
 txt("[1] Ho et al., DDPM, NeurIPS 2020  ·  [2] Lugmayr et al., RePaint, CVPR 2022  ·  [3] Rombach et al., Latent Diffusion, CVPR 2022  ·  [4] Li et al., BBDM, CVPR 2023  ·  [5] NIST SD302 / TN 2190  ·  [6] Hussein, Jain & Nandakumar, progressive diffusion fingerprint inpainting, IJCB 2026",90,4410,3000,52,{size:16,color:C.gray});
 
-s.speakerNotes.textFrame.setText("Poster A0 portrait styled after the user-provided academic reference. Local evidence: outputs/claude_integration_showcase.png; outputs/socofing_eda/orientation-diagnostic.png; outputs/nist302_registration/registered_example.png; outputs/nist302_registered_residual_ddpm_full/samples-preview.png; metrics from outputs/gated_claude_hybrid_full/metrics.json, outputs/nist302_repaint_full_validation/metrics.json, outputs/nist302_residual_ddpm_full_validation/metrics.json, outputs/nist302_TEST_FINAL_zeroshot_deterministic/metrics.json, outputs/nist302_TEST_FINAL_finetuned_support_spectrum/metrics.json, outputs/nist302_TEST_FINAL_cvae_spatial/metrics.json. Sources: https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html ; https://openaccess.thecvf.com/content/CVPR2022/html/Lugmayr_RePaint_Inpainting_Using_Denoising_Diffusion_Probabilistic_Models_CVPR_2022_paper.html ; https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html ; https://openaccess.thecvf.com/content/CVPR2023/html/Li_BBDM_Image-to-Image_Translation_With_Brownian_Bridge_Diffusion_Models_CVPR_2023_paper.html ; https://www.nist.gov/itl/iad/btg/nist-special-database-302 ; https://doi.org/10.6028/NIST.TN.2190 ; https://arxiv.org/abs/2608.03937");
+s.speakerNotes.textFrame.setText("Poster A0 portrait styled after the supplied academic reference. Local evidence: outputs/ridge_integration_showcase.png; outputs/socofing_eda/orientation-diagnostic.png; outputs/nist302_registration/registered_example.png; outputs/nist302_registered_residual_ddpm_full/samples-preview.png; metrics from outputs/gated_ridge_hybrid_full/metrics.json, outputs/nist302_repaint_full_validation/metrics.json, outputs/nist302_residual_ddpm_full_validation/metrics.json, outputs/nist302_TEST_FINAL_zeroshot_deterministic/metrics.json, outputs/nist302_TEST_FINAL_finetuned_support_spectrum/metrics.json, outputs/nist302_TEST_FINAL_cvae_spatial/metrics.json. Sources: https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html ; https://openaccess.thecvf.com/content/CVPR2022/html/Lugmayr_RePaint_Inpainting_Using_Denoising_Diffusion_Probabilistic_Models_CVPR_2022_paper.html ; https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html ; https://openaccess.thecvf.com/content/CVPR2023/html/Li_BBDM_Image-to-Image_Translation_With_Brownian_Bridge_Diffusion_Models_CVPR_2023_paper.html ; https://www.nist.gov/itl/iad/btg/nist-special-database-302 ; https://doi.org/10.6028/NIST.TN.2190 ; https://arxiv.org/abs/2608.03937");
 
 const candidate=path.join(build,"poster-portrait-candidate.pptx");
 await (await PresentationFile.exportPptx(p)).save(candidate);

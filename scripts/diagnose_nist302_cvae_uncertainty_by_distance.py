@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Does CVAE uncertainty-error correlation hold uniformly, or only near anchors?
+"""Measure CVAE uncertainty-error correlation by anchor-distance stratum.
 
 Mirrors diagnose_nist302_ddpm_uncertainty_by_distance.py exactly (same
 distance bands, same pooled/per-image Spearman computation); only model

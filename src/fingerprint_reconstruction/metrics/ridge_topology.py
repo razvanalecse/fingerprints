@@ -1,17 +1,15 @@
-"""Skeleton-based ridge continuity and hallucination-artifact diagnostics.
+"""Skeleton-based ridge continuity and reconstruction-artifact diagnostics.
 
-Motivated by an external review's observation that some reconstructions
-contain "coherent, nearly-horizontal bands" -- outputs that reduce
+Some reconstructions contain coherent, near-horizontal bands that reduce
 orientation-field error against a coarse reference without reconstructing
 genuine ridge topology (bifurcations, ridge endings, natural curvature).
 Orientation error alone cannot detect this failure mode: a locally uniform
 stripe pattern can have low orientation error if its dominant angle happens
 to match the true local orientation, while still being topologically wrong.
 
-These tools are **approximate and diagnostic-grade**, not a forensic-grade
-minutiae extractor -- they exist to flag gross artifacts for comparison
-between real and reconstructed regions, not to certify minutiae accuracy for
-any downstream matching use.
+These tools are diagnostic rather than forensic-grade. They flag gross
+artifacts for comparisons between real and reconstructed regions and must not
+be used to certify minutiae accuracy.
 """
 
 from __future__ import annotations

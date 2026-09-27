@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Does DDPM uncertainty-error correlation hold uniformly, or only near anchors?
+"""Measure DDPM uncertainty-error correlation by anchor-distance stratum.
 
 Stratifies the held-out quality==1 pixels by distance to the nearest verified
 correspondence point (fields already provided by Nist302RegisteredDataset) and

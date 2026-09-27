@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Does the convenient evaluation target pick the wrong model?
+"""Compare model rankings under approximate and real evaluation targets.
 
 The critical finding in `docs/nist302_ablation_master_table.md` shows that for
 *one* checkpoint pair, scoring against the registered approximate target
 `X_pseudo` reverses the conclusion you would draw from real held-out pixels.
-That is a statement about two models. This script asks the stronger question a
-practitioner actually faces: if you rank a whole family of models by the
+That comparison covers two models. This script evaluates whether ranking a
+whole model family by the
 convenient target, do you select the same model you would have selected using
 real evidence?
 

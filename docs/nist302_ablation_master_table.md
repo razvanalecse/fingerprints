@@ -348,7 +348,7 @@ training-length confound.
 
 ### 11. Permuted-observed control: does the model use the ridges it is shown, or hallucinate generically?
 
-Motivated by an external review raising exactly this concern. For each
+Motivated by a methodological audit raising exactly this concern. For each
 validation image, the pixel DDPM reconstructs the same missing region twice
 with an *identical* diffusion noise trajectory (same seed): once conditioned
 on its own real observed ridges (`mask * own latent image`), once conditioned
@@ -384,7 +384,7 @@ mode of the model ignoring its conditioning input entirely.
 
 ### 12. Difficulty-stratified proper scoring rules (CRPS, interval score, sparsification error)
 
-Motivated by an external review noting that Spearman correlation alone only
+Motivated by a methodological audit noting that Spearman correlation alone only
 checks monotonic association, not the magnitude of miscalibration. Extends
 section 9's distance analysis with three proper scoring rules (CRPS,
 Gneiting-Raftery interval score at nominal 90% coverage, and sparsification
@@ -439,7 +439,7 @@ re-run with these three scoring rules due to time, only with Spearman
 
 ### 13. Checkpoint re-selection by structural composite metric vs. noise loss
 
-Motivated by an external review noting the DDPM checkpoint is selected by
+Motivated by a methodological audit noting the DDPM checkpoint is selected by
 validation noise-prediction MSE, not by any of the metrics this project
 actually reports. `scripts/train_nist302_ddpm.py` was changed this session to
 save a checkpoint every epoch (previously only the noise-loss best was kept),
@@ -536,7 +536,7 @@ for itself for free either.
 
 ### 15. Ridge-topology artifact check: does the DDPM paint coherent fake bands?
 
-Motivated directly by an external review's qualitative observation that some
+Motivated directly by a methodological audit's qualitative observation that some
 reconstructions "contain coherent, nearly-horizontal bands, which reduce
 orientation error without faithfully reconstructing ridge topology."
 Orientation error alone (mean angular distance to a coarse reference) cannot
@@ -561,7 +561,7 @@ distort.
 `outputs/nist302_ridge_topology_artifacts_full.json`,
 `scripts/diagnose_nist302_ridge_topology_artifacts.py`.)
 
-**Reading: the external review's qualitative observation is confirmed
+**Reading: the methodological audit's qualitative observation is confirmed
 quantitatively, on all three independent structural axes, with tight
 confidence intervals excluding zero by a wide margin.** The DDPM's mean
 reconstruction in the held-out region is measurably more orientation-uniform,
@@ -589,7 +589,7 @@ models — a natural next check if this line of investigation continues.
 
 ### 16. Non-rigid (thin-plate-spline) vs. affine registration: is affine leaving error on the table?
 
-Motivated by an external review's concern that SD302's affine registration
+Motivated by a methodological audit's concern that SD302's affine registration
 may not capture genuine local (elastic) skin deformation between latent and
 exemplar impressions, which would inflate residual registration error in a
 way that varies spatially — exactly what the confidence-weighted losses
@@ -633,7 +633,7 @@ RMSE figure cited elsewhere in this project.
 
 ### 17. Track E: synthetic degradation of clean SD302 exemplars, exact missing-region ground truth
 
-Motivated by an external review's point 9: every other evaluation in this
+Motivated by a methodological audit's point 9: every other evaluation in this
 project is Track B (approximate registered exemplar) or Track C (real
 held-out pixels, which are themselves faint *existing* traces per
 `docs/limitations.md`, not genuinely absent regions). This is the one place
@@ -688,7 +688,7 @@ part of the original external-review proposal and remains open future work.
 
 ### 18. Two-stage (structure-guided) latent diffusion vs. plain latent diffusion
 
-Motivated by an external review's point 3: predict support/orientation/
+Motivated by a methodological audit's point 3: predict support/orientation/
 frequency first, then condition the texture-synthesis diffusion on those
 predicted fields. This project's SOCOFing latent-diffusion code already had
 exactly this hook built in but unused (`ConditionalLatentDDPM`'s
@@ -709,7 +709,7 @@ support alone for pixel DDPM, support+coarse for residual DDPM, the
 *every* encoder resolution via a separate `1x1` convolution per scale, each
 explicitly zero-initialized (`nn.init.zeros_` on both weight and bias) —
 exactly the "zero convolution" mechanism that defines ControlNet, not a
-single input-layer concatenation. An external review separately proposed
+single input-layer concatenation. A methodological audit separately proposed
 building a "ControlNet compact" model as a distinct new architecture item;
 that item is therefore already covered by every structure/support-
 conditioned model in this document, including this section's result, and
@@ -746,7 +746,7 @@ result.
 
 ### 19. Boundary/phase-continuity loss: does penalizing ridge discontinuity at the mask edge help?
 
-Motivated directly by an external review's proposal (`L_boundary`, penalizing
+Motivated directly by a methodological audit's proposal (`L_boundary`, penalizing
 a jump in the directional derivative along the local ridge tangent exactly
 at the observed/missing boundary). Implemented as a new term in
 `MaskedReconstructionLoss`/`RegisteredApproximateLoss`
@@ -794,7 +794,7 @@ ODE from a noised coarse reconstruction to the target, sampled in as few as
 4-10 Euler steps) and **conditional Brownian Bridge Diffusion**
 (`src/fingerprint_reconstruction/models/brownian_bridge.py`, a stochastic
 bridge directly between the masked/filled input and the target, per an
-external review's suggestion to validate it on exact-ground-truth data
+methodological audit's suggestion to validate it on exact-ground-truth data
 before real latents).
 
 **A real bug was found and fixed in the BBDM implementation before any

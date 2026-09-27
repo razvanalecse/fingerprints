@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Does the geometric second opinion predict model error on real latents?
+"""Evaluate geometric disagreement as an error signal on real latents.
 
 On SOCOFing, the disagreement between this project's trained model and a
 classical harmonic completion of the orientation field predicted the model's
 own error at Spearman rho = 0.48, using no ground truth. SOCOFing is clean
-synthetic data; this script asks whether the signal survives on real forensic
-latents, which is the only place it would be useful.
+synthetic data; this script evaluates the same signal on real forensic latents.
 
 The region is the officially held-out `quality == 1` band: pixels the model
 never received, and the only place on SD302 where a real target exists. Both

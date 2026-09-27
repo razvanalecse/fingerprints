@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Does the DDPM reconstruction degenerate into "painted stripes"?
+"""Quantify stripe-like topology artifacts in DDPM reconstructions.
 
-Motivated by an external review's observation that some reconstructions
-contain coherent, near-uniform bands that reduce orientation error without
+Some reconstructions contain coherent, near-uniform bands that reduce
+orientation error without
 reconstructing genuine ridge topology. Orientation error alone (a mean
 angular distance to a coarse reference) cannot detect this; this script
 instead compares, within the same held-out `quality==1` region, the

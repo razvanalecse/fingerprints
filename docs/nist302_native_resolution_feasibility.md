@@ -44,7 +44,7 @@ Whether the true native period is ≈23px (textbook) or ≈47px (back-
 calculated), **at 128×128 the ridge period is compressed to just 6.45
 pixels on average** — only 2-3x oversampled relative to the Nyquist minimum
 needed to represent an oscillatory signal at all, and far below the "8-15
-pixels per period" an external review specifically flagged as the target
+pixels per period" a methodological audit specifically flagged as the target
 for faithfully representing ridge phase, curvature, and bifurcations. This
 is a strong, quantified candidate explanation for a pattern already
 documented elsewhere in this project: section 15 of the ablation master
@@ -56,7 +56,7 @@ barely resolves the ridge period to begin with.
 
 ## What native-resolution patches would need (not built this session)
 
-Following the external review's proposal: 128 or 256px patches with overlap,
+Following the methodological audit's proposal: 128 or 256px patches with overlap,
 extracted directly from native-resolution images (no whole-image resize),
 would give **≈18-40 pixels per ridge period** even under the more
 conservative (larger) period estimate — comfortably inside the target range,

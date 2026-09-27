@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Why is zero-shot better? Test whether fine-tuning copies the impression.
+"""Test whether fine-tuning follows the registered exemplar impression.
 
-The critical finding records *that* fine-tuning against `X_pseudo` degrades
-reconstruction on real pixels. It does not explain *why*. The standing
-hypothesis is that the model learns the texture of that particular impression
+Fine-tuning against `X_pseudo` degrades reconstruction on real pixels. The
+tested hypothesis is that the model learns the texture of that impression
 rather than the finger's ridge structure. This tests it directly.
 
 The discriminating region is not where the latent and the registered exemplar

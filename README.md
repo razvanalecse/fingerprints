@@ -56,7 +56,7 @@ MPLCONFIGDIR=work/matplotlib PYTORCH_ENABLE_MPS_FALLBACK=1 \
   --device mps --pilot
 ```
 
-When executed from Codex, this command must run outside the restricted sandbox
+When executed in an environment without Metal device access, run this command in a local shell
 because the sandbox does not expose the Metal device.
 
 ## Prepare SOCOFing originals

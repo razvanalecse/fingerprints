@@ -1,6 +1,6 @@
 {
   "chance_rank1": 0.0025,
-  "checkpoint": "outputs/gated_claude_hybrid_full/best-checkpoint.pt",
+  "checkpoint": "outputs/gated_ridge_hybrid_full/best-checkpoint.pt",
   "gallery_size": 400,
   "mask_family": "random_rectangles",
   "observed_fraction": 0.3,

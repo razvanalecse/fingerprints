@@ -126,7 +126,7 @@ Gated convolution beats U-Net on every metric, paired and Holm-significant
 statistically detectable, not a qualitative leap.
 
 Adding fingerprint-structural losses (orientation, ridge-band, ridge-spectrum)
-on top of gated convolution (`gated_claude_hybrid_full` vs. the prior
+on top of gated convolution (`gated_ridge_hybrid_full` vs. the prior
 structural-loss variant `v3_loss`) improved all four metrics simultaneously,
 with the largest effect on SSIM (Cohen dz 0.76, mean improvement +0.014,
 Wilcoxon Holm p = 2.8e-90) — the clearest single result in the SOCOFing
@@ -363,7 +363,7 @@ is available.
 4. VRAM/peak-memory instrumentation, if the final report requires it
    (`docs/compute_cost_table.md`).
 5. **Native-resolution patches** — the largest remaining item from the
-   external review's plan. Not implemented; a full quantified feasibility
+   methodological audit's plan. Not implemented; a full quantified feasibility
    analysis was done instead (`docs/nist302_native_resolution_feasibility.md`),
    finding the current 128px whole-image resize compresses the ridge period
    to ~6.45px average (a ~7.3x downsampling from native resolution) — a
@@ -382,7 +382,7 @@ is available.
    *patches* alone and should not be asserted without them.
 6. Skeleton-continuity/minutiae controls, non-rigid registration, and a
    two-stage structure-guided model — all three were also proposed by the
-   external review alongside item 5, but (unlike native-resolution patches)
+   methodological audit alongside item 5, but (unlike native-resolution patches)
    were feasible to attempt this session by reusing existing infrastructure,
    and all three are now done: master-table section 15 (ridge-topology
    artifacts, confirmed on all three axes), section 16 (TPS vs. affine, a
@@ -390,7 +390,7 @@ is available.
    latent diffusion — a real mixed result: better ridge-frequency accuracy,
    worse SSIM and interval coverage, no change to section 14's overall
    conclusion).
-7. Point 9 of the external review (synthetic-to-real training with exact
+7. Point 9 of the methodological audit (synthetic-to-real training with exact
    ground truth) is also done, ahead of schedule relative to this list's
    original ordering — see section 5 and master-table section 17. It
    produced the project's strongest evidence yet for the central finding:

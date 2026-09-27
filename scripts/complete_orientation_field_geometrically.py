@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Is the ridge orientation field recoverable without a neural network?
+"""Complete missing ridge orientation fields with a harmonic prior.
 
-The project so far has asked a model to invent the missing *pixels*. This asks
-a smaller and more answerable question: can the missing *geometry* be filled in
-from the geometry around it, using nothing but a smoothness prior?
+This analysis isolates geometric completion from pixel synthesis and fills the
+missing orientation field from surrounding geometry using a smoothness prior.
 
 Orientation is axial, so the field is carried in doubled-angle form
 

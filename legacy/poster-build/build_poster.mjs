@@ -1,12 +1,13 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { pathToFileURL } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { Presentation, PresentationFile } from "@oai/artifact-tool";
 
-const root = "/Users/razvanalecse/Documents/Codex/2026-09-20/ac-ioneaz-ca-un-cercet-tor-2";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const build = path.join(root, ".poster-build");
 const out = path.join(root, "artifacts");
-const skillDir = "/Users/razvanalecse/.codex/plugins/cache/openai-primary-runtime/presentations/26.915.20218/skills/presentations";
+const skillDir = process.env.PRESENTATION_SKILL_DIR;
+if (!skillDir) throw new Error("PRESENTATION_SKILL_DIR is required");
 const { resolvePresentationFont, applyPresentationChartFont } = await import(
   pathToFileURL(path.join(skillDir, "container_tools/artifact_tool_utils.mjs")).href,
 );
@@ -157,7 +158,7 @@ stages.forEach((s, i) => {
 textBox("Evaluare → MAE/PSNR/SSIM · orientare π-periodică · frecvența crestelor · diversitate · coverage · teste pereche/mixed effects", x1, 1680, cw1, 72, { size: 22, color: C.muted });
 
 heading("SOCOFing: structură vs. pixeli", x1, 1787, cw1, "04");
-await addImage("outputs/gated_claude_hybrid_full/reconstruction-preview.png", x1, 1870, cw1, 226, "Reconstrucție SOCOFing: target, observație, mască, predicții și eroare");
+await addImage("outputs/gated_ridge_hybrid_full/reconstruction-preview.png", x1, 1870, cw1, 226, "Reconstrucție SOCOFing: target, observație, mască, predicții și eroare");
 textBox("Model ridge-aware: Orientation error 0,2289 → 0,0991 (−56,7%), cu SSIM 0,2585 → 0,2837; MAE crește ușor 0,1740 → 0,1772.", x1, 2114, cw1, 96, { size: 26, bold: true, color: C.navy });
 textBox("Interpretare: loss-ul structural poate îmbunătăți geometria crestelor fără a optimiza simultan fidelitatea pixel-wise.", x1, 2215, cw1, 82, { size: 23, color: C.muted });
 
@@ -281,7 +282,7 @@ textBox("Academic research only", 3600, 3090, 590, 32, { size: 19, color: C.teal
 
 slide.speakerNotes.textFrame.setText(
   "Poster academic construit din rezultatele proiectului local.\n" +
-  "Proveniență rezultate: outputs/gated_claude_hybrid_full/metrics.json; outputs/nist302_repaint_full_validation/metrics.json; outputs/nist302_residual_ddpm_full_validation/metrics.json; outputs/nist302_registered_ddpm_full/metrics.json; outputs/nist302_TEST_FINAL_zeroshot_deterministic/metrics.json; outputs/nist302_TEST_FINAL_finetuned_support_spectrum/metrics.json; outputs/nist302_TEST_FINAL_boundary_continuity/metrics.json; outputs/nist302_TEST_FINAL_cvae_spatial/metrics.json.\n" +
+  "Proveniență rezultate: outputs/gated_ridge_hybrid_full/metrics.json; outputs/nist302_repaint_full_validation/metrics.json; outputs/nist302_residual_ddpm_full_validation/metrics.json; outputs/nist302_registered_ddpm_full/metrics.json; outputs/nist302_TEST_FINAL_zeroshot_deterministic/metrics.json; outputs/nist302_TEST_FINAL_finetuned_support_spectrum/metrics.json; outputs/nist302_TEST_FINAL_boundary_continuity/metrics.json; outputs/nist302_TEST_FINAL_cvae_spatial/metrics.json.\n" +
   "Surse: Ho et al., Denoising Diffusion Probabilistic Models, NeurIPS 2020, https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html ; Lugmayr et al., RePaint, CVPR 2022, https://openaccess.thecvf.com/content/CVPR2022/html/Lugmayr_RePaint_Inpainting_Using_Denoising_Diffusion_Probabilistic_Models_CVPR_2022_paper.html ; Rombach et al., High-Resolution Image Synthesis with Latent Diffusion Models, CVPR 2022, https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html ; Li et al., BBDM, CVPR 2023, https://openaccess.thecvf.com/content/CVPR2023/html/Li_BBDM_Image-to-Image_Translation_With_Brownian_Bridge_Diffusion_Models_CVPR_2023_paper.html ; NIST SD302, https://www.nist.gov/itl/iad/btg/nist-special-database-302 ; NIST TN 2190, https://doi.org/10.6028/NIST.TN.2190 ; Hussein, Jain, Nandakumar, Progressive Learning of a Diffusion-based Inpainting Model for Separating Overlapped Fingerprints, arXiv:2608.03937."
 );
 
