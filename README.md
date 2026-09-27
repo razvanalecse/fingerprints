@@ -83,6 +83,20 @@ python3 -m venv .venv
 Dataset files are deliberately excluded from version control. NIST datasets must
 be obtained under the terms shown by the official NIST download service.
 
+## Results and traceability
+
+`outputs/` stores machine-readable artefacts from individual runs. The curated
+[`results/`](results/README.md) layer contains the publication-facing catalogue,
+final tables, aggregate figures, and frozen statistical analyses. Rebuild the
+artefact catalogue with:
+
+```bash
+python3 scripts/build_results_catalog.py
+```
+
+Raw fingerprints, NIST-derived image previews, and model checkpoints are not
+included in either directory.
+
 ## License and responsible use
 
 This project is released under the custom

@@ -1,0 +1,23 @@
+{
+  "artifact_count": 567,
+  "catalogue": "results/artifact-index.csv",
+  "contains_model_weights": false,
+  "contains_raw_fingerprint_images": false,
+  "counts_by_format": {
+    "csv": 168,
+    "json": 399
+  },
+  "counts_by_role": {
+    "aggregate_metrics": 205,
+    "audit_or_provenance": 82,
+    "calibration": 11,
+    "other_machine_readable": 84,
+    "statistical_comparison": 28,
+    "unit_level_metrics": 157
+  },
+  "experiment_count": 211,
+  "rebuild_command": "python3 scripts/build_results_catalog.py",
+  "schema_version": 1,
+  "scope": "machine-readable JSON/CSV artefacts under outputs/",
+  "total_size_bytes": 40322171
+}
