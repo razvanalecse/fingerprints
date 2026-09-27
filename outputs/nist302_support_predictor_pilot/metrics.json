@@ -1,0 +1,75 @@
+{
+  "mode": "pilot",
+  "device": "mps",
+  "elapsed_seconds": 58.86972158400022,
+  "best_epoch": 3,
+  "best_validation_loss": 4.7016047686338425,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 3.7734642419964075,
+        "bce": 3.540994922630489,
+        "dice_loss": 0.2324693240225315,
+        "iou": 0.6797195635735989,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 4.71206820756197,
+        "bce": 4.513752706348896,
+        "dice_loss": 0.19831549376249313,
+        "iou": 0.740022324025631,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 3.688110699877143,
+        "bce": 3.4785200897604227,
+        "dice_loss": 0.20959059987217188,
+        "iou": 0.7280887067317963,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 4.70370239764452,
+        "bce": 4.512073256075382,
+        "dice_loss": 0.19162916392087936,
+        "iou": 0.7522718049585819,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 3.9706386541947722,
+        "bce": 3.7601063922047615,
+        "dice_loss": 0.2105322415009141,
+        "iou": 0.7265096390619874,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 4.7016047686338425,
+        "bce": 4.512838914990425,
+        "dice_loss": 0.18876588717103004,
+        "iou": 0.7478511519730091,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    }
+  ],
+  "train_images": 1213,
+  "validation_images": 287,
+  "test_loaded": false,
+  "seed_state": {
+    "seed": 1729,
+    "deterministic_torch": true,
+    "python_hash_seed": "1729"
+  },
+  "target_warning": "Support target is derived from an approximately registered exemplar."
+}

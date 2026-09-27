@@ -1,0 +1,62 @@
+{
+  "best-individual (CVAE) vs learned ensemble, SSIM": {
+    "ci95_high": 0.007666166427862759,
+    "ci95_low": -0.0062130901658976005,
+    "cohen_dz": 0.03982350540686193,
+    "mean_improvement": 0.0007265381309825799,
+    "n": 29,
+    "paired_t_pvalue": 0.8317455762586323,
+    "paired_t_statistic": 0.21445613981376346,
+    "wilcoxon_pvalue": 1.0,
+    "wilcoxon_pvalue_holm": 1.0,
+    "wilcoxon_statistic": 217.0
+  },
+  "best-individual (residual DDPM) vs learned ensemble, MAE": {
+    "ci95_high": -0.0013418722805297605,
+    "ci95_low": -0.00665216696442501,
+    "cohen_dz": -0.5726179216800207,
+    "mean_improvement": -0.003997019622477385,
+    "n": 29,
+    "paired_t_pvalue": 0.004562635144724008,
+    "paired_t_statistic": -3.0836418797657488,
+    "wilcoxon_pvalue": 0.008007697761058807,
+    "wilcoxon_pvalue_holm": 0.008007697761058807,
+    "wilcoxon_statistic": 97.0
+  },
+  "simple average vs learned ensemble, MAE": {
+    "ci95_high": 0.00492313419210859,
+    "ci95_low": 0.001481804371139398,
+    "cohen_dz": 0.7079554881477538,
+    "mean_improvement": 0.003202469281623994,
+    "n": 29,
+    "paired_t_pvalue": 0.0006931866264960603,
+    "paired_t_statistic": 3.812456979791012,
+    "wilcoxon_pvalue": 0.0005505755543708801,
+    "wilcoxon_pvalue_holm": 0.0005505755543708801,
+    "wilcoxon_statistic": 65.0
+  },
+  "simple average vs learned ensemble, SSIM": {
+    "ci95_high": 0.006241158129968942,
+    "ci95_low": 0.0015688061729754702,
+    "cohen_dz": 0.6358150176731754,
+    "mean_improvement": 0.003904982151472206,
+    "n": 29,
+    "paired_t_pvalue": 0.0019199631885355006,
+    "paired_t_statistic": 3.4239686570211867,
+    "wilcoxon_pvalue": 0.004435725510120392,
+    "wilcoxon_pvalue_holm": 0.004435725510120392,
+    "wilcoxon_statistic": 89.0
+  },
+  "simple average vs learned ensemble, orientation": {
+    "ci95_high": -0.0031884708349810974,
+    "ci95_low": -0.00740673974719065,
+    "cohen_dz": -0.9554162264468186,
+    "mean_improvement": -0.005297605291085874,
+    "n": 29,
+    "paired_t_pvalue": 1.8653793328808963e-05,
+    "paired_t_statistic": -5.145073838826658,
+    "wilcoxon_pvalue": 4.700571298599243e-05,
+    "wilcoxon_pvalue_holm": 4.700571298599243e-05,
+    "wilcoxon_statistic": 43.0
+  }
+}

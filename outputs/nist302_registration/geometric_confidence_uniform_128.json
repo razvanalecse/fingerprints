@@ -1,0 +1,18 @@
+{
+  "status": "uniform_ablation_control",
+  "source": "outputs/nist302_registration/geometric_confidence_calibration_128.json",
+  "source_split": "validation",
+  "source_model": "uniform_control",
+  "source_metric": "n/a (ablation: confidence-weighted vs uniform)",
+  "formula": "w_s = 1 for all distance strata",
+  "weights": {
+    "nearest_0_2mm": 1.0,
+    "nearest_2_5mm": 1.0,
+    "nearest_gt_5mm": 1.0
+  },
+  "ordered_weights": [1.0, 1.0, 1.0],
+  "allowed_use": "training and validation registered-approximate loss (ablation control)",
+  "test_policy": "test remains sealed",
+  "interpretation_warning": "This is the uniform-weight control required by geometric_confidence_calibration_128.json's own required_ablation field; it removes distance-based downweighting while keeping every other loss term identical.",
+  "required_ablation": null
+}

@@ -1,0 +1,19 @@
+{
+  "decoder": "/private/tmp/nbis-sd302/an2k/bin/an2k2txt",
+  "decoder_sha256": "e2a85822a4b18660c1fec089ea7c70b9d010f94713c140d68a62c52f66091882",
+  "failures": [],
+  "input_root": "/Users/razvanalecse/Downloads/ebts-2/latent/lffs/original/masked",
+  "num_efs_records": 200,
+  "num_files_decoded": 200,
+  "num_files_discovered": 10092,
+  "num_files_selected": 200,
+  "schema_version": 1,
+  "selection": {
+    "method": "random_without_replacement",
+    "seed": 302
+  },
+  "suffix": ".lffs",
+  "warning_counts": {
+    "WARNING : read_Type1_record : ANSI/NIST Version = 502 Unsupported": 200
+  }
+}

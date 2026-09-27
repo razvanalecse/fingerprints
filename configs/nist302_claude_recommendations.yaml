@@ -1,0 +1,46 @@
+status: implemented_and_auditable
+scope: nist302_registered_approximate
+recommendations:
+  examiner_filter:
+    implementation: scripts/prepare_nist302_registered.py
+    determination: INDIV
+    minimum_correspondences: 6
+    maximum_affine_rmse_mm: 0.30
+    minimum_hull_coverage: 0.01
+    calibration_split: validation
+  registered_adapter:
+    implementation: src/fingerprint_reconstruction/data/nist302_registered_dataset.py
+    outputs: [observed, mask, target, evaluation_roi]
+    target_semantics: registered_approximate
+    pixel_aligned_ground_truth: false
+  anchor_distance:
+    implementation: src/fingerprint_reconstruction/data/nist302_registered_dataset.py
+    strata_mm: [0-2, 2-5, greater-than-5]
+  geometric_confidence:
+    implementation: scripts/calibrate_nist302_geometric_confidence.py
+    source: outputs/nist302_classical_128_validation/distance_strata_tests.json
+    metric: subject-level orientation error
+    weights: [1.0, 0.8794453038151562, 0.8114051018314252]
+  ridge_frequency_loss:
+    implementation: src/fingerprint_reconstruction/losses/reconstruction.py
+    components: [ridge_band, ridge_spectrum]
+    frequency_source: SD302 train only
+    frequency_report: outputs/nist302_registration/ridge_band_train_128.json
+  rejected_value_audit:
+    implementation: scripts/build_nist302_rejected_value_audit.py
+    split: validation
+    qualitative_only: true
+    loss_allowed: false
+    metric_reporting_allowed: false
+  test_policy:
+    loaded_during_method_development: false
+    rule: unlock only after model and hyperparameters are frozen on validation
+required_ablations:
+  - uniform versus calibrated geometric confidence
+  - without versus with ridge-band loss
+  - without versus with ridge-spectrum loss
+  - unconstrained versus latent-support-constrained visualization
+interpretation_guards:
+  - registered exemplars are approximate structural targets, not exact pixels
+  - selected pairs represent correspondence-qualified latents, not all SD302 latents
+  - rejected VALUE cases are qualitative stress tests only

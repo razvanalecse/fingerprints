@@ -1,0 +1,91 @@
+{
+  "best_epoch": 4,
+  "best_validation_loss": 0.16170052392408252,
+  "device": "mps",
+  "elapsed_seconds": 29.484387082979083,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "examples": 1024,
+        "loss": 0.4409706585574895,
+        "missing_noise_mse": 0.41258932556957006,
+        "observed_noise_mse": 0.5676266478840262
+      },
+      "validation": {
+        "examples": 256,
+        "loss": 0.2504332698881626,
+        "missing_noise_mse": 0.23544324468821287,
+        "observed_noise_mse": 0.2998005487024784
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "examples": 1024,
+        "loss": 0.22752397134900093,
+        "missing_noise_mse": 0.2146377235185355,
+        "observed_noise_mse": 0.2577249656897038
+      },
+      "validation": {
+        "examples": 256,
+        "loss": 0.22012430522590876,
+        "missing_noise_mse": 0.20764978881925344,
+        "observed_noise_mse": 0.2494903253391385
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "examples": 1024,
+        "loss": 0.1966231771511957,
+        "missing_noise_mse": 0.18669832835439593,
+        "observed_noise_mse": 0.1984969563782215
+      },
+      "validation": {
+        "examples": 256,
+        "loss": 0.1857664044946432,
+        "missing_noise_mse": 0.17756949784234166,
+        "observed_noise_mse": 0.16393815306946635
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "examples": 1024,
+        "loss": 0.17592616309411824,
+        "missing_noise_mse": 0.16751312767155468,
+        "observed_noise_mse": 0.16826070193201303
+      },
+      "validation": {
+        "examples": 256,
+        "loss": 0.18552791513502598,
+        "missing_noise_mse": 0.177681481000036,
+        "observed_noise_mse": 0.15692869015038013
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "examples": 1024,
+        "loss": 0.1665615567471832,
+        "missing_noise_mse": 0.15895260078832507,
+        "observed_noise_mse": 0.15217914123786613
+      },
+      "validation": {
+        "examples": 256,
+        "loss": 0.16170052392408252,
+        "missing_noise_mse": 0.15418104268610477,
+        "observed_noise_mse": 0.1503896159119904
+      }
+    }
+  ],
+  "mode": "pilot",
+  "parameters": 517105,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "timesteps": 50
+}

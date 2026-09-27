@@ -1,0 +1,740 @@
+% ============================================================================
+% "Plausible Is Not Recovered" -- academic research poster (tikzposter, A0).
+%
+% Compile:  pdflatex poster.tex   (two passes)
+% Zero-install option: upload this folder to a new Overleaf project.
+% Images live in ./assets/ and are found via \graphicspath below.
+% ============================================================================
+\documentclass[14pt, a0paper, portrait, margin=6mm, innermargin=8mm,
+               blockverticalspace=8mm, colspace=7mm, subcolspace=5mm]{tikzposter}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\graphicspath{{assets/}}
+
+% --------------------------------------------------------------------------
+% Clean journal-style look: white background, black section headings with a
+% thin rule underneath, no frames, colour used only to carry meaning.
+% --------------------------------------------------------------------------
+\usetheme{Default}
+\usetikzlibrary{calc}
+
+\definecolor{posterblue}{HTML}{1F3A63}
+\definecolor{postercyan}{HTML}{12706B}
+\definecolor{posterred}{HTML}{B0413E}
+\definecolor{posterink}{HTML}{111111}
+\definecolor{posterrule}{HTML}{333333}
+
+\definecolor{postertint}{HTML}{EEF2F7}   % pale blue block fill
+\definecolor{posterwarm}{HTML}{FBF4E6}   % pale sand block fill
+\definecolor{posterline}{HTML}{C9D3E0}   % column separator
+
+\colorlet{backgroundcolor}{white}
+\colorlet{framecolor}{white}
+\colorlet{blocktitlefgcolor}{posterblue}
+\colorlet{blocktitlebgcolor}{white}
+\colorlet{blockbodyfgcolor}{posterink}
+\colorlet{blockbodybgcolor}{white}
+\colorlet{titlefgcolor}{posterink}
+\colorlet{titlebgcolor}{white}
+
+\tikzposterlatexaffectionproofoff
+
+% --------------------------------------------------------------------------
+% Block styles: a coloured rule under every heading, plus a tinted variant
+% used to lift the blocks that carry the argument.
+% --------------------------------------------------------------------------
+\defineblockstyle{ruled}{
+  titlewidthscale=1, bodywidthscale=1, titleleft, titleoffsetx=0pt,
+  titleoffsety=0pt, bodyoffsetx=0pt, bodyoffsety=0pt, bodyverticalshift=0mm,
+  roundedcorners=0, linewidth=0pt, titleinnersep=3mm, bodyinnersep=3mm
+}{
+  \ifBlockHasTitle
+    \draw[color=posterblue, line width=2.2pt]
+      (blocktitle.south west) -- (blocktitle.south east);
+  \fi
+}
+\defineblockstyle{tinted}{
+  titlewidthscale=1, bodywidthscale=1, titleleft, titleoffsetx=0pt,
+  titleoffsety=0pt, bodyoffsetx=0pt, bodyoffsety=0pt, bodyverticalshift=0mm,
+  roundedcorners=0, linewidth=0pt, titleinnersep=3mm, bodyinnersep=3mm
+}{
+  \ifBlockHasTitle
+    \fill[blockbodybgcolor, rounded corners=6pt]
+      ($(blockbody.south west) + (-4mm,-4mm)$)
+      rectangle ($(blockbody.north east |- blocktitle.north) + (4mm,3mm)$);
+    \draw[color=posterblue, line width=2.2pt]
+      (blocktitle.south west) -- (blocktitle.south east);
+  \else
+    \fill[blockbodybgcolor, rounded corners=6pt]
+      ($(blockbody.south west) + (-4mm,-4mm)$)
+      rectangle ($(blockbody.north east) + (4mm,4mm)$);
+  \fi
+}
+\useblockstyle{ruled}
+
+% Thin vertical rules in the gutters, drawn on the poster background.
+\newcommand{\gutterrule}[1]{%
+  \coordinate (grb) at ($(bottomleft)!#1!(bottomleft -| topright)$);
+  \coordinate (grt) at ($(topright -| bottomleft)!#1!(topright)$);
+  \draw[color=posterline, line width=1.1pt] ($(grb)!0.055!(grt)$) -- ($(grb)!0.905!(grt)$);
+}
+\definebackgroundstyle{columnrules}{
+  \fill[backgroundcolor] (bottomleft) rectangle (topright);
+  \gutterrule{0.268}\gutterrule{0.700}
+}
+\usebackgroundstyle{columnrules}
+
+% Wrap a block in a tinted panel: \tintblock{fill}{title}{body}
+\newcommand{\tintblock}[3]{{\useblockstyle{tinted}\colorlet{blockbodybgcolor}{#1}\block{#2}{#3}}}
+
+% Small coloured kicker used as an in-block label, e.g. \kicker{Why it matters}
+\newcommand{\kicker}[1]{{\color{posterred}\bfseries\large #1}\par\vspace{0.2em}}
+\newcommand{\subhead}[1]{{\color{posterblue}\bfseries #1}\par\vspace{0.15em}}
+% Figure caption inside a block
+\newcommand{\figcap}[1]{\vspace{0.25em}\par{\small #1}}
+
+\settitle{
+  \begin{minipage}[c]{0.21\linewidth}\ \end{minipage}%
+  \begin{minipage}[c]{0.56\linewidth}
+    \centering
+    {\large\color{posterblue} A C A D E M I C \quad R E S E A R C H \quad P O S T E R}\\[0.55em]
+    {\bfseries\Huge Plausible Is Not Recovered}\\[0.45em]
+    {\LARGE Evidence-Grounded Reconstruction and Predictive Uncertainty\\[0.2em]
+     for Partial Fingerprints: SOCOFing $\rightarrow$ NIST SD302}\\[0.55em]
+    {\Large R\u{a}zvan-Cristian Alecse \quad\textbullet\quad University of Bucharest
+     \quad\textbullet\quad [[Competition]] \quad\textbullet\quad [[Date]]}
+  \end{minipage}%
+  \begin{minipage}[c]{0.21\linewidth}
+    \raggedleft
+    \includegraphics[width=0.80\linewidth]{ub_logo.png}
+  \end{minipage}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{columns}
+
+% ==========================================================================
+% LEFT COLUMN -- framing, formalism, protocol
+% ==========================================================================
+\column{0.26}
+
+\block{What this project is}{
+  \small
+  Give a network half a fingerprint and it will happily draw the other half. The
+  drawing usually looks right. The question this project got stuck on is whether
+  there is any honest way to find out if it \emph{is} right, and what happens
+  to your conclusions when the only available answer key is itself an
+  approximation.
+  \vspace{0.3em}
+
+  Everything runs on public data (SOCOFing, NIST SD302). Nothing here identifies
+  anyone or touches a sensor.
+}
+
+\tintblock{posterwarm}{Core distinction}{
+  \small
+  \kicker{Three different things}
+  \textbf{Recovery} of the true ridge field, \textbf{structural
+  plausibility}, and \textbf{calibrated uncertainty} are three different
+  properties. A model can gain one while losing another, and most
+  published-looking gains in this problem are gains in plausibility.
+  A result is therefore only as strong as the ground truth behind it.
+}
+
+\block{Problem formulation}{
+  \small
+  A complete print $X \in [0,1]^{H \times W}$ is observed through a binary
+  mask $M$:
+  \begin{equation*}
+    Y = M \odot X ,\qquad M \in \{0,1\}^{H \times W}
+  \end{equation*}
+  The estimation target is not one image but a conditional law
+  \begin{equation*}
+    p_\theta\!\left(X_{\text{missing}} \mid Y, M\right).
+  \end{equation*}
+  Under severe occlusion many completions are structurally plausible while
+  only one matches the unknown original. Fidelity, plausibility and uncertainty
+  therefore have to be measured as separate quantities, never as one score.
+}
+
+\tintblock{postertint}{What counts as ground truth}{
+  \small
+  The central design problem of this project: on real forensic latents,
+  no target is simultaneously \emph{exact}, \emph{real} and \emph{dense}.
+  \vspace{0.3em}
+
+  \small
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    Track & Target & Exact & Real latent \\
+    \midrule
+    \textbf{A} & SOCOFing, synthetic mask     & yes & no  \\
+    \textbf{B} & $X_{\text{pseudo}}$ registered exemplar & no  & yes \\
+    \textbf{C} & held-out \texttt{quality=1} pixels & yes & yes \\
+    \textbf{E} & degraded clean exemplar      & yes & no  \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.4em}
+
+  \small
+  Track B is the only dense target on real data, and it is
+  \emph{not} ground truth. Track C is real but sparse; Track E is exact
+  but simulated. \textbf{The protocol is therefore triangulation:} a claim
+  counts only when independent tracks C and E agree, and Track B alone is
+  never allowed to carry a conclusion.
+}
+
+\block{Experimental setup}{
+  \small
+  \begin{itemize}
+    \item 8 observed fractions, $r = 0.10 \dots 0.80$.
+    \item 8 mask families: rectangles, irregular, central, peripheral,
+      disconnected fragments, stripes, severe partial.
+    \item Exact reinjection of observed pixels, so the model is never credited for
+      copying what it was given.
+    \item $K \in \{5,10,20,50\}$ samples; single, mean-$K$ and best-of-$K$ reported
+      separately, best-of-$K$ always flagged as an oracle quantity.
+  \end{itemize}
+  \vspace{0.15em}
+
+  \small Difficulty is driven by \emph{where} the evidence is, not only how
+  much survives: a ring of peripheral fragments and one central disc remove the
+  same number of pixels and are not remotely the same problem.
+}
+
+\block{Ridge structure and metrics}{
+  \small
+  Ridge orientation is axial, i.e. $\pi$-periodic, so angular error uses
+  the doubled-angle form
+  \begin{equation*}
+    d(\theta, \hat\theta) = 1 - \cos\!\left[2(\theta - \hat\theta)\right],
+  \end{equation*}
+  estimated only inside the fingerprint foreground.
+  \vspace{0.3em}
+
+  \subhead{Pixel} MAE, PSNR, local SSIM.
+  \subhead{Structural} orientation error, ridge-frequency error, coherence, curvature,
+  minutiae density.
+  \subhead{Probabilistic} uncertainty--error $\rho$, interval coverage, CRPS.
+}
+
+\block{Statistical protocol}{
+  \small
+  \begin{itemize}
+    \item Paired per-image comparisons on identical masks and seeds.
+    \item Aggregated \textbf{per subject} (29 subjects), so many images of
+      one finger cannot masquerade as independent evidence.
+    \item Wilcoxon signed-rank with Holm--Bonferroni correction; Cohen
+      $d_z$ reported alongside every $p$.
+    \item Friedman omnibus before pairwise claims.
+    \item The test split stayed sealed until every model, threshold and
+      hyperparameter was frozen, then was evaluated \textbf{once}.
+  \end{itemize}
+}
+
+\tintblock{posterwarm}{Controls that could have falsified us}{
+  \small
+  \begin{itemize}
+    \item \textbf{Permuted identity.} Feed another finger's ridges through
+      the same mask: MAE worsens by $0.034$, $d_z = -2.17$,
+      $p = 3.7\times10^{-9}$. The model is using the evidence, not merely
+      the mask shape.
+    \item \textbf{Non-rigid registration.} Thin-plate spline vs.\ affine
+      improves leave-one-out residual by only $0.005$--$0.012$\,mm
+      ($p = 0.07 / 0.14$): affine is not the bottleneck, so the pseudo-target
+      problem is not a registration problem.
+    \item \textbf{Data-consistency ablation.} Null by construction, and
+      reported as null.
+    \item \textbf{A bug we found and disclosed.} Brownian Bridge sampling
+      divided by $(1-m_t)$, which reaches $10^{-4}$ at the first step and
+      amplified error up to $10^{4}\times$, collapsing outputs. Rescaled
+      ($s: 1.0 \rightarrow 0.3$, $\epsilon: 10^{-4} \rightarrow 0.05$),
+      retrained and verified visually before any number from that model was
+      reported.
+  \end{itemize}
+}
+
+\block{Interpretation and next step}{
+  \small
+  \subhead{Positive evidence} diffusion restoration improves fidelity over
+  deterministic baselines; structural losses preserve ridge flow; multiple
+  samples expose genuine ambiguity; boundary continuity gives a real,
+  large, reproducible gain. \\[0.3em]
+  \subhead{Negative evidence} uncertainty is miscalibrated for
+  latent-variable models; fine-tuning overfits registration artefacts;
+  latent diffusion underperforms at this resolution; ensembling did not
+  beat the best single model. \\[0.4em]
+  \subhead{Next} progressive structure-conditioned residual diffusion at
+  native ridge resolution, with elastic-registration uncertainty and
+  subject-level calibration folded into the loss.
+}
+
+\block{Is it ridges, or is it texture?}{
+  \small
+  A reconstruction can be locally convincing and topologically empty.
+  Comparing reconstruction against real ridges inside the \emph{same}
+  region, over 284 images, with 95\% CIs excluding zero on all three:
+  \vspace{0.3em}
+
+  \centering
+  \begin{tabular}{@{}lrl@{}}
+    \toprule
+    Reconstruction $-$ real & Value & Reading \\
+    \midrule
+    Orientation coherence & $+0.181$ & too uniform \\
+    Orientation curvature & $-0.022$ & too straight \\
+    Minutiae density      & $-9.78$ / 1000\,px & about half \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.4em}
+
+  \raggedright
+  The model paints a smooth, well-oriented ridge field and drops the endings and
+  bifurcations that carry identity. That is the quantitative form of the ``false
+  ridges'' failure, and it is invisible to MAE and SSIM, which improve while it happens.
+}
+
+\block{Where the evidence stops}{
+  \small
+  The SD302 target is another impression of the same finger, so even the honest
+  supervision here is structural, never pixel-exact. The held-out
+  \texttt{quality=1} pixels are faint \emph{existing} traces rather than truly
+  absent regions, which means the hardest version of this problem is still
+  open: \textbf{recovery of ridges with no observable trace has never been
+  measured on a real latent}, by this project or anyone else. And 29 validation
+  subjects with 217 test images carry paired subject-level tests, not claims
+  about a population.
+}
+
+\block{Future directions}{
+  \small
+  \begin{itemize}
+    \item \textbf{Does the reversal change the model \emph{ranking}?} Shown here
+      for one checkpoint pair. Ranking all eleven models by $X_{\text{pseudo}}$ and
+      by real pixels, then correlating the two orderings, turns a caution into a
+      number: how often does the convenient target pick the wrong model?
+    \item \textbf{Minutiae matching, not density.} Counting shows detail is
+      missing; matching would say whether what is synthesised is forensically
+      meaningful.
+    \item \textbf{Native ridge resolution.} Simply raising the working
+      resolution to 256px made every structural metric worse, so the sampling
+      argument now rests on native-resolution \emph{patches} alone; a full
+      patch pipeline is the remaining way to settle it.
+    \item \textbf{Registration uncertainty in the loss}, so the model stops being
+      penalised for the target's own misalignment.
+  \end{itemize}
+}
+
+\block{}{
+  \fboxsep=10pt
+  \colorbox{posterblue}{\parbox{0.955\linewidth}{
+    \color{white}
+    {\bfseries\Large Findings}\par\vspace{0.35em}
+    \small
+    \begin{itemize}
+      \item On real held-out pixels, zero-shot transfer \textbf{beat} SD302
+        fine-tuning on every metric, the opposite of the pseudo-target
+        conclusion, and it held on the sealed test set.
+      \item Across all eleven models, \textbf{no model won fidelity and uncertainty
+        calibration together}: RePaint took MAE ($0.1008$), DDIM took calibration
+        ($\rho = 0.276$) from second-worst MAE.
+      \item The spatial CVAE's uncertainty \textbf{inverts sign} ($\rho = -0.153$):
+        most confident where it is most wrong.
+      \item A boundary phase-continuity loss, a single added term, gave one of the
+        largest single-change gains measured ($d_z$ up to $2.66$, $p = 1.9\times10^{-8}$).
+      \item Reconstructions carry roughly \textbf{half} the minutiae density of the
+        ridges they replace: plausible texture, missing identity.
+    \end{itemize}
+  }}
+}
+
+\tintblock{posterwarm}{Can the damage be undone?}{
+  \small
+  If the harm comes from the target, fixing the target should fix the harm.
+  Two ways to try, both evaluated on real held-out pixels.
+  \vspace{0.3em}
+
+  \subhead{Reweight it} Measure, per pixel, whether the latent and the
+  registered exemplar agree on ridge direction, and weight the loss by that.
+  Agreement averages only $0.586$ and ranges $0.21$--$0.87$, so the target
+  really is unreliable and unevenly so. Orientation error $0.517
+  \rightarrow 0.454$ ($d_z = 1.38$, $p = 4.5\times10^{-8}$):
+  \textbf{37\% of the damage recovered.}
+
+  \subhead{Replace it} Train instead on an \emph{exact} target built inside the
+  SD302 domain, by degrading a clean exemplar and masking it, so nothing
+  approximate enters the loss. Orientation $0.517 \rightarrow 0.402$, MAE
+  $0.144 \rightarrow 0.113$, SSIM $0.205 \rightarrow 0.347$ ($d_z$ up to
+  $2.87$): \textbf{two thirds recovered}, roughly double what reweighting
+  buys.
+  \vspace{0.25em}
+
+  \textbf{Neither beats zero-shot.} A third of the gap survives an exact target
+  in the right image domain, so ``the target is wrong'' is not the whole
+  story. Either the simulated degradation does not resemble real latent
+  degradation closely enough, or adapting to this domain is simply harmful at
+  this data volume. Separating those needs a genuine degraded-and-clean pair,
+  which SD302 does not provide.
+}
+
+% ==========================================================================
+% CENTRE COLUMN -- the evidence
+% ==========================================================================
+\column{0.44}
+
+\block{Track A: does the model reconstruct, or does it blur?}{
+  \centering
+  \includegraphics[width=1.0\linewidth]{grid_socofing.png}
+  \figcap{Clean data, exact ground truth, four mask geometries. Structural
+  losses (orientation, ridge-band, Gabor spectrum) buy large gains in
+  ridge geometry at flat or slightly worse MAE. On disconnected
+  fragments, orientation error falls $0.346 \rightarrow 0.211$ while MAE
+  moves by $0.006$. \textbf{The best-looking reconstruction is not the
+  lowest-MAE reconstruction}, which is the first warning that a single
+  pixel metric cannot rank these models.}
+
+  \vspace{0.3em}
+  \raggedright\small
+  Against the non-learned floor (900-image validation): gated convolution beats
+  U-Net on every metric, paired and Holm-significant, but by small margins
+  ($d_z\,0.13$--$0.31$). Structural losses on top improve all four at once
+  (SSIM $d_z = 0.76$, $p = 2.8\times10^{-90}$).
+}
+
+\block{What a general-purpose image model does with this task}{
+  \centering
+  \includegraphics[width=1.0\linewidth]{generalist_baseline.png}
+  \raggedright
+  \small
+  \vspace{0.3em}
+  The same masked print and the same instruction were given to a
+  general-purpose image generator, five times. It was told to preserve the
+  visible pixels and not change them. It did not: it re-rendered the whole
+  image, and the hidden region came back different every time.
+  \vspace{0.3em}
+
+  \textbf{What it produced looks like an excellent fingerprint.} Minutiae
+  density $39.9$--$59.2$ per 1000\,px against $44.5$ in the truth; orientation
+  coherence $0.55$--$0.66$ against $0.554$. On every "does this look real"
+  statistic, it passes.
+  \vspace{0.2em}
+
+  \textbf{It is the wrong fingerprint.} Mean orientation error $0.427$, against
+  $0.094$ for this project's constrained model on the same prints. Two
+  completions score \emph{negative} SSIM. And the truth is an arch with no
+  core, while the completions invent a whorl core: not a ridge error, a
+  different pattern class, which forensically is a different finger.
+  \vspace{0.2em}
+
+  \footnotesize\emph{Not a like-for-like benchmark:} this project's models are
+  constrained to the observed pixels by construction and the generalist model
+  ignored that constraint, so the comparison measures task compliance, not
+  architecture. Five completions of one print: an illustration, not a statistic.
+}
+
+\block{Why real forensic data has no exact ground truth}{
+  \centering
+  \includegraphics[width=1.0\linewidth]{registration.png}
+  \figcap{The SD302 ``target'' is a \emph{different impression of the same
+  finger}, aligned to the latent through 13 examiner-verified minutiae
+  correspondences (RMSE $0.102$\,mm). Registration recovers pose, not
+  ridge phase: $X_{\text{pseudo}}$ is structurally right and pixel-wise
+  wrong. Training against it is training against a plausible lie.}
+
+  \vspace{0.5em}
+  \includegraphics[width=1.0\linewidth]{nist_pipeline.png}
+  \figcap{The conditional pipeline on one real latent: observed
+  quality-gated pixels $Y$, the registered pseudo-target, the
+  reconstruction, the predicted visible support $P(\text{support}\mid Y,M)$
+  that suppresses ridge hallucination into scanner background, the
+  geometric confidence map, and the residual against
+  $X_{\text{pseudo}}$, which is concentrated exactly where the two
+  impressions genuinely differ.}
+}
+
+\tintblock{postertint}{\textcolor{posterred}{The central finding: the target can reverse the conclusion}}{
+  \small
+  Scored against $X_{\text{pseudo}}$, SD302 fine-tuning \textbf{improves} MAE and
+  orientation, which is the result one would normally report. Scored against real held-out
+  \texttt{quality=1} pixels, never touched by any loss, the \emph{same two checkpoints}
+  reverse completely: worse on all four metrics (MAE $+0.040$, orientation $+0.058$,
+  ridge-frequency $+0.202$, SSIM $+0.222$; all Holm $p < 10^{-4}$). A 6-model Friedman
+  omnibus confirms the differences are real ($\chi^2 = 116.27$, $p = 1.9\times10^{-23}$),
+  and the subject-mean ranking places the checkpoint that never saw SD302 \textbf{first}.
+  \vspace{0.4em}
+
+  \centering
+  \includegraphics[width=0.98\linewidth]{chart_critical_finding.png}
+  \figcap{Sealed test split, 217 images, evaluated once.}
+
+  \vspace{0.3em}
+  \raggedright
+  \small
+  \subhead{Triangulated three independent ways}
+  (i) real held-out pixels; (ii) Track E exact synthetic ground truth, agreeing with one of
+  the largest effect sizes in the project (SSIM $d_z = -2.78$, $p = 1.5\times10^{-8}$);
+  (iii) the sealed test split ($0.105 \rightarrow 0.142$). \textbf{Consequence:} a measured
+  improvement can be a property of the evaluation target rather than of the model.
+  Fine-tuning on a registered different-impression target teaches the network to reproduce
+  \emph{that} impression's texture: locally convincing, and wrong.
+}
+
+\tintblock{posterwarm}{Why zero-shot wins: it learns the finger, not the impression}{
+  \small
+  The reversal above says \emph{that} the target corrupts the result. This says
+  \emph{why}, and it is the question the finding had left open.
+  \vspace{0.3em}
+
+  Pixels where the latent and the registered exemplar \emph{agree} cannot
+  discriminate: following either one looks identical. So the test isolates
+  pixels where the two impressions \textbf{conflict}, and asks whether the
+  model's ridge orientation lands closer to the real latent or to
+  $X_{\text{pseudo}}$. Zero-shot never saw $X_{\text{pseudo}}$, so its rate is
+  what not-following looks like.
+  \vspace{0.3em}
+
+  \centering
+  \begin{tabular}{@{}lrrr@{}}
+    \toprule
+    Held-out real pixels & Zero-shot & Fine-tuned & $d_z$ \\
+    \midrule
+    Follows $X_{\text{pseudo}}$ where impressions conflict & 0.243 & \textbf{0.432} & $-1.88$ \\
+    Orientation error, conflicting pixels & 0.497 & \textbf{0.780} & $-1.75$ \\
+    Orientation error, agreeing pixels & 0.342 & 0.390 & $-0.48$ \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.35em}
+
+  \raggedright
+  Fine-tuning does not degrade reconstruction diffusely. It teaches the network
+  to reproduce \emph{that impression's} ridge placement, and the cost lands
+  precisely where that impression differs from the one being reconstructed: a
+  78\% relative rise in following the target, error 57\% higher in exactly
+  those pixels, and a much smaller gap everywhere else. All at
+  $p < 4\times10^{-9}$, aggregated per subject.
+}
+
+
+
+
+
+% ==========================================================================
+% RIGHT COLUMN -- models, uncertainty, controls, outlook
+% ==========================================================================
+\column{0.30}
+
+\tintblock{posterwarm}{What this project contributes}{
+  \small
+  Not a better reconstructor. A harder test of whether any reconstructor is
+  working.
+  \vspace{0.35em}
+
+  \begin{itemize}
+    \item \textbf{The evaluation target can invert the conclusion.} Fine-tuning
+      is a win against the registered exemplar and a loss against real pixels:
+      MAE $0.105 \rightarrow 0.142$ on the sealed test set, worse on all four
+      metrics, Friedman $\chi^2 = 116.27$ across six models. Checked three
+      independent ways before it was believed.
+    \item \textbf{Track E.} Exact ground truth manufactured inside SD302 by
+      degrading a clean exemplar, so that claim can be tested without leaving
+      the dataset or trusting the pseudo-target.
+    \item \textbf{Uncertainty measured against distance from evidence}, not as
+      one global number. DDIM decays gracefully ($0.527 \rightarrow 0.167$);
+      the CVAE crosses zero ($+0.011 \rightarrow -0.297$) and grows confident
+      exactly where it extrapolates furthest.
+    \item \textbf{Three numbers that catch a convincing fake.} Reconstructions
+      run $+0.18$ orientation coherence, $-0.02$ curvature and \emph{half} the
+      minutiae density of the ridges they replace, while MAE and SSIM improve.
+    \item \textbf{A permuted-identity control.} Another finger's ridges through
+      the same mask and the model degrades ($d_z = -2.17$), so the skill is not
+      mask-shape bookkeeping.
+  \end{itemize}
+  The models are standard. The protocol is not.
+}
+
+\block{Datasets and leakage control}{
+  \small
+  \subhead{SOCOFing} 6{,}000 images, 600 subjects, clean, synthetic masks. \\
+  \subhead{NIST SD302} real forensic latents (A/B/D), 200 subjects,
+  official EFS quality maps and minutiae correspondences. \\
+  \subhead{Sealed test} 217 images from subjects unseen during any
+  training, tuning or model selection.
+  \vspace{0.35em}
+
+  Splits are subject- and finger-disjoint; thresholds, Gabor bank and confidence
+  weights were calibrated on validation only; nothing was re-selected after the test run.
+}
+
+\block{Model family}{
+  \small
+  \subhead{Deterministic} nearest-observed interpolation (non-learned
+  floor), U-Net, gated convolution, $+$ structural losses. \\
+  \subhead{Latent-variable} global and spatial CVAE. \\
+  \subhead{Generative restoration} conditional DDPM, DDIM, RePaint,
+  residual DDPM, latent diffusion (plain and structure-guided), conditional
+  flow matching, Brownian Bridge Diffusion.
+  \vspace{0.35em}
+
+  All conditioning is \textbf{ControlNet-style}: the auxiliary signal is injected at
+  every encoder scale through zero-initialised $1\times1$ projections, not concatenated
+  once at the input.
+}
+
+\block{Does uncertainty stay honest?}{
+  \centering
+  \includegraphics[width=0.98\linewidth]{chart_uncertainty_distance.png}
+  \raggedright
+  \small
+  \vspace{0.2em}
+  Predictive spread is only useful if it grows where the model is
+  actually wrong. Stratified by distance to the nearest examiner-verified
+  correspondence (validation split), DDIM leads at every band and degrades
+  gracefully; RePaint decays to noise; \textbf{the CVAE changes sign},
+  becoming systematically overconfident exactly where it extrapolates
+  furthest. For anything examiner-facing, that failure mode is
+  disqualifying regardless of mean-image quality.
+  \vspace{0.3em}
+
+  The sealed test set reproduces the ordering without stratification:
+  DDIM $+0.276$, RePaint $+0.135$, residual DDPM $+0.037$, flow matching
+  $+0.021$, CVAE $\mathbf{-0.153}$. Uncertainty quality and fidelity rank
+  the family in almost opposite orders.
+}
+
+\block{Full results matrix: sealed test set}{
+  \small
+  All eleven models below were run on the \emph{same} 217-image sealed
+  test split, once, after every design choice was frozen.
+  \vspace{0.35em}
+
+  \small
+  \begin{tabular}{@{}lccccc@{}}
+    \toprule
+    Model & $K$ & MAE $\downarrow$ & SSIM $\uparrow$ & Orient.\ $\downarrow$ & $\rho_{\sigma,e} \uparrow$ \\
+    \midrule
+    \multicolumn{6}{@{}l}{\itshape Deterministic} \\
+    Zero-shot transfer         & n/a  & 0.1054 & \textbf{0.4884} & \textbf{0.2764} & n/a \\
+    Fine-tuned (supp.+spec.)   & n/a  & 0.1416 & 0.2802 & 0.3237 & n/a \\
+    $+$ boundary continuity    & n/a  & 0.1346 & 0.3036 & 0.3090 & n/a \\
+    \midrule
+    \multicolumn{6}{@{}l}{\itshape Probabilistic (predictive mean)} \\
+    \textbf{RePaint}           & 5    & \textbf{0.1008} & 0.4382 & 0.2838 & 0.135 \\
+    Residual DDPM              & 10   & 0.1126 & 0.3916 & 0.2856 & 0.037 \\
+    Learned ensemble           & 5    & 0.1151 & 0.3966 & n/a & n/a \\
+    CVAE, spatial              & 50   & 0.1378 & 0.3647 & 0.2952 & $-0.153$ \\
+    DDIM-20                    & 10   & 0.1453 & 0.3013 & 0.2932 & \textbf{0.276} \\
+    Flow matching, 8 steps     & 10   & 0.1545 & 0.3157 & 0.2966 & 0.021 \\
+    Latent DDPM                & 10   & 0.2111 & 0.2411 & 0.3074 & n/a \\
+    Latent DDPM, guided        & 10   & 0.2143 & 0.2357 & 0.3077 & n/a \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.4em}
+
+  \small
+  \textbf{No row dominates.} RePaint takes fidelity at $35$--$60\times$ DDIM's
+  per-sample cost; DDIM takes calibration by a wide margin ($0.276$ at $K{=}10$, $0.338$
+  at $K{=}50$) from near the bottom on MAE; the zero-shot checkpoint still holds the best
+  SSIM and orientation error. Flow matching reaches DDIM-comparable ridge-frequency error
+  ($0.499$ vs.\ $0.503$) using \textbf{8 sampling steps instead of 500}. Latent diffusion
+  is a clean negative result in both variants. The learned ensemble beats simple averaging
+  ($0.1151$ vs.\ $0.1198$) but loses to its own best member.
+  \vspace{0.3em}
+
+  \centering
+  \includegraphics[width=0.98\linewidth]{chart_model_comparison.png}
+}
+
+\tintblock{postertint}{A boundary phase-continuity loss}{
+  \small
+  Penalise the discontinuity of the ridge signal exactly where the model
+  hands off from observed evidence to synthesis, measured along the local
+  ridge tangent $\tau(p)$ from the target's structure tensor (term proposed in
+  external review; implemented and measured here):
+  \begin{equation*}
+    \mathcal{L}_{\partial} =
+    \frac{1}{|\partial M|}\sum_{p \in \partial M}
+    \left|\, \nabla_{\tau(p)}\hat X_p - \nabla_{\tau(p)} X_p \,\right|
+  \end{equation*}
+  Added to the full recipe, identical weights otherwise:
+  MAE $0.148 \rightarrow 0.141$, SSIM $0.281 \rightarrow 0.301$,
+  orientation $0.337 \rightarrow 0.324$; $d_z = 1.01$--$2.66$, Holm $p$
+  down to $1.9\times10^{-8}$ (287 images, 29 subjects). Three of four
+  metrics improve with large effect sizes and the fourth moves the same
+  way. It attacks precisely the seam the ``false ridges'' diagnostic
+  identified.
+}
+
+
+
+
+
+\tintblock{postertint}{Knowing when not to trust it}{
+  \centering
+  \includegraphics[width=0.99\linewidth]{chart_reliability.png}
+  \raggedright
+  \small
+  \vspace{0.2em}
+  Three results, all aimed at the same question: given a reconstruction and no
+  target, can we say which parts of it to believe?
+  \vspace{0.3em}
+
+  \subhead{A second opinion predicts the model's own error}
+  The disagreement between the model's ridge orientation and a harmonic
+  completion of the observed field predicts that model's true error at
+  Spearman $\rho = 0.67$ per image and $0.71$ per subject, against $0.276$ for
+  the best predictive-uncertainty signal in the whole study. It is not
+  circular: controlling for the geometric solver's own accuracy leaves
+  $\rho = 0.635$ ($p = 1.9\times10^{-33}$).
+
+  \subhead{Abstention converts that into error reduction}
+  Answering for only 60\% of the missing region cuts orientation error by
+  \textbf{30\%}. Random abstention is flat, so the gain is selection, not
+  arithmetic. Cross-validated over whole subjects; the oracle gap is large and
+  reported rather than hidden.
+
+  \subhead{And it can be made a guarantee}
+  Split conformal over disjoint subject folds gives distribution-free bounds
+  whose empirical coverage matches the target to the third decimal and holds
+  per subject ($0.837$--$0.970$ at a $90\%$ target). \textbf{The limit is the
+  reconstruction, not the method:} below $30^{\circ}$ tolerance nothing can be
+  certified at all; at $45^{\circ}$, $41\%$ of regions can, with half the error
+  of the rest.
+}
+
+
+
+
+
+
+
+
+\end{columns}
+
+\block{}{
+  \small
+  \textbf{Safety and interpretation.} A plausible generated ridge field must never be
+  described as recovery of an individual's true missing fingerprint without evidence. This
+  project is limited to academic benchmark reconstruction and uncertainty analysis, and its
+  central result is a caution about evaluation, not a capability claim.
+  \hfill
+  \textbf{Contact:} [[email]] \quad \textbf{Project:} [[URL / QR code]]
+  \vspace{0.35em}
+
+  \centering \footnotesize
+  [1] Ho et al., \emph{Denoising Diffusion Probabilistic Models}, NeurIPS 2020 \quad\textbullet\quad
+  [2] Lugmayr et al., \emph{RePaint}, CVPR 2022 \quad\textbullet\quad
+  [3] Rombach et al., \emph{Latent Diffusion}, CVPR 2022 \quad\textbullet\quad
+  [4] Li et al., \emph{BBDM}, CVPR 2023 \quad\textbullet\quad
+  [5] NIST Special Database 302 \quad\textbullet\quad
+  [6] Lipman et al., \emph{Flow Matching for Generative Modeling}, ICLR 2023
+}
+
+\end{document}

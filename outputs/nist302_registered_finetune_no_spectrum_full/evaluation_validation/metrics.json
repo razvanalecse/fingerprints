@@ -1,0 +1,722 @@
+{
+  "checkpoint": "outputs/nist302_registered_finetune_no_spectrum_full/best-checkpoint.pt",
+  "device": "mps",
+  "elapsed_seconds": 13.464414458001556,
+  "evaluation": {
+    "metrics": {
+      "affine_rmse_mm": {
+        "ci95_high": 0.20566013898180666,
+        "ci95_low": 0.19274616665736397,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.1992031528195853,
+        "standard_deviation": 0.05557519558352869
+      },
+      "evaluation_mae": {
+        "ci95_high": 0.1973677685570396,
+        "ci95_low": 0.18622522613660505,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.19179649734682233,
+        "standard_deviation": 0.04795185855721118
+      },
+      "evaluation_max_absolute_error": {
+        "ci95_high": 0.648070731153905,
+        "ci95_low": 0.6293096286886896,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.6386901799212973,
+        "standard_deviation": 0.08073828196871008
+      },
+      "evaluation_mse": {
+        "ci95_high": 0.05832257446377124,
+        "ci95_low": 0.05276592651718589,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.055544250490478564,
+        "standard_deviation": 0.023912998159040213
+      },
+      "evaluation_orientation_error": {
+        "ci95_high": 0.7727326869239364,
+        "ci95_low": 0.7093130314025953,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.7410228591632658,
+        "standard_deviation": 0.2729260734721805
+      },
+      "evaluation_orientation_valid_pixels": {
+        "ci95_high": 5623.197251332753,
+        "ci95_low": 5201.325396750872,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 5412.261324041812,
+        "standard_deviation": 1815.5227718118747
+      },
+      "evaluation_pixels": {
+        "ci95_high": 6875.735265397457,
+        "ci95_low": 6359.56090184993,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 6617.648083623693,
+        "standard_deviation": 2221.353003448941
+      },
+      "evaluation_psnr": {
+        "ci95_high": 13.144963232881421,
+        "ci95_low": 12.721467470352065,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 12.933215351616743,
+        "standard_deviation": 1.822511249061408
+      },
+      "evaluation_ridge_frequency_mae_cpx": {
+        "ci95_high": 0.07913985128426106,
+        "ci95_low": 0.07530342296896476,
+        "finite_count": 286.0,
+        "infinite_count": 0.0,
+        "mean": 0.07722163712661291,
+        "standard_deviation": 0.016481010228732405
+      },
+      "evaluation_ridge_frequency_relative_mae": {
+        "ci95_high": 0.7044754547690817,
+        "ci95_low": 0.6514485299460704,
+        "finite_count": 286.0,
+        "infinite_count": 0.0,
+        "mean": 0.677961992357576,
+        "standard_deviation": 0.22779971853554132
+      },
+      "evaluation_ridge_frequency_windows": {
+        "ci95_high": 45.88764072171556,
+        "ci95_low": 39.826644992570145,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 42.857142857142854,
+        "standard_deviation": 26.083455548424816
+      },
+      "evaluation_ridge_period_mae_pixels": {
+        "ci95_high": 3.5793743949339416,
+        "ci95_low": 3.3314384727477226,
+        "finite_count": 286.0,
+        "infinite_count": 0.0,
+        "mean": 3.455406433840832,
+        "standard_deviation": 1.065114250494134
+      },
+      "evaluation_ssim_map_mean": {
+        "ci95_high": 0.13539683798401336,
+        "ci95_low": 0.12832620556957963,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.1318615217767965,
+        "standard_deviation": 0.030428420431693304
+      },
+      "hull_0_2mm_mae": {
+        "ci95_high": 0.1776023567342539,
+        "ci95_low": 0.15981299622392198,
+        "finite_count": 269.0,
+        "infinite_count": 0.0,
+        "mean": 0.16870767647908794,
+        "standard_deviation": 0.07409564955559089
+      },
+      "hull_0_2mm_max_absolute_error": {
+        "ci95_high": 0.4710127793534395,
+        "ci95_low": 0.441117652566075,
+        "finite_count": 269.0,
+        "infinite_count": 0.0,
+        "mean": 0.45606521595975724,
+        "standard_deviation": 0.12451818245911678
+      },
+      "hull_0_2mm_mse": {
+        "ci95_high": 0.047873172647349936,
+        "ci95_low": 0.0395109886521622,
+        "finite_count": 269.0,
+        "infinite_count": 0.0,
+        "mean": 0.04369208064975607,
+        "standard_deviation": 0.034829889161386136
+      },
+      "hull_0_2mm_orientation_error": {
+        "ci95_high": 0.8563157916823536,
+        "ci95_low": 0.7450244694442998,
+        "finite_count": 269.0,
+        "infinite_count": 0.0,
+        "mean": 0.8006701305633267,
+        "standard_deviation": 0.46354689401790683
+      },
+      "hull_0_2mm_orientation_valid_pixels": {
+        "ci95_high": 397.62869798996337,
+        "ci95_low": 311.2284448671795,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 354.42857142857144,
+        "standard_deviation": 371.82292521076175
+      },
+      "hull_0_2mm_pixels": {
+        "ci95_high": 496.56861005796037,
+        "ci95_low": 391.675292381064,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 444.1219512195122,
+        "standard_deviation": 451.40770777904675
+      },
+      "hull_0_2mm_psnr": {
+        "ci95_high": 15.17367785184461,
+        "ci95_low": 14.376492386131032,
+        "finite_count": 269.0,
+        "infinite_count": 0.0,
+        "mean": 14.775085118987821,
+        "standard_deviation": 3.3204102454395468
+      },
+      "hull_0_2mm_ssim_map_mean": {
+        "ci95_high": 0.12008447582547155,
+        "ci95_low": 0.10031661968074337,
+        "finite_count": 269.0,
+        "infinite_count": 0.0,
+        "mean": 0.11020054775310746,
+        "standard_deviation": 0.0823364134148846
+      },
+      "hull_2_5mm_mae": {
+        "ci95_high": 0.19032759706241856,
+        "ci95_low": 0.1770669922993046,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.18369729468086157,
+        "standard_deviation": 0.05706692602020393
+      },
+      "hull_2_5mm_max_absolute_error": {
+        "ci95_high": 0.5854841417827286,
+        "ci95_low": 0.5633284157846628,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.5744062787836957,
+        "standard_deviation": 0.09534702217899645
+      },
+      "hull_2_5mm_mse": {
+        "ci95_high": 0.054650825911209136,
+        "ci95_low": 0.04834611281410475,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.051498469362656944,
+        "standard_deviation": 0.027132291650217077
+      },
+      "hull_2_5mm_orientation_error": {
+        "ci95_high": 0.8077841872573627,
+        "ci95_low": 0.7262831467711887,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.7670336670142757,
+        "standard_deviation": 0.35073919561583733
+      },
+      "hull_2_5mm_orientation_valid_pixels": {
+        "ci95_high": 2069.5874951135147,
+        "ci95_low": 1805.0745257924086,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 1937.3310104529617,
+        "standard_deviation": 1138.3298364807986
+      },
+      "hull_2_5mm_pixels": {
+        "ci95_high": 2545.265103434384,
+        "ci95_low": 2230.3167780987174,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 2387.7909407665506,
+        "standard_deviation": 1355.3780617994205
+      },
+      "hull_2_5mm_psnr": {
+        "ci95_high": 13.748633674236379,
+        "ci95_low": 13.205959671537771,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 13.477296672887075,
+        "standard_deviation": 2.3353940275207306
+      },
+      "hull_2_5mm_ssim_map_mean": {
+        "ci95_high": 0.13209574671554059,
+        "ci95_low": 0.12130903691830493,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.12670239181692275,
+        "standard_deviation": 0.04642053518648899
+      },
+      "hull_gt_5mm_mae": {
+        "ci95_high": 0.20908928889366707,
+        "ci95_low": 0.19500871369117107,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.20204900129241907,
+        "standard_deviation": 0.06059566345253661
+      },
+      "hull_gt_5mm_max_absolute_error": {
+        "ci95_high": 0.6195270250623588,
+        "ci95_low": 0.5971411205584019,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.6083340728103803,
+        "standard_deviation": 0.09633759387627451
+      },
+      "hull_gt_5mm_mse": {
+        "ci95_high": 0.06438948515463305,
+        "ci95_low": 0.05706283934457805,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.06072616224960555,
+        "standard_deviation": 0.03153017240825009
+      },
+      "hull_gt_5mm_orientation_error": {
+        "ci95_high": 0.7809484654059056,
+        "ci95_low": 0.7038013449712517,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.7423749051885786,
+        "standard_deviation": 0.33200212910065674
+      },
+      "hull_gt_5mm_orientation_valid_pixels": {
+        "ci95_high": 3261.460613783909,
+        "ci95_low": 2907.5637764599933,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 3084.512195121951,
+        "standard_deviation": 1522.9927288478716
+      },
+      "hull_gt_5mm_pixels": {
+        "ci95_high": 3953.254862261684,
+        "ci95_low": 3524.0691795501625,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 3738.6620209059233,
+        "standard_deviation": 1846.997783416145
+      },
+      "hull_gt_5mm_psnr": {
+        "ci95_high": 12.967338599917113,
+        "ci95_low": 12.454002567986795,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 12.710670583951954,
+        "standard_deviation": 2.2091382618656152
+      },
+      "hull_gt_5mm_ssim_map_mean": {
+        "ci95_high": 0.14390341268711274,
+        "ci95_low": 0.13366990889834865,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.1387866607927307,
+        "standard_deviation": 0.04403981674088722
+      },
+      "hull_inside_mae": {
+        "ci95_high": 0.1793682975231213,
+        "ci95_low": 0.14935761086399654,
+        "finite_count": 119.0,
+        "infinite_count": 0.0,
+        "mean": 0.16436295419355892,
+        "standard_deviation": 0.0826598315577877
+      },
+      "hull_inside_max_absolute_error": {
+        "ci95_high": 0.37017405227465333,
+        "ci95_low": 0.32285997133532945,
+        "finite_count": 119.0,
+        "infinite_count": 0.0,
+        "mean": 0.3465170118049914,
+        "standard_deviation": 0.1303193760668888
+      },
+      "hull_inside_mse": {
+        "ci95_high": 0.047004299858987304,
+        "ci95_low": 0.034156651685978597,
+        "finite_count": 119.0,
+        "infinite_count": 0.0,
+        "mean": 0.04058047577248295,
+        "standard_deviation": 0.035386875547271796
+      },
+      "hull_inside_orientation_error": {
+        "ci95_high": 0.8015462097636268,
+        "ci95_low": 0.5942140928843818,
+        "finite_count": 110.0,
+        "infinite_count": 0.0,
+        "mean": 0.6978801513240043,
+        "standard_deviation": 0.5485754933389755
+      },
+      "hull_inside_orientation_valid_pixels": {
+        "ci95_high": 47.041200206662786,
+        "ci95_low": 24.937893869992273,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 35.98954703832753,
+        "standard_deviation": 95.12143450842697
+      },
+      "hull_inside_pixels": {
+        "ci95_high": 60.53483082491037,
+        "ci95_low": 33.61151063850426,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 47.073170731707314,
+        "standard_deviation": 115.8643326411232
+      },
+      "hull_inside_psnr": {
+        "ci95_high": 16.43650455862331,
+        "ci95_low": 14.873590480243802,
+        "finite_count": 119.0,
+        "infinite_count": 0.0,
+        "mean": 15.655047519433555,
+        "standard_deviation": 4.30480701509922
+      },
+      "hull_inside_ssim_map_mean": {
+        "ci95_high": 0.13174531953698548,
+        "ci95_low": 0.08392470897288618,
+        "finite_count": 119.0,
+        "infinite_count": 0.0,
+        "mean": 0.10783501425493583,
+        "standard_deviation": 0.13171453419634258
+      },
+      "minimum_hull_coverage": {
+        "ci95_high": 0.021521163813801075,
+        "ci95_low": 0.019191854193801355,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.020356509003801215,
+        "standard_deviation": 0.010024168741717202
+      },
+      "nearest_0_2mm_mae": {
+        "ci95_high": 0.17809484891903735,
+        "ci95_low": 0.15972793956384948,
+        "finite_count": 271.0,
+        "infinite_count": 0.0,
+        "mean": 0.1689113942414434,
+        "standard_deviation": 0.07678768124288732
+      },
+      "nearest_0_2mm_max_absolute_error": {
+        "ci95_high": 0.46103696405403694,
+        "ci95_low": 0.4303345437346793,
+        "finite_count": 271.0,
+        "infinite_count": 0.0,
+        "mean": 0.4456857538943581,
+        "standard_deviation": 0.12835951979052318
+      },
+      "nearest_0_2mm_mse": {
+        "ci95_high": 0.0480920728249476,
+        "ci95_low": 0.03952081292124109,
+        "finite_count": 271.0,
+        "infinite_count": 0.0,
+        "mean": 0.04380644287309435,
+        "standard_deviation": 0.03583439982240962
+      },
+      "nearest_0_2mm_orientation_error": {
+        "ci95_high": 0.8443475717452259,
+        "ci95_low": 0.7311387853402617,
+        "finite_count": 269.0,
+        "infinite_count": 0.0,
+        "mean": 0.7877431785427438,
+        "standard_deviation": 0.4715334516496036
+      },
+      "nearest_0_2mm_orientation_valid_pixels": {
+        "ci95_high": 350.854070702082,
+        "ci95_low": 270.762654036594,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 310.808362369338,
+        "standard_deviation": 344.67288870688185
+      },
+      "nearest_0_2mm_pixels": {
+        "ci95_high": 439.2183806554871,
+        "ci95_low": 341.8269155117603,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 390.5226480836237,
+        "standard_deviation": 419.12353438178985
+      },
+      "nearest_0_2mm_psnr": {
+        "ci95_high": 15.262886987059892,
+        "ci95_low": 14.442921879553653,
+        "finite_count": 271.0,
+        "infinite_count": 0.0,
+        "mean": 14.852904433306772,
+        "standard_deviation": 3.4280791660625534
+      },
+      "nearest_0_2mm_ssim_map_mean": {
+        "ci95_high": 0.12054873354012086,
+        "ci95_low": 0.098414443552158,
+        "finite_count": 271.0,
+        "infinite_count": 0.0,
+        "mean": 0.10948158854613943,
+        "standard_deviation": 0.09253820396588666
+      },
+      "nearest_2_5mm_mae": {
+        "ci95_high": 0.1892759862738407,
+        "ci95_low": 0.17599603147297713,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.18263600887340892,
+        "standard_deviation": 0.05715019878132395
+      },
+      "nearest_2_5mm_max_absolute_error": {
+        "ci95_high": 0.5857299793633584,
+        "ci95_low": 0.5636955591075778,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.5747127692354681,
+        "standard_deviation": 0.09482498370907104
+      },
+      "nearest_2_5mm_mse": {
+        "ci95_high": 0.0541680113693179,
+        "ci95_low": 0.047849236290888594,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.051008623830103246,
+        "standard_deviation": 0.02719280729503889
+      },
+      "nearest_2_5mm_orientation_error": {
+        "ci95_high": 0.8084648285638746,
+        "ci95_low": 0.7276523300092818,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.7680585792865782,
+        "standard_deviation": 0.3477760599087348
+      },
+      "nearest_2_5mm_orientation_valid_pixels": {
+        "ci95_high": 2080.7006409462297,
+        "ci95_low": 1809.7174775206695,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 1945.2090592334496,
+        "standard_deviation": 1166.174274565728
+      },
+      "nearest_2_5mm_pixels": {
+        "ci95_high": 2561.3556374737573,
+        "ci95_low": 2238.2610872649184,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 2399.808362369338,
+        "standard_deviation": 1390.4352873548032
+      },
+      "nearest_2_5mm_psnr": {
+        "ci95_high": 13.790756155927728,
+        "ci95_low": 13.250350267814174,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 13.52055321187095,
+        "standard_deviation": 2.3256332112123714
+      },
+      "nearest_2_5mm_ssim_map_mean": {
+        "ci95_high": 0.13078531883378117,
+        "ci95_low": 0.12008492138103487,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.125435120107408,
+        "standard_deviation": 0.0460490905755082
+      },
+      "nearest_gt_5mm_mae": {
+        "ci95_high": 0.20860484745858787,
+        "ci95_low": 0.19468763047080262,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.20164623896469525,
+        "standard_deviation": 0.05989265244208687
+      },
+      "nearest_gt_5mm_max_absolute_error": {
+        "ci95_high": 0.6204112895701454,
+        "ci95_low": 0.5982297554107238,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.6093205224904346,
+        "standard_deviation": 0.09545808743289055
+      },
+      "nearest_gt_5mm_mse": {
+        "ci95_high": 0.06415940160098377,
+        "ci95_low": 0.05691046814963298,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.06053493487530837,
+        "standard_deviation": 0.0311957377799468
+      },
+      "nearest_gt_5mm_orientation_error": {
+        "ci95_high": 0.7843617161028458,
+        "ci95_low": 0.7080634880030907,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.7462126020529682,
+        "standard_deviation": 0.32834892647979774
+      },
+      "nearest_gt_5mm_orientation_valid_pixels": {
+        "ci95_high": 3333.0318119219173,
+        "ci95_low": 2979.455992956131,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 3156.243902439024,
+        "standard_deviation": 1521.611228439574
+      },
+      "nearest_gt_5mm_pixels": {
+        "ci95_high": 4042.0682285973394,
+        "ci95_low": 3612.5659177441244,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 3827.317073170732,
+        "standard_deviation": 1848.360390556673
+      },
+      "nearest_gt_5mm_psnr": {
+        "ci95_high": 12.97321981214767,
+        "ci95_low": 12.462717215358703,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 12.717968513753187,
+        "standard_deviation": 2.196944592234177
+      },
+      "nearest_gt_5mm_ssim_map_mean": {
+        "ci95_high": 0.1439065235571906,
+        "ci95_low": 0.1338784743206444,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.1388924989389175,
+        "standard_deviation": 0.043155644416820745
+      },
+      "num_correspondences": {
+        "ci95_high": 12.186208673234388,
+        "ci95_low": 11.242362755337039,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 11.714285714285714,
+        "standard_deviation": 4.061834745346184
+      },
+      "observed_far_mae": {
+        "ci95_high": 0.20175606885065644,
+        "ci95_low": 0.18920225487366665,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.19547916186216155,
+        "standard_deviation": 0.05402525648672192
+      },
+      "observed_far_max_absolute_error": {
+        "ci95_high": 0.6156682560954977,
+        "ci95_low": 0.5949037616117184,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.6052860088536081,
+        "standard_deviation": 0.08935986644054855
+      },
+      "observed_far_mse": {
+        "ci95_high": 0.06077523408971364,
+        "ci95_low": 0.05437409761625152,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.05757466585298258,
+        "standard_deviation": 0.027547249020828994
+      },
+      "observed_far_orientation_error": {
+        "ci95_high": 0.7976524117788168,
+        "ci95_low": 0.727974161047755,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.7628132864132859,
+        "standard_deviation": 0.2998598970951431
+      },
+      "observed_far_orientation_valid_pixels": {
+        "ci95_high": 3697.1796596435843,
+        "ci95_low": 3333.0572741543256,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 3515.118466898955,
+        "standard_deviation": 1566.998308615308
+      },
+      "observed_far_pixels": {
+        "ci95_high": 4526.7953336795035,
+        "ci95_low": 4078.07574645987,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 4302.435540069687,
+        "standard_deviation": 1931.061813930874
+      },
+      "observed_far_psnr": {
+        "ci95_high": 13.094967473543633,
+        "ci95_low": 12.62688263053965,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 12.860925052041642,
+        "standard_deviation": 2.0144000657639842
+      },
+      "observed_far_ssim_map_mean": {
+        "ci95_high": 0.1532288254691872,
+        "ci95_low": 0.1446621415620249,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.14894548351560605,
+        "standard_deviation": 0.036866668263001764
+      },
+      "observed_fraction_canvas": {
+        "ci95_high": 0.3807693697024804,
+        "ci95_low": 0.34817754204621304,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.3644734558743467,
+        "standard_deviation": 0.14025871752825578
+      },
+      "observed_near_mae": {
+        "ci95_high": 0.191231061127286,
+        "ci95_low": 0.17944532260661689,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.18533819186695144,
+        "standard_deviation": 0.050719848775173916
+      },
+      "observed_near_max_absolute_error": {
+        "ci95_high": 0.6112124670959276,
+        "ci95_low": 0.5918425406377625,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.6015275038668451,
+        "standard_deviation": 0.08335835204738601
+      },
+      "observed_near_mse": {
+        "ci95_high": 0.05471171062573221,
+        "ci95_low": 0.04906999145171517,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.05189085103872369,
+        "standard_deviation": 0.024279101630866464
+      },
+      "observed_near_orientation_error": {
+        "ci95_high": 0.7423309313093294,
+        "ci95_low": 0.6749207228705429,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.7086258270899362,
+        "standard_deviation": 0.2900993918982759
+      },
+      "observed_near_orientation_valid_pixels": {
+        "ci95_high": 1963.9133935919635,
+        "ci95_low": 1830.3723206937507,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 1897.142857142857,
+        "standard_deviation": 574.6931353341536
+      },
+      "observed_near_pixels": {
+        "ci95_high": 2394.3626194222707,
+        "ci95_low": 2236.0624676857433,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 2315.212543554007,
+        "standard_deviation": 681.2436694639932
+      },
+      "observed_near_psnr": {
+        "ci95_high": 13.54190484714209,
+        "ci95_low": 13.072284468535779,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 13.307094657838935,
+        "standard_deviation": 2.021008233203178
+      },
+      "observed_near_ssim_map_mean": {
+        "ci95_high": 0.10782745105765008,
+        "ci95_low": 0.09880428300237688,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.10331586703001348,
+        "standard_deviation": 0.03883114481403366
+      }
+    },
+    "num_images": 287
+  },
+  "image_size": 128,
+  "metric_warning": "Pixel metrics include residual registration and cross-impression appearance error; they are secondary to structural metrics.",
+  "model": "gated_conv",
+  "pixel_aligned_ground_truth": false,
+  "population": "correspondence-qualified latent subset",
+  "seconds_per_image": 0.04691433609059776,
+  "split": "validation",
+  "target": "registered_approximate"
+}

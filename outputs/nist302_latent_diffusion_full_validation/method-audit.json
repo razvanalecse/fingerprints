@@ -1,0 +1,8 @@
+{
+  "test_loaded": false,
+  "target": "real latent held-out quality=1 pixels",
+  "sampling": "latent-space DDIM eta=0 with seeded initial noise, decoded through frozen autoencoder",
+  "data_consistency": "exact on quality>=2 observed pixels (pixel-space reprojection after decode)",
+  "support": "frozen visible-support predictor; soft composition",
+  "best_of_k_not_single_sample": true
+}

@@ -1,0 +1,77 @@
+{
+  "autoencoder_frequency_mae_cpx": {
+    "count": 100,
+    "mean": 0.00557421269525699,
+    "median": 0.003001644736842105,
+    "q05": 0.0005978839542282431,
+    "q25": 0.0014634993964454488,
+    "q75": 0.005899759163533835,
+    "q95": 0.01980376067523464,
+    "std": 0.006877560704305658
+  },
+  "autoencoder_period_mae_pixels": {
+    "count": 100,
+    "mean": 0.139953673172458,
+    "median": 0.06163582251173571,
+    "q05": 0.011974995973156672,
+    "q25": 0.02751996061418271,
+    "q75": 0.12051315433435227,
+    "q95": 0.5591443208987005,
+    "std": 0.21560649714792687
+  },
+  "coarse_missing_frequency_mae_cpx": {
+    "count": 96,
+    "mean": 0.05623108784755592,
+    "median": 0.05218121722027972,
+    "q05": 0.01882133754432624,
+    "q25": 0.03716195913461538,
+    "q75": 0.07308692610317975,
+    "q95": 0.10836031580526294,
+    "std": 0.02621227426734379
+  },
+  "coarse_missing_period_mae_pixels": {
+    "count": 96,
+    "mean": 2.8533385720459172,
+    "median": 2.371135745762217,
+    "q05": 0.4297238651400149,
+    "q25": 1.1600121926912752,
+    "q75": 4.16965044292653,
+    "q95": 6.433725798968498,
+    "std": 2.050620256542677
+  },
+  "device": "cpu",
+  "estimator": {
+    "minimum_peak_prominence": 1.5,
+    "patch_size": 32,
+    "search_frequency_interval": [
+      0.04,
+      0.4
+    ],
+    "stride": 8
+  },
+  "frequency_unit": "cycles_per_pixel_after_resize_to_128x128",
+  "interpretation_guard": "The empirical band is resolution-specific and must not be transferred blindly to NIST images.",
+  "num_images": 100,
+  "period_unit": "pixels_after_resize_to_128x128",
+  "split": "train",
+  "target_frequency": {
+    "count": 13909,
+    "mean": 0.24090039497807175,
+    "median": 0.2421875,
+    "q05": 0.17578125,
+    "q25": 0.21875,
+    "q75": 0.265625,
+    "q95": 0.3046875,
+    "std": 0.04039565988219285
+  },
+  "target_period": {
+    "count": 13909,
+    "mean": 4.315177876804124,
+    "median": 4.129032135009766,
+    "q05": 3.2820513248443604,
+    "q25": 3.7647058963775635,
+    "q75": 4.5714287757873535,
+    "q95": 5.688889026641846,
+    "std": 1.1503735939939939
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mode": "full",
+  "splits_loaded": [
+    "train",
+    "validation"
+  ],
+  "test_loaded": false,
+  "target": "registered_approximate (not pixel ground truth)",
+  "method": "conditional residual flow matching: straight-line path from noised X_coarse to X_pseudo",
+  "sigma_0": 0.05,
+  "loss_weight_map": "evaluation_roi * geometric_confidence * visible_support_probability",
+  "support_checkpoint": "outputs/nist302_visible_support_predictor_full/best-checkpoint.pt",
+  "coarse_checkpoint": "outputs/nist302_registered_support_spectrum_full/best-checkpoint.pt",
+  "data_consistency": true
+}

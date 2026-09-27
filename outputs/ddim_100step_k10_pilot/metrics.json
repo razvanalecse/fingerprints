@@ -1,0 +1,312 @@
+{
+  "device": "mps",
+  "eta": 0.0,
+  "evaluation": {
+    "metrics": {
+      "best_of_k_mae": {
+        "ci95_high": 0.2709028331891287,
+        "ci95_low": 0.25534287009710915,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.26312285164311894,
+        "standard_deviation": 0.039209329099771754
+      },
+      "best_of_k_max_absolute_error": {
+        "ci95_high": 0.9871335981952292,
+        "ci95_low": 0.9699539515489448,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.978543774872087,
+        "standard_deviation": 0.04329074659035877
+      },
+      "best_of_k_mse": {
+        "ci95_high": 0.12064256406789921,
+        "ci95_low": 0.10926950700941805,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.11495603553865863,
+        "standard_deviation": 0.02865880429402687
+      },
+      "best_of_k_orientation_error": {
+        "ci95_high": 0.370286521705897,
+        "ci95_low": 0.265370533951453,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.317828527828675,
+        "standard_deviation": 0.26437630136805795
+      },
+      "best_of_k_pixels": {
+        "ci95_high": 6800.709250071182,
+        "ci95_low": 5595.150749928818,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 6197.93,
+        "standard_deviation": 3037.8696724128336
+      },
+      "best_of_k_psnr": {
+        "ci95_high": 9.790712297308467,
+        "ci95_low": 9.305692596439272,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 9.54820244687387,
+        "standard_deviation": 1.2221942275047455
+      },
+      "best_of_k_ssim_map_mean": {
+        "ci95_high": 0.13720067419804213,
+        "ci95_low": 0.10311864086000219,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.12015965752902216,
+        "standard_deviation": 0.08588282977521877
+      },
+      "best_sample_index": {
+        "ci95_high": 4.622012479422983,
+        "ci95_low": 3.4779875205770168,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 4.05,
+        "standard_deviation": 2.8828121792107892
+      },
+      "coverage_50": {
+        "ci95_high": 0.36880834867965695,
+        "ci95_low": 0.3320183786817962,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.35041336368072656,
+        "standard_deviation": 0.09270652074725634
+      },
+      "coverage_80": {
+        "ci95_high": 0.5963269194979602,
+        "ci95_low": 0.5455922269876096,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.5709595732427849,
+        "standard_deviation": 0.12784562814511616
+      },
+      "coverage_90": {
+        "ci95_high": 0.6731469118688966,
+        "ci95_low": 0.6202061463891311,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.6466765291290139,
+        "standard_deviation": 0.1334046799606223
+      },
+      "inference_steps": {
+        "ci95_high": 100.0,
+        "ci95_low": 100.0,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 100.0,
+        "standard_deviation": 0.0
+      },
+      "interval_width_50": {
+        "ci95_high": 0.33751747580558045,
+        "ci95_low": 0.3241393691405341,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.33082842247305727,
+        "standard_deviation": 0.033711300204219856
+      },
+      "interval_width_80": {
+        "ci95_high": 0.551200042271402,
+        "ci95_low": 0.5314777572511847,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.5413388997612933,
+        "standard_deviation": 0.04969790476905492
+      },
+      "interval_width_90": {
+        "ci95_high": 0.6316828938472812,
+        "ci95_low": 0.6106660337204324,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.6211744637838568,
+        "standard_deviation": 0.0529600861187215
+      },
+      "mean_mae": {
+        "ci95_high": 0.24414468483104165,
+        "ci95_low": 0.22680600214530125,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.23547534348817145,
+        "standard_deviation": 0.04369149923822041
+      },
+      "mean_max_absolute_error": {
+        "ci95_high": 0.7446493722514465,
+        "ci95_low": 0.7188850338461594,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.7317672030488029,
+        "standard_deviation": 0.06492318893024263
+      },
+      "mean_mse": {
+        "ci95_high": 0.08327045726432396,
+        "ci95_low": 0.07311710521051955,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.07819378123742175,
+        "standard_deviation": 0.025585287046576775
+      },
+      "mean_orientation_error": {
+        "ci95_high": 0.29695788207834295,
+        "ci95_low": 0.21267734235761462,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.2548176122179788,
+        "standard_deviation": 0.21237733014362287
+      },
+      "mean_pixels": {
+        "ci95_high": 6800.709250071182,
+        "ci95_low": 5595.150749928818,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 6197.93,
+        "standard_deviation": 3037.8696724128336
+      },
+      "mean_predictive_std": {
+        "ci95_high": 0.24372962700183037,
+        "ci95_low": 0.23563956422751303,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.2396845956146717,
+        "standard_deviation": 0.020386033815125885
+      },
+      "mean_psnr": {
+        "ci95_high": 11.603756535629993,
+        "ci95_low": 11.012574108682424,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 11.308165322156208,
+        "standard_deviation": 1.4897121669959186
+      },
+      "mean_ssim_map_mean": {
+        "ci95_high": 0.15992179644811486,
+        "ci95_low": 0.12601162866171914,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.142966712554917,
+        "standard_deviation": 0.08544974822255177
+      },
+      "missing_roi_pixels": {
+        "ci95_high": 6800.709250071182,
+        "ci95_low": 5595.150749928818,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 6197.93,
+        "standard_deviation": 3037.8696724128336
+      },
+      "pairwise_diversity_mae": {
+        "ci95_high": 0.28368668225474275,
+        "ci95_low": 0.2738897988095615,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.2787882405321521,
+        "standard_deviation": 0.024687026883195715
+      },
+      "samples_k": {
+        "ci95_high": 10.0,
+        "ci95_low": 10.0,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 10.0,
+        "standard_deviation": 0.0
+      },
+      "sampling_seconds": {
+        "ci95_high": 0.7628478964390644,
+        "ci95_low": 0.7571276027754237,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.759987749607244,
+        "standard_deviation": 0.014414486427673939
+      },
+      "seconds_per_reconstruction": {
+        "ci95_high": 0.07628478964390643,
+        "ci95_low": 0.07571276027754238,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.07599877496072441,
+        "standard_deviation": 0.0014414486427673941
+      },
+      "single_mae": {
+        "ci95_high": 0.29445285014566697,
+        "ci95_low": 0.2786987598443747,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.28657580499502083,
+        "standard_deviation": 0.03969850748603026
+      },
+      "single_max_absolute_error": {
+        "ci95_high": 0.9912016096905648,
+        "ci95_low": 0.9760743891346425,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.9836379994126037,
+        "standard_deviation": 0.03811886735426733
+      },
+      "single_mse": {
+        "ci95_high": 0.1389176640191491,
+        "ci95_low": 0.12669405344867832,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.1328058587339137,
+        "standard_deviation": 0.030802101959409647
+      },
+      "single_orientation_error": {
+        "ci95_high": 0.41133440502103,
+        "ci95_low": 0.30234276691721884,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.35683858596912443,
+        "standard_deviation": 0.27464647456184277
+      },
+      "single_pixels": {
+        "ci95_high": 6800.709250071182,
+        "ci95_low": 5595.150749928818,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 6197.93,
+        "standard_deviation": 3037.8696724128336
+      },
+      "single_psnr": {
+        "ci95_high": 9.10794450476229,
+        "ci95_low": 8.67781729385107,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 8.89288089930668,
+        "standard_deviation": 1.0838714248644163
+      },
+      "single_ssim_map_mean": {
+        "ci95_high": 0.10673082514823247,
+        "ci95_low": 0.07579471795953373,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.0912627715538831,
+        "standard_deviation": 0.07795545533457106
+      },
+      "uncertainty_error_spearman": {
+        "ci95_high": 0.26772051326009494,
+        "ci95_low": 0.21722029556691677,
+        "finite_count": 100.0,
+        "infinite_count": 0.0,
+        "mean": 0.24247040441350587,
+        "standard_deviation": 0.12725477839709598
+      }
+    },
+    "num_images": 100
+  },
+  "inference_steps": 100,
+  "interval_method": "central empirical sample quantiles; resolution is limited by K",
+  "mean_seconds_per_image": 0.759987749607244,
+  "mean_seconds_per_reconstruction": 0.07599877496072441,
+  "num_images": 100,
+  "sampler": "ddim",
+  "samples_k": 10,
+  "sampling_seconds": 75.9987749607244,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "training_timesteps": 500,
+  "warning": "best_of_k is oracle-assisted and is not single-sample performance"
+}

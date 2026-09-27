@@ -1,0 +1,13 @@
+{
+  "mode": "full",
+  "splits_loaded": [
+    "train",
+    "validation"
+  ],
+  "test_loaded": false,
+  "target": "registered_approximate (not pixel ground truth)",
+  "missing_noise_weight": "evaluation_roi * geometric_confidence * visible_support_probability",
+  "support_checkpoint": "outputs/nist302_visible_support_predictor_full/best-checkpoint.pt",
+  "data_consistency": true,
+  "decoder_upsampling": "bilinear"
+}

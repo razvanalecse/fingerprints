@@ -1,0 +1,28 @@
+{
+  "best_epoch": 0,
+  "best_validation_loss": 1.1347256898880005,
+  "denoiser_parameters": 136172,
+  "device": "mps",
+  "elapsed_seconds": 0.7634443329998248,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "examples": 4,
+        "loss": 1.1602954864501953
+      },
+      "validation": {
+        "examples": 2,
+        "loss": 1.1347256898880005
+      }
+    }
+  ],
+  "latent_scale": 0.6902194241709698,
+  "residual_scale": 2.580406298405066,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "target": "scaled latent residual E(X)-E(X_coarse)"
+}

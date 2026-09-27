@@ -1,0 +1,38 @@
+{
+  "mode": "full",
+  "test_loaded": false,
+  "initialization": null,
+  "registered_target": "registered_approximate (not pixel ground truth)",
+  "confidence_calibration": {
+    "status": "frozen_from_validation",
+    "source": "outputs/nist302_classical_128_validation/distance_strata_tests.json",
+    "source_split": "validation",
+    "source_model": "nearest_observed_interpolation",
+    "source_metric": "subject-level mean orientation_error",
+    "stratum_orientation_error": {
+      "nearest_0_2mm": 0.8822892288530623,
+      "nearest_2_5mm": 1.003233771361981,
+      "nearest_gt_5mm": 1.0873597255694403
+    },
+    "formula": "w_s = min(1, E_0-2mm / E_s)",
+    "weights": {
+      "nearest_0_2mm": 1.0,
+      "nearest_2_5mm": 0.8794453038151562,
+      "nearest_gt_5mm": 0.8114051018314252
+    },
+    "ordered_weights": [
+      1.0,
+      0.8794453038151562,
+      0.8114051018314252
+    ],
+    "allowed_use": "training and validation registered-approximate loss",
+    "test_policy": "test remains sealed; weights must not be revised from test outcomes",
+    "interpretation_warning": "The curve combines residual registration uncertainty, reconstruction difficulty, and cross-impression variation; weights are empirical reliability weights, not calibrated probabilities.",
+    "required_ablation": "compare calibrated weights with uniform [1,1,1] on validation"
+  },
+  "loss": {
+    "l1_weight": 1.0,
+    "mse_weight": 0.25,
+    "free_nats_per_dimension": 0.01
+  }
+}

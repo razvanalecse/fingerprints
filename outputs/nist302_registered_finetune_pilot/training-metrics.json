@@ -1,0 +1,104 @@
+{
+  "mode": "pilot",
+  "device": "mps",
+  "elapsed_seconds": 40.398215540997626,
+  "best_epoch": 3,
+  "best_validation_loss": 0.2226576805114746,
+  "history": [
+    {
+      "epoch": 1,
+      "learning_rate": 2e-05,
+      "train": {
+        "gradient_norm": 0.41788901574909687,
+        "loss": 0.25149007933214307,
+        "registered_l1": 0.2346696991007775,
+        "registered_mse": 0.08556896634399891,
+        "observed_l1": 0.0,
+        "orientation": 0.44398355344310403,
+        "gradient": 0.03559767597471364,
+        "ridge_energy": 0.023231574043165892,
+        "ridge_band": 0.10906816180795431,
+        "effective_geometric_weight": 0.33733085356652737,
+        "examples": 256.0
+      },
+      "validation": {
+        "loss": 0.22979875933378935,
+        "registered_l1": 0.2082745535299182,
+        "registered_mse": 0.07027616957202554,
+        "observed_l1": 0.0,
+        "orientation": 0.4002948962152004,
+        "gradient": 0.037378717213869095,
+        "ridge_energy": 0.022384471376426518,
+        "ridge_band": 0.11254714522510767,
+        "effective_geometric_weight": 0.30256615299731493,
+        "examples": 64.0
+      }
+    },
+    {
+      "epoch": 2,
+      "learning_rate": 2e-05,
+      "train": {
+        "gradient_norm": 0.5096914398018271,
+        "loss": 0.24143110238946974,
+        "registered_l1": 0.2207622069399804,
+        "registered_mse": 0.07504004397196695,
+        "observed_l1": 0.0,
+        "orientation": 0.42590321274474263,
+        "gradient": 0.03947444859659299,
+        "ridge_energy": 0.02267546480288729,
+        "ridge_band": 0.10882974253036082,
+        "effective_geometric_weight": 0.34082747460342944,
+        "examples": 256.0
+      },
+      "validation": {
+        "loss": 0.22391544561833143,
+        "registered_l1": 0.20995794422924519,
+        "registered_mse": 0.07027233322151005,
+        "observed_l1": 0.0,
+        "orientation": 0.3801030842587352,
+        "gradient": 0.04254180868156254,
+        "ridge_energy": 0.023900425643660128,
+        "ridge_band": 0.1129281623288989,
+        "effective_geometric_weight": 0.30256615299731493,
+        "examples": 64.0
+      }
+    },
+    {
+      "epoch": 3,
+      "learning_rate": 2e-05,
+      "train": {
+        "gradient_norm": 0.61222301912494,
+        "loss": 0.2382417842745781,
+        "registered_l1": 0.2119681336916983,
+        "registered_mse": 0.06995854701381177,
+        "observed_l1": 0.0,
+        "orientation": 0.42908813804388046,
+        "gradient": 0.03959935047896579,
+        "ridge_energy": 0.021447756880661473,
+        "ridge_band": 0.1018650660989806,
+        "effective_geometric_weight": 0.34055612166412175,
+        "examples": 256.0
+      },
+      "validation": {
+        "loss": 0.2226576805114746,
+        "registered_l1": 0.2061069393530488,
+        "registered_mse": 0.06730141118168831,
+        "observed_l1": 0.0,
+        "orientation": 0.3852512873709202,
+        "gradient": 0.03782431175932288,
+        "ridge_energy": 0.021770766121335328,
+        "ridge_band": 0.1078736768104136,
+        "effective_geometric_weight": 0.30256615299731493,
+        "examples": 64.0
+      }
+    }
+  ],
+  "train_images": 1213,
+  "validation_images": 287,
+  "test_loaded": false,
+  "seed_state": {
+    "seed": 1729,
+    "deterministic_torch": true,
+    "python_hash_seed": "1729"
+  }
+}

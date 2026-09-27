@@ -1,0 +1,104 @@
+{
+  "autoencoder_parameters": 559369,
+  "batch_size": 16,
+  "best_epoch": 1,
+  "best_validation_loss": 0.14341580278343624,
+  "denoiser_parameters": 2046948,
+  "device": "mps",
+  "elapsed_seconds": 56.42087316700008,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "examples": 4200,
+        "loss": 0.1459737871942066
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.15133519265386794
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "examples": 4200,
+        "loss": 0.14960040455772763
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.14341580278343624
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "examples": 4200,
+        "loss": 0.14934811106749943
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.14700029220845964
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "examples": 4200,
+        "loss": 0.14612407816307885
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.14558471812142265
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "examples": 4200,
+        "loss": 0.14495683176176888
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.14858684539794922
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "examples": 4200,
+        "loss": 0.1453414888892855
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.15505695190694596
+      }
+    }
+  ],
+  "initialization": {
+    "checkpoint": "outputs/latent_diffusion_v2/best-checkpoint.pt",
+    "missing_new_keys": [
+      "auxiliary_projections.0.weight",
+      "auxiliary_projections.0.bias",
+      "auxiliary_projections.1.weight",
+      "auxiliary_projections.1.bias",
+      "auxiliary_projections.2.weight",
+      "auxiliary_projections.2.bias"
+    ],
+    "unexpected_keys": []
+  },
+  "latent_scale": 0.6850601401315207,
+  "learning_rate": 0.0005,
+  "mode": "full",
+  "preview_ddim_steps": 50,
+  "resumed_optimizer": false,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "start_epoch": 0,
+  "stop_epoch": 12,
+  "timesteps": 500,
+  "train_auxiliary_only": true,
+  "trainable_denoiser_parameters": 1120
+}

@@ -1,0 +1,128 @@
+# Amendments to configs/experiment_registry.yaml
+#
+# The original registry (protocol_version 1) has not been modified since the
+# first commit, 146801e, 2026-09-22, and must stay that way: its value as a
+# pre-registration comes entirely from being older than the results. Everything
+# added after that date is recorded here instead, so that a reader can tell
+# which claims were governed by a rule written in advance and which were found
+# by looking at data.
+#
+# Nothing in this file promotes an exploratory result to a confirmatory one.
+
+protocol_version: 2
+amended: 2026-09-23
+supersedes: none        # protocol_version 1 remains binding as written
+amendment_type: scope_extension_and_post_hoc_disclosure
+
+# ---------------------------------------------------------------------------
+# 1. What the original protocol pre-specified, and which still holds
+# ---------------------------------------------------------------------------
+still_binding_from_v1:
+  - split_unit: subject
+  - test_policy: locked_until_model_and_hyperparameters_are_frozen
+  - clustering_unit: subject
+  - multiplicity_control: holm
+  - effect_sizes_required: true
+  - best_of_k_is_secondary_and_not_single_sample_performance
+  - claim_threshold_only_if_supported
+  - structural_loss_acceptance_rule:
+      must_improve_orientation_or_frequency_without_degrading_mae_beyond_margin
+
+test_split_compliance:
+  locked_from: 2026-09-22
+  opened: 2026-09-23
+  opened_after: every model, threshold and hyperparameter was frozen
+  evaluations_run: 1
+  note: >-
+    The sealed split was evaluated exactly once, for all eleven models at the
+    same time. No model was re-selected, re-tuned or re-trained afterwards.
+
+# ---------------------------------------------------------------------------
+# 2. Scope extension: NIST SD302
+# ---------------------------------------------------------------------------
+# Protocol v1 recorded `nist_status: deferred_by_user`. SD302 was added later,
+# at user request. Everything below therefore falls outside the original
+# pre-registration and is exploratory unless explicitly marked otherwise.
+scope_extension:
+  dataset: nist_sd302
+  status_in_v1: deferred_by_user
+  added: 2026-09-22_to_2026-09-23
+  reason: extend from clean synthetic prints to real forensic latents
+  consequence: >-
+    SD302 supplies no pixel-exact ground truth. The original protocol assumed a
+    known target (SOCOFing), so its outcome definitions did not have to say what
+    counts as ground truth. That question had to be answered after the fact.
+
+# ---------------------------------------------------------------------------
+# 3. Post-hoc constructs: invented after seeing data, labelled as such
+# ---------------------------------------------------------------------------
+post_hoc_constructs:
+  reporting_tracks:
+    status: exploratory
+    introduced: after SD302 was added
+    definition: docs/FINAL_REPORT.md section 2.5
+    tracks:
+      A: SOCOFing, synthetic mask, exact ground truth
+      B: X_pseudo, registered different impression, not ground truth
+      C: real held-out quality==1 pixels
+      D: predictive uncertainty
+      E: synthetic degradation of a clean SD302 exemplar, exact by construction
+    note: >-
+      Track E exists specifically to cross-check a Track B/C disagreement. It
+      was designed once that disagreement had been observed, not before.
+
+  evaluation_target_reversal:
+    status: exploratory_discovery_confirmed_on_sealed_split
+    discovered_on: validation
+    confirmed_on: sealed test split, single evaluation
+    corroborated_by: Track E exact synthetic ground truth
+    honest_label: >-
+      Discovered, not predicted. The confirmation is strong because the test
+      split was locked under the v1 rule before the finding existed, but the
+      hypothesis itself was generated from validation data.
+
+  distance_stratified_uncertainty:
+    status: exploratory
+    note: >-
+      v1 pre-specified uncertainty_error_correlation as a primary outcome, but
+      as a single global number. Stratifying it by distance to the nearest
+      examiner-verified correspondence was added after the global number proved
+      uninformative about *where* uncertainty fails.
+
+  ridge_topology_diagnostic:
+    status: exploratory
+    added: 2026-09-23
+    motivation: visible banding artifacts, not a pre-declared outcome
+
+  ridge_markov_predictability:
+    status: exploratory
+    added: 2026-09-23
+    module: src/fingerprint_reconstruction/metrics/ridge_markov.py
+    motivation: >-
+      Turn the descriptive ridge-topology result into a statistical test of
+      whether the reconstructed orientation field is too predictable to be real.
+    governed_by_v1_rules: [clustering_unit, multiplicity_control, effect_sizes_required]
+
+# ---------------------------------------------------------------------------
+# 4. What remains untested
+# ---------------------------------------------------------------------------
+open:
+  - >-
+    Recovery of ridges with no observable trace has not been measured on a real
+    latent. Track C pixels are faint existing traces; Track E is simulated.
+measured_after_this_file_was_written:
+  model_ranking_under_each_target:
+    status: exploratory
+    split: validation           # the sealed test split stays closed at one use
+    script: scripts/compare_nist302_target_rankings.py
+    output: outputs/nist302_target_ranking_validation.json
+    models: 8
+    images: 287
+    result:
+      ssim: {spearman_rho: 0.976, p: 0.0000, reading: pseudo-target is a safe proxy}
+      mae: {spearman_rho: -0.190, p: 0.651, reading: no usable relationship}
+      orientation_error: {spearman_rho: -0.786, p: 0.021, reading: ranking substantially inverted}
+    caveat: >-
+      Rank correlations are computed over 8 models, so only the orientation
+      result is separable from zero. The MAE result says "uncorrelated", not
+      "inverted".

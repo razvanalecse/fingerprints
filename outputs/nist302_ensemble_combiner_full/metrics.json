@@ -1,0 +1,88 @@
+{
+  "base_model_k": 3,
+  "best_epoch": 5,
+  "best_validation_combiner_mae": 0.1334434774518013,
+  "device": "mps",
+  "elapsed_seconds": 2954.188619875,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "combiner_mae": 0.14939594723284244,
+        "examples": 400.0,
+        "simple_average_mae": 0.164937180057168
+      },
+      "validation": {
+        "combiner_mae": 0.13533805549144745,
+        "examples": 100.0,
+        "simple_average_mae": 0.15257764726877213
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "combiner_mae": 0.1461049246042967,
+        "examples": 400.0,
+        "simple_average_mae": 0.16333478696644307
+      },
+      "validation": {
+        "combiner_mae": 0.13501215159893035,
+        "examples": 100.0,
+        "simple_average_mae": 0.1533343893289566
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "combiner_mae": 0.14524985484778882,
+        "examples": 400.0,
+        "simple_average_mae": 0.16384297244250776
+      },
+      "validation": {
+        "combiner_mae": 0.13509891480207442,
+        "examples": 100.0,
+        "simple_average_mae": 0.1530334985256195
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "combiner_mae": 0.14537189170718193,
+        "examples": 400.0,
+        "simple_average_mae": 0.16380733698606492
+      },
+      "validation": {
+        "combiner_mae": 0.13444631278514863,
+        "examples": 100.0,
+        "simple_average_mae": 0.15273204386234285
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "combiner_mae": 0.14426250800490378,
+        "examples": 400.0,
+        "simple_average_mae": 0.16329802498221396
+      },
+      "validation": {
+        "combiner_mae": 0.1334434774518013,
+        "examples": 100.0,
+        "simple_average_mae": 0.15228678911924362
+      }
+    }
+  ],
+  "model_order": [
+    "pixel_ddpm",
+    "residual_ddpm",
+    "cvae"
+  ],
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "9173",
+    "seed": 9173
+  },
+  "test_loaded": false,
+  "train_images": 400,
+  "training_target": "Track E exact synthetic ground truth (Sd302SyntheticPartialDataset), deliberately not X_pseudo",
+  "validation_images": 100
+}

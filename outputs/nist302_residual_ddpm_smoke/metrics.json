@@ -1,0 +1,38 @@
+{
+  "best_epoch": 1,
+  "best_validation_loss": 1.3933281898498535,
+  "ddim_preview_steps": 10,
+  "device": "cpu",
+  "elapsed_seconds": 0.9511047500000003,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "effective_missing_weight": 0.1526932679116726,
+        "examples": 4.0,
+        "gradient_norm_before_clip": 2.7286797761917114,
+        "loss": 1.178867518901825,
+        "missing_noise_mse": 1.122311294078827,
+        "observed_noise_mse": 1.131125569343567
+      },
+      "validation": {
+        "effective_missing_weight": 0.05859259516000748,
+        "examples": 2.0,
+        "loss": 1.3933281898498535,
+        "missing_noise_mse": 1.3380204439163208,
+        "observed_noise_mse": 1.1061550378799438
+      }
+    }
+  ],
+  "mode": "smoke_test",
+  "parameters": 134729,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "test_loaded": false,
+  "timesteps": 20,
+  "train_images": 1213,
+  "validation_images": 287
+}

@@ -1,0 +1,60 @@
+{
+  "candidate": "gated_sd302_full_no_spectrum",
+  "num_images": 287,
+  "num_subjects": 29,
+  "positive_mean_improvement_means_candidate_is_better": true,
+  "reference": "gated_sd302_pilot",
+  "split": "validation",
+  "tests": {
+    "evaluation_mae": {
+      "ci95_high": 0.02591433982808253,
+      "ci95_low": 0.015291172751729181,
+      "cohen_dz": 1.4754299377639177,
+      "mean_improvement": 0.020602756289905856,
+      "n": 29,
+      "paired_t_pvalue": 1.1828841459946173e-08,
+      "paired_t_statistic": 7.945433376238901,
+      "wilcoxon_pvalue": 1.862645149230957e-08,
+      "wilcoxon_pvalue_holm": 5.587935447692871e-08,
+      "wilcoxon_statistic": 3.0
+    },
+    "evaluation_orientation_error": {
+      "ci95_high": 0.1784437646570165,
+      "ci95_low": 0.11678302289232616,
+      "cohen_dz": 1.8212279150022601,
+      "mean_improvement": 0.14761339377467134,
+      "n": 29,
+      "paired_t_pvalue": 1.4752837651016002e-10,
+      "paired_t_statistic": 9.80761247364112,
+      "wilcoxon_pvalue": 1.862645149230957e-08,
+      "wilcoxon_pvalue_holm": 5.587935447692871e-08,
+      "wilcoxon_statistic": 3.0
+    },
+    "evaluation_ridge_frequency_relative_mae": {
+      "ci95_high": -0.041978683918110826,
+      "ci95_low": -0.10035014258382816,
+      "cohen_dz": -0.9274907880008897,
+      "mean_improvement": -0.07116441325096949,
+      "n": 29,
+      "paired_t_pvalue": 2.813896613241918e-05,
+      "paired_t_statistic": -4.99469075048384,
+      "wilcoxon_pvalue": 2.1148473024368286e-05,
+      "wilcoxon_pvalue_holm": 2.1148473024368286e-05,
+      "wilcoxon_statistic": 37.0
+    },
+    "evaluation_ssim_map_mean": {
+      "ci95_high": -0.03829381361365957,
+      "ci95_low": -0.049181994545637674,
+      "cohen_dz": -3.0559758424573102,
+      "mean_improvement": -0.04373790407964862,
+      "n": 29,
+      "paired_t_pvalue": 6.289603027682514e-16,
+      "paired_t_statistic": -16.45693355825432,
+      "wilcoxon_pvalue": 3.725290298461914e-09,
+      "wilcoxon_pvalue_holm": 1.4901161193847656e-08,
+      "wilcoxon_statistic": 0.0
+    }
+  },
+  "unit_of_analysis": "subject mean",
+  "warning": "Targets are registered_approximate; pixel metrics include residual registration and cross-impression appearance error."
+}

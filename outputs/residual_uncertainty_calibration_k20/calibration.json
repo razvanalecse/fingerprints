@@ -1,0 +1,98 @@
+{
+  "calibration_images": 30,
+  "calibration_split": "validation subjects",
+  "elapsed_seconds": 192.60545475000254,
+  "evaluation_split": "test subjects",
+  "gaussian_reference_multipliers": {
+    "0.5": 0.6744897501960817,
+    "0.8": 1.2815515655446004,
+    "0.9": 1.644853626951472
+  },
+  "interpretation": "pointwise pixel intervals; calibration targets are never supplied to the reconstruction model",
+  "learned_multipliers": {
+    "0.5": 0.9321759939193726,
+    "0.8": 1.822148323059082,
+    "0.9": 2.60359263420105
+  },
+  "samples_k": 20,
+  "steps": 50,
+  "test_calibrated": {
+    "0.5": {
+      "calibrated_coverage_mean_across_images": 0.47820237485448497,
+      "calibrated_coverage_sd_across_images": 0.1312927215793618,
+      "calibrated_interval_width": 0.3053489620486895,
+      "empirical_quantile_coverage": 0.31238237369169936,
+      "empirical_quantile_width": 0.2068696290254593,
+      "multiplier": 0.9321759939193726
+    },
+    "0.8": {
+      "calibrated_coverage_mean_across_images": 0.7775528861854312,
+      "calibrated_coverage_sd_across_images": 0.11041097562008538,
+      "calibrated_interval_width": 0.5968734463055928,
+      "empirical_quantile_coverage": 0.5252830678571871,
+      "empirical_quantile_width": 0.3794572830200195,
+      "multiplier": 1.822148323059082
+    },
+    "0.9": {
+      "calibrated_coverage_mean_across_images": 0.8858105322593172,
+      "calibrated_coverage_sd_across_images": 0.06263090231252456,
+      "calibrated_interval_width": 0.8528478741645813,
+      "empirical_quantile_coverage": 0.611487736904002,
+      "empirical_quantile_width": 0.4625581532716751,
+      "multiplier": 2.60359263420105
+    }
+  },
+  "test_gaussian_reference": {
+    "0.5": {
+      "calibrated_coverage_mean_across_images": 0.34803771986035054,
+      "calibrated_coverage_sd_across_images": 0.10816049092317,
+      "calibrated_interval_width": 0.2209397594134013,
+      "empirical_quantile_coverage": 0.31238237369169936,
+      "empirical_quantile_width": 0.2068696290254593,
+      "multiplier": 0.6744897501960817
+    },
+    "0.8": {
+      "calibrated_coverage_mean_across_images": 0.626970931982333,
+      "calibrated_coverage_sd_across_images": 0.13661602712555754,
+      "calibrated_interval_width": 0.41979245046774544,
+      "empirical_quantile_coverage": 0.5252830678571871,
+      "empirical_quantile_width": 0.3794572830200195,
+      "multiplier": 1.2815515655446004
+    },
+    "0.9": {
+      "calibrated_coverage_mean_across_images": 0.7376868349103372,
+      "calibrated_coverage_sd_across_images": 0.12115103957249537,
+      "calibrated_interval_width": 0.5387977470954259,
+      "empirical_quantile_coverage": 0.611487736904002,
+      "empirical_quantile_width": 0.4625581532716751,
+      "multiplier": 1.644853626951472
+    }
+  },
+  "test_images": 30,
+  "validation_calibrated": {
+    "0.5": {
+      "calibrated_coverage_mean_across_images": 0.5037987305254057,
+      "calibrated_coverage_sd_across_images": 0.11238422649360388,
+      "calibrated_interval_width": 0.3232201670606931,
+      "empirical_quantile_coverage": 0.33217284567899363,
+      "empirical_quantile_width": 0.22398612946271895,
+      "multiplier": 0.9321759939193726
+    },
+    "0.8": {
+      "calibrated_coverage_mean_across_images": 0.801908433199481,
+      "calibrated_coverage_sd_across_images": 0.09441588342822899,
+      "calibrated_interval_width": 0.6318067481120427,
+      "empirical_quantile_coverage": 0.5552243323985074,
+      "empirical_quantile_width": 0.404922283689181,
+      "multiplier": 1.822148323059082
+    },
+    "0.9": {
+      "calibrated_coverage_mean_across_images": 0.8982361497858844,
+      "calibrated_coverage_sd_across_images": 0.05908217279763337,
+      "calibrated_interval_width": 0.9027626276016235,
+      "empirical_quantile_coverage": 0.6425656831489931,
+      "empirical_quantile_width": 0.4899076173702876,
+      "multiplier": 2.60359263420105
+    }
+  }
+}

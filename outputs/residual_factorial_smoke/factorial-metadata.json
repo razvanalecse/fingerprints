@@ -1,0 +1,21 @@
+{
+  "checkpoint": "outputs/residual_latent_gabor_coarse_v1/best-checkpoint.pt",
+  "elapsed_seconds_this_invocation": 1.92549366700041,
+  "families": [
+    "central_only",
+    "peripheral_only"
+  ],
+  "fractions": [
+    0.2,
+    0.6
+  ],
+  "nested_masks": true,
+  "num_conditions": 8,
+  "num_images": 2,
+  "pixel_projection_interval": 5,
+  "replicate": 0,
+  "samples_k": 2,
+  "sampling_seconds_this_invocation": 0.7055974579998292,
+  "split": "validation",
+  "steps": 2
+}

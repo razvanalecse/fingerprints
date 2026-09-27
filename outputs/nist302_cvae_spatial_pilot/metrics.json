@@ -1,0 +1,206 @@
+{
+  "best_epoch": 3,
+  "best_validation_loss": 0.10825177142396569,
+  "device": "mps",
+  "elapsed_seconds": 33.095432375,
+  "history": [
+    {
+      "beta": 0.00625,
+      "epoch": 1,
+      "train": {
+        "effective_region_weight": 0.33733085519634187,
+        "examples": 256.0,
+        "kl": 0.12938765436410904,
+        "loss": 0.21457574469968677,
+        "missing_l1": 0.1986050345003605,
+        "missing_mse": 0.060648146201856434
+      },
+      "validation": {
+        "effective_region_weight": 0.3025661641731858,
+        "examples": 64.0,
+        "kl": 0.21167945582419634,
+        "loss": 0.14991640765219927,
+        "missing_l1": 0.1405503787100315,
+        "missing_mse": 0.032172134378924966
+      }
+    },
+    {
+      "beta": 0.0125,
+      "epoch": 2,
+      "train": {
+        "effective_region_weight": 0.34082747786305845,
+        "examples": 256.0,
+        "kl": 0.20879410486668348,
+        "loss": 0.16087086650077254,
+        "missing_l1": 0.14943757525179535,
+        "missing_mse": 0.035293460299726576
+      },
+      "validation": {
+        "effective_region_weight": 0.3025661641731858,
+        "examples": 64.0,
+        "kl": 0.18264809623360634,
+        "loss": 0.12449771026149392,
+        "missing_l1": 0.11641628807410598,
+        "missing_mse": 0.023193288245238364
+      }
+    },
+    {
+      "beta": 0.018750000000000003,
+      "epoch": 3,
+      "train": {
+        "effective_region_weight": 0.340556129347533,
+        "examples": 256.0,
+        "kl": 0.16732616943772882,
+        "loss": 0.13192795182112604,
+        "missing_l1": 0.12237729411572218,
+        "missing_mse": 0.025653163247625344
+      },
+      "validation": {
+        "effective_region_weight": 0.3025661641731858,
+        "examples": 64.0,
+        "kl": 0.16494117863476276,
+        "loss": 0.10825177142396569,
+        "missing_l1": 0.10065000643953681,
+        "missing_mse": 0.01803646661574021
+      }
+    }
+  ],
+  "latent_dim": 4,
+  "mode": "pilot",
+  "model_type": "spatial",
+  "parameters": 302441,
+  "probabilistic_evaluation": {
+    "metrics": {
+      "mean_heldout_q1_mae": {
+        "ci95_high": 0.2070166341103568,
+        "ci95_low": 0.17551527800960048,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.19126595605997865,
+        "standard_deviation": 0.06305503077272306
+      },
+      "mean_heldout_q1_max_absolute_error": {
+        "ci95_high": 0.5236622123367324,
+        "ci95_low": 0.4884598175675437,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.5060610149521381,
+        "standard_deviation": 0.07046325492607747
+      },
+      "mean_heldout_q1_mse": {
+        "ci95_high": 0.05704819715628826,
+        "ci95_low": 0.04345130877517119,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.05024975296572973,
+        "standard_deviation": 0.027216358957449217
+      },
+      "mean_heldout_q1_orientation_error": {
+        "ci95_high": 0.47082829051349545,
+        "ci95_low": 0.34042392508724045,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.40562610780036795,
+        "standard_deviation": 0.26102531105486293
+      },
+      "mean_heldout_q1_pixels": {
+        "ci95_high": 2482.5744446901235,
+        "ci95_low": 1828.4255553098765,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 2155.5,
+        "standard_deviation": 1309.3842124728005
+      },
+      "mean_heldout_q1_psnr": {
+        "ci95_high": 14.20358103707731,
+        "ci95_low": 13.011091086524129,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 13.60733606180072,
+        "standard_deviation": 2.386960430776133
+      },
+      "mean_heldout_q1_ssim_map_mean": {
+        "ci95_high": 0.2882125778023266,
+        "ci95_low": 0.22923982362989312,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.25872620071610986,
+        "standard_deviation": 0.1180434523898399
+      },
+      "pairwise_diversity_mae": {
+        "ci95_high": 0.11563887379463864,
+        "ci95_low": 0.11088950752571516,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.1132641906601769,
+        "standard_deviation": 0.00950662045405442
+      },
+      "single_heldout_q1_mae": {
+        "ci95_high": 0.21433839001855523,
+        "ci95_low": 0.1863185513593281,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.20032847068894166,
+        "standard_deviation": 0.05608621366182648
+      },
+      "single_heldout_q1_max_absolute_error": {
+        "ci95_high": 0.574247928798754,
+        "ci95_low": 0.5374796898135951,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.5558638093061745,
+        "standard_deviation": 0.07359754396771401
+      },
+      "single_heldout_q1_mse": {
+        "ci95_high": 0.06387223146931996,
+        "ci95_low": 0.05042389673938013,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.05714806410435004,
+        "standard_deviation": 0.026919004931913893
+      },
+      "single_heldout_q1_pixels": {
+        "ci95_high": 2482.5744446901235,
+        "ci95_low": 1828.4255553098765,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 2155.5,
+        "standard_deviation": 1309.3842124728005
+      },
+      "single_heldout_q1_psnr": {
+        "ci95_high": 13.415171673766649,
+        "ci95_low": 12.382240573976512,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 12.89870612387158,
+        "standard_deviation": 2.067577728242815
+      },
+      "single_heldout_q1_ssim_map_mean": {
+        "ci95_high": 0.23643241256063882,
+        "ci95_low": 0.19190749214346456,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.2141699523520517,
+        "standard_deviation": 0.08912378940380154
+      },
+      "uncertainty_error_spearman": {
+        "ci95_high": -0.07786205504962321,
+        "ci95_low": -0.15582167080068576,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": -0.11684186292515449,
+        "standard_deviation": 0.15604870960126338
+      }
+    },
+    "num_images": 64
+  },
+  "samples_k": 4,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "test_loaded": false,
+  "train_images": 1213,
+  "validation_images": 287
+}

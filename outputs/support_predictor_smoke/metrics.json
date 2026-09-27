@@ -1,0 +1,31 @@
+{
+  "best_epoch": 0,
+  "best_validation_loss": 1.218091607093811,
+  "device": "mps",
+  "elapsed_seconds": 0.7101593749999893,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "bce": 0.7480829060077667,
+        "dice_loss": 0.4915037155151367,
+        "iou": 0.05421943590044975,
+        "loss": 1.239586591720581
+      },
+      "validation": {
+        "bce": 0.7400214672088623,
+        "dice_loss": 0.47807013988494873,
+        "iou": 0.00574030727148056,
+        "loss": 1.218091607093811
+      }
+    }
+  ],
+  "mode": "smoke_test",
+  "model_parameters": 32753,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "target_definition": "foreground extracted from complete training/validation images; never supplied at inference"
+}

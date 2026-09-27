@@ -1,0 +1,119 @@
+{
+  "case_selection": "evenly spaced validation cases; one per selected row",
+  "elapsed_seconds": 30.93025558399995,
+  "identical_initial_noise_within_pair": true,
+  "means": {
+    "plain": {
+      "best_of_k_mae": 0.2895832282368012,
+      "mean_mae": 0.26379068856055105,
+      "mean_orientation_error": 0.3804300368593917,
+      "mean_psnr": 10.110248104697181,
+      "mean_ssim_map_mean": 0.0936132566183742,
+      "single_mae": 0.34318299586031825,
+      "uncertainty_error_spearman": 0.15902353905337877
+    },
+    "reinjected": {
+      "best_of_k_mae": 0.2633399802087172,
+      "mean_mae": 0.2532273819353905,
+      "mean_orientation_error": 0.34272380596634644,
+      "mean_psnr": 10.479951705254111,
+      "mean_ssim_map_mean": 0.10525596648197172,
+      "single_mae": 0.3035466867562518,
+      "uncertainty_error_spearman": 0.1832969236846958
+    }
+  },
+  "num_pairs": 90,
+  "paired_tests": {
+    "best_of_k_mae": {
+      "ci95_high": 0.03116194789462389,
+      "ci95_low": 0.021324548161544145,
+      "cohen_dz": 1.1174786091027953,
+      "mean_improvement": 0.026243248028084018,
+      "n": 90,
+      "paired_t_pvalue": 1.850610875321929e-17,
+      "paired_t_statistic": 10.601332923845408,
+      "wilcoxon_pvalue": 3.2824376636658063e-14,
+      "wilcoxon_pvalue_holm": 2.2977063645660643e-13,
+      "wilcoxon_statistic": 162.0
+    },
+    "mean_mae": {
+      "ci95_high": 0.01533488049654843,
+      "ci95_low": 0.005791732753772794,
+      "cohen_dz": 0.463671274721643,
+      "mean_improvement": 0.010563306625160612,
+      "n": 90,
+      "paired_t_pvalue": 3.0094101374315714e-05,
+      "paired_t_statistic": 4.39877194114214,
+      "wilcoxon_pvalue": 2.7372721953014845e-06,
+      "wilcoxon_pvalue_holm": 8.211816585904454e-06,
+      "wilcoxon_statistic": 882.0
+    },
+    "mean_orientation_error": {
+      "ci95_high": 0.05812574891241827,
+      "ci95_low": 0.01728671287367226,
+      "cohen_dz": 0.386758255393527,
+      "mean_improvement": 0.03770623089304526,
+      "n": 90,
+      "paired_t_pvalue": 0.00041418866901302,
+      "paired_t_statistic": 3.669110972749941,
+      "wilcoxon_pvalue": 0.0002648312201243782,
+      "wilcoxon_pvalue_holm": 0.0002648312201243782,
+      "wilcoxon_statistic": 1141.0
+    },
+    "mean_psnr": {
+      "ci95_high": 0.5244018786248396,
+      "ci95_low": 0.2150053224890204,
+      "cohen_dz": 0.500541576730242,
+      "mean_improvement": 0.36970360055692997,
+      "n": 90,
+      "paired_t_pvalue": 7.792969025859843e-06,
+      "paired_t_statistic": 4.748554338238503,
+      "wilcoxon_pvalue": 1.0897450503667234e-06,
+      "wilcoxon_pvalue_holm": 4.358980201466894e-06,
+      "wilcoxon_statistic": 836.0
+    },
+    "mean_ssim_map_mean": {
+      "ci95_high": 0.015188047148700751,
+      "ci95_low": 0.00809737257849425,
+      "cohen_dz": 0.6878099810215171,
+      "mean_improvement": 0.0116427098635975,
+      "n": 90,
+      "paired_t_pvalue": 4.034954208012516e-09,
+      "paired_t_statistic": 6.525138412275543,
+      "wilcoxon_pvalue": 1.0178879747698354e-08,
+      "wilcoxon_pvalue_holm": 5.089439873849177e-08,
+      "wilcoxon_statistic": 624.0
+    },
+    "single_mae": {
+      "ci95_high": 0.04874975973849842,
+      "ci95_low": 0.03052285846963457,
+      "cohen_dz": 0.910924363685927,
+      "mean_improvement": 0.03963630910406649,
+      "n": 90,
+      "paired_t_pvalue": 2.0696474880949053e-13,
+      "paired_t_statistic": 8.64178729616131,
+      "wilcoxon_pvalue": 2.3161854968550875e-13,
+      "wilcoxon_pvalue_holm": 1.3897112981130525e-12,
+      "wilcoxon_statistic": 226.0
+    },
+    "uncertainty_error_spearman": {
+      "ci95_high": 0.03751218877205725,
+      "ci95_low": 0.011034580490576765,
+      "cohen_dz": 0.38401972946916935,
+      "mean_improvement": 0.02427338463131701,
+      "n": 90,
+      "paired_t_pvalue": 0.0004522764574665979,
+      "paired_t_statistic": 3.643131034692777,
+      "wilcoxon_pvalue": 5.0377983580320844e-05,
+      "wilcoxon_pvalue_holm": 0.00010075596716064169,
+      "wilcoxon_statistic": 1040.0
+    }
+  },
+  "samples_k": 5,
+  "sampling_seconds": {
+    "plain": 12.528735869997945,
+    "reinjected": 12.537899628000105
+  },
+  "steps": 50,
+  "support_constraint": "predicted from Y,M; target foreground used only to define evaluation ROI"
+}

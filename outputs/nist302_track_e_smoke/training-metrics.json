@@ -1,0 +1,72 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "missing_l1": 0.1434565605595708,
+        "missing_mse": 0.03522212023381144,
+        "observed_l1": 0.0,
+        "orientation": 0.440691277384758,
+        "gradient": 0.027858783956617117,
+        "ridge_energy": 0.02421218273229897,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.0,
+        "ridge_spectrum": 0.0,
+        "boundary_continuity": 0.0,
+        "predicted_orientation_consistency": 0.0,
+        "total": 0.19707429222762585
+      },
+      "validation": {
+        "missing_l1": 0.09651442151516676,
+        "missing_mse": 0.016211670939810574,
+        "observed_l1": 0.0,
+        "orientation": 0.6014188900589943,
+        "gradient": 0.02279442106373608,
+        "ridge_energy": 0.017599467420950532,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.0,
+        "ridge_spectrum": 0.0,
+        "boundary_continuity": 0.0,
+        "predicted_orientation_consistency": 0.0,
+        "total": 0.2394751887768507
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "missing_l1": 0.1322050215676427,
+        "missing_mse": 0.02828828035853803,
+        "observed_l1": 0.0,
+        "orientation": 0.4238279853016138,
+        "gradient": 0.02852281997911632,
+        "ridge_energy": 0.022343098651617765,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.0,
+        "ridge_spectrum": 0.0,
+        "boundary_continuity": 0.0,
+        "predicted_orientation_consistency": 0.0,
+        "total": 0.18789205979555845
+      },
+      "validation": {
+        "missing_l1": 0.08241276675835252,
+        "missing_mse": 0.013008931942749768,
+        "observed_l1": 0.0,
+        "orientation": 0.6009521670639515,
+        "gradient": 0.022235026815906167,
+        "ridge_energy": 0.018495513824746013,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.0,
+        "ridge_spectrum": 0.0,
+        "boundary_continuity": 0.0,
+        "predicted_orientation_consistency": 0.0,
+        "total": 0.23565994948148727
+      }
+    }
+  ],
+  "best_validation_loss": 0.23565994948148727,
+  "elapsed_seconds": 1.1736973749939352
+}

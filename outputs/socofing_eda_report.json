@@ -1,0 +1,56 @@
+{
+  "orientation_diagnostic": {
+    "mean_valid_coherence": 0.7363412976264954,
+    "valid_orientation_fraction": 0.991455078125
+  },
+  "representative_sample": "socofing:000001:left_thumb",
+  "summary": {
+    "gender_images": {
+      "F": 1230,
+      "M": 4770
+    },
+    "hand_images": {
+      "Left": 3000,
+      "Right": 3000
+    },
+    "image_shapes": {
+      "103x96": 5956,
+      "298x241": 44
+    },
+    "intensity_mean_quantiles": {
+      "q00": 0.14669395266197094,
+      "q05": 0.40024975807475094,
+      "q100": 0.864792737483343,
+      "q25": 0.5101073196268799,
+      "q50": 0.5652789675740846,
+      "q75": 0.6215525652008377,
+      "q95": 0.6897242647058824
+    },
+    "intensity_std_quantiles": {
+      "q00": 0.28090115829043305,
+      "q05": 0.3532394270092639,
+      "q100": 0.47359804998862104,
+      "q25": 0.3950695830583548,
+      "q50": 0.41293017174061164,
+      "q75": 0.42452545151917154,
+      "q95": 0.4395564193256364
+    },
+    "num_fingers": 6000,
+    "num_images": 6000,
+    "num_subjects": 600,
+    "source_modes": {
+      "RGB": 44,
+      "RGBA": 5956
+    },
+    "split_images": {
+      "test": 900,
+      "train": 4200,
+      "validation": 900
+    },
+    "split_subjects": {
+      "test": 90,
+      "train": 420,
+      "validation": 90
+    }
+  }
+}

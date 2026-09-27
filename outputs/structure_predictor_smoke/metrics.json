@@ -1,0 +1,37 @@
+{
+  "best_epoch": 0,
+  "best_validation_loss": 2.6546084880828857,
+  "device": "mps",
+  "elapsed_seconds": 0.8272905829999218,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "circular_error": 1.3042354583740234,
+        "coherence": 0.22236964106559753,
+        "loss": 2.5915170907974243,
+        "orientation": 1.3042354583740234,
+        "support_bce": 0.7518267929553986,
+        "support_dice": 0.47986260056495667,
+        "support_iou": 0.1365593783557415
+      },
+      "validation": {
+        "circular_error": 1.4119365215301514,
+        "coherence": 0.16682803630828857,
+        "loss": 2.6546084880828857,
+        "orientation": 1.4119365215301514,
+        "support_bce": 0.7368818521499634,
+        "support_dice": 0.46408307552337646,
+        "support_iou": 0.05161641538143158
+      }
+    }
+  ],
+  "mode": "smoke_test",
+  "model_parameters": 51948,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "target_definition": "support/orientation/coherence derived from complete image only as a supervised target; inference receives only Y and M"
+}

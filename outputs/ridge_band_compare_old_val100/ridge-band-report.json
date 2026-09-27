@@ -1,0 +1,78 @@
+{
+  "autoencoder_frequency_mae_cpx": {
+    "count": 100,
+    "mean": 0.006488983144956241,
+    "median": 0.004369238366988586,
+    "q05": 0.0006241952209640638,
+    "q25": 0.0017376399396593972,
+    "q75": 0.00750482687193126,
+    "q95": 0.023682673805808293,
+    "std": 0.008590465836100156
+  },
+  "autoencoder_period_mae_pixels": {
+    "count": 100,
+    "mean": 0.15653718134499456,
+    "median": 0.09644471501766712,
+    "q05": 0.011718352503905289,
+    "q25": 0.03447171768009749,
+    "q75": 0.16135166487467323,
+    "q95": 0.6118752647584786,
+    "std": 0.2198535917949711
+  },
+  "coarse_checkpoint": "outputs/gated_full_mps/best-checkpoint.pt",
+  "coarse_missing_frequency_mae_cpx": {
+    "count": 100,
+    "mean": 0.05647037917994749,
+    "median": 0.05241737971230159,
+    "q05": 0.014572533107235143,
+    "q25": 0.038897765400381853,
+    "q75": 0.07350047826908261,
+    "q95": 0.09955670532479295,
+    "std": 0.02671704714963579
+  },
+  "coarse_missing_period_mae_pixels": {
+    "count": 100,
+    "mean": 2.9309513350511396,
+    "median": 2.7695335611444536,
+    "q05": 0.3058481326965074,
+    "q25": 1.111956449098434,
+    "q75": 4.416881508185506,
+    "q95": 6.4697807639359395,
+    "std": 2.0040278174878883
+  },
+  "device": "cpu",
+  "estimator": {
+    "minimum_peak_prominence": 1.5,
+    "patch_size": 32,
+    "search_frequency_interval": [
+      0.04,
+      0.4
+    ],
+    "stride": 8
+  },
+  "frequency_unit": "cycles_per_pixel_after_resize_to_128x128",
+  "interpretation_guard": "The empirical band is resolution-specific and must not be transferred blindly to NIST images.",
+  "num_images": 100,
+  "period_unit": "pixels_after_resize_to_128x128",
+  "split": "validation",
+  "target_frequency": {
+    "count": 14016,
+    "mean": 0.2405467969641838,
+    "median": 0.2421875,
+    "q05": 0.171875,
+    "q25": 0.21484375,
+    "q75": 0.26953125,
+    "q95": 0.3046875,
+    "std": 0.04319444361638166
+  },
+  "target_period": {
+    "count": 14016,
+    "mean": 4.362303301930155,
+    "median": 4.129032135009766,
+    "q05": 3.2820513248443604,
+    "q25": 3.7101449966430664,
+    "q75": 4.654545307159424,
+    "q95": 5.818181991577148,
+    "std": 1.3678167087374196
+  }
+}

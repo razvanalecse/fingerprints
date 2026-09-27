@@ -1,0 +1,77 @@
+{
+  "mode": "pilot",
+  "device": "mps",
+  "elapsed_seconds": 64.4746903339983,
+  "best_epoch": 3,
+  "best_validation_loss": 0.505731575191021,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 0.6136074573732913,
+        "bce": 0.40897737769410014,
+        "dice_loss": 0.20463007874786854,
+        "iou": 0.7149151796475053,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 0.51552864164114,
+        "bce": 0.3520888425409794,
+        "dice_loss": 0.1634397991001606,
+        "iou": 0.7864332646131516,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 0.5676508639007807,
+        "bce": 0.3848007251508534,
+        "dice_loss": 0.18285013642162085,
+        "iou": 0.7625837530940771,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 0.5076191164553165,
+        "bce": 0.3502210434526205,
+        "dice_loss": 0.1573980711400509,
+        "iou": 0.7964674979448318,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 0.5699929972179234,
+        "bce": 0.3880616342648864,
+        "dice_loss": 0.18193136528134346,
+        "iou": 0.7633221633732319,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 0.505731575191021,
+        "bce": 0.35102395340800285,
+        "dice_loss": 0.1547076217830181,
+        "iou": 0.7926347926259041,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    }
+  ],
+  "train_images": 1213,
+  "validation_images": 287,
+  "test_loaded": false,
+  "seed_state": {
+    "seed": 1729,
+    "deterministic_torch": true,
+    "python_hash_seed": "1729"
+  },
+  "target_mode": "registered_approximate_full_support",
+  "target_definition": "union of quality>=2 observed latent support and geometrically registered exemplar foreground",
+  "scope_warning": "The target is registered_approximate, not pixel-exact full-print ground truth."
+}

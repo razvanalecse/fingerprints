@@ -1,0 +1,160 @@
+{
+  "comparisons": {
+    "gated_vs_classical": {
+      "evaluation_mae": {
+        "ci95_high": -0.0331764535843359,
+        "ci95_low": -0.0468081998201643,
+        "cohen_dz": -2.231888306495936,
+        "mean_improvement": -0.0399923267022501,
+        "n": 29,
+        "paired_t_pvalue": 1.4348948272110727e-12,
+        "paired_t_statistic": -12.01908636159694,
+        "wilcoxon_pvalue": 7.450580596923828e-09,
+        "wilcoxon_pvalue_holm": 1.4901161193847656e-08,
+        "wilcoxon_statistic": 1.0
+      },
+      "evaluation_orientation_error": {
+        "ci95_high": 0.21565938517435157,
+        "ci95_low": 0.0792624994405474,
+        "cohen_dz": 0.8224695504187692,
+        "mean_improvement": 0.1474609423074495,
+        "n": 29,
+        "paired_t_pvalue": 0.00013176699436520022,
+        "paired_t_statistic": 4.4291340778548935,
+        "wilcoxon_pvalue": 4.700571298599243e-05,
+        "wilcoxon_pvalue_holm": 4.700571298599243e-05,
+        "wilcoxon_statistic": 43.0
+      },
+      "evaluation_ridge_frequency_relative_mae": {
+        "ci95_high": -0.0967296067405374,
+        "ci95_low": -0.13062226942093016,
+        "cohen_dz": -2.551585559090254,
+        "mean_improvement": -0.11367593808073378,
+        "n": 29,
+        "paired_t_pvalue": 5.722332484976772e-14,
+        "paired_t_statistic": -13.740708755205453,
+        "wilcoxon_pvalue": 3.725290298461914e-09,
+        "wilcoxon_pvalue_holm": 1.4901161193847656e-08,
+        "wilcoxon_statistic": 0.0
+      },
+      "evaluation_ssim_map_mean": {
+        "ci95_high": -0.026203160330045966,
+        "ci95_low": -0.042136938913233765,
+        "cohen_dz": -1.6314512824637073,
+        "mean_improvement": -0.034170049621639866,
+        "n": 29,
+        "paired_t_pvalue": 1.54633504045377e-09,
+        "paired_t_statistic": -8.78563403087801,
+        "wilcoxon_pvalue": 3.725290298461914e-09,
+        "wilcoxon_pvalue_holm": 1.4901161193847656e-08,
+        "wilcoxon_statistic": 0.0
+      }
+    },
+    "gated_vs_unet": {
+      "evaluation_mae": {
+        "ci95_high": 0.025289930103303014,
+        "ci95_low": 0.019376079655648325,
+        "cohen_dz": 2.8729237606661533,
+        "mean_improvement": 0.02233300487947567,
+        "n": 29,
+        "paired_t_pvalue": 3.004403598805515e-15,
+        "paired_t_statistic": 15.471167929519881,
+        "wilcoxon_pvalue": 3.725290298461914e-09,
+        "wilcoxon_pvalue_holm": 1.4901161193847656e-08,
+        "wilcoxon_statistic": 0.0
+      },
+      "evaluation_orientation_error": {
+        "ci95_high": 0.016039239874336662,
+        "ci95_low": -0.0031249626324460836,
+        "cohen_dz": 0.2563283468175065,
+        "mean_improvement": 0.006457138620945289,
+        "n": 29,
+        "paired_t_pvalue": 0.17839426328659072,
+        "paired_t_statistic": 1.3803703923526038,
+        "wilcoxon_pvalue": 0.21324460953474045,
+        "wilcoxon_pvalue_holm": 0.4264892190694809,
+        "wilcoxon_statistic": 159.0
+      },
+      "evaluation_ridge_frequency_relative_mae": {
+        "ci95_high": 0.032026019735716046,
+        "ci95_low": -0.005613409668871368,
+        "cohen_dz": 0.26692273805730093,
+        "mean_improvement": 0.01320630503342234,
+        "n": 29,
+        "paired_t_pvalue": 0.1616801628553572,
+        "paired_t_statistic": 1.4374229352101588,
+        "wilcoxon_pvalue": 0.27462591975927353,
+        "wilcoxon_pvalue_holm": 0.4264892190694809,
+        "wilcoxon_statistic": 166.0
+      },
+      "evaluation_ssim_map_mean": {
+        "ci95_high": 0.004920780254518057,
+        "ci95_low": 0.0013981708395175059,
+        "cohen_dz": 0.6823352140625709,
+        "mean_improvement": 0.0031594755470177815,
+        "n": 29,
+        "paired_t_pvalue": 0.0009984706372438608,
+        "paired_t_statistic": 3.6744875814383446,
+        "wilcoxon_pvalue": 0.0012797452509403229,
+        "wilcoxon_pvalue_holm": 0.0038392357528209686,
+        "wilcoxon_statistic": 74.0
+      }
+    },
+    "unet_vs_classical": {
+      "evaluation_mae": {
+        "ci95_high": -0.054338733081279164,
+        "ci95_low": -0.07031193008217237,
+        "cohen_dz": -2.9683836295456265,
+        "mean_improvement": -0.06232533158172577,
+        "n": 29,
+        "paired_t_pvalue": 1.3163293033595103e-15,
+        "paired_t_statistic": -15.985235055903292,
+        "wilcoxon_pvalue": 7.450580596923828e-09,
+        "wilcoxon_pvalue_holm": 2.2351741790771484e-08,
+        "wilcoxon_statistic": 1.0
+      },
+      "evaluation_orientation_error": {
+        "ci95_high": 0.21137355145480757,
+        "ci95_low": 0.07063405591820081,
+        "cohen_dz": 0.7621880164652243,
+        "mean_improvement": 0.1410038036865042,
+        "n": 29,
+        "paired_t_pvalue": 0.00031732092957834383,
+        "paired_t_statistic": 4.104508082688179,
+        "wilcoxon_pvalue": 0.00015582889318466187,
+        "wilcoxon_pvalue_holm": 0.00015582889318466187,
+        "wilcoxon_statistic": 53.0
+      },
+      "evaluation_ridge_frequency_relative_mae": {
+        "ci95_high": -0.10273987886064181,
+        "ci95_low": -0.15102460736767045,
+        "cohen_dz": -1.9991175511309591,
+        "mean_improvement": -0.12688224311415613,
+        "n": 29,
+        "paired_t_pvalue": 1.8428907984034543e-11,
+        "paired_t_statistic": -10.765577481675354,
+        "wilcoxon_pvalue": 7.450580596923828e-09,
+        "wilcoxon_pvalue_holm": 2.2351741790771484e-08,
+        "wilcoxon_statistic": 1.0
+      },
+      "evaluation_ssim_map_mean": {
+        "ci95_high": -0.02977097974606447,
+        "ci95_low": -0.04488807059125082,
+        "cohen_dz": -1.8785879005497008,
+        "mean_improvement": -0.037329525168657646,
+        "n": 29,
+        "paired_t_pvalue": 7.448540224813874e-11,
+        "paired_t_statistic": -10.11650544914894,
+        "wilcoxon_pvalue": 3.725290298461914e-09,
+        "wilcoxon_pvalue_holm": 1.4901161193847656e-08,
+        "wilcoxon_statistic": 0.0
+      }
+    }
+  },
+  "num_images": 287,
+  "num_subjects": 29,
+  "positive_mean_improvement_means_candidate_is_better": true,
+  "split": "validation",
+  "unit_of_analysis": "subject mean",
+  "warning": "Targets are registered_approximate and pixel metrics are alignment-sensitive."
+}

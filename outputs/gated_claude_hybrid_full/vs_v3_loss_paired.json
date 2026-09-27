@@ -1,0 +1,59 @@
+{
+  "metrics": {
+    "missing_roi_mae": {
+      "ci95_high": 0.0030817161449080686,
+      "ci95_low": 0.0020526005471925017,
+      "cohen_dz": 0.3263851715920094,
+      "mean_improvement": 0.002567158346050285,
+      "n": 900,
+      "paired_t_pvalue": 1.401794816931106e-21,
+      "paired_t_statistic": 9.791555147760285,
+      "wilcoxon_pvalue": 1.1539551987918373e-33,
+      "wilcoxon_pvalue_holm": 1.1539551987918373e-33,
+      "wilcoxon_statistic": 108393.0
+    },
+    "missing_roi_orientation_error": {
+      "ci95_high": 0.011827235747908421,
+      "ci95_low": 0.008120019341134693,
+      "cohen_dz": 0.3520036203031053,
+      "mean_improvement": 0.009973627544521557,
+      "n": 900,
+      "paired_t_pvalue": 1.181887186007266e-24,
+      "paired_t_statistic": 10.56010860909316,
+      "wilcoxon_pvalue": 2.4186220338691644e-40,
+      "wilcoxon_pvalue_holm": 4.837244067738329e-40,
+      "wilcoxon_statistic": 99001.0
+    },
+    "missing_roi_psnr": {
+      "ci95_high": 0.19071462660420624,
+      "ci95_low": 0.13755509118052922,
+      "cohen_dz": 0.40398158800588535,
+      "mean_improvement": 0.16413485889236773,
+      "n": 900,
+      "paired_t_pvalue": 2.022988266436977e-31,
+      "paired_t_statistic": 12.119447640176562,
+      "wilcoxon_pvalue": 2.682747088952642e-50,
+      "wilcoxon_pvalue_holm": 8.048241266857925e-50,
+      "wilcoxon_statistic": 86387.0
+    },
+    "missing_roi_ssim_map_mean": {
+      "ci95_high": 0.01490964310104419,
+      "ci95_low": 0.012553508973136208,
+      "cohen_dz": 0.7625394185176093,
+      "mean_improvement": 0.0137315760370902,
+      "n": 900,
+      "paired_t_pvalue": 1.2132634942400662e-91,
+      "paired_t_statistic": 22.876182555528278,
+      "wilcoxon_pvalue": 6.887780580691838e-91,
+      "wilcoxon_pvalue_holm": 2.7551122322767354e-90,
+      "wilcoxon_statistic": 45015.0
+    }
+  },
+  "num_cases": 900,
+  "pairing_key": [
+    "sample_id",
+    "mask_family",
+    "observed_fraction"
+  ],
+  "positive_mean_improvement_means_candidate_is_better": true
+}

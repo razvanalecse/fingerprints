@@ -1,0 +1,74 @@
+{
+  "best_epoch": 2,
+  "best_validation_loss": 0.12655565096065402,
+  "ddim_preview_steps": 20,
+  "device": "mps",
+  "elapsed_seconds": 35.26753699999972,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "effective_missing_weight": 0.11992460867622867,
+        "examples": 256.0,
+        "gradient_norm_before_clip": 2.3564416505396366,
+        "loss": 0.5592307196930051,
+        "missing_noise_mse": 0.5215642424300313,
+        "observed_noise_mse": 0.7533295601606369
+      },
+      "validation": {
+        "effective_missing_weight": 0.09256665594875813,
+        "examples": 64.0,
+        "loss": 0.2533269254490733,
+        "missing_noise_mse": 0.22576518822461367,
+        "observed_noise_mse": 0.5512347389012575
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "effective_missing_weight": 0.11723588046152145,
+        "examples": 256.0,
+        "gradient_norm_before_clip": 1.4049982391297817,
+        "loss": 0.20142157131340355,
+        "missing_noise_mse": 0.18068042083177716,
+        "observed_noise_mse": 0.4148230138234794
+      },
+      "validation": {
+        "effective_missing_weight": 0.09256665594875813,
+        "examples": 64.0,
+        "loss": 0.12655565096065402,
+        "missing_noise_mse": 0.11489773588255048,
+        "observed_noise_mse": 0.23315828386694193
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "effective_missing_weight": 0.12061550375074148,
+        "examples": 256.0,
+        "gradient_norm_before_clip": 0.8563823052681983,
+        "loss": 0.1353185540647246,
+        "missing_noise_mse": 0.12313838908448815,
+        "observed_noise_mse": 0.24360329972114414
+      },
+      "validation": {
+        "effective_missing_weight": 0.09256665594875813,
+        "examples": 64.0,
+        "loss": 0.12670090957544744,
+        "missing_noise_mse": 0.11740757548250258,
+        "observed_noise_mse": 0.18586666649207473
+      }
+    }
+  ],
+  "mode": "pilot",
+  "parameters": 2074273,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "test_loaded": false,
+  "timesteps": 100,
+  "train_images": 1213,
+  "validation_images": 287
+}

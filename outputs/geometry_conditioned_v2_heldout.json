@@ -1,0 +1,68 @@
+{
+  "baseline_mean": {
+    "mae": 0.14376236519391933,
+    "orientation_error": 0.5166032479673721,
+    "ridge_frequency_relative_mae": NaN,
+    "ssim_map_mean": 0.20479468809565665
+  },
+  "geometry_mean": {
+    "mae": 0.14441760271020926,
+    "orientation_error": 0.5373047148968446,
+    "ridge_frequency_relative_mae": NaN,
+    "ssim_map_mean": 0.21448570928885213
+  },
+  "images": 284,
+  "improvement_sign": "positive mean_improvement = geometry conditioning is better",
+  "paired_subject_tests": {
+    "mae": {
+      "ci95_high": 0.0013376752144551134,
+      "ci95_low": -0.0026481502470349864,
+      "cohen_dz": -0.1250626872930218,
+      "mean_improvement": -0.0006552375162899366,
+      "n": 29,
+      "paired_t_pvalue": 0.5061616143144273,
+      "paired_t_statistic": -0.6734831822960486,
+      "wilcoxon_pvalue": 0.5503522604703903,
+      "wilcoxon_pvalue_holm": 0.5503522604703903,
+      "wilcoxon_statistic": 189.0
+    },
+    "orientation_error": {
+      "ci95_high": 0.0010980493573353976,
+      "ci95_low": -0.04250098321628018,
+      "cohen_dz": -0.3612197988602993,
+      "mean_improvement": -0.020701466929472393,
+      "n": 29,
+      "paired_t_pvalue": 0.06185153778546652,
+      "paired_t_statistic": -1.9452281484626879,
+      "wilcoxon_pvalue": 0.03080105036497116,
+      "wilcoxon_pvalue_holm": 0.09240315109491348,
+      "wilcoxon_statistic": 118.0
+    },
+    "ridge_frequency_relative_mae": {
+      "ci95_high": 0.07103824616786714,
+      "ci95_low": -0.01714982764434928,
+      "cohen_dz": 0.23694527381462926,
+      "mean_improvement": 0.026944209261758924,
+      "n": 28,
+      "paired_t_pvalue": 0.22066371383398886,
+      "paired_t_statistic": 1.2537965376912277,
+      "wilcoxon_pvalue": 0.14377250522375107,
+      "wilcoxon_pvalue_holm": 0.28754501044750214,
+      "wilcoxon_statistic": 138.0
+    },
+    "ssim_map_mean": {
+      "ci95_high": 0.014779498727851833,
+      "ci95_low": 0.004602543658539152,
+      "cohen_dz": 0.7244342323544688,
+      "mean_improvement": 0.009691021193195492,
+      "n": 29,
+      "paired_t_pvalue": 0.0005473252151050513,
+      "paired_t_statistic": 3.901197733158786,
+      "wilcoxon_pvalue": 0.00024197623133659363,
+      "wilcoxon_pvalue_holm": 0.0009679049253463745,
+      "wilcoxon_statistic": 57.0
+    }
+  },
+  "region": "officially held-out quality==1 pixels (never X_pseudo)",
+  "subjects": 29
+}

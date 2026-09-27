@@ -1,0 +1,22 @@
+{
+  "elapsed_seconds": 17.59556129200064,
+  "frequency_guidance_max_sigma": 0.0,
+  "frequency_guidance_power": 1.0,
+  "means": {
+    "best_of_k_mae": 0.20828088194654276,
+    "mean_mae": 0.19555239911512948,
+    "mean_orientation_error": 0.25981126488028716,
+    "mean_psnr": 12.097994432482492,
+    "mean_ridge_frequency_mae_cpx": 0.04495671792110766,
+    "mean_ridge_period_mae_pixels": 1.251008852524481,
+    "mean_ssim_map_mean": 0.21675015629882077,
+    "single_mae": 0.21878203490431708,
+    "uncertainty_error_spearman": 0.28682246382385646
+  },
+  "model": "deterministic coarse predictor plus conditional latent residual diffusion",
+  "num_pairs": 20,
+  "pixel_projection_interval": 5,
+  "samples_k": 3,
+  "sampling_seconds": 15.254161540015048,
+  "steps": 25
+}

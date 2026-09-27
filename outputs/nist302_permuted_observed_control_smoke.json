@@ -1,0 +1,21 @@
+{
+  "ddim_steps": 10,
+  "interpretation": "positive_mean_improvement_means_permuted_is_better; a large POSITIVE value (permuted has LOWER error than matched) would be the alarming result -- it would mean feeding the wrong finger's ridges through the same mask does not hurt reconstruction, i.e. the model ignores observed ridge content. A significant NEGATIVE value (permuted is worse) is the expected, reassuring result: the model measurably suffers when given the wrong identity's ridges, i.e. it is genuinely using what it is shown.",
+  "num_images": 40,
+  "num_subjects": 6,
+  "test_loaded": false,
+  "tests": {
+    "heldout_q1_mae": {
+      "ci95_high": -0.01497018786541271,
+      "ci95_low": -0.057207014204021245,
+      "cohen_dz": -1.793348004710279,
+      "mean_improvement": -0.03608860103471698,
+      "n": 6,
+      "paired_t_pvalue": 0.00706940621134084,
+      "paired_t_statistic": -4.392787542778508,
+      "wilcoxon_pvalue": 0.03125,
+      "wilcoxon_pvalue_holm": 0.03125,
+      "wilcoxon_statistic": 0.0
+    }
+  }
+}

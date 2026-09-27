@@ -1,0 +1,14 @@
+{
+  "decoder": "/private/tmp/nbis-sd302/an2k/bin/an2k2txt",
+  "decoder_sha256": "e2a85822a4b18660c1fec089ea7c70b9d010f94713c140d68a62c52f66091882",
+  "failures": [],
+  "input_root": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked",
+  "num_efs_records": 6,
+  "num_files_decoded": 3,
+  "num_files_selected": 3,
+  "schema_version": 1,
+  "suffix": ".comp",
+  "warning_counts": {
+    "WARNING : read_Type1_record : ANSI/NIST Version = 502 Unsupported": 3
+  }
+}

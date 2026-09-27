@@ -1,0 +1,97 @@
+{
+  "mode": "full",
+  "test_loaded": false,
+  "initialization": "outputs/gated_full_mps/best-checkpoint.pt",
+  "registered_target": "registered_approximate (not pixel ground truth)",
+  "confidence_calibration": {
+    "status": "uniform_ablation_control",
+    "source": "outputs/nist302_registration/geometric_confidence_calibration_128.json",
+    "source_split": "validation",
+    "source_model": "uniform_control",
+    "source_metric": "n/a (ablation: confidence-weighted vs uniform)",
+    "formula": "w_s = 1 for all distance strata",
+    "weights": {
+      "nearest_0_2mm": 1.0,
+      "nearest_2_5mm": 1.0,
+      "nearest_gt_5mm": 1.0
+    },
+    "ordered_weights": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "allowed_use": "training and validation registered-approximate loss (ablation control)",
+    "test_policy": "test remains sealed",
+    "interpretation_warning": "This is the uniform-weight control required by geometric_confidence_calibration_128.json's own required_ablation field; it removes distance-based downweighting while keeping every other loss term identical.",
+    "required_ablation": null
+  },
+  "ridge_band_calibration": {
+    "split": "train",
+    "test_accessed": false,
+    "target": "registered_approximate exemplar warped to latent frame",
+    "region": "unobserved registered support (evaluation_roi)",
+    "image_size": [
+      128,
+      128
+    ],
+    "sampled_images": 200,
+    "images_with_valid_windows": 199,
+    "frequency_unit": "cycles per pixel after resize",
+    "frequency": {
+      "count": 11451,
+      "mean": 0.1549642907824644,
+      "standard_deviation": 0.07099463721633358,
+      "q05": 0.06640625,
+      "q10": 0.078125,
+      "q35": 0.1171875,
+      "median": 0.140625,
+      "q65": 0.16796875,
+      "q90": 0.2578125,
+      "q95": 0.30078125
+    },
+    "recommended_gabor_frequencies": [
+      0.078125,
+      0.1171875,
+      0.16796875,
+      0.2578125
+    ],
+    "selection_rule": "training-distribution quantiles [0.10, 0.35, 0.65, 0.90]",
+    "estimator": {
+      "patch_size": 32,
+      "stride": 8,
+      "minimum_region_fraction": 0.45,
+      "search_interval": [
+        0.04,
+        0.4
+      ]
+    },
+    "warning": "The bank is resolution- and preprocessing-specific. It constrains local oriented spectral energy and is not an exact differentiable copy of the reported dominant-frequency metric."
+  },
+  "loss": {
+    "missing_l1_weight": 0.25,
+    "missing_mse_weight": 0.05,
+    "observed_l1_weight": 0.0,
+    "orientation_weight": 0.35,
+    "orientation_window": 9,
+    "gradient_weight": 0.1,
+    "ridge_energy_weight": 0.1,
+    "ridge_sigma": 1.5,
+    "ridge_energy_window": 17,
+    "ridge_band_weight": 0.25,
+    "ridge_band_orientations": 8,
+    "ridge_band_kernel_size": 17,
+    "ridge_band_pool_size": 9,
+    "ridge_spectrum_weight": 0.5,
+    "ridge_spectrum_temperature": 0.25,
+    "support_background_weight": 0.2,
+    "support_region_weighting": true,
+    "ridge_band_frequencies": [
+      0.078125,
+      0.1171875,
+      0.16796875,
+      0.2578125
+    ]
+  },
+  "support_checkpoint": "outputs/nist302_visible_support_predictor_full/best-checkpoint.pt",
+  "support_target_semantics": "visible_latent_support"
+}

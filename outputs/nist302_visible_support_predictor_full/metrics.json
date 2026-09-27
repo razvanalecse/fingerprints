@@ -1,0 +1,248 @@
+{
+  "mode": "full",
+  "device": "mps",
+  "elapsed_seconds": 595.8087712089982,
+  "best_epoch": 11,
+  "best_validation_loss": 0.2980715335453844,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 0.45835785003899543,
+        "bce": 0.2737237216147724,
+        "dice_loss": 0.18463412887875147,
+        "iou": 0.8105436148765356,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.39954856235391173,
+        "bce": 0.2374954015431919,
+        "dice_loss": 0.16205316075879939,
+        "iou": 0.8396499262869566,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 0.3897788980138862,
+        "bce": 0.23483770308127014,
+        "dice_loss": 0.1549411956574046,
+        "iou": 0.8365518722962665,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.36771918911136403,
+        "bce": 0.22003217617809148,
+        "dice_loss": 0.1476870150100894,
+        "iou": 0.8484257104504814,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 0.35991557325740936,
+        "bce": 0.21778388154329786,
+        "dice_loss": 0.14213169220549354,
+        "iou": 0.8481057046468063,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.347230255811472,
+        "bce": 0.20944178109592676,
+        "dice_loss": 0.1377884747674656,
+        "iou": 0.8535668390968535,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "loss": 0.33827551071641865,
+        "bce": 0.20592643249310055,
+        "dice_loss": 0.13234907747396044,
+        "iou": 0.8562941485363299,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.34133258763090657,
+        "bce": 0.20778132082070208,
+        "dice_loss": 0.13355126592755734,
+        "iou": 0.8526934649055428,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "loss": 0.32530650150058493,
+        "bce": 0.19941523217850252,
+        "dice_loss": 0.12589126918695234,
+        "iou": 0.8598763115231104,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.3201922475253248,
+        "bce": 0.19683867983701753,
+        "dice_loss": 0.12335356810367065,
+        "iou": 0.8610865396905029,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "loss": 0.3067421193763626,
+        "bce": 0.18853051481370778,
+        "dice_loss": 0.1182116046977849,
+        "iou": 0.867715834342834,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.31755489110946655,
+        "bce": 0.19653993829409835,
+        "dice_loss": 0.12101495328265201,
+        "iou": 0.8598671993727468,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "loss": 0.2929230012730538,
+        "bce": 0.181401947241427,
+        "dice_loss": 0.11152105378593577,
+        "iou": 0.873562938598985,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.3155410214998996,
+        "bce": 0.1975910993299418,
+        "dice_loss": 0.11794992336412756,
+        "iou": 0.8572220513629581,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "loss": 0.2775749567610512,
+        "bce": 0.17181715407306658,
+        "dice_loss": 0.10575780328992763,
+        "iou": 0.8794248928634568,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.3084552335822208,
+        "bce": 0.19502107207160377,
+        "dice_loss": 0.11343416374319522,
+        "iou": 0.8617835364690641,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 9,
+      "train": {
+        "loss": 0.26260372359990486,
+        "bce": 0.16272489302112167,
+        "dice_loss": 0.09987883044979538,
+        "iou": 0.8861313498128276,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.3120174438072829,
+        "bce": 0.2008177535251458,
+        "dice_loss": 0.11119969132054558,
+        "iou": 0.8585916867654914,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 10,
+      "train": {
+        "loss": 0.24273658648858065,
+        "bce": 0.1506038097340709,
+        "dice_loss": 0.09213277665623337,
+        "iou": 0.8956015759622962,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.317471530794682,
+        "bce": 0.20705748061269832,
+        "dice_loss": 0.11041405018198365,
+        "iou": 0.853991529667419,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 11,
+      "train": {
+        "loss": 0.22929856087782122,
+        "bce": 0.14258009150489145,
+        "dice_loss": 0.08671846963704763,
+        "iou": 0.901268632669441,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.2980715335453844,
+        "bce": 0.1940633707034048,
+        "dice_loss": 0.10400816247853668,
+        "iou": 0.8632305171016201,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    },
+    {
+      "epoch": 12,
+      "train": {
+        "loss": 0.21604385757043357,
+        "bce": 0.1344467284432739,
+        "dice_loss": 0.08159712961854172,
+        "iou": 0.9062008083308912,
+        "observed_recall": 1.0,
+        "examples": 1213.0
+      },
+      "validation": {
+        "loss": 0.30561504380628207,
+        "bce": 0.20254946570155513,
+        "dice_loss": 0.10306558002578257,
+        "iou": 0.8601172782402836,
+        "observed_recall": 1.0,
+        "examples": 287.0
+      }
+    }
+  ],
+  "train_images": 1213,
+  "validation_images": 287,
+  "test_loaded": false,
+  "seed_state": {
+    "seed": 1729,
+    "deterministic_torch": true,
+    "python_hash_seed": "1729"
+  },
+  "target_mode": "visible_latent_support",
+  "target_definition": "official EFS quality>=1 visible latent-print support",
+  "scope_warning": "This predicts visible/annotated latent support, not unknown full-print extent."
+}

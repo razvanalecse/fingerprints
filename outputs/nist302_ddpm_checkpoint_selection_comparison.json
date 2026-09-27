@@ -1,0 +1,132 @@
+{
+  "best_epoch_by_noise_loss": 12,
+  "best_epoch_by_structural_composite": 8,
+  "checkpoint_dir": "outputs/nist302_registered_ddpm_full_with_epochs",
+  "composite_definition": "z(mae) + z(orientation_error) + z(ridge_frequency_relative_mae), z-scored across this run's own epochs",
+  "ddim_steps": 10,
+  "epochs_agree": false,
+  "evaluation_images": 60,
+  "per_epoch": {
+    "1": {
+      "composite_z_score": -0.9632853465080491,
+      "mae": 0.12047166920675717,
+      "num_images": 60,
+      "orientation_error": 0.28851285675110383,
+      "ridge_frequency_relative_mae": 0.46844822834418054
+    },
+    "10": {
+      "composite_z_score": 0.13295152785855244,
+      "mae": 0.15638849606413746,
+      "num_images": 60,
+      "orientation_error": 0.27943649146874544,
+      "ridge_frequency_relative_mae": 0.4870100749435092
+    },
+    "11": {
+      "composite_z_score": -1.988273039949416,
+      "mae": 0.114632011261215,
+      "num_images": 60,
+      "orientation_error": 0.2853830215758252,
+      "ridge_frequency_relative_mae": 0.46322190305548333
+    },
+    "12": {
+      "composite_z_score": 1.8669895581593672,
+      "mae": 0.15516505938348787,
+      "num_images": 60,
+      "orientation_error": 0.28570199815062847,
+      "ridge_frequency_relative_mae": 0.5039259928299205
+    },
+    "13": {
+      "composite_z_score": 1.5226462616047434,
+      "mae": 0.15693622940598637,
+      "num_images": 60,
+      "orientation_error": 0.2898936637378007,
+      "ridge_frequency_relative_mae": 0.4798803356883185
+    },
+    "14": {
+      "composite_z_score": -0.992162723040222,
+      "mae": 0.14029981610659814,
+      "num_images": 60,
+      "orientation_error": 0.28649841137269727,
+      "ridge_frequency_relative_mae": 0.454389492878217
+    },
+    "15": {
+      "composite_z_score": -0.4525186775563259,
+      "mae": 0.13517655209446883,
+      "num_images": 60,
+      "orientation_error": 0.2779343152893351,
+      "ridge_frequency_relative_mae": 0.5015136226956266
+    },
+    "16": {
+      "composite_z_score": 3.2488886649262434,
+      "mae": 0.17435167776440438,
+      "num_images": 60,
+      "orientation_error": 0.2963827523965193,
+      "ridge_frequency_relative_mae": 0.4765597014229848
+    },
+    "17": {
+      "composite_z_score": -0.29579143946598685,
+      "mae": 0.13561465464144823,
+      "num_images": 60,
+      "orientation_error": 0.28517247334527174,
+      "ridge_frequency_relative_mae": 0.4790251071389742
+    },
+    "2": {
+      "composite_z_score": -0.01855977398203329,
+      "mae": 0.12745340733575056,
+      "num_images": 60,
+      "orientation_error": 0.28978346799132804,
+      "ridge_frequency_relative_mae": 0.4772840937959855
+    },
+    "3": {
+      "composite_z_score": 2.5071530564539657,
+      "mae": 0.1779350950325568,
+      "num_images": 60,
+      "orientation_error": 0.29290260350640523,
+      "ridge_frequency_relative_mae": 0.46897038992903156
+    },
+    "4": {
+      "composite_z_score": -1.3404913281007622,
+      "mae": 0.10910799095337977,
+      "num_images": 60,
+      "orientation_error": 0.26973141920327615,
+      "ridge_frequency_relative_mae": 0.5380205927144427
+    },
+    "5": {
+      "composite_z_score": 1.0343906084342716,
+      "mae": 0.12214400792712875,
+      "num_images": 60,
+      "orientation_error": 0.28615232716480654,
+      "ridge_frequency_relative_mae": 0.5184143050573453
+    },
+    "6": {
+      "composite_z_score": 0.9713414646494221,
+      "mae": 0.13616654130725486,
+      "num_images": 60,
+      "orientation_error": 0.2882623065587041,
+      "ridge_frequency_relative_mae": 0.49512266213367395
+    },
+    "7": {
+      "composite_z_score": -0.18767489727213427,
+      "mae": 0.13422050644512842,
+      "num_images": 60,
+      "orientation_error": 0.2856365521853645,
+      "ridge_frequency_relative_mae": 0.4811850245103855
+    },
+    "8": {
+      "composite_z_score": -2.888829829859186,
+      "mae": 0.11427109365845742,
+      "num_images": 60,
+      "orientation_error": 0.27958560820636175,
+      "ridge_frequency_relative_mae": 0.4644070724844753
+    },
+    "9": {
+      "composite_z_score": -2.1567740863525113,
+      "mae": 0.11511818482629078,
+      "num_images": 60,
+      "orientation_error": 0.2832406694424098,
+      "ridge_frequency_relative_mae": 0.46658809227057507
+    }
+  },
+  "samples": 3,
+  "test_loaded": false
+}

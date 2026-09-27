@@ -1,0 +1,76 @@
+{
+  "mode": "pilot",
+  "device": "mps",
+  "elapsed_seconds": 61.175571416999446,
+  "best_epoch": 3,
+  "best_validation_loss": 0.34292504377663136,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 0.5094226188957691,
+        "bce": 0.3035589375067502,
+        "dice_loss": 0.2058636834844947,
+        "iou": 0.7885552132502198,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 0.3758105840533972,
+        "bce": 0.22677118703722954,
+        "dice_loss": 0.1490393988788128,
+        "iou": 0.8564617298543453,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 0.4154367311857641,
+        "bce": 0.24814778519794345,
+        "dice_loss": 0.1672889469191432,
+        "iou": 0.8328419886529446,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 0.3518493603914976,
+        "bce": 0.21471099834889174,
+        "dice_loss": 0.13713836297392845,
+        "iou": 0.8599552139639854,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 0.41282612970098853,
+        "bce": 0.24645198532380164,
+        "dice_loss": 0.16637414414435625,
+        "iou": 0.8275707634165883,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 0.34292504377663136,
+        "bce": 0.20887098647654057,
+        "dice_loss": 0.1340540573000908,
+        "iou": 0.8614292964339256,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    }
+  ],
+  "train_images": 1213,
+  "validation_images": 287,
+  "test_loaded": false,
+  "seed_state": {
+    "seed": 1729,
+    "deterministic_torch": true,
+    "python_hash_seed": "1729"
+  },
+  "target_definition": "official EFS quality>=1 latent-print support",
+  "scope_warning": "This predicts the visible/annotated latent support, not the unknown full-print extent."
+}

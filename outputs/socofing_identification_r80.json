@@ -1,0 +1,29 @@
+{
+  "chance_rank1": 0.0025,
+  "checkpoint": "outputs/gated_claude_hybrid_full/best-checkpoint.pt",
+  "gallery_size": 400,
+  "mask_family": "random_rectangles",
+  "observed_fraction": 0.8,
+  "protocols": {
+    "full": "completed image; mostly the probe's own observed pixels (control)",
+    "hidden": "synthesized region only; nothing here was given to the model"
+  },
+  "summary": {
+    "full": {
+      "mean_score_best_impostor": 0.8965476408600808,
+      "mean_score_true": 0.9869307249784469,
+      "median_rank": 1.0,
+      "probes": 40,
+      "rank1_rate": 1.0,
+      "rank5_rate": 1.0
+    },
+    "hidden": {
+      "mean_score_best_impostor": 0.9241791129112243,
+      "mean_score_true": 0.9467311769723892,
+      "median_rank": 1.0,
+      "probes": 40,
+      "rank1_rate": 0.725,
+      "rank5_rate": 0.95
+    }
+  }
+}

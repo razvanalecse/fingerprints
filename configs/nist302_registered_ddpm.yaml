@@ -1,0 +1,42 @@
+experiment:
+  name: nist302_registered_conditional_ddpm
+  seed: 1729
+data:
+  image_size: [128, 128]
+  num_workers: 0
+  geometric_confidence_report: outputs/nist302_registration/geometric_confidence_calibration_128.json
+model:
+  channels: [32, 64, 128, 256]
+  time_dim: 128
+  multiscale_conditioning: true
+  middle_attention: true
+  attention_heads: 4
+  upsampling_mode: bilinear
+  support_checkpoint: outputs/nist302_visible_support_predictor_full/best-checkpoint.pt
+diffusion:
+  timesteps: 500
+  pilot_timesteps: 100
+  schedule: cosine
+  beta_start: 0.0001
+  beta_end: 0.02
+  observed_noise_loss_weight: 0.05
+training:
+  epochs: 25
+  batch_size: 4
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+  gradient_clip_norm: 1.0
+  early_stopping_patience: 5
+  pilot_epochs: 3
+  pilot_channels: [16, 32, 64, 128]
+  pilot_time_dim: 64
+  pilot_train_batches: 64
+  pilot_validation_batches: 16
+evaluation:
+  ddim_steps: 50
+  pilot_ddim_steps: 20
+  preview_samples: 5
+  support_mode: soft
+  support_threshold: 0.5
+  nominal_coverages: [0.50, 0.80, 0.90, 0.95]
+

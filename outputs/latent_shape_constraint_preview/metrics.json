@@ -1,0 +1,25 @@
+{
+  "constraint": "predicted support only; true support used exclusively for evaluation",
+  "mask_family": "random_rectangles",
+  "observed_fraction": 0.10000000149011612,
+  "raw_mean_absolute_error_full_frame": 0.21137644350528717,
+  "raw_mean_missing_roi": {
+    "mae": 0.21793158533173998,
+    "max_absolute_error": 0.9123746529221535,
+    "mse": 0.08092601396930135,
+    "pixels": 11110.0,
+    "psnr": 10.919118503620453,
+    "ssim_map_mean": 0.06462452779831103
+  },
+  "sample_id": "socofing:000023:left_thumb",
+  "shaped_mean_absolute_error_full_frame": 0.1672203242778778,
+  "shaped_mean_missing_roi": {
+    "mae": 0.21258460798180928,
+    "max_absolute_error": 0.9123746529221535,
+    "mse": 0.07773683454374049,
+    "pixels": 11110.0,
+    "psnr": 11.093731478850412,
+    "ssim_map_mean": 0.059262789096388525
+  },
+  "support_iou": 0.9795539033457249
+}

@@ -1,0 +1,114 @@
+{
+  "comparisons": {
+    "best_of_k_mae": {
+      "ci95_high": 0.04390207289829273,
+      "ci95_low": 0.024185352754345413,
+      "cohen_dz": 0.98141233065172,
+      "mean_improvement": 0.03404371282631907,
+      "n": 50,
+      "paired_t_pvalue": 8.227515119954538e-09,
+      "paired_t_statistic": 6.939633141439253,
+      "wilcoxon_pvalue": 2.2451841275028528e-08,
+      "wilcoxon_pvalue_holm": 1.1225920637514264e-07,
+      "wilcoxon_statistic": 111.0
+    },
+    "mean_mae": {
+      "ci95_high": 0.034966704415273754,
+      "ci95_low": 0.013280463821692427,
+      "cohen_dz": 0.6322761863841729,
+      "mean_improvement": 0.02412358411848309,
+      "n": 50,
+      "paired_t_pvalue": 4.6183652285556645e-05,
+      "paired_t_statistic": 4.470867789750181,
+      "wilcoxon_pvalue": 7.111603951059919e-06,
+      "wilcoxon_pvalue_holm": 2.1334811853179758e-05,
+      "wilcoxon_statistic": 197.0
+    },
+    "mean_orientation_error": {
+      "ci95_high": 0.1322106881641198,
+      "ci95_low": 0.03282194817899585,
+      "cohen_dz": 0.47190211194853476,
+      "mean_improvement": 0.08251631817155783,
+      "n": 50,
+      "paired_t_pvalue": 0.0016230963808255034,
+      "paired_t_statistic": 3.3368518341506226,
+      "wilcoxon_pvalue": 7.500770700019643e-05,
+      "wilcoxon_pvalue_holm": 0.00015001541400039287,
+      "wilcoxon_statistic": 243.0
+    },
+    "mean_ssim_map_mean": {
+      "ci95_high": 0.09602841894312347,
+      "ci95_low": 0.06152382351298305,
+      "cohen_dz": 1.2976779273642418,
+      "mean_improvement": 0.07877612122805326,
+      "n": 50,
+      "paired_t_pvalue": 3.228307947784747e-12,
+      "paired_t_statistic": 9.175968622353594,
+      "wilcoxon_pvalue": 1.7763568394002505e-15,
+      "wilcoxon_pvalue_holm": 1.5987211554602254e-14,
+      "wilcoxon_statistic": 0.0
+    },
+    "pairwise_diversity_mae": {
+      "ci95_high": -0.049221788273011574,
+      "ci95_low": -0.07060663539232233,
+      "cohen_dz": -1.5924762526801548,
+      "mean_improvement": -0.05991421183266695,
+      "n": 50,
+      "paired_t_pvalue": 3.3825464080238395e-15,
+      "paired_t_statistic": -11.260507571486794,
+      "wilcoxon_pvalue": 7.638334409421077e-14,
+      "wilcoxon_pvalue_holm": 6.110667527536862e-13,
+      "wilcoxon_statistic": 10.0
+    },
+    "single_mae": {
+      "ci95_high": 0.05157310193862918,
+      "ci95_low": 0.021612029643823437,
+      "cohen_dz": 0.6942002629318482,
+      "mean_improvement": 0.03659256579122631,
+      "n": 50,
+      "paired_t_pvalue": 1.0571766760936967e-05,
+      "paired_t_statistic": 4.908737134205942,
+      "wilcoxon_pvalue": 1.859966783257505e-06,
+      "wilcoxon_pvalue_holm": 7.43986713303002e-06,
+      "wilcoxon_statistic": 174.0
+    },
+    "single_orientation_error": {
+      "ci95_high": 0.20611428193527148,
+      "ci95_low": 0.06834670262909558,
+      "cohen_dz": 0.5661778276302958,
+      "mean_improvement": 0.13723049228218354,
+      "n": 50,
+      "paired_t_pvalue": 0.0002111293772378508,
+      "paired_t_statistic": 4.003481812748504,
+      "wilcoxon_pvalue": 0.00011903464815610221,
+      "wilcoxon_pvalue_holm": 0.00015001541400039287,
+      "wilcoxon_statistic": 253.0
+    },
+    "single_ssim_map_mean": {
+      "ci95_high": 0.1059509101190844,
+      "ci95_low": 0.062050473840920675,
+      "cohen_dz": 1.0875852061660034,
+      "mean_improvement": 0.08400069198000254,
+      "n": 50,
+      "paired_t_pvalue": 5.699134146804786e-10,
+      "paired_t_statistic": 7.690388743981503,
+      "wilcoxon_pvalue": 3.6770586575585185e-13,
+      "wilcoxon_pvalue_holm": 2.573941060290963e-12,
+      "wilcoxon_statistic": 17.0
+    },
+    "uncertainty_error_spearman": {
+      "ci95_high": 0.15829288899660127,
+      "ci95_low": 0.09987182474709655,
+      "cohen_dz": 1.255875783648295,
+      "mean_improvement": 0.1290823568718489,
+      "n": 50,
+      "paired_t_pvalue": 8.89452876918849e-12,
+      "paired_t_statistic": 8.880382829456789,
+      "wilcoxon_pvalue": 5.897913268881894e-10,
+      "wilcoxon_pvalue_holm": 3.538747961329136e-09,
+      "wilcoxon_statistic": 71.0
+    }
+  },
+  "num_pairs": 50,
+  "positive_improvement_favours_candidate": true
+}

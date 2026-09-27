@@ -1,0 +1,19 @@
+image:
+  output_height: 128
+  output_width: 128
+  interpolation: bilinear
+  intensity_range: [0.0, 1.0]
+  missing_fill_value: 0.0
+
+orientation:
+  gradient_sigma: 1.0
+  tensor_sigma: 3.0
+  smooth_sigma: 2.0
+  coherence_threshold: 0.20
+  epsilon: 1.0e-8
+
+pair_generation:
+  base_seed: 1729
+  replicates_per_condition: 5
+  store_masks_as_uint8: true
+  store_images_as_float32: true

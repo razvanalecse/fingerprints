@@ -1,0 +1,76 @@
+{
+  "mode": "pilot",
+  "device": "mps",
+  "elapsed_seconds": 136.06599470800575,
+  "best_epoch": 3,
+  "best_validation_loss": 0.5057281330227852,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 0.6136074629612267,
+        "bce": 0.40897737676277757,
+        "dice_loss": 0.20463008433580399,
+        "iou": 0.714915475808084,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 0.5155281666666269,
+        "bce": 0.3520885370671749,
+        "dice_loss": 0.16343963146209717,
+        "iou": 0.786432683467865,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 0.5676512843929231,
+        "bce": 0.38480106089264154,
+        "dice_loss": 0.18285022769123316,
+        "iou": 0.7625826327130198,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 0.5076198074966669,
+        "bce": 0.35022128000855446,
+        "dice_loss": 0.1573985256254673,
+        "iou": 0.7964698038995266,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 0.569990613963455,
+        "bce": 0.38805947126820683,
+        "dice_loss": 0.18193114083260298,
+        "iou": 0.7633215729147196,
+        "observed_recall": 1.0,
+        "examples": 512.0
+      },
+      "validation": {
+        "loss": 0.5057281330227852,
+        "bce": 0.3510207198560238,
+        "dice_loss": 0.1547074168920517,
+        "iou": 0.7926479317247868,
+        "observed_recall": 1.0,
+        "examples": 128.0
+      }
+    }
+  ],
+  "train_images": 1213,
+  "validation_images": 287,
+  "test_loaded": false,
+  "seed_state": {
+    "seed": 1729,
+    "deterministic_torch": true,
+    "python_hash_seed": "1729"
+  },
+  "target_definition": "union(quality>=2 observed support, approximately registered exemplar support)",
+  "target_warning": "The unobserved extension of the support target is approximate."
+}

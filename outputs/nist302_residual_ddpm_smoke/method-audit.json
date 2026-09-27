@@ -1,0 +1,15 @@
+{
+  "mode": "smoke_test",
+  "splits_loaded": [
+    "train",
+    "validation"
+  ],
+  "test_loaded": false,
+  "target": "registered_approximate (not pixel ground truth)",
+  "missing_noise_weight": "evaluation_roi * geometric_confidence * visible_support_probability",
+  "support_checkpoint": "outputs/nist302_visible_support_predictor_full/best-checkpoint.pt",
+  "coarse_checkpoint": "outputs/nist302_registered_support_spectrum_full/best-checkpoint.pt",
+  "residual_target": "R = X_pseudo - X_coarse, remapped to [0,1] for the shared scheduler",
+  "data_consistency": true,
+  "decoder_upsampling": "bilinear"
+}

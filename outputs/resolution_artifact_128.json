@@ -1,0 +1,26 @@
+{
+  "checkpoint": "outputs/nist302_registered_support_spectrum_uniform_confidence_full/best-checkpoint.pt",
+  "image_size": [
+    128,
+    128
+  ],
+  "images": 58,
+  "markov_steps_equivalent_at_128px": [
+    2,
+    4
+  ],
+  "markov_steps_px": [
+    2,
+    4
+  ],
+  "note": "minutiae_density_ratio and curvature_ratio are scale-free; coherence is already scale-free; Markov steps are scaled with resolution so both runs probe the same physical distance.",
+  "summary": {
+    "coherence_diff": -0.008608164972272413,
+    "curvature_ratio": 0.7980876415291898,
+    "entropy_diff_base2": -0.1918734919311545,
+    "entropy_diff_base4": -0.33732195708873847,
+    "minutiae_density_ratio": 1.51728975522656,
+    "self_rate_diff_base2": 0.05500303131037397,
+    "self_rate_diff_base4": 0.08231375543581977
+  }
+}

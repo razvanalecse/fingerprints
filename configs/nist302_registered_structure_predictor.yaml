@@ -1,0 +1,18 @@
+experiment:
+  name: nist302_registered_structure_predictor
+  seed: 1729
+data:
+  image_size: [128, 128]
+  structure_size: [32, 32]
+  geometric_confidence_report: outputs/nist302_registration/geometric_confidence_calibration_128.json
+model:
+  channels: [16, 32, 64, 128]
+training:
+  epochs: 20
+  batch_size: 8
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+  gradient_clip_norm: 1.0
+  orientation_weight: 1.0
+  coherence_weight: 0.25
+  early_stopping_patience: 5

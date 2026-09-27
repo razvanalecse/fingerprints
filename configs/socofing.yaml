@@ -1,0 +1,23 @@
+dataset:
+  name: socofing
+  expected_original_images: 6000
+  expected_subjects: 600
+  expected_fingers_per_subject: 10
+  allowed_genders: [F, M]
+  allowed_hands: [Left, Right]
+  allowed_fingers: [thumb, index, middle, ring, little]
+  accepted_extensions: [.bmp]
+
+preprocessing:
+  convert_to_grayscale: true
+  validate_decode: true
+  compute_sha256: true
+  record_intensity_statistics: true
+
+split:
+  group_level: subject
+  fractions:
+    train: 0.70
+    validation: 0.15
+    test: 0.15
+  seed: 1729

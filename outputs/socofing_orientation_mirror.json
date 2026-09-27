@@ -1,0 +1,67 @@
+{
+  "arms": {
+    "harmonic": "Laplace completion of (cos 2t, sin 2t), smoothness only, no learning",
+    "nearest": "orientation of the closest observed pixel",
+    "neural": "this project's trained reconstruction model"
+  },
+  "boundary_erosion_px": 3,
+  "metric": "axial orientation error in the hidden region, lower is better",
+  "question": "is the missing orientation field recoverable without learning?",
+  "summary": {
+    "ALL": {
+      "biharmonic": 0.46067758691201005,
+      "combination": 0.5020540006806554,
+      "harmonic": 0.4351175240821763,
+      "images": 100,
+      "mirror": 0.5712549945866343,
+      "nearest": 0.5463319743181216,
+      "neural": 0.05121035649324217,
+      "polynomial": 0.4708942107054544,
+      "zero_pole": 0.5386598423125625
+    },
+    "central": {
+      "biharmonic": 0.4513530733649822,
+      "combination": 0.5916623659054973,
+      "harmonic": 0.4268794127407014,
+      "images": 25,
+      "mirror": 0.6284800536151489,
+      "nearest": 0.5425989878401952,
+      "neural": 0.05781435145293822,
+      "polynomial": 0.35918743659192764,
+      "zero_pole": 0.598253003648952
+    },
+    "fragments": {
+      "biharmonic": 0.5719817661270735,
+      "combination": 0.5527237460041994,
+      "harmonic": 0.5502162483742259,
+      "images": 25,
+      "mirror": 0.551613357149878,
+      "nearest": 0.6124396729416999,
+      "neural": 0.06089003962954697,
+      "polynomial": 0.8011804826832296,
+      "zero_pole": 0.5424306844709311
+    },
+    "irregular": {
+      "biharmonic": 0.43612877576769576,
+      "combination": 0.4342567642601005,
+      "harmonic": 0.4113036939501186,
+      "images": 25,
+      "mirror": 0.5607170397323232,
+      "nearest": 0.5296198207761941,
+      "neural": 0.026678385433698285,
+      "polynomial": 0.32656501020347134,
+      "zero_pole": 0.4858016729397869
+    },
+    "rect": {
+      "biharmonic": 0.38324673238828844,
+      "combination": 0.4295731265528244,
+      "harmonic": 0.3520707412636592,
+      "images": 25,
+      "mirror": 0.5442095278491873,
+      "nearest": 0.500669415714397,
+      "neural": 0.059458649456785126,
+      "polynomial": 0.39664391334318916,
+      "zero_pole": 0.5281540081905802
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "inference_steps": 50,
+  "latent_data_consistency": false,
+  "mask_family": "random_rectangles",
+  "no_go_rule": "redesign conditioning if fidelity does not materially improve from r=0.10 to r=0.80",
+  "results": [
+    {
+      "actual_observed_fraction": 0.0999755859375,
+      "max_observed_consistency_error": 0.0,
+      "mean_predictive_std_missing_roi": 0.2650504410266876,
+      "missing_roi_pixels": 11110,
+      "observed_fraction": 0.1,
+      "raw_mean": {
+        "mae": 0.2665194440958309,
+        "max_absolute_error": 0.9489288404583931,
+        "mse": 0.11194890604423036,
+        "pixels": 11110.0,
+        "psnr": 9.509801459552099,
+        "ssim_map_mean": 0.03852398966414148
+      },
+      "raw_orientation_error": 0.8998670895449068,
+      "shape_constrained_mean": {
+        "mae": 0.2616797128030033,
+        "max_absolute_error": 0.9489288404583931,
+        "mse": 0.10916017294723857,
+        "pixels": 11110.0,
+        "psnr": 9.619357849298448,
+        "ssim_map_mean": 0.035184250939666296
+      },
+      "shape_constrained_orientation_error": 0.8604973580374905,
+      "support_iou": 0.9795539033457249
+    },
+    {
+      "actual_observed_fraction": 0.29998779296875,
+      "max_observed_consistency_error": 0.0,
+      "mean_predictive_std_missing_roi": 0.30092141032218933,
+      "missing_roi_pixels": 9507,
+      "observed_fraction": 0.3,
+      "raw_mean": {
+        "mae": 0.1843683109450719,
+        "max_absolute_error": 0.8248420208692551,
+        "mse": 0.056782836961129776,
+        "pixels": 9507.0,
+        "psnr": 12.457829132228902,
+        "ssim_map_mean": 0.07345121463553127
+      },
+      "raw_orientation_error": 0.9523695307289538,
+      "shape_constrained_mean": {
+        "mae": 0.18062693812599614,
+        "max_absolute_error": 0.8248420208692551,
+        "mse": 0.05511691845806806,
+        "pixels": 9507.0,
+        "psnr": 12.587150714717591,
+        "ssim_map_mean": 0.0670269202637246
+      },
+      "shape_constrained_orientation_error": 0.8921870626512647,
+      "support_iou": 0.9900053542744958
+    },
+    {
+      "actual_observed_fraction": 0.5,
+      "max_observed_consistency_error": 0.0,
+      "mean_predictive_std_missing_roi": 0.2634981870651245,
+      "missing_roi_pixels": 7240,
+      "observed_fraction": 0.5,
+      "raw_mean": {
+        "mae": 0.2105722992696403,
+        "max_absolute_error": 0.9011678174138069,
+        "mse": 0.07166042767007608,
+        "pixels": 7240.0,
+        "psnr": 11.447206042888048,
+        "ssim_map_mean": 0.10503842957100469
+      },
+      "raw_orientation_error": 0.17609377411523452,
+      "shape_constrained_mean": {
+        "mae": 0.19939794974164904,
+        "max_absolute_error": 0.9011678174138069,
+        "mse": 0.06664221058213503,
+        "pixels": 7240.0,
+        "psnr": 11.76250605423296,
+        "ssim_map_mean": 0.10514568783940051
+      },
+      "shape_constrained_orientation_error": 0.2545326097245565,
+      "support_iou": 0.9709084419061217
+    },
+    {
+      "actual_observed_fraction": 0.79998779296875,
+      "max_observed_consistency_error": 0.0,
+      "mean_predictive_std_missing_roi": 0.16249284148216248,
+      "missing_roi_pixels": 3264,
+      "observed_fraction": 0.8,
+      "raw_mean": {
+        "mae": 0.3460152917267645,
+        "max_absolute_error": 0.9015314802527428,
+        "mse": 0.14719564590697154,
+        "pixels": 3264.0,
+        "psnr": 8.321050363744932,
+        "ssim_map_mean": 0.06898368918454206
+      },
+      "raw_orientation_error": 0.9120238426687003,
+      "shape_constrained_mean": {
+        "mae": 0.3438520825869751,
+        "max_absolute_error": 0.9015314802527428,
+        "mse": 0.14623480103896164,
+        "pixels": 3264.0,
+        "psnr": 8.34949261436737,
+        "ssim_map_mean": 0.06948623195595953
+      },
+      "shape_constrained_orientation_error": 0.9162184716818804,
+      "support_iou": 0.9907192575406032
+    }
+  ],
+  "sample_id": "socofing:000023:left_thumb",
+  "samples_k": 4
+}

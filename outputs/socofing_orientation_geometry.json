@@ -1,0 +1,42 @@
+{
+  "arms": {
+    "harmonic": "Laplace completion of (cos 2t, sin 2t), smoothness only, no learning",
+    "nearest": "orientation of the closest observed pixel",
+    "neural": "this project's trained reconstruction model"
+  },
+  "boundary_erosion_px": 3,
+  "metric": "axial orientation error in the hidden region, lower is better",
+  "question": "is the missing orientation field recoverable without learning?",
+  "summary": {
+    "ALL": {
+      "harmonic": 0.4351175240821763,
+      "images": 100,
+      "nearest": 0.5463319743181216,
+      "neural": 0.05121035649324217
+    },
+    "central": {
+      "harmonic": 0.4268794127407014,
+      "images": 25,
+      "nearest": 0.5425989878401952,
+      "neural": 0.05781435145293822
+    },
+    "fragments": {
+      "harmonic": 0.550216248374226,
+      "images": 25,
+      "nearest": 0.6124396729416999,
+      "neural": 0.06089003962954697
+    },
+    "irregular": {
+      "harmonic": 0.4113036939501186,
+      "images": 25,
+      "nearest": 0.5296198207761941,
+      "neural": 0.026678385433698285
+    },
+    "rect": {
+      "harmonic": 0.3520707412636592,
+      "images": 25,
+      "nearest": 0.500669415714397,
+      "neural": 0.059458649456785126
+    }
+  }
+}

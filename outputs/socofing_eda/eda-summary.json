@@ -1,0 +1,96 @@
+{
+  "mask_geometry_diagnostic": {
+    "maximum_observed_fraction_error": 2.4414062500088818e-05,
+    "replicates": 20
+  },
+  "orientation_batch_audit": {
+    "foreground_fraction_quantiles": {
+      "q00": 0.50274658203125,
+      "q05": 0.58880615234375,
+      "q100": 0.78045654296875,
+      "q25": 0.6785888671875,
+      "q50": 0.70892333984375,
+      "q75": 0.74072265625,
+      "q95": 0.7637939453125
+    },
+    "mean_valid_coherence_quantiles": {
+      "q00": 0.45795944333076477,
+      "q05": 0.5143880248069763,
+      "q100": 0.8125131130218506,
+      "q25": 0.5732537508010864,
+      "q50": 0.6497592926025391,
+      "q75": 0.7107296586036682,
+      "q95": 0.7441851496696472
+    },
+    "num_images": 21,
+    "strata": 7,
+    "valid_orientation_fraction_quantiles": {
+      "q00": 0.461181640625,
+      "q05": 0.573974609375,
+      "q100": 0.75982666015625,
+      "q25": 0.64251708984375,
+      "q50": 0.6900634765625,
+      "q75": 0.7164306640625,
+      "q95": 0.740234375
+    }
+  },
+  "orientation_diagnostic": {
+    "foreground_fraction": 0.73577880859375,
+    "mean_valid_coherence": 0.7299848198890686,
+    "orientation_blocks_candidate": 300,
+    "orientation_blocks_displayed": 300,
+    "orientation_display_stride": 6,
+    "orientation_display_window": 16,
+    "valid_orientation_fraction": 0.7347412109375
+  },
+  "representative_sample": "socofing:000001:left_thumb",
+  "summary": {
+    "gender_images": {
+      "F": 1230,
+      "M": 4770
+    },
+    "hand_images": {
+      "Left": 3000,
+      "Right": 3000
+    },
+    "image_shapes": {
+      "103x96": 5956,
+      "298x241": 44
+    },
+    "intensity_mean_quantiles": {
+      "q00": 0.225577447807602,
+      "q05": 0.47878293752776196,
+      "q100": 0.9436762326289739,
+      "q25": 0.5882998405672949,
+      "q50": 0.643443032552827,
+      "q75": 0.6995424241703154,
+      "q95": 0.7681545862681642
+    },
+    "intensity_std_quantiles": {
+      "q00": 0.12300651466348696,
+      "q05": 0.31380526447299434,
+      "q100": 0.472620236016614,
+      "q25": 0.36525606003755906,
+      "q50": 0.3962222343141382,
+      "q75": 0.4143833838536888,
+      "q95": 0.4330466000494764
+    },
+    "num_fingers": 6000,
+    "num_images": 6000,
+    "num_subjects": 600,
+    "source_modes": {
+      "RGB": 44,
+      "RGBA": 5956
+    },
+    "split_images": {
+      "test": 900,
+      "train": 4200,
+      "validation": 900
+    },
+    "split_subjects": {
+      "test": 90,
+      "train": 420,
+      "validation": 90
+    }
+  }
+}

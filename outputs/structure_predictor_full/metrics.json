@@ -1,0 +1,394 @@
+{
+  "best_epoch": 14,
+  "best_validation_loss": 0.27366652131080627,
+  "device": "mps",
+  "elapsed_seconds": 220.46855329200025,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "circular_error": 0.23285218048663367,
+        "coherence": 0.17303727692081813,
+        "loss": 0.6165316715694609,
+        "orientation": 0.23285218048663367,
+        "support_bce": 0.2210978338831947,
+        "support_dice": 0.11932233765011742,
+        "support_iou": 0.8881479366620382
+      },
+      "validation": {
+        "circular_error": 0.15773020923137665,
+        "coherence": 0.17392699519793192,
+        "loss": 0.43715638200442,
+        "orientation": 0.15773020923137665,
+        "support_bce": 0.1571023271150059,
+        "support_dice": 0.07884209818310207,
+        "support_iou": 0.9301444546381632
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "circular_error": 0.14040178000926973,
+        "coherence": 0.16338798727308002,
+        "loss": 0.3978132118497576,
+        "orientation": 0.14040178000926973,
+        "support_bce": 0.1458273413919267,
+        "support_dice": 0.07073709465208508,
+        "support_iou": 0.9355173989704677
+      },
+      "validation": {
+        "circular_error": 0.14012248499525917,
+        "coherence": 0.1656353355778588,
+        "loss": 0.38444014536009896,
+        "orientation": 0.14012248499525917,
+        "support_bce": 0.13778541912635167,
+        "support_dice": 0.06512340704600016,
+        "support_iou": 0.9378480129771762
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "circular_error": 0.11696194759437016,
+        "coherence": 0.15280883862858727,
+        "loss": 0.3492832731065296,
+        "orientation": 0.11696194759437016,
+        "support_bce": 0.13296400588183177,
+        "support_dice": 0.061155110994974775,
+        "support_iou": 0.9414854693412781
+      },
+      "validation": {
+        "circular_error": 0.11460219552119573,
+        "coherence": 0.15044327550464207,
+        "loss": 0.3392577952808804,
+        "orientation": 0.11460219552119573,
+        "support_bce": 0.1284121373958058,
+        "support_dice": 0.058632642428080244,
+        "support_iou": 0.9427606044875251
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "circular_error": 0.10942261917250497,
+        "coherence": 0.14283293661617097,
+        "loss": 0.32780200140816823,
+        "orientation": 0.10942261917250497,
+        "support_bce": 0.12592019008738653,
+        "support_dice": 0.056750958419981457,
+        "support_iou": 0.9450437349364871
+      },
+      "validation": {
+        "circular_error": 0.12949838572078282,
+        "coherence": 0.14898207816812728,
+        "loss": 0.3428396916389465,
+        "orientation": 0.12949838572078282,
+        "support_bce": 0.12176468243201574,
+        "support_dice": 0.05433110528522068,
+        "support_iou": 0.948037700123257
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "circular_error": 0.10591394552162715,
+        "coherence": 0.13787495391709464,
+        "loss": 0.3158202007270995,
+        "orientation": 0.10591394552162715,
+        "support_bce": 0.12140896990185693,
+        "support_dice": 0.05402854669661749,
+        "support_iou": 0.9480756507601057
+      },
+      "validation": {
+        "circular_error": 0.1164587741262383,
+        "coherence": 0.15460455139478047,
+        "loss": 0.3287224926551183,
+        "orientation": 0.1164587741262383,
+        "support_bce": 0.12071645885705948,
+        "support_dice": 0.052896119753519696,
+        "support_iou": 0.9494816811879476
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "circular_error": 0.1016136353072666,
+        "coherence": 0.13425623941989173,
+        "loss": 0.3061232643468039,
+        "orientation": 0.1016136353072666,
+        "support_bce": 0.11826703820909773,
+        "support_dice": 0.05267853203273955,
+        "support_iou": 0.9494836876505898
+      },
+      "validation": {
+        "circular_error": 0.11758933494488398,
+        "coherence": 0.13842254800928963,
+        "loss": 0.3336342036061817,
+        "orientation": 0.11758933494488398,
+        "support_bce": 0.12886909266312918,
+        "support_dice": 0.05257013930214776,
+        "support_iou": 0.9464531750149197
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "circular_error": 0.09650492242404393,
+        "coherence": 0.1313414299204236,
+        "loss": 0.2966277077652159,
+        "orientation": 0.09650492242404393,
+        "support_bce": 0.11604622104338237,
+        "support_dice": 0.05124120621454148,
+        "support_iou": 0.9512324303672427
+      },
+      "validation": {
+        "circular_error": 0.1104123036397828,
+        "coherence": 0.14050673458311294,
+        "loss": 0.3160933638943566,
+        "orientation": 0.1104123036397828,
+        "support_bce": 0.11979920453495449,
+        "support_dice": 0.050755169656541615,
+        "support_iou": 0.9510407331254748
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "circular_error": 0.09616338885965801,
+        "coherence": 0.12959147788229441,
+        "loss": 0.29616990736552645,
+        "orientation": 0.09616338885965801,
+        "support_bce": 0.11602132223901294,
+        "support_dice": 0.05158732766196841,
+        "support_iou": 0.9506265051024301
+      },
+      "validation": {
+        "circular_error": 0.11432321790191863,
+        "coherence": 0.1363822928733296,
+        "loss": 0.3354038166337543,
+        "orientation": 0.11432321790191863,
+        "support_bce": 0.13175197117858461,
+        "support_dice": 0.05523305469089084,
+        "support_iou": 0.9412650815645853
+      }
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "circular_error": 0.0924258797935077,
+        "coherence": 0.1266881579444522,
+        "loss": 0.28638268016633533,
+        "orientation": 0.0924258797935077,
+        "support_bce": 0.11248105869406745,
+        "support_dice": 0.049803702944800965,
+        "support_iou": 0.953304391134353
+      },
+      "validation": {
+        "circular_error": 0.10396536088652081,
+        "coherence": 0.12586527433660294,
+        "loss": 0.2976710096995036,
+        "orientation": 0.10396536088652081,
+        "support_bce": 0.11322881665494706,
+        "support_dice": 0.04901051203409831,
+        "support_iou": 0.9539874325858222
+      }
+    },
+    {
+      "epoch": 9,
+      "train": {
+        "circular_error": 0.08861503484703245,
+        "coherence": 0.12457481971808843,
+        "loss": 0.28097061767464593,
+        "orientation": 0.08861503484703245,
+        "support_bce": 0.11179411025274368,
+        "support_dice": 0.04941776695705596,
+        "support_iou": 0.9534429432096936
+      },
+      "validation": {
+        "circular_error": 0.09960492857628399,
+        "coherence": 0.12392624232504103,
+        "loss": 0.2929624287287394,
+        "orientation": 0.09960492857628399,
+        "support_bce": 0.1130370212925805,
+        "support_dice": 0.049338921440972225,
+        "support_iou": 0.9525723465283712
+      }
+    },
+    {
+      "epoch": 10,
+      "train": {
+        "circular_error": 0.0859741789386386,
+        "coherence": 0.12465173704283578,
+        "loss": 0.27673930151121956,
+        "orientation": 0.0859741789386386,
+        "support_bce": 0.1105260751928602,
+        "support_dice": 0.049076113019670756,
+        "support_iou": 0.9539173625764392
+      },
+      "validation": {
+        "circular_error": 0.09841506636805004,
+        "coherence": 0.1255169043607182,
+        "loss": 0.28784615761703913,
+        "orientation": 0.09841506636805004,
+        "support_bce": 0.10964135610395008,
+        "support_dice": 0.04841050942738851,
+        "support_iou": 0.955057053565979
+      }
+    },
+    {
+      "epoch": 11,
+      "train": {
+        "circular_error": 0.08674816479995137,
+        "coherence": 0.121435184606484,
+        "loss": 0.2755724583920978,
+        "orientation": 0.08674816479995137,
+        "support_bce": 0.10986252021221887,
+        "support_dice": 0.04860297759373983,
+        "support_iou": 0.9544795282681783
+      },
+      "validation": {
+        "circular_error": 0.09290868270728324,
+        "coherence": 0.12399028960201475,
+        "loss": 0.2810051512718201,
+        "orientation": 0.09290868270728324,
+        "support_bce": 0.10908427450391982,
+        "support_dice": 0.04801462279425727,
+        "support_iou": 0.9547200057241652
+      }
+    },
+    {
+      "epoch": 12,
+      "train": {
+        "circular_error": 0.08663117508093517,
+        "coherence": 0.1201953403155009,
+        "loss": 0.27379482899393354,
+        "orientation": 0.08663117508093517,
+        "support_bce": 0.10878491642929258,
+        "support_dice": 0.048329903398241315,
+        "support_iou": 0.9549716642924717
+      },
+      "validation": {
+        "circular_error": 0.1051655937731266,
+        "coherence": 0.12854019420014487,
+        "loss": 0.3030017001099057,
+        "orientation": 0.1051655937731266,
+        "support_bce": 0.1163205361366272,
+        "support_dice": 0.04938052230411106,
+        "support_iou": 0.9525244787004259
+      }
+    },
+    {
+      "epoch": 13,
+      "train": {
+        "circular_error": 0.08130017636787323,
+        "coherence": 0.11920109643822624,
+        "loss": 0.26625106425512407,
+        "orientation": 0.08130017636787323,
+        "support_bce": 0.10743497791744414,
+        "support_dice": 0.047715636094411214,
+        "support_iou": 0.9555980861754645
+      },
+      "validation": {
+        "circular_error": 0.09540428408318095,
+        "coherence": 0.12579993903636932,
+        "loss": 0.27959895696904924,
+        "orientation": 0.09540428408318095,
+        "support_bce": 0.10595369597276051,
+        "support_dice": 0.046790991889105904,
+        "support_iou": 0.9576856131023831
+      }
+    },
+    {
+      "epoch": 14,
+      "train": {
+        "circular_error": 0.08346283839572044,
+        "coherence": 0.11934598532460984,
+        "loss": 0.2697626179172879,
+        "orientation": 0.08346283839572044,
+        "support_bce": 0.10848139479046776,
+        "support_dice": 0.04798188845316569,
+        "support_iou": 0.9554933532079061
+      },
+      "validation": {
+        "circular_error": 0.0895418680873182,
+        "coherence": 0.11752737558550305,
+        "loss": 0.27366652131080627,
+        "orientation": 0.0895418680873182,
+        "support_bce": 0.10788830399513244,
+        "support_dice": 0.04685450553894043,
+        "support_iou": 0.9561463578542073
+      }
+    },
+    {
+      "epoch": 15,
+      "train": {
+        "circular_error": 0.0825729376929147,
+        "coherence": 0.11687550768965767,
+        "loss": 0.2650440802460625,
+        "orientation": 0.0825729376929147,
+        "support_bce": 0.10594706160681588,
+        "support_dice": 0.04730520498184931,
+        "support_iou": 0.9567017429215567
+      },
+      "validation": {
+        "circular_error": 0.08848319144712555,
+        "coherence": 0.12036454045110279,
+        "loss": 0.28145026670561896,
+        "orientation": 0.08848319144712555,
+        "support_bce": 0.11444343152973387,
+        "support_dice": 0.048432507514953614,
+        "support_iou": 0.952424037721422
+      }
+    },
+    {
+      "epoch": 16,
+      "train": {
+        "circular_error": 0.08007978943132218,
+        "coherence": 0.11526025029874984,
+        "loss": 0.26044573764006296,
+        "orientation": 0.08007978943132218,
+        "support_bce": 0.10498688584282284,
+        "support_dice": 0.046563999766395206,
+        "support_iou": 0.9576718497276306
+      },
+      "validation": {
+        "circular_error": 0.09234771006637149,
+        "coherence": 0.11809489250183106,
+        "loss": 0.2772795694404178,
+        "orientation": 0.09234771006637149,
+        "support_bce": 0.10746691438886855,
+        "support_dice": 0.04794122166103787,
+        "support_iou": 0.9554069911109077
+      }
+    },
+    {
+      "epoch": 17,
+      "train": {
+        "circular_error": 0.07904963809819449,
+        "coherence": 0.1153125965879077,
+        "loss": 0.2605278191112337,
+        "orientation": 0.07904963809819449,
+        "support_bce": 0.10559393065316336,
+        "support_dice": 0.047056101503826324,
+        "support_iou": 0.9567300216356913
+      },
+      "validation": {
+        "circular_error": 0.09571850339571635,
+        "coherence": 0.1181461274292734,
+        "loss": 0.27551596383253735,
+        "orientation": 0.09571850339571635,
+        "support_bce": 0.10442836420403587,
+        "support_dice": 0.04583256615532769,
+        "support_iou": 0.9582393553521898
+      }
+    }
+  ],
+  "mode": "full",
+  "model_parameters": 478756,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "target_definition": "support/orientation/coherence derived from complete image only as a supervised target; inference receives only Y and M"
+}

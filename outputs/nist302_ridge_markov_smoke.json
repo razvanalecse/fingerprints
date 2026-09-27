@@ -1,0 +1,132 @@
+{
+  "ddim_steps": 10,
+  "images_skipped_small_roi": 0,
+  "interpretation": "entropy_diff < 0 together with self_rate_diff > 0 means the reconstructed orientation field is more predictable from its own neighbourhood than the real ridges occupying the same region: the generative model produces flow that is too regular, which is the statistical form of the 'painted stripe' artifact measured descriptively in ablation section 15.",
+  "minimum_roi_pixels": 400,
+  "num_images": 4,
+  "orientation_bins": 12,
+  "samples": 3,
+  "split": "validation",
+  "steps": [
+    2,
+    4
+  ],
+  "summary": {
+    "metrics": {
+      "entropy_diff_step2": {
+        "ci95_high": 0.3383760525553111,
+        "ci95_low": -0.4302672445189316,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": -0.04594559598181028,
+        "standard_deviation": 0.24152592796242636
+      },
+      "entropy_diff_step4": {
+        "ci95_high": 0.6128588916568286,
+        "ci95_low": -0.702461975290329,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": -0.04480154181675022,
+        "standard_deviation": 0.41330496755385154
+      },
+      "real_entropy_step2": {
+        "ci95_high": 1.3854288584962822,
+        "ci95_low": 0.7305318976408762,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 1.0579803780685793,
+        "standard_deviation": 0.20578413523210207
+      },
+      "real_entropy_step4": {
+        "ci95_high": 2.214811372832556,
+        "ci95_low": 1.0184428763849498,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 1.616627124608753,
+        "standard_deviation": 0.37592731555637443
+      },
+      "real_self_rate_step2": {
+        "ci95_high": 0.7946030909241467,
+        "ci95_low": 0.6628241190550673,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 0.728713604989607,
+        "standard_deviation": 0.04140807392422967
+      },
+      "real_self_rate_step4": {
+        "ci95_high": 0.6151956114565469,
+        "ci95_low": 0.45030022296642835,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 0.5327479172114876,
+        "standard_deviation": 0.051814036333102734
+      },
+      "recon_entropy_step2": {
+        "ci95_high": 1.6298990351088363,
+        "ci95_low": 0.39417052906470185,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 1.012034782086769,
+        "standard_deviation": 0.3882951627471283
+      },
+      "recon_entropy_step4": {
+        "ci95_high": 2.6355598801293376,
+        "ci95_low": 0.5080912854546678,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 1.5718255827920027,
+        "standard_deviation": 0.6685010179566914
+      },
+      "recon_self_rate_step2": {
+        "ci95_high": 0.93383098010598,
+        "ci95_low": 0.5910424381881593,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 0.7624367091470696,
+        "standard_deviation": 0.10771227823976183
+      },
+      "recon_self_rate_step4": {
+        "ci95_high": 0.874505177884365,
+        "ci95_low": 0.2925288482024194,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 0.5835170130433922,
+        "standard_deviation": 0.1828707459150874
+      },
+      "self_rate_diff_step2": {
+        "ci95_high": 0.1785002942093273,
+        "ci95_low": -0.11105408589440205,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 0.03372310415746263,
+        "standard_deviation": 0.09098484383632555
+      },
+      "self_rate_diff_step4": {
+        "ci95_high": 0.31117817435536066,
+        "ci95_low": -0.20963998269155149,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 0.05076909583190459,
+        "standard_deviation": 0.16365339964486295
+      },
+      "transitions_step2": {
+        "ci95_high": 5227.047444406828,
+        "ci95_low": -195.54744440682816,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 2515.75,
+        "standard_deviation": 1703.9077390907448
+      },
+      "transitions_step4": {
+        "ci95_high": 4001.173220637797,
+        "ci95_low": -157.17322063779693,
+        "finite_count": 4.0,
+        "infinite_count": 0.0,
+        "mean": 1922.0,
+        "standard_deviation": 1306.6509352794521
+      }
+    },
+    "num_images": 4
+  },
+  "test_loaded": false
+}

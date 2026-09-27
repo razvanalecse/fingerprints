@@ -1,0 +1,117 @@
+protocol_version: 1
+status: draft_until_stage_1_to_6_freeze
+scope: academic_reconstruction_on_public_or_synthetic_benchmarks
+
+dataset:
+  active_domain: socofing_originals
+  nist_status: deferred_by_user
+  manifest: data/processed/socofing/socofing_manifest.csv
+  manifest_sha256: 40a3011c971115668e15e66667e0d23a9ad2ecce7262bb211a918da0e7a05e09
+  split_unit: subject
+  splits:
+    train: {subjects: 420, images: 4200}
+    validation: {subjects: 90, images: 900}
+    test: {subjects: 90, images: 900}
+  test_policy: locked_until_model_and_hyperparameters_are_frozen
+
+randomness:
+  primary_seed: 1729
+  confirmation_seeds: [2718, 31415]
+  report_each_seed: true
+  report_seed_aggregate: true
+
+conditions:
+  observed_fraction_semantics: "r = observed pixels / all pixels"
+  observed_fractions: [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80]
+  mask_families:
+    - random_rectangles
+    - irregular
+    - central_missing
+    - peripheral_only
+    - central_only
+    - disconnected_fragments
+    - stripes
+    - severe_partial
+  severe_partial_domain: [0.10, 0.20, 0.30]
+
+primary_outcomes:
+  reconstruction_domain: "missing pixels intersected with fingerprint ROI"
+  deterministic:
+    - missing_roi_mae
+    - missing_roi_ssim_map_mean
+    - missing_roi_orientation_error
+  probabilistic:
+    - expected_single_sample_error
+    - predictive_mean_error
+    - uncertainty_error_correlation
+    - interval_coverage
+  note: "Best-of-K is secondary and may not be presented as single-sample performance."
+
+secondary_outcomes:
+  - missing_roi_mse
+  - missing_roi_psnr
+  - ridge_frequency_error
+  - ridge_continuity
+  - pairwise_sample_diversity
+  - inference_time_seconds
+  - peak_memory_bytes
+
+model_registry:
+  classical_inpainting:
+    status: completed_validation
+    method: nearest_observed_spatial_interpolation
+    output: outputs/classical_nearest_validation
+  unet_pixel:
+    status: completed_validation
+    output: outputs/unet_full_mps
+  partial_or_gated_convolution:
+    status: completed_validation
+    method: gated_convolution_encoder_decoder
+    output: outputs/gated_full_mps
+  cvae:
+    status: completed_validation_k10
+    pilot_output: outputs/cvae_pilot_mps
+    output: outputs/cvae_full_mps
+  conditional_ddpm:
+    status: completed_limited_training_and_ddim50_validation_k10
+    implementation: explicit_pixel_space_epsilon_prediction
+    pilot_output: outputs/ddpm_pilot_mps
+    output: outputs/ddpm_limited_full_mps
+    ddim_validation: outputs/ddim_50step_k10_validation
+    selected_limited_compute_sampler: {method: ddim, inference_steps: 50, eta: 0.0}
+  repaint:
+    status: implementation_complete_balanced90_validation_k5
+    method: ancestral_known_region_reinjection_with_reverse_forward_resampling
+    pilot_u1: outputs/repaint_u1_k5_pilot50
+    pilot_u2: outputs/repaint_u2_k5_pilot50
+    balanced_validation: outputs/repaint_u2_k5_balanced90
+    comparison: outputs/ddim50_vs_repaint_u2_paired_balanced90.json
+    limitation: not_yet_evaluated_on_all_900_validation_images
+  latent_diffusion: {status: not_started}
+  unet_structural:
+    status: development_ablation_not_reportable
+    acceptance_rule: >-
+      Must improve paired missing-ROI orientation/frequency outcomes without
+      degrading MAE beyond a predeclared non-inferiority margin and without
+      visible periodic decoder artifacts.
+
+statistics:
+  repeated_unit: image
+  clustering_unit: subject
+  primary_model: >-
+    metric ~ observed_fraction * model + mask_family + (1 | subject)
+  paired_model_comparisons: true
+  confidence_level: 0.95
+  effect_sizes_required: true
+  multiplicity_control: holm
+  threshold_analysis:
+    compare_linear_vs_segmented: true
+    claim_threshold_only_if_supported: true
+
+reporting:
+  separate_observed_and_missing_regions: true
+  separate_dataset_domains: true
+  preserve_per_image_metrics: true
+  preserve_exact_splits: true
+  preserve_configs_and_checkpoints: true
+  label_intermediate_and_failed_runs: true

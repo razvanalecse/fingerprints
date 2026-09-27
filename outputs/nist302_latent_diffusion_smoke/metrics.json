@@ -1,0 +1,33 @@
+{
+  "autoencoder_parameters": 35813,
+  "best_epoch": 1,
+  "best_validation_loss": 1.1649090051651,
+  "ddim_preview_steps": 10,
+  "denoiser_parameters": 130322,
+  "device": "mps",
+  "elapsed_seconds": 7.622406709,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "examples": 4,
+        "loss": 1.167541742324829
+      },
+      "validation": {
+        "examples": 2,
+        "loss": 1.1649090051651
+      }
+    }
+  ],
+  "latent_scale": 2.1331688223659815,
+  "mode": "smoke_test",
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "test_loaded": false,
+  "timesteps": 20,
+  "train_images": 1213,
+  "validation_images": 287
+}

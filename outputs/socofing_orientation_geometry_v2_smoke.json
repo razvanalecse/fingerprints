@@ -1,0 +1,62 @@
+{
+  "arms": {
+    "harmonic": "Laplace completion of (cos 2t, sin 2t), smoothness only, no learning",
+    "nearest": "orientation of the closest observed pixel",
+    "neural": "this project's trained reconstruction model"
+  },
+  "boundary_erosion_px": 3,
+  "metric": "axial orientation error in the hidden region, lower is better",
+  "question": "is the missing orientation field recoverable without learning?",
+  "summary": {
+    "ALL": {
+      "biharmonic": 0.7686021344668305,
+      "combination": 0.45248424233786655,
+      "harmonic": 0.36552511876384025,
+      "images": 12,
+      "nearest": 0.5144518907069755,
+      "neural": 0.05317153258742924,
+      "polynomial": 0.37826755391001443,
+      "zero_pole": 0.4164176223206459
+    },
+    "central": {
+      "biharmonic": 0.9230334114506666,
+      "combination": 0.46875408940268254,
+      "harmonic": 0.35479109130622044,
+      "images": 3,
+      "nearest": 0.5858495396107753,
+      "neural": 0.0582131171151681,
+      "polynomial": 0.08752614975202279,
+      "zero_pole": 0.35023699684829607
+    },
+    "fragments": {
+      "biharmonic": 0.7336039847806687,
+      "combination": 0.5319554060753436,
+      "harmonic": 0.46473979368445023,
+      "images": 3,
+      "nearest": 0.4653926047625932,
+      "neural": 0.06364052982255951,
+      "polynomial": 0.8345180082449618,
+      "zero_pole": 0.5082603615667334
+    },
+    "irregular": {
+      "biharmonic": 0.5789617402729332,
+      "combination": 0.33619224437318374,
+      "harmonic": 0.31351967668390573,
+      "images": 3,
+      "nearest": 0.4886252007737415,
+      "neural": 0.03145071612659947,
+      "polynomial": 0.23442842112613557,
+      "zero_pole": 0.35468889704457024
+    },
+    "rect": {
+      "biharmonic": 0.838809401363053,
+      "combination": 0.4730352295002562,
+      "harmonic": 0.32904991338078443,
+      "images": 3,
+      "nearest": 0.5179402176807918,
+      "neural": 0.05938176728538987,
+      "polynomial": 0.3565976365169374,
+      "zero_pole": 0.45248423382298397
+    }
+  }
+}

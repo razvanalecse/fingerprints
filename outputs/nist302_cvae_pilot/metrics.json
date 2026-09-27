@@ -1,0 +1,201 @@
+{
+  "best_epoch": 2,
+  "best_validation_loss": 0.18624402955174446,
+  "device": "mps",
+  "elapsed_seconds": 37.223828082999994,
+  "history": [
+    {
+      "beta": 0.00625,
+      "epoch": 1,
+      "train": {
+        "effective_region_weight": 0.33733085519634187,
+        "examples": 256.0,
+        "kl": 0.0278564996260684,
+        "loss": 0.23372310074046254,
+        "missing_l1": 0.21586793870665133,
+        "missing_mse": 0.07072423968929797
+      },
+      "validation": {
+        "effective_region_weight": 0.3025661641731858,
+        "examples": 64.0,
+        "kl": 0.02376608399208635,
+        "loss": 0.19133008643984795,
+        "missing_l1": 0.1787521680817008,
+        "missing_mse": 0.04971752013079822
+      }
+    },
+    {
+      "beta": 0.0125,
+      "epoch": 2,
+      "train": {
+        "effective_region_weight": 0.34082747786305845,
+        "examples": 256.0,
+        "kl": 0.018094277096679434,
+        "loss": 0.21476448862813413,
+        "missing_l1": 0.19971598661504686,
+        "missing_mse": 0.05928929627407342
+      },
+      "validation": {
+        "effective_region_weight": 0.3025661641731858,
+        "examples": 64.0,
+        "kl": 0.013118736853357404,
+        "loss": 0.18624402955174446,
+        "missing_l1": 0.17439227644354105,
+        "missing_mse": 0.04675107728689909
+      }
+    },
+    {
+      "beta": 0.018750000000000003,
+      "epoch": 3,
+      "train": {
+        "effective_region_weight": 0.340556129347533,
+        "examples": 256.0,
+        "kl": 0.011884768435265869,
+        "loss": 0.2043220077175647,
+        "missing_l1": 0.19060780969448388,
+        "missing_mse": 0.05396543286042288
+      },
+      "validation": {
+        "effective_region_weight": 0.3025661641731858,
+        "examples": 64.0,
+        "kl": 0.010663911700248718,
+        "loss": 0.18675344623625278,
+        "missing_l1": 0.17497516423463821,
+        "missing_mse": 0.04631333134602755
+      }
+    }
+  ],
+  "latent_dim": 16,
+  "mode": "pilot",
+  "parameters": 304769,
+  "probabilistic_evaluation": {
+    "metrics": {
+      "mean_heldout_q1_mae": {
+        "ci95_high": 0.23605931419886156,
+        "ci95_low": 0.19965577266475915,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.21785754343181035,
+        "standard_deviation": 0.07286754336311943
+      },
+      "mean_heldout_q1_max_absolute_error": {
+        "ci95_high": 0.5614761854497629,
+        "ci95_low": 0.5250356004132045,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.5432558929314837,
+        "standard_deviation": 0.07294169189119602
+      },
+      "mean_heldout_q1_mse": {
+        "ci95_high": 0.0700240580952691,
+        "ci95_low": 0.053568946411174614,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.061796502253221856,
+        "standard_deviation": 0.032937552602196066
+      },
+      "mean_heldout_q1_orientation_error": {
+        "ci95_high": 0.40544367071639903,
+        "ci95_low": 0.28775136250704597,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.3465975166117225,
+        "standard_deviation": 0.2355800839848728
+      },
+      "mean_heldout_q1_pixels": {
+        "ci95_high": 2482.5744446901235,
+        "ci95_low": 1828.4255553098765,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 2155.5,
+        "standard_deviation": 1309.3842124728005
+      },
+      "mean_heldout_q1_psnr": {
+        "ci95_high": 13.298666479964664,
+        "ci95_low": 12.112215156242877,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 12.70544081810377,
+        "standard_deviation": 2.374873147947403
+      },
+      "mean_heldout_q1_ssim_map_mean": {
+        "ci95_high": 0.2438803115276853,
+        "ci95_low": 0.17438417327432443,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.20913224240100486,
+        "standard_deviation": 0.1391076981617903
+      },
+      "pairwise_diversity_mae": {
+        "ci95_high": 0.017395459147805655,
+        "ci95_low": 0.015149416867310675,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.016272438007558166,
+        "standard_deviation": 0.0044958148677938245
+      },
+      "single_heldout_q1_mae": {
+        "ci95_high": 0.23631858416196988,
+        "ci95_low": 0.19982790687954494,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.2180732455207574,
+        "standard_deviation": 0.07304195957791049
+      },
+      "single_heldout_q1_max_absolute_error": {
+        "ci95_high": 0.5644344479947796,
+        "ci95_low": 0.5272056307007114,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.5458200393477455,
+        "standard_deviation": 0.07451946553034892
+      },
+      "single_heldout_q1_mse": {
+        "ci95_high": 0.07028265188540027,
+        "ci95_low": 0.05369505520602973,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.061988853545715004,
+        "standard_deviation": 0.033202742628534496
+      },
+      "single_heldout_q1_pixels": {
+        "ci95_high": 2482.5744446901235,
+        "ci95_low": 1828.4255553098765,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 2155.5,
+        "standard_deviation": 1309.3842124728005
+      },
+      "single_heldout_q1_psnr": {
+        "ci95_high": 13.293502578363928,
+        "ci95_low": 12.101813533497065,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 12.697658055930496,
+        "standard_deviation": 2.385357289230885
+      },
+      "single_heldout_q1_ssim_map_mean": {
+        "ci95_high": 0.24091671642572604,
+        "ci95_low": 0.17204341633999992,
+        "finite_count": 64.0,
+        "infinite_count": 0.0,
+        "mean": 0.20648006638286298,
+        "standard_deviation": 0.13786098739476746
+      },
+      "uncertainty_error_spearman": {
+        "finite_count": 0.0,
+        "infinite_count": 0.0
+      }
+    },
+    "num_images": 64
+  },
+  "samples_k": 4,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "test_loaded": false,
+  "train_images": 1213,
+  "validation_images": 287
+}

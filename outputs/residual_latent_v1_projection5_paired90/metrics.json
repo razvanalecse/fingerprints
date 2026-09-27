@@ -1,0 +1,18 @@
+{
+  "elapsed_seconds": 23.472688707999623,
+  "means": {
+    "best_of_k_mae": 0.21685955128948606,
+    "mean_mae": 0.20055495170596238,
+    "mean_orientation_error": 0.24734704426487653,
+    "mean_psnr": 12.015350137941262,
+    "mean_ssim_map_mean": 0.21326535312345227,
+    "single_mae": 0.22951790203441524,
+    "uncertainty_error_spearman": 0.2940226663170742
+  },
+  "model": "deterministic coarse predictor plus conditional latent residual diffusion",
+  "num_pairs": 90,
+  "pixel_projection_interval": 5,
+  "samples_k": 5,
+  "sampling_seconds": 20.240082752999115,
+  "steps": 50
+}

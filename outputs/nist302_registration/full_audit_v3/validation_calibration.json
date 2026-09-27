@@ -1,0 +1,520 @@
+{
+  "selection_split": "validation",
+  "num_validation_comp": 688,
+  "num_validation_indiv_with_affine": 547,
+  "candidate_filters": [
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 153,
+      "retention_among_indiv_affine": 0.2797074954296161
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 30,
+      "retention_among_indiv_affine": 0.054844606946983544
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 2,
+      "retention_among_indiv_affine": 0.003656307129798903
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 305,
+      "retention_among_indiv_affine": 0.5575868372943327
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 74,
+      "retention_among_indiv_affine": 0.13528336380255943
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 7,
+      "retention_among_indiv_affine": 0.012797074954296161
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 351,
+      "retention_among_indiv_affine": 0.6416819012797075
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 89,
+      "retention_among_indiv_affine": 0.16270566727605118
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 9,
+      "retention_among_indiv_affine": 0.016453382084095063
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 371,
+      "retention_among_indiv_affine": 0.6782449725776966
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 96,
+      "retention_among_indiv_affine": 0.17550274223034734
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 11,
+      "retention_among_indiv_affine": 0.02010968921389397
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 4,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 150,
+      "retention_among_indiv_affine": 0.2742230347349177
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 30,
+      "retention_among_indiv_affine": 0.054844606946983544
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 2,
+      "retention_among_indiv_affine": 0.003656307129798903
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 302,
+      "retention_among_indiv_affine": 0.5521023765996343
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 74,
+      "retention_among_indiv_affine": 0.13528336380255943
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 7,
+      "retention_among_indiv_affine": 0.012797074954296161
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 348,
+      "retention_among_indiv_affine": 0.6361974405850092
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 89,
+      "retention_among_indiv_affine": 0.16270566727605118
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 9,
+      "retention_among_indiv_affine": 0.016453382084095063
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 368,
+      "retention_among_indiv_affine": 0.6727605118829981
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 96,
+      "retention_among_indiv_affine": 0.17550274223034734
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 11,
+      "retention_among_indiv_affine": 0.02010968921389397
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 6,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 140,
+      "retention_among_indiv_affine": 0.25594149908592323
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 30,
+      "retention_among_indiv_affine": 0.054844606946983544
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 2,
+      "retention_among_indiv_affine": 0.003656307129798903
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 276,
+      "retention_among_indiv_affine": 0.5045703839122486
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 72,
+      "retention_among_indiv_affine": 0.1316270566727605
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 7,
+      "retention_among_indiv_affine": 0.012797074954296161
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 319,
+      "retention_among_indiv_affine": 0.583180987202925
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 87,
+      "retention_among_indiv_affine": 0.1590493601462523
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 9,
+      "retention_among_indiv_affine": 0.016453382084095063
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 336,
+      "retention_among_indiv_affine": 0.6142595978062158
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 94,
+      "retention_among_indiv_affine": 0.17184643510054845
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 11,
+      "retention_among_indiv_affine": 0.02010968921389397
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 8,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 104,
+      "retention_among_indiv_affine": 0.19012797074954296
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 26,
+      "retention_among_indiv_affine": 0.04753199268738574
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 2,
+      "retention_among_indiv_affine": 0.003656307129798903
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.2,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 213,
+      "retention_among_indiv_affine": 0.38939670932358317
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 64,
+      "retention_among_indiv_affine": 0.1170018281535649
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 7,
+      "retention_among_indiv_affine": 0.012797074954296161
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.3,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 248,
+      "retention_among_indiv_affine": 0.453382084095064
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 77,
+      "retention_among_indiv_affine": 0.14076782449725778
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 9,
+      "retention_among_indiv_affine": 0.016453382084095063
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.4,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.01,
+      "accepted_validation": 260,
+      "retention_among_indiv_affine": 0.4753199268738574
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.025,
+      "accepted_validation": 84,
+      "retention_among_indiv_affine": 0.15356489945155394
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.05,
+      "accepted_validation": 11,
+      "retention_among_indiv_affine": 0.02010968921389397
+    },
+    {
+      "determination": "INDIV",
+      "minimum_correspondences": 10,
+      "maximum_affine_rmse_mm": 0.5,
+      "minimum_hull_coverage": 0.1,
+      "accepted_validation": 0,
+      "retention_among_indiv_affine": 0.0
+    }
+  ],
+  "warning": "No test rows are used here. A final filter must be frozen before reporting any test-set reconstruction result."
+}

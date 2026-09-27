@@ -1,0 +1,86 @@
+{
+  "ddim_steps": 20,
+  "images_skipped_small_roi": 3,
+  "interpretation": "coherence_diff > 0 and curvature_diff < 0 together would indicate a 'painted stripe' artifact: the reconstruction is more locally uniform and less naturally curved than real ridges in the same region.",
+  "minimum_roi_pixels": 400,
+  "num_images": 284,
+  "samples": 10,
+  "summary": {
+    "metrics": {
+      "coherence_diff": {
+        "ci95_high": 0.19294255619397843,
+        "ci95_low": 0.1690333734927425,
+        "finite_count": 284.0,
+        "infinite_count": 0.0,
+        "mean": 0.18098796484336047,
+        "standard_deviation": 0.10234921993370058
+      },
+      "curvature_diff": {
+        "ci95_high": -0.01880371428620093,
+        "ci95_low": -0.02472330042270271,
+        "finite_count": 284.0,
+        "infinite_count": 0.0,
+        "mean": -0.02176350735445182,
+        "standard_deviation": 0.025340264908761914
+      },
+      "minutiae_density_diff": {
+        "ci95_high": -7.443988154139618,
+        "ci95_low": -12.112169665840185,
+        "finite_count": 275.0,
+        "infinite_count": 0.0,
+        "mean": -9.778078909989901,
+        "standard_deviation": 19.661355248469075
+      },
+      "real_coherence": {
+        "ci95_high": 0.6489824093630475,
+        "ci95_low": 0.624676758212117,
+        "finite_count": 284.0,
+        "infinite_count": 0.0,
+        "mean": 0.6368295837875823,
+        "standard_deviation": 0.10404640201899497
+      },
+      "real_curvature": {
+        "ci95_high": 0.10553807905271731,
+        "ci95_low": 0.10041406465640174,
+        "finite_count": 284.0,
+        "infinite_count": 0.0,
+        "mean": 0.10297607185455952,
+        "standard_deviation": 0.021934621644964947
+      },
+      "real_minutiae_density": {
+        "ci95_high": 23.53758258321956,
+        "ci95_low": 19.606789089474397,
+        "finite_count": 275.0,
+        "infinite_count": 0.0,
+        "mean": 21.57218583634698,
+        "standard_deviation": 16.55563887033618
+      },
+      "recon_coherence": {
+        "ci95_high": 0.8281135548791454,
+        "ci95_low": 0.8075215423827402,
+        "finite_count": 284.0,
+        "infinite_count": 0.0,
+        "mean": 0.8178175486309428,
+        "standard_deviation": 0.08814924550989103
+      },
+      "recon_curvature": {
+        "ci95_high": 0.08440562989983327,
+        "ci95_low": 0.07801949910038211,
+        "finite_count": 284.0,
+        "infinite_count": 0.0,
+        "mean": 0.08121256450010769,
+        "standard_deviation": 0.02733742570316385
+      },
+      "recon_minutiae_density": {
+        "ci95_high": 13.256928080251022,
+        "ci95_low": 10.331285772463144,
+        "finite_count": 275.0,
+        "infinite_count": 0.0,
+        "mean": 11.794106926357083,
+        "standard_deviation": 12.322162837754297
+      }
+    },
+    "num_images": 284
+  },
+  "test_loaded": false
+}

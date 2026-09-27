@@ -1,0 +1,7 @@
+{
+  "target": "Track E: exact missing-region ground truth by construction",
+  "pseudo_target_used": false,
+  "loss": "MaskedReconstructionLoss (exact target, no confidence weighting)",
+  "initialization": "outputs/gated_full_mps/best-checkpoint.pt",
+  "test_loaded": false
+}

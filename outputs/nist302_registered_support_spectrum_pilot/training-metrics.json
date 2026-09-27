@@ -1,0 +1,128 @@
+{
+  "mode": "pilot",
+  "device": "mps",
+  "elapsed_seconds": 44.03762812500645,
+  "best_epoch": 3,
+  "best_validation_loss": 0.34415833465754986,
+  "history": [
+    {
+      "epoch": 1,
+      "learning_rate": 2e-05,
+      "train": {
+        "gradient_norm": 0.9465610845945776,
+        "loss": 0.3869331870228052,
+        "registered_l1": 0.22753134742379189,
+        "registered_mse": 0.07984765048604459,
+        "observed_l1": 0.0,
+        "orientation": 0.7018226091749966,
+        "gradient": 0.03498444601427764,
+        "ridge_energy": 0.020869281099294312,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.08074377861339599,
+        "ridge_spectrum": 0.061482592194806784,
+        "support_background": 0.11953722522594035,
+        "effective_geometric_weight": 0.11992460867622867,
+        "examples": 256.0
+      },
+      "validation": {
+        "loss": 0.36127746663987637,
+        "registered_l1": 0.21258776728063822,
+        "registered_mse": 0.06879981700330973,
+        "observed_l1": 0.0,
+        "orientation": 0.640983060002327,
+        "gradient": 0.037550359149463475,
+        "ridge_energy": 0.01932678953744471,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.08482717163860798,
+        "ridge_spectrum": 0.06410672003403306,
+        "support_background": 0.10699300235137343,
+        "effective_geometric_weight": 0.09256665594875813,
+        "examples": 64.0
+      }
+    },
+    {
+      "epoch": 2,
+      "learning_rate": 2e-05,
+      "train": {
+        "gradient_norm": 0.9627518067136407,
+        "loss": 0.373133453540504,
+        "registered_l1": 0.22730105137452483,
+        "registered_mse": 0.07821280212374404,
+        "observed_l1": 0.0,
+        "orientation": 0.6726779728196561,
+        "gradient": 0.03891272970940918,
+        "ridge_energy": 0.021509619138669223,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.08062515582423657,
+        "ridge_spectrum": 0.05967845697887242,
+        "support_background": 0.10461255628615618,
+        "effective_geometric_weight": 0.11723588046152145,
+        "examples": 256.0
+      },
+      "validation": {
+        "loss": 0.3507716627791524,
+        "registered_l1": 0.20459891203790903,
+        "registered_mse": 0.06445646635256708,
+        "observed_l1": 0.0,
+        "orientation": 0.6184282172471285,
+        "gradient": 0.03942486993037164,
+        "ridge_energy": 0.020345387456472963,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.08400297351181507,
+        "ridge_spectrum": 0.060555651783943176,
+        "support_background": 0.11346815433353186,
+        "effective_geometric_weight": 0.09256665594875813,
+        "examples": 64.0
+      }
+    },
+    {
+      "epoch": 3,
+      "learning_rate": 2e-05,
+      "train": {
+        "gradient_norm": 1.2284496217034757,
+        "loss": 0.3720231344923377,
+        "registered_l1": 0.21917647472582757,
+        "registered_mse": 0.07385836914181709,
+        "observed_l1": 0.0,
+        "orientation": 0.6844783872365952,
+        "gradient": 0.03947403994970955,
+        "ridge_energy": 0.021216539258603007,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.07469190581468865,
+        "ridge_spectrum": 0.05453215999295935,
+        "support_background": 0.10980274935718626,
+        "effective_geometric_weight": 0.12061550375074148,
+        "examples": 256.0
+      },
+      "validation": {
+        "loss": 0.34415833465754986,
+        "registered_l1": 0.20753589272499084,
+        "registered_mse": 0.0660681170411408,
+        "observed_l1": 0.0,
+        "orientation": 0.6028149500489235,
+        "gradient": 0.04062575404532254,
+        "ridge_energy": 0.021537968423217535,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.08463868079707026,
+        "ridge_spectrum": 0.05985610815696418,
+        "support_background": 0.1034081606194377,
+        "effective_geometric_weight": 0.09256665594875813,
+        "examples": 64.0
+      }
+    }
+  ],
+  "train_images": 1213,
+  "validation_images": 287,
+  "test_loaded": false,
+  "seed_state": {
+    "seed": 1729,
+    "deterministic_torch": true,
+    "python_hash_seed": "1729"
+  }
+}

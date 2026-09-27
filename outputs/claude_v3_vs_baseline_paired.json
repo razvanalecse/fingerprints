@@ -1,0 +1,59 @@
+{
+  "metrics": {
+    "missing_roi_mae": {
+      "ci95_high": -0.005142487815571355,
+      "ci95_low": -0.0062987050395702324,
+      "cohen_dz": -0.647356925659986,
+      "mean_improvement": -0.0057205964275707935,
+      "n": 900,
+      "paired_t_pvalue": 1.9884629242766038e-70,
+      "paired_t_statistic": -19.42070776979958,
+      "wilcoxon_pvalue": 3.4229067447635354e-77,
+      "wilcoxon_pvalue_holm": 6.845813489527071e-77,
+      "wilcoxon_statistic": 57658.0
+    },
+    "missing_roi_orientation_error": {
+      "ci95_high": 0.12717223471153072,
+      "ci95_low": 0.11253176546888043,
+      "cohen_dz": 1.071105408193238,
+      "mean_improvement": 0.11985200009020557,
+      "n": 900,
+      "paired_t_pvalue": 1.827144537678187e-151,
+      "paired_t_statistic": 32.133162245797145,
+      "wilcoxon_pvalue": 8.375371272094298e-133,
+      "wilcoxon_pvalue_holm": 3.3501485088377194e-132,
+      "wilcoxon_statistic": 11427.0
+    },
+    "missing_roi_psnr": {
+      "ci95_high": -0.5180469008046608,
+      "ci95_low": -0.5825912256342388,
+      "cohen_dz": -1.1155740869422826,
+      "mean_improvement": -0.5503190632194498,
+      "n": 900,
+      "paired_t_pvalue": 4.012334288263401e-160,
+      "paired_t_statistic": -33.46722260826848,
+      "wilcoxon_pvalue": 4.5363752105737824e-125,
+      "wilcoxon_pvalue_holm": 1.3609125631721347e-124,
+      "wilcoxon_statistic": 17168.0
+    },
+    "missing_roi_ssim_map_mean": {
+      "ci95_high": 0.013419856385055638,
+      "ci95_low": 0.009407661576589118,
+      "cohen_dz": 0.3722104899574554,
+      "mean_improvement": 0.011413758980822378,
+      "n": 900,
+      "paired_t_pvalue": 3.338982942679032e-27,
+      "paired_t_statistic": 11.166314698723664,
+      "wilcoxon_pvalue": 1.0839142341423349e-29,
+      "wilcoxon_pvalue_holm": 1.0839142341423349e-29,
+      "wilcoxon_statistic": 114446.0
+    }
+  },
+  "num_cases": 900,
+  "pairing_key": [
+    "sample_id",
+    "mask_family",
+    "observed_fraction"
+  ],
+  "positive_mean_improvement_means_candidate_is_better": true
+}

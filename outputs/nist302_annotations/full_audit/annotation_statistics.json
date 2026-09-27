@@ -1,0 +1,93 @@
+{
+  "comp": {
+    "examiner_determination_counts": {
+      "INC_I": 1108,
+      "INDIV": 3469,
+      "NONE": 1,
+      "PRELIMINARY": 5
+    },
+    "exemplar_assessment_counts": {
+      "NOVALUE": 33,
+      "VALUE": 4628
+    },
+    "exemplar_minutiae": {
+      "max": 354.0,
+      "mean": 118.23642995065437,
+      "median": 111.0,
+      "min": 21.0,
+      "q05": 65.0,
+      "q25": 92.0,
+      "q75": 138.0,
+      "q95": 190.0
+    },
+    "latent_assessment_counts": {
+      "LIMITED": 992,
+      "NOVALUE": 201,
+      "VALUE": 3468
+    },
+    "latent_minutiae": {
+      "max": 131.0,
+      "mean": 18.181935207037117,
+      "median": 13.0,
+      "min": 1.0,
+      "q05": 3.0,
+      "q25": 7.0,
+      "q75": 24.0,
+      "q95": 49.0
+    },
+    "latent_quality_fractions_all_cells": {
+      "0": 0.46502870932845136,
+      "1": 0.21318200670080475,
+      "2": 0.19771595305179915,
+      "3": 0.08402775523040787,
+      "4": 0.029015815024335718,
+      "5": 0.011029760664201142
+    },
+    "matched_correspondences": {
+      "max": 54.0,
+      "mean": 9.086891225059,
+      "median": 9.0,
+      "min": 1.0,
+      "q05": 3.0,
+      "q25": 6.0,
+      "q75": 12.0,
+      "q95": 16.0
+    },
+    "transactions": 4661,
+    "transactions_with_relative_rotation": 698
+  },
+  "interpretation_guardrails": {
+    "comp_pairing": "same-source, different impressions; not pixel-aligned ground truth",
+    "correspondence_count": "intersection of official 9.361 labels across Type-9 records",
+    "quality_denominator": "all 9.308 grid cells, including background=0"
+  },
+  "lffs": {
+    "assessment_counts": {
+      "LIMITED": 1639,
+      "NONPRINT": 2,
+      "NOVALUE": 4635,
+      "VALUE": 3815
+    },
+    "minutiae": {
+      "max": 131.0,
+      "mean": 9.420077296600931,
+      "median": 4.0,
+      "min": 0.0,
+      "q05": 0.0,
+      "q25": 0.0,
+      "q75": 13.0,
+      "q95": 38.0
+    },
+    "quality_format_recoveries": 10,
+    "quality_fractions_all_cells": {
+      "0": 0.465482864123549,
+      "1": 0.2945586867475963,
+      "2": 0.16501961206930854,
+      "3": 0.051435805260399245,
+      "4": 0.016690990059867402,
+      "5": 0.006812041739279505
+    },
+    "transactions": 10091
+  },
+  "schema_version": 1
+}

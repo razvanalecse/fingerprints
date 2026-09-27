@@ -1,0 +1,167 @@
+{
+  "affine_rmse_mm": {
+    "count": 4482,
+    "median": 0.18350107416950456,
+    "p90": 0.3445342460833837,
+    "p95": 0.4143550272485267
+  },
+  "correspondence_count": {
+    "count": 4631,
+    "median": 9.0,
+    "p90": 15.0,
+    "p95": 17.0
+  },
+  "determination_counts": {
+    "INC_I": 1081,
+    "INDIV": 3467,
+    "MISSING": 78,
+    "PRELIMINARY": 5
+  },
+  "failures": [
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002320/00002320_1F_R_L01_BP_S24_1000PPI_8BPC_1CH_LP02-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002360/00002360_1H_R_L01_BP_S06_1000PPI_8BPC_1CH_LP11-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002401/00002401_4F_X_064_IN_D800_1000PPI_8BPC_1CH_LP10-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002402/00002402_1H_R_L01_BP_S10_1000PPI_8BPC_1CH_LP01-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002402/00002402_1H_R_L01_BP_S10_1000PPI_8BPC_1CH_LP02-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002402/00002402_1H_R_L01_BP_S10_1000PPI_8BPC_1CH_LP03-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002403/00002403_2B_X_L02_BP_S06_1000PPI_8BPC_1CH_LP05-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002413/00002413_1D_R_L01_BP_S24_1000PPI_8BPC_1CH_LP04-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002434/00002434_1H_R_L01_BP_S04_1000PPI_8BPC_1CH_LP12-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002448/00002448_1C_R_L01_BP_S25_1000PPI_8BPC_1CH_LP05-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002463/00002463_1D_L_L01_BP_S25_1000PPI_8BPC_1CH_LP01-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002463/00002463_1E_L_L01_BP_S25_1000PPI_8BPC_1CH_LP01-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002463/00002463_1F_L_L01_BP_S25_1000PPI_8BPC_1CH_LP04-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002472/00002472_1F_L_L01_BP_S23_1000PPI_8BPC_1CH_LP03-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002484/00002484_2A_X_L01_BP_S11_1000PPI_8BPC_1CH_LP19-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002515/00002515_1F_R_L01_BP_S21_1000PPI_8BPC_1CH_LP01-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002547/00002547_4A_X_814_IN_D800_1000PPI_8BPC_1CH_LP04-1_1.comp"
+    },
+    {
+      "error": "Nist302EbtsError: non-rectangular uncompressed 9.308 map",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002556/00002556_7D_X_302_CA_D800_1000PPI_8BPC_1CH_LP13-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002557/00002557_1H_R_L01_BP_S21_1000PPI_8BPC_1CH_LP02-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002569/00002569_1H_L_L01_BP_S25_1000PPI_8BPC_1CH_LP02-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: LFFS missing from latent manifest: 00002614_6C_X_214_BT_D800_1000PPI_8BPC_1CH_LP04-1_1.lffs",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002574/00002574_6C_X_214_BT_D800_1000PPI_8BPC_1CH_LP04-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: LFFS missing from latent manifest: 00002614_6C_X_214_BT_D800_1000PPI_8BPC_1CH_LP16-1_1.lffs",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002574/00002574_6C_X_214_BT_D800_1000PPI_8BPC_1CH_LP16-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002579/00002579_1E_L_L01_BP_S24_1000PPI_8BPC_1CH_LP01-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002582/00002582_1H_L_L01_BP_S25_1000PPI_8BPC_1CH_LP14-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002583/00002583_1C_L_L01_BP_S21_1000PPI_8BPC_1CH_LP13-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002606/00002606_4A_X_780_IN_D800_1000PPI_8BPC_1CH_LP04-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002612/00002612_1H_L_L01_BP_S22_1000PPI_8BPC_1CH_LP08-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002612/00002612_6D_X_038_WT_D800_1000PPI_8BPC_1CH_LP07-2_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002625/00002625_1C_R_L01_BP_S23_1000PPI_8BPC_1CH_LP01-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002630/00002630_1C_R_L01_BP_S25_1000PPI_8BPC_1CH_LP18-1_1.comp"
+    },
+    {
+      "error": "RegistrationError: at least 2 corresponding 2D points are required",
+      "path": "/Users/razvanalecse/Downloads/ebts-3/latent/comp/original/masked/00002644/00002644_1A_L_L03_BP_S21_1000PPI_8BPC_1CH_LP01-1_1.comp"
+    }
+  ],
+  "interpretation": "These are in-sample geometric residuals of official 9.361 correspondences, not reconstruction accuracy and not an identity-matching score.",
+  "minimum_hull_coverage": {
+    "count": 4631,
+    "median": 0.010594820147973633,
+    "p90": 0.027785563296265303,
+    "p95": 0.03475909399735466
+  },
+  "num_failures": 31,
+  "num_files_selected": 4662,
+  "num_successful": 4631,
+  "similarity_rmse_mm": {
+    "count": 4631,
+    "median": 0.2642077368421843,
+    "p90": 0.5008823750921655,
+    "p95": 0.6267650452541128
+  },
+  "split_counts": {
+    "test": 644,
+    "train": 3299,
+    "validation": 688
+  }
+}

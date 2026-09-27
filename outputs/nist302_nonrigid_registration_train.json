@@ -1,0 +1,26 @@
+{
+  "affine_loo_rmse_mm_mean": 0.295935065929398,
+  "interpretation": "positive_mean_improvement_means_tps_is_better (lower leave-one-out RMSE); the manifest's own in-sample affine RMSE is reported separately purely for context and is NOT a fair comparison target (it is not cross-validated).",
+  "manifest_insample_affine_rmse_mm_mean": 0.19398582832109268,
+  "minimum_correspondences_required": 4,
+  "num_subjects": 138,
+  "paired_subject_test": {
+    "loo_rmse_mm": {
+      "ci95_high": 0.012108467733677224,
+      "ci95_low": -0.001473403357308235,
+      "cohen_dz": 0.13180817918334067,
+      "mean_improvement": 0.005317532188184495,
+      "n": 138,
+      "paired_t_pvalue": 0.12383407289902945,
+      "paired_t_statistic": 1.5483955120538855,
+      "wilcoxon_pvalue": 0.07268399919878524,
+      "wilcoxon_pvalue_holm": 0.07268399919878524,
+      "wilcoxon_statistic": 3951.0
+    }
+  },
+  "rows_skipped_too_few_points": 0,
+  "rows_used": 1213,
+  "split": "train",
+  "test_loaded": false,
+  "tps_loo_rmse_mm_mean": 0.29061753374121346
+}

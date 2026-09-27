@@ -1,0 +1,105 @@
+{
+  "best_epoch": 7,
+  "best_validation_loss": 0.24760208894809088,
+  "denoiser_parameters": 2048996,
+  "device": "mps",
+  "elapsed_seconds": 167.12622600000032,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "examples": 4200,
+        "loss": 0.524809005515916
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.3797356778383255
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "examples": 4200,
+        "loss": 0.34100951186248235
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.3124987445274989
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "examples": 4200,
+        "loss": 0.30710751878363746
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.3066209471225739
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "examples": 4200,
+        "loss": 0.2830426042846271
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.2876611129442851
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "examples": 4200,
+        "loss": 0.27405834189483097
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.26360782047112785
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "examples": 4200,
+        "loss": 0.2650863432032721
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.2675673617919286
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "examples": 4200,
+        "loss": 0.2556750323516982
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.2567522845665614
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "examples": 4200,
+        "loss": 0.2528958525827953
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.24760208894809088
+      }
+    }
+  ],
+  "latent_scale": 0.6862703118384911,
+  "residual_scale": 2.5340336562824026,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "target": "scaled latent residual E(X)-E(X_coarse)"
+}

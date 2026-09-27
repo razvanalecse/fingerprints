@@ -1,0 +1,49 @@
+experiment:
+  name: nist302_registered_geometry_conditioned
+  seed: 1729
+data:
+  image_size: [128, 128]
+  num_workers: 0
+  geometry_cache: data/processed/nist302/geometry_cache_128
+  geometric_confidence_report: outputs/nist302_registration/geometric_confidence_uniform_128.json
+  ridge_band_report: outputs/nist302_registration/ridge_band_train_128.json
+model:
+  architecture: gated_conv
+  channels: [32, 64, 128, 256]
+  initialize_from: outputs/gated_full_mps/best-checkpoint.pt
+  support_checkpoint: outputs/nist302_visible_support_predictor_full/best-checkpoint.pt
+  enforce_data_consistency: true
+loss:
+  missing_l1_weight: 0.25
+  missing_mse_weight: 0.05
+  observed_l1_weight: 0.0
+  orientation_weight: 0.35
+  orientation_window: 9
+  gradient_weight: 0.10
+  ridge_energy_weight: 0.10
+  ridge_sigma: 1.5
+  ridge_energy_window: 17
+  ridge_band_weight: 0.25
+  ridge_band_orientations: 8
+  ridge_band_kernel_size: 17
+  ridge_band_pool_size: 9
+  # Explicit ablation against the support-only arm.
+  ridge_spectrum_weight: 0.50
+  ridge_spectrum_temperature: 0.25
+  support_background_weight: 0.20
+  support_region_weighting: true
+training:
+  epochs: 20
+  batch_size: 4
+  learning_rate: 0.00002
+  auxiliary_lr_multiplier: 50.0
+  weight_decay: 0.00001
+  gradient_clip_norm: 1.0
+  early_stopping_patience: 8
+  lr_reduce_patience: 2
+  lr_reduce_factor: 0.5
+  minimum_learning_rate: 0.000001
+  minimum_improvement: 0.00001
+  pilot_epochs: 3
+  pilot_train_batches: 64
+  pilot_validation_batches: 16

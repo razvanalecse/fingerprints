@@ -1,0 +1,209 @@
+{
+  "autoencoder_parameters": 559369,
+  "best_epoch": 12,
+  "best_validation_loss": 0.15179081625898955,
+  "ddim_preview_steps": 50,
+  "denoiser_parameters": 1979300,
+  "device": "mps",
+  "elapsed_seconds": 981.041693667,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "examples": 1213,
+        "loss": 0.3703434256697035
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.24692233545439585
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "examples": 1213,
+        "loss": 0.2268871415993053
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.22036874644743856
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21817024660228404
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.1828591450789249
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21753267481345728
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.2123141085748473
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "examples": 1213,
+        "loss": 0.20518440461463408
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.1929495776987242
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21573641262979223
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.2229521264442168
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "examples": 1213,
+        "loss": 0.20306033728934475
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.17401582726929662
+      }
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21143704787302095
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.16515376814722185
+      }
+    },
+    {
+      "epoch": 9,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21468677601461458
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.19027508891314165
+      }
+    },
+    {
+      "epoch": 10,
+      "train": {
+        "examples": 1213,
+        "loss": 0.18428270517858414
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.18554803059283864
+      }
+    },
+    {
+      "epoch": 11,
+      "train": {
+        "examples": 1213,
+        "loss": 0.1894399899089523
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.21708138076789704
+      }
+    },
+    {
+      "epoch": 12,
+      "train": {
+        "examples": 1213,
+        "loss": 0.18072245520925778
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.15179081625898955
+      }
+    },
+    {
+      "epoch": 13,
+      "train": {
+        "examples": 1213,
+        "loss": 0.190106177599663
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.20796250681740067
+      }
+    },
+    {
+      "epoch": 14,
+      "train": {
+        "examples": 1213,
+        "loss": 0.18337826590496747
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.2188516351871374
+      }
+    },
+    {
+      "epoch": 15,
+      "train": {
+        "examples": 1213,
+        "loss": 0.18335646866019953
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.17390118588657744
+      }
+    },
+    {
+      "epoch": 16,
+      "train": {
+        "examples": 1213,
+        "loss": 0.17845048987278248
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.207281975380635
+      }
+    },
+    {
+      "epoch": 17,
+      "train": {
+        "examples": 1213,
+        "loss": 0.19578795987261982
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.181872921797872
+      }
+    }
+  ],
+  "latent_scale": 0.6231971365914494,
+  "mode": "full",
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "test_loaded": false,
+  "timesteps": 500,
+  "train_images": 1213,
+  "validation_images": 287
+}

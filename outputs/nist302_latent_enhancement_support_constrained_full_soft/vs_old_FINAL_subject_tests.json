@@ -1,0 +1,79 @@
+{
+  "candidate": "support_constrained_FINAL",
+  "num_images": 287,
+  "num_subjects": 29,
+  "positive_mean_improvement_means_candidate_is_better": true,
+  "reference": "old_no_support",
+  "split": "validation",
+  "subjects_per_metric": {
+    "background_darkness": 29,
+    "heldout_q1_mae": 29,
+    "heldout_q1_orientation_error": 29,
+    "heldout_q1_ridge_frequency_relative_mae": 28,
+    "heldout_q1_ssim_map_mean": 29
+  },
+  "test_loaded": false,
+  "tests": {
+    "background_darkness": {
+      "ci95_high": 0.02294704526295641,
+      "ci95_low": 0.02015906710689214,
+      "cohen_dz": 5.881211156095612,
+      "mean_improvement": 0.021553056184924275,
+      "n": 29,
+      "paired_t_pvalue": 1.7956995890907673e-23,
+      "paired_t_statistic": 31.67129134113292,
+      "wilcoxon_pvalue": 3.725290298461914e-09,
+      "wilcoxon_pvalue_holm": 1.862645149230957e-08,
+      "wilcoxon_statistic": 0.0
+    },
+    "heldout_q1_mae": {
+      "ci95_high": 0.010452119796333877,
+      "ci95_low": 0.001200235259392648,
+      "cohen_dz": 0.4790719988678267,
+      "mean_improvement": 0.005826177527863262,
+      "n": 29,
+      "paired_t_pvalue": 0.015422774553835273,
+      "paired_t_statistic": 2.579881668386601,
+      "wilcoxon_pvalue": 0.013825550675392151,
+      "wilcoxon_pvalue_holm": 0.027651101350784302,
+      "wilcoxon_statistic": 105.0
+    },
+    "heldout_q1_orientation_error": {
+      "ci95_high": -0.01211837175925953,
+      "ci95_low": -0.030365640854248175,
+      "cohen_dz": -0.8856149409747718,
+      "mean_improvement": -0.021242006306753852,
+      "n": 29,
+      "paired_t_pvalue": 5.2126703965889205e-05,
+      "paired_t_statistic": -4.769182412809841,
+      "wilcoxon_pvalue": 1.8388032913208008e-05,
+      "wilcoxon_pvalue_holm": 5.5164098739624023e-05,
+      "wilcoxon_statistic": 36.0
+    },
+    "heldout_q1_ridge_frequency_relative_mae": {
+      "ci95_high": 0.021056114557733388,
+      "ci95_low": -0.07384111625572842,
+      "cohen_dz": -0.21568476490429125,
+      "mean_improvement": -0.026392500848997517,
+      "n": 28,
+      "paired_t_pvalue": 0.26376835858215825,
+      "paired_t_statistic": -1.1412964990443732,
+      "wilcoxon_pvalue": 0.1637990102171898,
+      "wilcoxon_pvalue_holm": 0.1637990102171898,
+      "wilcoxon_statistic": 141.0
+    },
+    "heldout_q1_ssim_map_mean": {
+      "ci95_high": 0.022436881550110817,
+      "ci95_low": 0.012624905771133796,
+      "cohen_dz": 1.3592359920853743,
+      "mean_improvement": 0.017530893660622306,
+      "n": 29,
+      "paired_t_pvalue": 5.710502066075344e-08,
+      "paired_t_statistic": 7.319709829168709,
+      "wilcoxon_pvalue": 2.60770320892334e-08,
+      "wilcoxon_pvalue_holm": 1.043081283569336e-07,
+      "wilcoxon_statistic": 4.0
+    }
+  },
+  "unit_of_analysis": "subject mean"
+}

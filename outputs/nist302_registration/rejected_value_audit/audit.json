@@ -1,0 +1,27 @@
+{
+  "split": "validation",
+  "test_accessed": false,
+  "assessment": "VALUE",
+  "purpose": "qualitative generalization stress audit only",
+  "prohibited_uses": [
+    "training loss",
+    "model selection metric",
+    "claim of population performance"
+  ],
+  "frozen_acceptance_filter": {
+    "determination": "INDIV",
+    "minimum_correspondences": 6,
+    "maximum_affine_rmse_mm": 0.3,
+    "minimum_hull_coverage": 0.01
+  },
+  "candidate_rows": 260,
+  "selected_rows": 16,
+  "selected_subjects": 16,
+  "candidate_reason_counts": {
+    "affine_rmse_above_0.30mm": 90,
+    "determination_not_INDIV": 49,
+    "fewer_than_6_correspondences": 36,
+    "hull_coverage_below_0.01": 174
+  },
+  "sampling": "deterministic, at most one latent per subject, stratified by rejection reason"
+}

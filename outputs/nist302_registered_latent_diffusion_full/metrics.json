@@ -1,0 +1,209 @@
+{
+  "autoencoder_parameters": 559369,
+  "best_epoch": 12,
+  "best_validation_loss": 0.15065691810919019,
+  "ddim_preview_steps": 50,
+  "denoiser_parameters": 1978180,
+  "device": "mps",
+  "elapsed_seconds": 1668.859546042,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "examples": 1213,
+        "loss": 0.3778218555848459
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.24689504846878582
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "examples": 1213,
+        "loss": 0.22857732944933717
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.21777340450457164
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21868472593634558
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.18367613213402884
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21795833013454255
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.21343335893511356
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "examples": 1213,
+        "loss": 0.2052258387121993
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.19388257634245146
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21589763895573935
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.22170139872550135
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "examples": 1213,
+        "loss": 0.2028951274456805
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.17313310854422506
+      }
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21079230763061127
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.16574261328432618
+      }
+    },
+    {
+      "epoch": 9,
+      "train": {
+        "examples": 1213,
+        "loss": 0.21420396636535782
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.19007092327502548
+      }
+    },
+    {
+      "epoch": 10,
+      "train": {
+        "examples": 1213,
+        "loss": 0.18377866941793636
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.18546821501508406
+      }
+    },
+    {
+      "epoch": 11,
+      "train": {
+        "examples": 1213,
+        "loss": 0.18899738670058813
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.21546356247588733
+      }
+    },
+    {
+      "epoch": 12,
+      "train": {
+        "examples": 1213,
+        "loss": 0.1803021929706681
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.15065691810919019
+      }
+    },
+    {
+      "epoch": 13,
+      "train": {
+        "examples": 1213,
+        "loss": 0.18932290560422313
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.20671157159871756
+      }
+    },
+    {
+      "epoch": 14,
+      "train": {
+        "examples": 1213,
+        "loss": 0.1831587077059337
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.21856208929616816
+      }
+    },
+    {
+      "epoch": 15,
+      "train": {
+        "examples": 1213,
+        "loss": 0.18248934794742513
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.1730032075027763
+      }
+    },
+    {
+      "epoch": 16,
+      "train": {
+        "examples": 1213,
+        "loss": 0.1783771629231043
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.20682035988839245
+      }
+    },
+    {
+      "epoch": 17,
+      "train": {
+        "examples": 1213,
+        "loss": 0.19481821245186012
+      },
+      "validation": {
+        "examples": 287,
+        "loss": 0.18036009425797114
+      }
+    }
+  ],
+  "latent_scale": 0.6231971365914494,
+  "mode": "full",
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "test_loaded": false,
+  "timesteps": 500,
+  "train_images": 1213,
+  "validation_images": 287
+}

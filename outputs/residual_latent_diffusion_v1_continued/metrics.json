@@ -1,0 +1,63 @@
+{
+  "best_epoch": 1,
+  "best_validation_loss": 0.2421918722987175,
+  "denoiser_parameters": 2048996,
+  "device": "mps",
+  "elapsed_seconds": 87.12934820900045,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "examples": 4200,
+        "loss": 0.2528554653269904
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.260925860007604
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "examples": 4200,
+        "loss": 0.25021632343530653
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.2421918722987175
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "examples": 4200,
+        "loss": 0.2474523494711944
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.25653634677330656
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "examples": 4200,
+        "loss": 0.24000424331852369
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.25048015773296356
+      }
+    }
+  ],
+  "initialization": "outputs/residual_latent_diffusion_v1/best-checkpoint.pt",
+  "latent_scale": 0.6862703118384911,
+  "learning_rate": 5e-05,
+  "residual_scale": 2.5340336562824026,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "target": "scaled latent residual E(X)-E(X_coarse)"
+}

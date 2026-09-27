@@ -1,0 +1,128 @@
+{
+  "background_metric": "mean(1-output) on official EFS quality==0; lower is whiter",
+  "checkpoint": "outputs/nist302_registered_support_spectrum_full/best-checkpoint.pt",
+  "elapsed_seconds": 11.189817417,
+  "evaluation": {
+    "metrics": {
+      "background_darkness": {
+        "ci95_high": 0.020733980809722382,
+        "ci95_low": 0.016801155652814096,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.01876756823126824,
+        "standard_deviation": 0.01692488738552992
+      },
+      "background_pixels": {
+        "ci95_high": 7812.932921054453,
+        "ci95_low": 7301.763943057045,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 7557.348432055749,
+        "standard_deviation": 2199.8123594143544
+      },
+      "heldout_q1_mae": {
+        "ci95_high": 0.15501103713824158,
+        "ci95_low": 0.14072220276669303,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.1478666199524673,
+        "standard_deviation": 0.061491905426851956
+      },
+      "heldout_q1_max_absolute_error": {
+        "ci95_high": 0.5369582894720525,
+        "ci95_low": 0.5020443422012514,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.5195013158366519,
+        "standard_deviation": 0.15025194412842222
+      },
+      "heldout_q1_mse": {
+        "ci95_high": 0.04092170884986459,
+        "ci95_low": 0.033008959982565665,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.03696533441621513,
+        "standard_deviation": 0.03405246308846696
+      },
+      "heldout_q1_orientation_error": {
+        "ci95_high": 0.36293256197797324,
+        "ci95_low": 0.31142987306752673,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.33718121752275,
+        "standard_deviation": 0.22164148546754617
+      },
+      "heldout_q1_pixels": {
+        "ci95_high": 3044.019686647263,
+        "ci95_low": 2666.217247150647,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 2855.118466898955,
+        "standard_deviation": 1625.8703317198674
+      },
+      "heldout_q1_psnr": {
+        "ci95_high": 15.868357723225978,
+        "ci95_low": 15.17786802805149,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 15.523112875638734,
+        "standard_deviation": 2.9715178950096495
+      },
+      "heldout_q1_ridge_frequency_mae_cpx": {
+        "ci95_high": 0.0965506478080891,
+        "ci95_low": 0.08671001468208021,
+        "finite_count": 148.0,
+        "infinite_count": 0.0,
+        "mean": 0.09163033124508466,
+        "standard_deviation": 0.030289052504171715
+      },
+      "heldout_q1_ridge_frequency_relative_mae": {
+        "ci95_high": 0.902178890789235,
+        "ci95_low": 0.7563646223317091,
+        "finite_count": 148.0,
+        "infinite_count": 0.0,
+        "mean": 0.829271756560472,
+        "standard_deviation": 0.4488101503849723
+      },
+      "heldout_q1_ridge_frequency_windows": {
+        "ci95_high": 14.388210278792691,
+        "ci95_low": 10.287747909360618,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 12.337979094076655,
+        "standard_deviation": 17.6463130351308
+      },
+      "heldout_q1_ridge_period_mae_pixels": {
+        "ci95_high": 5.590002121895449,
+        "ci95_low": 4.800060991821835,
+        "finite_count": 148.0,
+        "infinite_count": 0.0,
+        "mean": 5.195031556858642,
+        "standard_deviation": 2.4314053839448944
+      },
+      "heldout_q1_ssim_map_mean": {
+        "ci95_high": 0.29214649198722004,
+        "ci95_low": 0.26925602760065964,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.28070125979393984,
+        "standard_deviation": 0.09850896403682988
+      },
+      "predicted_support_iou": {
+        "ci95_high": 0.8728132224187244,
+        "ci95_low": 0.8536478219395902,
+        "finite_count": 287.0,
+        "infinite_count": 0.0,
+        "mean": 0.8632305221791573,
+        "standard_deviation": 0.08247817583198301
+      }
+    },
+    "num_images": 287
+  },
+  "ground_truth_recovery_region": "official EFS quality==1 pixels hidden from input quality>=2",
+  "split": "validation",
+  "support_checkpoint": "outputs/nist302_visible_support_predictor_full/best-checkpoint.pt",
+  "support_mode": "soft",
+  "support_threshold": 0.5,
+  "test_loaded": false
+}

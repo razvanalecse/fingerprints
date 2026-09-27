@@ -1,0 +1,56 @@
+{
+  "mode": "smoke_test",
+  "device": "mps",
+  "elapsed_seconds": 0.7557681670004968,
+  "best_epoch": 1,
+  "best_validation_loss": 0.47989213466644287,
+  "history": [
+    {
+      "epoch": 1,
+      "learning_rate": 2e-05,
+      "train": {
+        "gradient_norm": 1.5224635601043701,
+        "loss": 0.38586124777793884,
+        "registered_l1": 0.18424996733665466,
+        "registered_mse": 0.0479465089738369,
+        "observed_l1": 0.0,
+        "orientation": 0.7731905281543732,
+        "gradient": 0.027560299262404442,
+        "ridge_energy": 0.019993407651782036,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.057368798181414604,
+        "ridge_spectrum": 0.054705988615751266,
+        "support_background": 0.10167097672820091,
+        "boundary_continuity": 0.0,
+        "effective_geometric_weight": 0.17565425485372543,
+        "examples": 4.0
+      },
+      "validation": {
+        "loss": 0.47989213466644287,
+        "registered_l1": 0.3834827244281769,
+        "registered_mse": 0.18291084468364716,
+        "observed_l1": 0.0,
+        "orientation": 0.8173553347587585,
+        "gradient": 0.03313415125012398,
+        "ridge_energy": 0.024400291964411736,
+        "band_energy": 0.0,
+        "fine_energy": 0.0,
+        "ridge_band": 0.10290353000164032,
+        "ridge_spectrum": 0.09005866944789886,
+        "support_background": 0.06146428361535072,
+        "boundary_continuity": 0.0,
+        "effective_geometric_weight": 0.06842838227748871,
+        "examples": 2.0
+      }
+    }
+  ],
+  "train_images": 1213,
+  "validation_images": 287,
+  "test_loaded": false,
+  "seed_state": {
+    "seed": 1729,
+    "deterministic_torch": true,
+    "python_hash_seed": "1729"
+  }
+}

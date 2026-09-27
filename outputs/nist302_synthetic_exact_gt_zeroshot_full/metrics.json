@@ -1,0 +1,109 @@
+{
+  "checkpoint": "outputs/gated_full_mps/best-checkpoint.pt",
+  "elapsed_seconds": 23.036025416,
+  "evaluation": {
+    "metrics": {
+      "missing_mae": {
+        "ci95_high": 0.14829893577670913,
+        "ci95_low": 0.1429797816402996,
+        "finite_count": 800.0,
+        "infinite_count": 0.0,
+        "mean": 0.14563935870850436,
+        "standard_deviation": 0.038322259721032724
+      },
+      "missing_max_absolute_error": {
+        "ci95_high": 0.5450881602882623,
+        "ci95_low": 0.528791047121656,
+        "finite_count": 800.0,
+        "infinite_count": 0.0,
+        "mean": 0.5369396037049592,
+        "standard_deviation": 0.11741381946403086
+      },
+      "missing_mse": {
+        "ci95_high": 0.03406287751121001,
+        "ci95_low": 0.03190572018163794,
+        "finite_count": 800.0,
+        "infinite_count": 0.0,
+        "mean": 0.032984298846423975,
+        "standard_deviation": 0.015541407773302549
+      },
+      "missing_orientation_error": {
+        "ci95_high": 0.7545388169200404,
+        "ci95_low": 0.7308258737071183,
+        "finite_count": 800.0,
+        "infinite_count": 0.0,
+        "mean": 0.7426823453135794,
+        "standard_deviation": 0.17084174386589654
+      },
+      "missing_pixels": {
+        "ci95_high": 9480.630977994591,
+        "ci95_low": 8955.57402200541,
+        "finite_count": 800.0,
+        "infinite_count": 0.0,
+        "mean": 9218.1025,
+        "standard_deviation": 3782.813680472541
+      },
+      "missing_psnr": {
+        "ci95_high": 15.457610744782487,
+        "ci95_low": 15.162014099152858,
+        "finite_count": 800.0,
+        "infinite_count": 0.0,
+        "mean": 15.309812421967672,
+        "standard_deviation": 2.1296490261384164
+      },
+      "missing_ridge_frequency_mae_cpx": {
+        "ci95_high": 0.0990120134050116,
+        "ci95_low": 0.0961102241863543,
+        "finite_count": 798.0,
+        "infinite_count": 0.0,
+        "mean": 0.09756111879568295,
+        "standard_deviation": 0.02087993758858131
+      },
+      "missing_ridge_frequency_relative_mae": {
+        "ci95_high": 0.5353798370102846,
+        "ci95_low": 0.5217708613267945,
+        "finite_count": 798.0,
+        "infinite_count": 0.0,
+        "mean": 0.5285753491685395,
+        "standard_deviation": 0.09792391573061078
+      },
+      "missing_ridge_frequency_windows": {
+        "ci95_high": 92.18851211299048,
+        "ci95_low": 84.92648788700953,
+        "finite_count": 800.0,
+        "infinite_count": 0.0,
+        "mean": 88.5575,
+        "standard_deviation": 52.31981840562425
+      },
+      "missing_ridge_period_mae_pixels": {
+        "ci95_high": 6.3113345576192525,
+        "ci95_low": 6.041292510968281,
+        "finite_count": 798.0,
+        "infinite_count": 0.0,
+        "mean": 6.176313534293767,
+        "standard_deviation": 1.9430980872463406
+      },
+      "missing_ssim_map_mean": {
+        "ci95_high": 0.2598560051391294,
+        "ci95_low": 0.25432417027773374,
+        "finite_count": 800.0,
+        "infinite_count": 0.0,
+        "mean": 0.25709008770843156,
+        "standard_deviation": 0.039854534547359606
+      },
+      "observed_fraction": {
+        "ci95_high": 0.45339840241995455,
+        "ci95_low": 0.42135160908746716,
+        "finite_count": 800.0,
+        "infinite_count": 0.0,
+        "mean": 0.43737500575371085,
+        "standard_deviation": 0.23088361529279042
+      }
+    },
+    "num_images": 800
+  },
+  "images": 800,
+  "split": "validation",
+  "test_loaded": false,
+  "track": "E: synthetic degradation of clean SD302 exemplars, exact missing-region ground truth by construction"
+}

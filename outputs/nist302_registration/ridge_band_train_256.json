@@ -1,0 +1,42 @@
+{
+  "split": "train",
+  "test_accessed": false,
+  "target": "registered_approximate exemplar warped to latent frame",
+  "region": "unobserved registered support (evaluation_roi)",
+  "image_size": [
+    256,
+    256
+  ],
+  "sampled_images": 200,
+  "images_with_valid_windows": 200,
+  "frequency_unit": "cycles per pixel after resize",
+  "frequency": {
+    "count": 60165,
+    "mean": 0.1718222803955788,
+    "standard_deviation": 0.050932127875387166,
+    "q05": 0.09375,
+    "q10": 0.109375,
+    "q35": 0.15234375,
+    "median": 0.16796875,
+    "q65": 0.1875,
+    "q90": 0.23828125,
+    "q95": 0.26171875
+  },
+  "recommended_gabor_frequencies": [
+    0.109375,
+    0.15234375,
+    0.1875,
+    0.23828125
+  ],
+  "selection_rule": "training-distribution quantiles [0.10, 0.35, 0.65, 0.90]",
+  "estimator": {
+    "patch_size": 32,
+    "stride": 8,
+    "minimum_region_fraction": 0.45,
+    "search_interval": [
+      0.04,
+      0.4
+    ]
+  },
+  "warning": "The bank is resolution- and preprocessing-specific. It constrains local oriented spectral energy and is not an exact differentiable copy of the reported dominant-frequency metric."
+}

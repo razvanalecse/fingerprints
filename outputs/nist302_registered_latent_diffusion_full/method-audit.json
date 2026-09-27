@@ -1,0 +1,16 @@
+{
+  "mode": "full",
+  "splits_loaded": [
+    "train",
+    "validation"
+  ],
+  "test_loaded": false,
+  "target": "registered_approximate (not pixel ground truth)",
+  "loss_weight_map": "evaluation_roi * geometric_confidence * visible_support_probability (latent-resolution nearest-downsampled)",
+  "support_checkpoint": "outputs/nist302_visible_support_predictor_full/best-checkpoint.pt",
+  "autoencoder_checkpoint": "outputs/nist302_registered_latent_autoencoder_full/best-checkpoint.pt",
+  "autoencoder_initialized_from_socofing": true,
+  "denoiser_initialized_from_socofing": false,
+  "denoiser_initialization_note": "Trained from a random initialization directly on SD302, matching the pixel and residual DDPM precedent (docs/cross_dataset_protocols.md) -- not a SOCOFing-pretrained denoiser.",
+  "data_consistency": true
+}

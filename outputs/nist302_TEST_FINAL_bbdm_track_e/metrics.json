@@ -1,0 +1,101 @@
+{
+  "checkpoint": "outputs/nist302_bbdm_track_e_full_fixed/best-checkpoint.pt",
+  "elapsed_seconds": 2461.523587333,
+  "evaluation": {
+    "metrics": {
+      "missing_mae": {
+        "ci95_high": 0.14100479145435604,
+        "ci95_low": 0.13852423171132858,
+        "finite_count": 4445.0,
+        "infinite_count": 0.0,
+        "mean": 0.1397645115828423,
+        "standard_deviation": 0.042178311270741266
+      },
+      "missing_max_absolute_error": {
+        "ci95_high": 0.4073721899311759,
+        "ci95_low": 0.404119934254863,
+        "finite_count": 4445.0,
+        "infinite_count": 0.0,
+        "mean": 0.40574606209301944,
+        "standard_deviation": 0.05529987843797777
+      },
+      "missing_mse": {
+        "ci95_high": 0.027094572132659506,
+        "ci95_low": 0.026303735860321323,
+        "finite_count": 4445.0,
+        "infinite_count": 0.0,
+        "mean": 0.026699153996490414,
+        "standard_deviation": 0.013447020799491855
+      },
+      "missing_orientation_error": {
+        "ci95_high": 0.7441825890046793,
+        "ci95_low": 0.7329970545735148,
+        "finite_count": 4445.0,
+        "infinite_count": 0.0,
+        "mean": 0.738589821789097,
+        "standard_deviation": 0.19019374731585673
+      },
+      "missing_pixels": {
+        "ci95_high": 9332.651550710916,
+        "ci95_low": 9110.422465037116,
+        "finite_count": 4445.0,
+        "infinite_count": 0.0,
+        "mean": 9221.537007874016,
+        "standard_deviation": 3778.682442665928
+      },
+      "missing_psnr": {
+        "ci95_high": 16.410955260018742,
+        "ci95_low": 16.270039342855345,
+        "finite_count": 4445.0,
+        "infinite_count": 0.0,
+        "mean": 16.340497301437043,
+        "standard_deviation": 2.396070255443986
+      },
+      "missing_ridge_frequency_mae_cpx": {
+        "ci95_high": 0.11634150773414201,
+        "ci95_low": 0.11456686778295702,
+        "finite_count": 4429.0,
+        "infinite_count": 0.0,
+        "mean": 0.11545418775854951,
+        "standard_deviation": 0.030120784607927314
+      },
+      "missing_ridge_frequency_relative_mae": {
+        "ci95_high": 0.5644544442847472,
+        "ci95_low": 0.5587069324010978,
+        "finite_count": 4429.0,
+        "infinite_count": 0.0,
+        "mean": 0.5615806883429225,
+        "standard_deviation": 0.09755193855706235
+      },
+      "missing_ridge_frequency_windows": {
+        "ci95_high": 90.29055944808903,
+        "ci95_low": 87.24824820095483,
+        "finite_count": 4445.0,
+        "infinite_count": 0.0,
+        "mean": 88.76940382452193,
+        "standard_deviation": 51.73007871501276
+      },
+      "missing_ridge_period_mae_pixels": {
+        "ci95_high": 9.349827736939574,
+        "ci95_low": 9.183328548428513,
+        "finite_count": 4429.0,
+        "infinite_count": 0.0,
+        "mean": 9.266578142684043,
+        "standard_deviation": 2.825973905967577
+      },
+      "missing_ssim_map_mean": {
+        "ci95_high": 0.29345254576442986,
+        "ci95_low": 0.2910747008795233,
+        "finite_count": 4445.0,
+        "infinite_count": 0.0,
+        "mean": 0.2922636233219766,
+        "standard_deviation": 0.04043179447342033
+      }
+    },
+    "num_images": 4445
+  },
+  "images": 4445,
+  "sample_steps": 8,
+  "test_loaded": false,
+  "track": "E"
+}

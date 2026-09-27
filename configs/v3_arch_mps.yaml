@@ -1,0 +1,39 @@
+experiment:
+  name: v3_arch
+  seed: 1729
+data:
+  image_size: [128, 128]
+  observed_fractions: [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80]
+  mask_families: [random_rectangles, irregular, central_missing, peripheral_only, central_only, disconnected_fragments, stripes, severe_partial]
+  num_workers: 4
+model:
+  architecture: gated_conv
+  upsampling_mode: bilinear
+  refine_blocks: 2
+  channels: [32, 64, 128, 256]
+  enforce_data_consistency: true
+loss:
+  missing_l1_weight: 1.0
+  missing_mse_weight: 0.25
+  observed_l1_weight: 0.05
+  orientation_weight: 0.10
+  orientation_window: 9
+  gradient_weight: 0.35
+  ridge_energy_weight: 0.50
+  ridge_sigma: 1.5
+  ridge_energy_window: 17
+training:
+  epochs: 60
+  batch_size: 32
+  learning_rate: 0.0002
+  weight_decay: 0.00001
+  gradient_clip_norm: 1.0
+  early_stopping_patience: 15
+  lr_reduce_patience: 4
+  lr_reduce_factor: 0.5
+  minimum_learning_rate: 1.0e-6
+  minimum_improvement: 1.0e-5
+  pilot_epochs: 5
+  pilot_train_batches: 64
+  pilot_validation_batches: 16
+  pilot_channels: [16, 32, 64]

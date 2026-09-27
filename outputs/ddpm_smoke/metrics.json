@@ -1,0 +1,31 @@
+{
+  "best_epoch": 0,
+  "best_validation_loss": 0.9890463948249817,
+  "device": "cpu",
+  "elapsed_seconds": 0.1142952500085812,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "examples": 4,
+        "loss": 1.0391298532485962,
+        "missing_noise_mse": 0.985836923122406,
+        "observed_noise_mse": 1.0658588409423828
+      },
+      "validation": {
+        "examples": 2,
+        "loss": 0.9890463948249817,
+        "missing_noise_mse": 0.9316798448562622,
+        "observed_noise_mse": 1.1473309993743896
+      }
+    }
+  ],
+  "mode": "smoke_test",
+  "parameters": 130105,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "timesteps": 8
+}

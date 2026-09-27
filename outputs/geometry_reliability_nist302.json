@@ -1,0 +1,15 @@
+{
+  "images": 284,
+  "mean_harmonic_orientation_error": 0.45110468262975173,
+  "mean_model_orientation_error": 0.5984626074885608,
+  "per_image": {
+    "p": 4.667886506767046e-38,
+    "spearman_rho": 0.6679377735634562
+  },
+  "per_subject": {
+    "p": 1.5204459028251589e-05,
+    "spearman_rho": 0.7113300492610837
+  },
+  "region": "officially held-out quality==1 pixels",
+  "subjects": 29
+}

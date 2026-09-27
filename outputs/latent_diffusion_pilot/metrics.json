@@ -1,0 +1,74 @@
+{
+  "autoencoder_parameters": 559369,
+  "best_epoch": 4,
+  "best_validation_loss": 0.3150660416815016,
+  "denoiser_parameters": 518404,
+  "device": "mps",
+  "elapsed_seconds": 41.445553042023676,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "examples": 4096,
+        "loss": 0.8698287336155772
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.7051284164852566
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "examples": 4096,
+        "loss": 0.5925391991622746
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.49903494199117027
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "examples": 4096,
+        "loss": 0.42847824841737747
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.37657491074668037
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "examples": 4096,
+        "loss": 0.352103887591511
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.346494869656033
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "examples": 4096,
+        "loss": 0.31252287002280354
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.3150660416815016
+      }
+    }
+  ],
+  "latent_scale": 0.68552945507709,
+  "mode": "pilot",
+  "preview_ddim_steps": 50,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "timesteps": 100
+}

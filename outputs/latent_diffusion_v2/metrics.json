@@ -1,0 +1,146 @@
+{
+  "autoencoder_parameters": 559369,
+  "batch_size": 16,
+  "best_epoch": 7,
+  "best_validation_loss": 0.1451078982485665,
+  "denoiser_parameters": 2045828,
+  "device": "mps",
+  "elapsed_seconds": 95.46784529200022,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "examples": 4200,
+        "loss": 0.15450645161526544
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.15839663717481825
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "examples": 4200,
+        "loss": 0.152795454845542
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.15784351600541008
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "examples": 4200,
+        "loss": 0.156645610673087
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.14953357285923427
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "examples": 4200,
+        "loss": 0.15483551232587722
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.1521228050854471
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "examples": 4200,
+        "loss": 0.1514862360840752
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.14947285215059916
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "examples": 4200,
+        "loss": 0.15031413086823056
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.1520466387271881
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "examples": 4200,
+        "loss": 0.14798993336302893
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.15362068944507176
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "examples": 4200,
+        "loss": 0.1514266870844932
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.1451078982485665
+      }
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "examples": 4200,
+        "loss": 0.15144922487792514
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.1487516674730513
+      }
+    },
+    {
+      "epoch": 9,
+      "train": {
+        "examples": 4200,
+        "loss": 0.14745071919191452
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.14676702598730723
+      }
+    },
+    {
+      "epoch": 10,
+      "train": {
+        "examples": 4200,
+        "loss": 0.14622652056671323
+      },
+      "validation": {
+        "examples": 900,
+        "loss": 0.14860152893596226
+      }
+    }
+  ],
+  "initialization": null,
+  "latent_scale": 0.6850601401315207,
+  "learning_rate": 0.0001,
+  "mode": "full",
+  "preview_ddim_steps": 50,
+  "resumed_optimizer": true,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "start_epoch": 6,
+  "stop_epoch": 11,
+  "timesteps": 500
+}

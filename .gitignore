@@ -1,0 +1,41 @@
+# Environments and caches
+.venv/
+.venv-mps/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+work/
+
+# Datasets are never committed. SOCOFing is public; NIST SD302 is distributed
+# by NIST under its own terms and is not ours to redistribute.
+data/
+*.log
+
+# Model weights (6.5 GB across 330 checkpoints in the working tree)
+*.pt
+*.pth
+*.ckpt
+
+# Result artefacts: metrics (JSON/CSV) ARE committed, because every claim in
+# docs/nist302_ablation_master_table.md is traceable to one. Rendered previews
+# are not: many of them show real SD302 latent fingerprints.
+outputs/**/*.png
+outputs/**/*.pdf
+
+# Figures derived from real forensic latents, withheld for the same reason.
+# If your SD302 data agreement permits redistribution, delete this block.
+docs/poster_assets/registration.png
+docs/poster_assets/nist_pipeline.png
+docs/poster_assets/zeroshot.png
+docs/poster_assets/ddpm*.png
+docs/poster_assets/cvae.png
+docs/poster_assets/residual_ddpm.png
+docs/poster_assets/latent_diffusion*.png
+docs/poster_assets/bbdm.png
+docs/poster_assets/boundary_continuity.png
+docs/poster_assets/ridge_diagnostic.png
+docs/poster_assets/patch_pilot.png
+docs/poster_assets/flow_matching.png
+docs/poster.pdf

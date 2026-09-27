@@ -1,0 +1,33 @@
+experiment:
+  name: gabor_coarse_plus_residual_latent_diffusion_mps
+  seed: 1729
+data:
+  image_size: [128, 128]
+  observed_fractions: [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80]
+  mask_families: [random_rectangles, irregular, central_missing, peripheral_only, central_only, disconnected_fragments, stripes, severe_partial]
+autoencoder:
+  checkpoint: outputs/latent_autoencoder_full/best-checkpoint.pt
+  scale_batches: 32
+coarse_predictor:
+  checkpoint: outputs/gated_ridge_band_finetune4/best-checkpoint.pt
+structure_predictor:
+  checkpoint: outputs/structure_predictor_full/best-checkpoint.pt
+model:
+  channels: [32, 64, 128]
+  time_dim: 64
+  middle_attention: true
+  attention_heads: 4
+diffusion:
+  timesteps: 500
+  schedule: cosine
+  beta_start: 0.0001
+  beta_end: 0.02
+training:
+  epochs: 12
+  batch_size: 12
+  learning_rate: 0.00005
+  weight_decay: 0.00001
+  gradient_clip_norm: 1.0
+  early_stopping_patience: 4
+evaluation:
+  preview_ddim_steps: 50

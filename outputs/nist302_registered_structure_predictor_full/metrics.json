@@ -1,0 +1,396 @@
+{
+  "best_epoch": 12,
+  "best_validation_loss": 1.1641930433100525,
+  "device": "mps",
+  "elapsed_seconds": 874.38783525,
+  "history": [
+    {
+      "epoch": 0,
+      "train": {
+        "circular_error": 0.7656207187845996,
+        "coherence": 0.19129913976540372,
+        "loss": 1.3963994819667844,
+        "orientation": 0.7656207187845996,
+        "support_bce": 0.410414679548707,
+        "support_dice": 0.17253929671431414,
+        "support_iou": 0.7955966291109197
+      },
+      "validation": {
+        "circular_error": 0.6747845629366432,
+        "coherence": 0.17785514247334377,
+        "loss": 1.297531232601259,
+        "orientation": 0.6747845629366432,
+        "support_bce": 0.3909785711183781,
+        "support_dice": 0.18730431545902212,
+        "support_iou": 0.7883704728365776
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "circular_error": 0.7172918409625066,
+        "coherence": 0.18053497189789494,
+        "loss": 1.3056037086941246,
+        "orientation": 0.7172918409625066,
+        "support_bce": 0.37266315552978013,
+        "support_dice": 0.1705149716812033,
+        "support_iou": 0.8015964210573937
+      },
+      "validation": {
+        "circular_error": 0.6613218830022247,
+        "coherence": 0.1753266176487926,
+        "loss": 1.2613644753599,
+        "orientation": 0.6613218830022247,
+        "support_bce": 0.3863967443177094,
+        "support_dice": 0.1698142126046822,
+        "support_iou": 0.797179402166958
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "circular_error": 0.6774629789841441,
+        "coherence": 0.1784797005312362,
+        "loss": 1.262774456854409,
+        "orientation": 0.6774629789841441,
+        "support_bce": 0.37071151497043664,
+        "support_dice": 0.1699800404358382,
+        "support_iou": 0.8019869743254395
+      },
+      "validation": {
+        "circular_error": 0.6577347656160282,
+        "coherence": 0.17687370485337353,
+        "loss": 1.2651373272573492,
+        "orientation": 0.6577347656160282,
+        "support_bce": 0.37778522515546153,
+        "support_dice": 0.18539890781927607,
+        "support_iou": 0.7919509118026973
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "circular_error": 0.6641934665391392,
+        "coherence": 0.17742281536719864,
+        "loss": 1.249311125877959,
+        "orientation": 0.6641934665391392,
+        "support_bce": 0.37070103983493846,
+        "support_dice": 0.17006091288270186,
+        "support_iou": 0.8022041340947446
+      },
+      "validation": {
+        "circular_error": 0.648137514807206,
+        "coherence": 0.17314796201651106,
+        "loss": 1.2542714391435896,
+        "orientation": 0.648137514807206,
+        "support_bce": 0.37796074120840545,
+        "support_dice": 0.18488619115709842,
+        "support_iou": 0.7903143273413389
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "circular_error": 0.6661915484775911,
+        "coherence": 0.17691873384966697,
+        "loss": 1.2476677039587487,
+        "orientation": 0.6661915484775911,
+        "support_bce": 0.3670194166215706,
+        "support_dice": 0.17022705264850185,
+        "support_iou": 0.8024461030566977
+      },
+      "validation": {
+        "circular_error": 0.6464466944804175,
+        "coherence": 0.17462233601962232,
+        "loss": 1.238720613489583,
+        "orientation": 0.6464466944804175,
+        "support_bce": 0.3734440899061409,
+        "support_dice": 0.1751742560273679,
+        "support_iou": 0.7983990643913322
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "circular_error": 0.6464884418745426,
+        "coherence": 0.17635009784838038,
+        "loss": 1.21818218531927,
+        "orientation": 0.6464884418745426,
+        "support_bce": 0.35980344356727917,
+        "support_dice": 0.1678027740609813,
+        "support_iou": 0.8050643533885922
+      },
+      "validation": {
+        "circular_error": 0.6581564078347608,
+        "coherence": 0.17361444458105837,
+        "loss": 1.262509160756234,
+        "orientation": 0.6581564078347608,
+        "support_bce": 0.3835565727139184,
+        "support_dice": 0.17739257517592003,
+        "support_iou": 0.7937087281655767
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "circular_error": 0.6179567709602016,
+        "coherence": 0.17506688497868433,
+        "loss": 1.1887863857728433,
+        "orientation": 0.6179567709602016,
+        "support_bce": 0.3612045890422076,
+        "support_dice": 0.16585830338022872,
+        "support_iou": 0.8052270788843732
+      },
+      "validation": {
+        "circular_error": 0.6153165108235455,
+        "coherence": 0.17212552543508883,
+        "loss": 1.2030495131057315,
+        "orientation": 0.6153165108235455,
+        "support_bce": 0.3731377178783616,
+        "support_dice": 0.1715639034214751,
+        "support_iou": 0.7989648503708923
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "circular_error": 0.6195624305114997,
+        "coherence": 0.1746486005390958,
+        "loss": 1.1862771518939994,
+        "orientation": 0.6195624305114997,
+        "support_bce": 0.3573719172416791,
+        "support_dice": 0.1656806542179551,
+        "support_iou": 0.8064386440227568
+      },
+      "validation": {
+        "circular_error": 0.6825243245018484,
+        "coherence": 0.17252237757323927,
+        "loss": 1.2728956177674935,
+        "orientation": 0.6825243245018484,
+        "support_bce": 0.3759027148373036,
+        "support_dice": 0.17133798811078488,
+        "support_iou": 0.8013748858863884
+      }
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "circular_error": 0.6094498424026854,
+        "coherence": 0.17419126973796853,
+        "loss": 1.1713816358938949,
+        "orientation": 0.6094498424026854,
+        "support_bce": 0.3553842577134295,
+        "support_dice": 0.16299971247741435,
+        "support_iou": 0.8076423583989879
+      },
+      "validation": {
+        "circular_error": 0.6210361903968173,
+        "coherence": 0.17244170595752237,
+        "loss": 1.2309760698458043,
+        "orientation": 0.6210361903968173,
+        "support_bce": 0.39300730180657284,
+        "support_dice": 0.17382214812866903,
+        "support_iou": 0.7954092773410917
+      }
+    },
+    {
+      "epoch": 9,
+      "train": {
+        "circular_error": 0.602298757578849,
+        "coherence": 0.17425644863320106,
+        "loss": 1.1609245774574941,
+        "orientation": 0.602298757578849,
+        "support_bce": 0.35206053056504644,
+        "support_dice": 0.16300117438820308,
+        "support_iou": 0.8089365083524637
+      },
+      "validation": {
+        "circular_error": 0.6172777713383532,
+        "coherence": 0.17148385438354175,
+        "loss": 1.2045361945853417,
+        "orientation": 0.6172777713383532,
+        "support_bce": 0.3782257403438515,
+        "support_dice": 0.16616170476953326,
+        "support_iou": 0.8028592436155791
+      }
+    },
+    {
+      "epoch": 10,
+      "train": {
+        "circular_error": 0.5877075522572957,
+        "coherence": 0.1735136804753655,
+        "loss": 1.1421336834821836,
+        "orientation": 0.5877075522572957,
+        "support_bce": 0.3500709648429119,
+        "support_dice": 0.16097674410105342,
+        "support_iou": 0.8110907273359369
+      },
+      "validation": {
+        "circular_error": 0.6047190863911699,
+        "coherence": 0.17199711979266244,
+        "loss": 1.1898456064250826,
+        "orientation": 0.6047190863911699,
+        "support_bce": 0.3663811412630181,
+        "support_dice": 0.17574609821266413,
+        "support_iou": 0.7979505359088087
+      }
+    },
+    {
+      "epoch": 11,
+      "train": {
+        "circular_error": 0.5930292376878334,
+        "coherence": 0.17366820581177494,
+        "loss": 1.144603691952148,
+        "orientation": 0.5930292376878334,
+        "support_bce": 0.3466078284743986,
+        "support_dice": 0.1615495717142204,
+        "support_iou": 0.811012682743733
+      },
+      "validation": {
+        "circular_error": 0.5884732508493218,
+        "coherence": 0.17215371059208381,
+        "loss": 1.1935446619572125,
+        "orientation": 0.5884732508493218,
+        "support_bce": 0.3884648870715696,
+        "support_dice": 0.1735680961027378,
+        "support_iou": 0.7867591644828743
+      }
+    },
+    {
+      "epoch": 12,
+      "train": {
+        "circular_error": 0.5773654426313685,
+        "coherence": 0.17335968989777545,
+        "loss": 1.125063999074604,
+        "orientation": 0.5773654426313685,
+        "support_bce": 0.34461935991014414,
+        "support_dice": 0.15973927388973502,
+        "support_iou": 0.812382727296315
+      },
+      "validation": {
+        "circular_error": 0.5861418292912872,
+        "coherence": 0.17266163608961405,
+        "loss": 1.1641930433100525,
+        "orientation": 0.5861418292912872,
+        "support_bce": 0.3696518511306949,
+        "support_dice": 0.16523393479789175,
+        "support_iou": 0.8027430467489289
+      }
+    },
+    {
+      "epoch": 13,
+      "train": {
+        "circular_error": 0.5685575100280781,
+        "coherence": 0.1727327100889602,
+        "loss": 1.1066573746225996,
+        "orientation": 0.5685575100280781,
+        "support_bce": 0.3373792916659177,
+        "support_dice": 0.15753739305694342,
+        "support_iou": 0.8140419125556946
+      },
+      "validation": {
+        "circular_error": 0.5974652744336411,
+        "coherence": 0.17309656827499642,
+        "loss": 1.1837365373917157,
+        "orientation": 0.5974652744336411,
+        "support_bce": 0.37522703378042693,
+        "support_dice": 0.16777009062650727,
+        "support_iou": 0.8026776234862696
+      }
+    },
+    {
+      "epoch": 14,
+      "train": {
+        "circular_error": 0.5639073305010107,
+        "coherence": 0.17277779590464384,
+        "loss": 1.0990366838436332,
+        "orientation": 0.5639073305010107,
+        "support_bce": 0.33586971303302204,
+        "support_dice": 0.15606519189238646,
+        "support_iou": 0.8165575319445044
+      },
+      "validation": {
+        "circular_error": 0.6033671940660643,
+        "coherence": 0.17252270077786794,
+        "loss": 1.1876376057335725,
+        "orientation": 0.6033671940660643,
+        "support_bce": 0.38038300855234525,
+        "support_dice": 0.1607567298287714,
+        "support_iou": 0.7995373093708051
+      }
+    },
+    {
+      "epoch": 15,
+      "train": {
+        "circular_error": 0.5639302244092056,
+        "coherence": 0.17251861767393445,
+        "loss": 1.0985863502617228,
+        "orientation": 0.5639302244092056,
+        "support_bce": 0.3353807578525166,
+        "support_dice": 0.15614571349245404,
+        "support_iou": 0.8165733679600815
+      },
+      "validation": {
+        "circular_error": 0.5913504611324351,
+        "coherence": 0.17237931614553473,
+        "loss": 1.1818985473818895,
+        "orientation": 0.5913504611324351,
+        "support_bce": 0.37727596847022454,
+        "support_dice": 0.17017729398680898,
+        "support_iou": 0.7990236697712011
+      }
+    },
+    {
+      "epoch": 16,
+      "train": {
+        "circular_error": 0.5559357218475058,
+        "coherence": 0.17216363751927585,
+        "loss": 1.086134883704897,
+        "orientation": 0.5559357218475058,
+        "support_bce": 0.33237045492304323,
+        "support_dice": 0.15478780022949004,
+        "support_iou": 0.8181873571744952
+      },
+      "validation": {
+        "circular_error": 0.6352785325216499,
+        "coherence": 0.17286869327988774,
+        "loss": 1.2215380120360477,
+        "orientation": 0.6352785325216499,
+        "support_bce": 0.3876639474767426,
+        "support_dice": 0.1553783659735623,
+        "support_iou": 0.8055075257497382
+      }
+    },
+    {
+      "epoch": 17,
+      "train": {
+        "circular_error": 0.5594729464209385,
+        "coherence": 0.1721323408057448,
+        "loss": 1.0845509774411697,
+        "orientation": 0.5594729464209385,
+        "support_bce": 0.32889323015156013,
+        "support_dice": 0.15315171454626966,
+        "support_iou": 0.8199569112195128
+      },
+      "validation": {
+        "circular_error": 0.5990288880643945,
+        "coherence": 0.170589368777408,
+        "loss": 1.179220894903256,
+        "orientation": 0.5990288880643945,
+        "support_bce": 0.3766603896634504,
+        "support_dice": 0.16088426694637392,
+        "support_iou": 0.8079133453269454
+      }
+    }
+  ],
+  "initialized_from": "outputs/structure_predictor_full/best-checkpoint.pt",
+  "mode": "full",
+  "model_parameters": 478756,
+  "seed_state": {
+    "deterministic_torch": true,
+    "python_hash_seed": "1729",
+    "seed": 1729
+  },
+  "target_definition": "support/orientation/coherence derived from X_pseudo (registered_approximate exemplar), not pixel-aligned ground truth",
+  "test_loaded": false
+}

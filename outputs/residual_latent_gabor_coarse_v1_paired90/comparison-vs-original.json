@@ -1,0 +1,97 @@
+{
+  "candidate": "outputs/residual_latent_gabor_coarse_v1_paired90/paired-per-image.csv",
+  "comparisons": {
+    "best_of_k_mae": {
+      "ci95_high": 0.0045143424107396465,
+      "ci95_low": 0.0010227745172583789,
+      "cohen_dz": 0.33215069087435867,
+      "mean_improvement": 0.0027685584639990128,
+      "n": 90,
+      "paired_t_pvalue": 0.0022164385086268466,
+      "paired_t_statistic": 3.151058128684433,
+      "wilcoxon_pvalue": 0.00024102162191296178,
+      "wilcoxon_pvalue_holm": 0.001205108109564809,
+      "wilcoxon_statistic": 1135.0
+    },
+    "mean_mae": {
+      "ci95_high": 4.946309381486172e-05,
+      "ci95_low": -0.00374320901612561,
+      "cohen_dz": -0.20398286041929464,
+      "mean_improvement": -0.001846872961155374,
+      "n": 90,
+      "paired_t_pvalue": 0.05614702930502956,
+      "paired_t_statistic": -1.9351513276835406,
+      "wilcoxon_pvalue": 0.11990898831179113,
+      "wilcoxon_pvalue_holm": 0.16082668663312086,
+      "wilcoxon_statistic": 1661.0
+    },
+    "mean_orientation_error": {
+      "ci95_high": 0.0733008100291667,
+      "ci95_low": 0.03756327463053419,
+      "cohen_dz": 0.6497379500014491,
+      "mean_improvement": 0.055432042329850446,
+      "n": 90,
+      "paired_t_pvalue": 2.0274805926892198e-08,
+      "paired_t_statistic": 6.163955412759544,
+      "wilcoxon_pvalue": 3.6831765714755254e-10,
+      "wilcoxon_pvalue_holm": 2.5782236000328677e-09,
+      "wilcoxon_statistic": 490.0
+    },
+    "mean_psnr": {
+      "ci95_high": -0.006100365955650999,
+      "ci95_low": -0.167334465016208,
+      "cohen_dz": -0.2252949115351932,
+      "mean_improvement": -0.0867174154859295,
+      "n": 90,
+      "paired_t_pvalue": 0.035313035004051266,
+      "paired_t_statistic": -2.1373351970920584,
+      "wilcoxon_pvalue": 0.052695715459972974,
+      "wilcoxon_pvalue_holm": 0.1580871463799189,
+      "wilcoxon_statistic": 1566.0
+    },
+    "mean_ssim_map_mean": {
+      "ci95_high": 0.010582118959088633,
+      "ci95_low": 0.0038798502895349496,
+      "cohen_dz": 0.4519366451079811,
+      "mean_improvement": 0.007230984624311791,
+      "n": 90,
+      "paired_t_pvalue": 4.570721987275964e-05,
+      "paired_t_statistic": 4.287447469909241,
+      "wilcoxon_pvalue": 9.114243339153284e-05,
+      "wilcoxon_pvalue_holm": 0.000546854600349197,
+      "wilcoxon_statistic": 1075.0
+    },
+    "single_mae": {
+      "ci95_high": 0.00364850941951275,
+      "ci95_low": -0.0006343287706497085,
+      "cohen_dz": 0.14740410135528967,
+      "mean_improvement": 0.0015070903244315207,
+      "n": 90,
+      "paired_t_pvalue": 0.16546840224615905,
+      "paired_t_statistic": 1.398398090199084,
+      "wilcoxon_pvalue": 0.08041334331656043,
+      "wilcoxon_pvalue_holm": 0.16082668663312086,
+      "wilcoxon_statistic": 1613.0
+    },
+    "uncertainty_error_spearman": {
+      "ci95_high": 0.01342873856013932,
+      "ci95_low": 0.0032134109390765282,
+      "cohen_dz": 0.34121575533160586,
+      "mean_improvement": 0.008321074749607924,
+      "n": 90,
+      "paired_t_pvalue": 0.0016971971858466908,
+      "paired_t_statistic": 3.2370568811478506,
+      "wilcoxon_pvalue": 0.005007934849256674,
+      "wilcoxon_pvalue_holm": 0.020031739397026696,
+      "wilcoxon_statistic": 1350.0
+    }
+  },
+  "multiple_comparison_correction": "Holm correction across listed metrics",
+  "num_exactly_paired_cases": 90,
+  "positive_improvement_favours_candidate": true,
+  "reference": "outputs/residual_latent_v1_projection5_paired90/paired-per-image.csv",
+  "skipped_metrics_missing_from_at_least_one_run": [
+    "mean_ridge_frequency_mae_cpx",
+    "mean_ridge_period_mae_pixels"
+  ]
+}

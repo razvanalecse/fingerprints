@@ -1,0 +1,119 @@
+{
+  "case_selection": "evenly spaced validation cases; one per selected row",
+  "elapsed_seconds": 30.37413291699977,
+  "identical_initial_noise_within_pair": true,
+  "means": {
+    "plain": {
+      "best_of_k_mae": 0.2779621623036388,
+      "mean_mae": 0.25822360782477605,
+      "mean_orientation_error": 0.38841017838858827,
+      "mean_psnr": 10.250812349341585,
+      "mean_ssim_map_mean": 0.10235035263554935,
+      "single_mae": 0.3373492964339784,
+      "uncertainty_error_spearman": 0.18827140454078395
+    },
+    "reinjected": {
+      "best_of_k_mae": 0.25511422964261177,
+      "mean_mae": 0.25574151791248484,
+      "mean_orientation_error": 0.3535074998055046,
+      "mean_psnr": 10.335910414829005,
+      "mean_ssim_map_mean": 0.11337152848365145,
+      "single_mae": 0.3013928984063016,
+      "uncertainty_error_spearman": 0.20470532264459346
+    }
+  },
+  "num_pairs": 90,
+  "paired_tests": {
+    "best_of_k_mae": {
+      "ci95_high": 0.02810457873943112,
+      "ci95_low": 0.017591286582622878,
+      "cohen_dz": 0.9103536319832283,
+      "mean_improvement": 0.022847932661027,
+      "n": 90,
+      "paired_t_pvalue": 2.1236683287591197e-13,
+      "paired_t_statistic": 8.636372859821128,
+      "wilcoxon_pvalue": 1.565542311227217e-11,
+      "wilcoxon_pvalue_holm": 1.0958796178590519e-10,
+      "wilcoxon_statistic": 372.0
+    },
+    "mean_mae": {
+      "ci95_high": 0.009020289108969876,
+      "ci95_low": -0.004056109284387446,
+      "cohen_dz": 0.07951175114709681,
+      "mean_improvement": 0.0024820899122912146,
+      "n": 90,
+      "paired_t_pvalue": 0.4526515120353973,
+      "paired_t_statistic": 0.7543147031199954,
+      "wilcoxon_pvalue": 0.06505771635634364,
+      "wilcoxon_pvalue_holm": 0.12894884112538824,
+      "wilcoxon_statistic": 1589.0
+    },
+    "mean_orientation_error": {
+      "ci95_high": 0.058653281229705936,
+      "ci95_low": 0.01115207593646136,
+      "cohen_dz": 0.3077911163244444,
+      "mean_improvement": 0.03490267858308365,
+      "n": 90,
+      "paired_t_pvalue": 0.004434206174228125,
+      "paired_t_statistic": 2.9199629134532326,
+      "wilcoxon_pvalue": 0.004472808507054062,
+      "wilcoxon_pvalue_holm": 0.017891234028216248,
+      "wilcoxon_statistic": 1341.0
+    },
+    "mean_psnr": {
+      "ci95_high": 0.2885323235782956,
+      "ci95_low": -0.11833619260345989,
+      "cohen_dz": 0.08761279893832677,
+      "mean_improvement": 0.08509806548741787,
+      "n": 90,
+      "paired_t_pvalue": 0.4081030851439673,
+      "paired_t_statistic": 0.8311679904824839,
+      "wilcoxon_pvalue": 0.06447442056269412,
+      "wilcoxon_pvalue_holm": 0.12894884112538824,
+      "wilcoxon_statistic": 1588.0
+    },
+    "mean_ssim_map_mean": {
+      "ci95_high": 0.01456575403921796,
+      "ci95_low": 0.007476597656986285,
+      "cohen_dz": 0.6512313925777714,
+      "mean_improvement": 0.011021175848102123,
+      "n": 90,
+      "paired_t_pvalue": 1.9041960533838078e-08,
+      "paired_t_statistic": 6.178123453047091,
+      "wilcoxon_pvalue": 6.018526789109082e-09,
+      "wilcoxon_pvalue_holm": 3.611116073465449e-08,
+      "wilcoxon_statistic": 602.0
+    },
+    "single_mae": {
+      "ci95_high": 0.047545546623272004,
+      "ci95_low": 0.024367249432081593,
+      "cohen_dz": 0.6498252830907969,
+      "mean_improvement": 0.0359563980276768,
+      "n": 90,
+      "paired_t_pvalue": 2.020059165429141e-08,
+      "paired_t_statistic": 6.16478392719186,
+      "wilcoxon_pvalue": 7.292211170189335e-09,
+      "wilcoxon_pvalue_holm": 3.6461055850946675e-08,
+      "wilcoxon_statistic": 610.0
+    },
+    "uncertainty_error_spearman": {
+      "ci95_high": 0.03194537246881142,
+      "ci95_low": 0.0009224637388074771,
+      "cohen_dz": 0.2219016623314652,
+      "mean_improvement": 0.01643391810380945,
+      "n": 90,
+      "paired_t_pvalue": 0.038096709429180524,
+      "paired_t_statistic": 2.1051440086350586,
+      "wilcoxon_pvalue": 0.011442440369998613,
+      "wilcoxon_pvalue_holm": 0.03432732110999584,
+      "wilcoxon_statistic": 1419.0
+    }
+  },
+  "samples_k": 5,
+  "sampling_seconds": {
+    "plain": 12.22559929099998,
+    "reinjected": 12.251475916000345
+  },
+  "steps": 50,
+  "support_constraint": "predicted from Y,M; target foreground used only to define evaluation ROI"
+}
