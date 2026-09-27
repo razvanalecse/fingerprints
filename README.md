@@ -82,3 +82,16 @@ python3 -m venv .venv
 
 Dataset files are deliberately excluded from version control. NIST datasets must
 be obtained under the terms shown by the official NIST download service.
+
+## License and responsible use
+
+This project is released under the custom
+[Academic Research Use License v1.0](LICENSE). It may be used for
+non-commercial academic research, education, reproducibility, and scientific
+evaluation on public, properly licensed, or synthetic datasets.
+
+The license prohibits operational biometric identification or authentication,
+impersonation, unauthorized security testing, fabrication of biometric
+artefacts, redistribution of third-party datasets, and representing a plausible
+generation as a person's true missing fingerprint. This is a research-only
+license and is not an OSI-approved open-source license.
