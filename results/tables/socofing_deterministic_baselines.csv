@@ -1,0 +1,4 @@
+model,parameters,n_images,missing_roi_mae,missing_roi_psnr_db,missing_roi_ssim,missing_roi_orientation_error,observed_mae,source
+Nearest-observed interpolation,0,900,0.2768556543807661,9.04136616564666,0.09411955382613438,0.8152384827188195,0.0,outputs/classical_nearest_validation/metrics.json
+U-Net,7762753,900,0.1758199627011002,12.966381570042083,0.25347819901540436,0.24068505023101214,0.0,outputs/unet_full_mps/metrics.json
+Gated convolution,5679009,900,0.17401148826177665,13.021640587503486,0.25853415417600983,0.22888579477212245,0.0,outputs/gated_full_mps/metrics.json

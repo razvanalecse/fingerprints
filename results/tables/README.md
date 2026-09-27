@@ -1,7 +1,14 @@
 # Final tables
 
-This directory is reserved for compact, manuscript-ready tables derived from
-the per-run artefacts indexed in `../artifact-index.csv`.
+This directory contains compact, manuscript-ready tables derived from the
+per-run artefacts indexed in `../artifact-index.csv`.
+
+- `socofing_deterministic_baselines.csv`: controlled Track-A baselines.
+- `nist302_heldout_evaluation_217.csv`: held-out real-pixel metrics with source
+  split metadata preserved explicitly.
+- `nist302_k_sensitivity.csv`: expected, best-of-K, diversity, and uncertainty
+  behavior as K changes.
+- `compute_cost.csv`: measured training and inference costs.
 
 Each final table should document:
 

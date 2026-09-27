@@ -87,10 +87,12 @@ be obtained under the terms shown by the official NIST download service.
 
 `outputs/` stores machine-readable artefacts from individual runs. The curated
 [`results/`](results/README.md) layer contains the publication-facing catalogue,
-final tables, aggregate figures, and frozen statistical analyses. Rebuild the
-artefact catalogue with:
+populated final tables, aggregate figures, and frozen statistical analyses.
+Read the [`results summary`](results/RESULTS_SUMMARY.md), or rebuild both the
+curated outputs and artefact catalogue with:
 
 ```bash
+python3 scripts/build_curated_results.py
 python3 scripts/build_results_catalog.py
 ```
 

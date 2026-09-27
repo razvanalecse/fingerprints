@@ -1,0 +1,17 @@
+{
+  "df": 5,
+  "friedman_chi2": 116.27093596059115,
+  "friedman_p_value": 1.9331663381585843e-23,
+  "metric": "heldout_q1_mae (mean-of-K where applicable)",
+  "models": [
+    "gated_zeroshot",
+    "gated_finetuned_spectrum",
+    "cvae_spatial",
+    "ddim20",
+    "repaint",
+    "residual_ddpm"
+  ],
+  "n_subjects": 29,
+  "note": "Omnibus test only (detects that at least one model differs, not which pair or ranking). statsmodels/lme4-equivalent mixed-effects model was not available offline in this environment; Friedman is the feasible non-parametric substitute for a repeated-measures omnibus test across >2 related models.",
+  "source": "outputs/nist302_friedman_omnibus_mae.json"
+}

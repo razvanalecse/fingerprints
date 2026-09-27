@@ -1,0 +1,6 @@
+model,parameters,epochs,training_minutes,K,steps,seconds_per_image,measurement_note
+Gated convolution (SOCOFing),5679009,50,30.0,,,,solo
+Spatial CVAE,4898129,20,17.9,,,,solo
+Pixel DDPM,8280897,15/25,16.3,10,20,0.626,DDIM evaluation; solo
+Residual DDPM,8281377,17/25,30.2,10,20,1.104,training had GPU contention
+RePaint,8280897,uses pixel-DDPM checkpoint,,5,500x2,19.35,ancestral sampling; solo

@@ -2,7 +2,9 @@
 
 This directory is the publication-facing layer of the repository. It is kept
 separate from `outputs/`, which contains the machine-readable artefacts emitted
-by individual experimental runs.
+by individual experimental runs. Start with
+[`RESULTS_SUMMARY.md`](RESULTS_SUMMARY.md) for the populated tables, aggregate
+figures, statistical tests, and their interpretation.
 
 ## Directory contract
 
@@ -20,6 +22,12 @@ Rebuild the catalogue from the repository root with:
 
 ```bash
 python3 scripts/build_results_catalog.py
+```
+
+Rebuild the curated results with:
+
+```bash
+python3 scripts/build_curated_results.py
 ```
 
 ## Data-governance rule

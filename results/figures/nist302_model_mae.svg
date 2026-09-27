@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="713" viewBox="0 0 1100 713">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#1e293b}.title{font-size:24px;font-weight:700}.sub{font-size:15px;fill:#475569}.label{font-size:15px}.value{font-size:14px;font-weight:700}</style>
+<text class="title" x="30" y="38">NIST SD302: held-out real-pixel MAE</text>
+<text class="sub" x="30" y="66">217 images; lower is better. Split/test flags are inconsistent across source artefacts; see the CSV.</text>
+<text class="label" x="318" y="122" text-anchor="end">RePaint</text>
+<rect x="330" y="100" width="286.6" height="30" rx="3" fill="#12706B"/>
+<text class="value" x="625.6" y="121">0.1008</text>
+<text class="label" x="318" y="170" text-anchor="end">Zero-shot gated convolution</text>
+<rect x="330" y="148" width="299.7" height="30" rx="3" fill="#1F3A63"/>
+<text class="value" x="638.7" y="169">0.1054</text>
+<text class="label" x="318" y="218" text-anchor="end">Residual DDPM</text>
+<rect x="330" y="196" width="320.0" height="30" rx="3" fill="#12706B"/>
+<text class="value" x="659.0" y="217">0.1126</text>
+<text class="label" x="318" y="266" text-anchor="end">Learned ensemble</text>
+<rect x="330" y="244" width="327.1" height="30" rx="3" fill="#6A4C93"/>
+<text class="value" x="666.1" y="265">0.1151</text>
+<text class="label" x="318" y="314" text-anchor="end">Boundary-continuity model</text>
+<rect x="330" y="292" width="382.6" height="30" rx="3" fill="#1F3A63"/>
+<text class="value" x="721.6" y="313">0.1346</text>
+<text class="label" x="318" y="362" text-anchor="end">Spatial CVAE</text>
+<rect x="330" y="340" width="391.6" height="30" rx="3" fill="#12706B"/>
+<text class="value" x="730.6" y="361">0.1378</text>
+<text class="label" x="318" y="410" text-anchor="end">Fine-tuned support+spectrum</text>
+<rect x="330" y="388" width="402.6" height="30" rx="3" fill="#1F3A63"/>
+<text class="value" x="741.6" y="409">0.1416</text>
+<text class="label" x="318" y="458" text-anchor="end">Pixel DDPM / DDIM-20</text>
+<rect x="330" y="436" width="413.1" height="30" rx="3" fill="#12706B"/>
+<text class="value" x="752.1" y="457">0.1453</text>
+<text class="label" x="318" y="506" text-anchor="end">Flow matching</text>
+<rect x="330" y="484" width="439.3" height="30" rx="3" fill="#12706B"/>
+<text class="value" x="778.3" y="505">0.1545</text>
+<text class="label" x="318" y="554" text-anchor="end">Latent DDPM</text>
+<rect x="330" y="532" width="600.0" height="30" rx="3" fill="#12706B"/>
+<text class="value" x="939.0" y="553">0.2111</text>
+<text class="label" x="318" y="602" text-anchor="end">Latent DDPM, structure-guided</text>
+<rect x="330" y="580" width="609.1" height="30" rx="3" fill="#12706B"/>
+<text class="value" x="948.1" y="601">0.2143</text>
+<text class="sub" x="330" y="685">MAE on held-out quality==1 pixels</text>
+<rect x="770" y="20" width="14" height="14" fill="#1F3A63"/><text class="sub" x="791" y="32">deterministic</text>
+<rect x="910" y="20" width="14" height="14" fill="#12706B"/><text class="sub" x="931" y="32">probabilistic</text>
+</svg>
