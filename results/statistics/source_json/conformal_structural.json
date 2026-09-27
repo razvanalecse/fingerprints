@@ -1,0 +1,91 @@
+{
+  "calibration_subjects": 10,
+  "caveat": "Conformal coverage assumes exchangeability. Pixels inside one print are strongly correlated, so pooled pixel coverage overstates the effective sample size; subject-level spread is the honest read.",
+  "certified_quantity": "axial orientation error of the reconstructed ridge field",
+  "fit_subjects": 9,
+  "mean_true_error_on_test": 0.6419634222984314,
+  "pixels": 818476,
+  "results": {
+    "alpha=0.05": {
+      "certified_region_fraction": {
+        "0.2": {
+          "fraction_of_pixels_certified": 0.0,
+          "true_error_inside": NaN,
+          "true_error_outside": 0.6419634222984314
+        },
+        "0.3": {
+          "fraction_of_pixels_certified": 0.0,
+          "true_error_inside": NaN,
+          "true_error_outside": 0.6419634222984314
+        },
+        "0.5": {
+          "fraction_of_pixels_certified": 0.0,
+          "true_error_inside": NaN,
+          "true_error_outside": 0.6419634222984314
+        }
+      },
+      "mean_certified_bound": 1.913668979815634,
+      "pooled_pixel_coverage": 0.9534567391915242,
+      "quantile": 1.2796190271290964,
+      "subject_coverage_max": 0.9917711598746082,
+      "subject_coverage_mean": 0.9621347073114954,
+      "subject_coverage_min": 0.941987363584147,
+      "target_coverage": 0.95
+    },
+    "alpha=0.1": {
+      "certified_region_fraction": {
+        "0.2": {
+          "fraction_of_pixels_certified": 0.0,
+          "true_error_inside": NaN,
+          "true_error_outside": 0.6419634222984314
+        },
+        "0.3": {
+          "fraction_of_pixels_certified": 0.0,
+          "true_error_inside": NaN,
+          "true_error_outside": 0.6419634222984314
+        },
+        "0.5": {
+          "fraction_of_pixels_certified": 0.0,
+          "true_error_inside": NaN,
+          "true_error_outside": 0.6419634222984314
+        }
+      },
+      "mean_certified_bound": 1.6126405202117413,
+      "pooled_pixel_coverage": 0.9001781731867291,
+      "quantile": 0.9785905675252038,
+      "subject_coverage_max": 0.9669736143084824,
+      "subject_coverage_mean": 0.917719099789205,
+      "subject_coverage_min": 0.8700251244218983,
+      "target_coverage": 0.9
+    },
+    "alpha=0.2": {
+      "certified_region_fraction": {
+        "0.2": {
+          "fraction_of_pixels_certified": 0.0,
+          "true_error_inside": NaN,
+          "true_error_outside": 0.6419634222984314
+        },
+        "0.3": {
+          "fraction_of_pixels_certified": 0.0,
+          "true_error_inside": NaN,
+          "true_error_outside": 0.6419634222984314
+        },
+        "0.5": {
+          "fraction_of_pixels_certified": 0.0,
+          "true_error_inside": NaN,
+          "true_error_outside": 0.6419634222984314
+        }
+      },
+      "mean_certified_bound": 1.26493921320156,
+      "pooled_pixel_coverage": 0.8046432649937519,
+      "quantile": 0.6308892605150223,
+      "subject_coverage_max": 0.9012071316733168,
+      "subject_coverage_mean": 0.827902211747026,
+      "subject_coverage_min": 0.7464193698090864,
+      "target_coverage": 0.8
+    }
+  },
+  "split_by": "subject; fit/calibrate/test disjoint",
+  "subjects": 29,
+  "test_subjects": 10
+}

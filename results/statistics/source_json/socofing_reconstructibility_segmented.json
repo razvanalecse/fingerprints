@@ -1,0 +1,121 @@
+{
+  "candidate_breakpoints": [
+    0.15000000000000002,
+    0.25,
+    0.35,
+    0.45,
+    0.55,
+    0.6499999999999999,
+    0.75
+  ],
+  "num_images": 900,
+  "observed_fraction_levels": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "outcomes": {
+    "diversity": {
+      "interpretation_note": "breakpoint_r is a curve-fit location, not an asserted mechanistic threshold; report it descriptively.",
+      "n": 900,
+      "nested_f_test": {
+        "df_denominator": 897,
+        "df_numerator": 1,
+        "f_statistic": 5.117022629859374,
+        "p_value": 0.023930801738565544,
+        "segmented_preferred_at_0.05": true
+      },
+      "segmented_model": {
+        "breakpoint_r": 0.25,
+        "intercept": 0.30443743041631693,
+        "r_squared": 0.2155423317313332,
+        "slope_after": -0.051121756740949674,
+        "slope_before": -0.009768489776031482,
+        "slope_change": -0.041353266964918194
+      },
+      "smooth_model": {
+        "intercept": 0.31077356852922766,
+        "r_squared": 0.21106731763913977,
+        "slope": -0.0445306508945433
+      }
+    },
+    "orientation_error": {
+      "interpretation_note": "breakpoint_r is a curve-fit location, not an asserted mechanistic threshold; report it descriptively.",
+      "n": 900,
+      "nested_f_test": {
+        "df_denominator": 897,
+        "df_numerator": 1,
+        "f_statistic": 14.683353499645293,
+        "p_value": 0.0001360283422715547,
+        "segmented_preferred_at_0.05": true
+      },
+      "segmented_model": {
+        "breakpoint_r": 0.35,
+        "intercept": 0.5031723848313576,
+        "r_squared": 0.22970048390726705,
+        "slope_after": -0.2469384599575139,
+        "slope_before": -0.6641458205328387,
+        "slope_change": 0.41720736057532476
+      },
+      "smooth_model": {
+        "intercept": 0.44159642043420977,
+        "r_squared": 0.2170911415489668,
+        "slope": -0.38190863449696105
+      }
+    },
+    "ssim": {
+      "interpretation_note": "breakpoint_r is a curve-fit location, not an asserted mechanistic threshold; report it descriptively.",
+      "n": 900,
+      "nested_f_test": {
+        "df_denominator": 897,
+        "df_numerator": 1,
+        "f_statistic": 3.354487976306683,
+        "p_value": 0.06735355387980824,
+        "segmented_preferred_at_0.05": false
+      },
+      "segmented_model": {
+        "breakpoint_r": 0.45,
+        "intercept": 0.040961174812050125,
+        "r_squared": 0.44693829013017594,
+        "slope_after": 0.24958126868138794,
+        "slope_before": 0.18778409332479823,
+        "slope_change": 0.06179717535658972
+      },
+      "smooth_model": {
+        "intercept": 0.033559616588767514,
+        "r_squared": 0.444870019387797,
+        "slope": 0.2181084746161994
+      }
+    },
+    "uncertainty_magnitude": {
+      "interpretation_note": "breakpoint_r is a curve-fit location, not an asserted mechanistic threshold; report it descriptively.",
+      "n": 900,
+      "nested_f_test": {
+        "df_denominator": 897,
+        "df_numerator": 1,
+        "f_statistic": 6.378948334458076,
+        "p_value": 0.011719396593543152,
+        "segmented_preferred_at_0.05": true
+      },
+      "segmented_model": {
+        "breakpoint_r": 0.25,
+        "intercept": 0.26033650830961863,
+        "r_squared": 0.20041516728737285,
+        "slope_after": -0.04128329301486973,
+        "slope_before": -0.002950062986835104,
+        "slope_change": -0.038333230028034626
+      },
+      "smooth_model": {
+        "intercept": 0.2662099170533015,
+        "r_squared": 0.19472897962082858,
+        "slope": -0.03517353687967094
+      }
+    }
+  },
+  "source": "outputs/ddim_50step_k10_validation/per-image-probabilistic-metrics.csv"
+}

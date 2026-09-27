@@ -92,7 +92,7 @@ Read the [`results summary`](results/RESULTS_SUMMARY.md), or rebuild both the
 curated outputs and artefact catalogue with:
 
 ```bash
-python3 scripts/build_curated_results.py
+python3 scripts/build_complete_results.py
 python3 scripts/build_results_catalog.py
 ```
 

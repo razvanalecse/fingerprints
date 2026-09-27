@@ -1,0 +1,27 @@
+{
+  "agreement_threshold": 0.2,
+  "conflict_threshold": 1.0,
+  "images": 282,
+  "note": "follows_pseudo_in_conflict is the fraction of conflicting pixels where the model's orientation is closer to X_pseudo than to the real latent",
+  "subjects": 29,
+  "tests": {
+    "error_in_agreement": {
+      "cohen_dz": -0.4755741652982612,
+      "finetuned": 0.3895276769607322,
+      "wilcoxon_p": 0.03262323513627052,
+      "zeroshot": 0.3419136287481906
+    },
+    "error_in_conflict": {
+      "cohen_dz": -1.747911086291943,
+      "finetuned": 0.7796683436933788,
+      "wilcoxon_p": 3.725290298461914e-09,
+      "zeroshot": 0.49701876645943677
+    },
+    "follows_pseudo_in_conflict": {
+      "cohen_dz": -1.8772226319366219,
+      "finetuned": 0.43211713854234485,
+      "wilcoxon_p": 3.725290298461914e-09,
+      "zeroshot": 0.24300189495978494
+    }
+  }
+}

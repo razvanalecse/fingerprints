@@ -1,0 +1,29 @@
+{
+  "ddim_steps": 20,
+  "nearest_0_2mm": {
+    "images_with_20plus_pixels": 253,
+    "mean_absolute_error": 0.13053198086898743,
+    "mean_per_image_spearman": 0.5188681739128407,
+    "mean_predictive_std": 0.08766030447281414,
+    "pixels": 86015,
+    "pooled_uncertainty_error_spearman": 0.5274403184222076
+  },
+  "nearest_2_5mm": {
+    "images_with_20plus_pixels": 286,
+    "mean_absolute_error": 0.15784987529072836,
+    "mean_per_image_spearman": 0.371430609843371,
+    "mean_predictive_std": 0.08871969437968583,
+    "pixels": 294878,
+    "pooled_uncertainty_error_spearman": 0.2617669868669011
+  },
+  "nearest_gt_5mm": {
+    "images_with_20plus_pixels": 259,
+    "mean_absolute_error": 0.17472039167480005,
+    "mean_per_image_spearman": 0.25486981074153764,
+    "mean_predictive_std": 0.08410757202654674,
+    "pixels": 262719,
+    "pooled_uncertainty_error_spearman": 0.16689672497611371
+  },
+  "num_images": 287,
+  "samples": 20
+}

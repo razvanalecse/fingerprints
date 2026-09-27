@@ -1,0 +1,53 @@
+{
+  "correlations": {
+    "disagree_harmonic_neural -> err_harmonic": {
+      "p": 1.2082215010378131e-57,
+      "spearman_rho": 0.9630603060306029
+    },
+    "disagree_harmonic_neural -> err_neural": {
+      "p": 4.093999340788097e-07,
+      "spearman_rho": 0.4809240924092409
+    },
+    "disagree_harmonic_neural -> err_zero_pole": {
+      "p": 0.001208716922734376,
+      "spearman_rho": 0.3191839183918392
+    },
+    "disagree_zp_harmonic -> err_harmonic": {
+      "p": 0.008239706729804081,
+      "spearman_rho": 0.26285028502850283
+    },
+    "disagree_zp_harmonic -> err_neural": {
+      "p": 0.9276711199560321,
+      "spearman_rho": 0.009192919291929192
+    },
+    "disagree_zp_harmonic -> err_zero_pole": {
+      "p": 8.940941950312964e-07,
+      "spearman_rho": 0.46832283228322824
+    },
+    "disagree_zp_neural -> err_harmonic": {
+      "p": 0.0002857217120761616,
+      "spearman_rho": 0.35534353435343524
+    },
+    "disagree_zp_neural -> err_neural": {
+      "p": 0.021794983107387967,
+      "spearman_rho": 0.2292109210921092
+    },
+    "disagree_zp_neural -> err_zero_pole": {
+      "p": 1.1986448972230989e-63,
+      "spearman_rho": 0.9722652265226521
+    },
+    "fit_cost -> err_harmonic": {
+      "p": 0.09468467927673045,
+      "spearman_rho": 0.16804080408040803
+    },
+    "fit_cost -> err_neural": {
+      "p": 0.08905968670826679,
+      "spearman_rho": 0.1709330933093309
+    },
+    "fit_cost -> err_zero_pole": {
+      "p": 0.01286022744692043,
+      "spearman_rho": 0.24798079807980797
+    }
+  },
+  "images": 100
+}

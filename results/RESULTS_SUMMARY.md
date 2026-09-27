@@ -4,9 +4,14 @@ This directory now contains generated research outputs rather than empty
 placeholders. Rebuild them with:
 
 ```bash
-python3 scripts/build_curated_results.py
+python3 scripts/build_complete_results.py
 python3 scripts/build_results_catalog.py
 ```
+
+Complete inventories are available in
+[`figures/figure_index.csv`](figures/figure_index.csv),
+[`tables/table_index.csv`](tables/table_index.csv), and
+[`statistics/statistics_index.csv`](statistics/statistics_index.csv).
 
 ## SOCOFing controlled reconstruction
 

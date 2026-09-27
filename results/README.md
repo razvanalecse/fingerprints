@@ -27,8 +27,13 @@ python3 scripts/build_results_catalog.py
 Rebuild the curated results with:
 
 ```bash
-python3 scripts/build_curated_results.py
+python3 scripts/build_complete_results.py
 ```
+
+The complete builder requires the optional plotting dependencies from the
+`train`/`eda` environment. It regenerates all public aggregate figures, table
+indexes, and statistical-source copies. It never reads or copies raw NIST
+fingerprint images.
 
 ## Data-governance rule
 

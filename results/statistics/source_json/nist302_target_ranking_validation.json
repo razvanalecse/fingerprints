@@ -1,0 +1,201 @@
+{
+  "images_scored": 287,
+  "images_skipped_small_region": 0,
+  "interpretation": "A high positive Spearman rho would mean the convenient target ranks models the same way real evidence does, so using it for model selection is safe. A low or negative rho means the target choice corrupts model selection itself, not merely the reported score of a single checkpoint.",
+  "models": [
+    "boundary_continuity",
+    "finetune_no_spectrum",
+    "orientation_only",
+    "ridge_band_only",
+    "support_constrained",
+    "support_spectrum",
+    "uniform_confidence",
+    "zero_shot"
+  ],
+  "rankings": {
+    "mae": {
+      "kendall_p": 0.5484126984126985,
+      "kendall_tau": -0.21428571428571427,
+      "models": [
+        "boundary_continuity",
+        "finetune_no_spectrum",
+        "orientation_only",
+        "ridge_band_only",
+        "support_constrained",
+        "support_spectrum",
+        "uniform_confidence",
+        "zero_shot"
+      ],
+      "pseudo_target_order_best_first": [
+        "finetune_no_spectrum",
+        "support_constrained",
+        "uniform_confidence",
+        "ridge_band_only",
+        "zero_shot",
+        "support_spectrum",
+        "boundary_continuity",
+        "orientation_only"
+      ],
+      "pseudo_target_scores": {
+        "boundary_continuity": 0.28904154020686906,
+        "finetune_no_spectrum": 0.18788698188850303,
+        "orientation_only": 0.30141484042388234,
+        "ridge_band_only": 0.28885427425665305,
+        "support_constrained": 0.2878415698192287,
+        "support_spectrum": 0.288977542540681,
+        "uniform_confidence": 0.2886917622159844,
+        "zero_shot": 0.2889378332334657
+      },
+      "rank_of_pseudo_winner_under_real_pixels": 7,
+      "real_pixel_order_best_first": [
+        "zero_shot",
+        "boundary_continuity",
+        "support_spectrum",
+        "uniform_confidence",
+        "support_constrained",
+        "ridge_band_only",
+        "finetune_no_spectrum",
+        "orientation_only"
+      ],
+      "real_pixel_scores": {
+        "boundary_continuity": 0.13700990156239287,
+        "finetune_no_spectrum": 0.1820523727288918,
+        "orientation_only": 0.19204300518482315,
+        "ridge_band_only": 0.15396527200377988,
+        "support_constrained": 0.15194924358053827,
+        "support_spectrum": 0.14346962930024737,
+        "uniform_confidence": 0.14436913127307105,
+        "zero_shot": 0.09780696875143703
+      },
+      "same_winner": false,
+      "spearman_p": 0.6514014957024813,
+      "spearman_rho": -0.19047619047619052,
+      "winner_under_pseudo_target": "finetune_no_spectrum",
+      "winner_under_real_pixels": "zero_shot"
+    },
+    "orientation_error": {
+      "kendall_p": 0.06101190476190476,
+      "kendall_tau": -0.5714285714285714,
+      "models": [
+        "boundary_continuity",
+        "finetune_no_spectrum",
+        "orientation_only",
+        "ridge_band_only",
+        "support_constrained",
+        "support_spectrum",
+        "uniform_confidence",
+        "zero_shot"
+      ],
+      "pseudo_target_order_best_first": [
+        "finetune_no_spectrum",
+        "support_spectrum",
+        "uniform_confidence",
+        "support_constrained",
+        "boundary_continuity",
+        "orientation_only",
+        "ridge_band_only",
+        "zero_shot"
+      ],
+      "pseudo_target_scores": {
+        "boundary_continuity": 0.7826522126907828,
+        "finetune_no_spectrum": 0.7366140935827782,
+        "orientation_only": 0.8016083785465358,
+        "ridge_band_only": 0.8954242451595464,
+        "support_constrained": 0.7803285000767354,
+        "support_spectrum": 0.7709141492000157,
+        "uniform_confidence": 0.7719250766376874,
+        "zero_shot": 0.9146941078062458
+      },
+      "rank_of_pseudo_winner_under_real_pixels": 5,
+      "real_pixel_order_best_first": [
+        "ridge_band_only",
+        "zero_shot",
+        "boundary_continuity",
+        "orientation_only",
+        "finetune_no_spectrum",
+        "uniform_confidence",
+        "support_constrained",
+        "support_spectrum"
+      ],
+      "real_pixel_scores": {
+        "boundary_continuity": 0.4775795337786132,
+        "finetune_no_spectrum": 0.5044150530517473,
+        "orientation_only": 0.4821006064992608,
+        "ridge_band_only": 0.2942576048012893,
+        "support_constrained": 0.5214603963275194,
+        "support_spectrum": 0.5230634578938703,
+        "uniform_confidence": 0.5120034807447058,
+        "zero_shot": 0.34417476652815504
+      },
+      "same_winner": false,
+      "spearman_p": 0.02081512725352528,
+      "spearman_rho": -0.7857142857142858,
+      "winner_under_pseudo_target": "finetune_no_spectrum",
+      "winner_under_real_pixels": "ridge_band_only"
+    },
+    "ssim_map_mean": {
+      "kendall_p": 0.0003968253968253968,
+      "kendall_tau": 0.9285714285714285,
+      "models": [
+        "boundary_continuity",
+        "finetune_no_spectrum",
+        "orientation_only",
+        "ridge_band_only",
+        "support_constrained",
+        "support_spectrum",
+        "uniform_confidence",
+        "zero_shot"
+      ],
+      "pseudo_target_order_best_first": [
+        "ridge_band_only",
+        "zero_shot",
+        "boundary_continuity",
+        "support_constrained",
+        "support_spectrum",
+        "uniform_confidence",
+        "orientation_only",
+        "finetune_no_spectrum"
+      ],
+      "pseudo_target_scores": {
+        "boundary_continuity": 0.18702994218403668,
+        "finetune_no_spectrum": 0.13093932247053286,
+        "orientation_only": 0.1745815288697082,
+        "ridge_band_only": 0.23484069936219104,
+        "support_constrained": 0.18201013207232009,
+        "support_spectrum": 0.1787175618485449,
+        "uniform_confidence": 0.17840598372368344,
+        "zero_shot": 0.21630030164457134
+      },
+      "rank_of_pseudo_winner_under_real_pixels": 2,
+      "real_pixel_order_best_first": [
+        "zero_shot",
+        "ridge_band_only",
+        "boundary_continuity",
+        "support_constrained",
+        "support_spectrum",
+        "uniform_confidence",
+        "orientation_only",
+        "finetune_no_spectrum"
+      ],
+      "real_pixel_scores": {
+        "boundary_continuity": 0.2277210807826846,
+        "finetune_no_spectrum": 0.1409504037515065,
+        "orientation_only": 0.15423559876774323,
+        "ridge_band_only": 0.36638915792325893,
+        "support_constrained": 0.20909391790134652,
+        "support_spectrum": 0.20796864517227345,
+        "uniform_confidence": 0.2065790085389345,
+        "zero_shot": 0.488873610840694
+      },
+      "same_winner": false,
+      "spearman_p": 3.3143960262000996e-05,
+      "spearman_rho": 0.9761904761904763,
+      "winner_under_pseudo_target": "ridge_band_only",
+      "winner_under_real_pixels": "zero_shot"
+    }
+  },
+  "split": "validation",
+  "test_loaded": false,
+  "track_b": "X_pseudo over missing pixels inside the evaluation ROI",
+  "track_c": "real latent over officially held-out quality==1 pixels"
+}

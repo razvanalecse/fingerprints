@@ -1,0 +1,55 @@
+{
+  "coding": "mean_improvement > 0 means the reconstruction resembles real ridges; negative means the reconstruction is more predictable (entropy) or flatter (self-transition rate) than the real ridges it replaces.",
+  "per_image_rows": 284,
+  "results": {
+    "entropy_step2": {
+      "ci95_high": -0.08308238310955399,
+      "ci95_low": -0.13375115199424714,
+      "cohen_dz": -1.627808756893673,
+      "mean_improvement": -0.10841676755190056,
+      "n": 29,
+      "paired_t_pvalue": 1.6198449972347902e-09,
+      "paired_t_statistic": -8.766018430369176,
+      "wilcoxon_pvalue": 1.862645149230957e-08,
+      "wilcoxon_pvalue_holm": 3.725290298461914e-08,
+      "wilcoxon_statistic": 3.0
+    },
+    "entropy_step4": {
+      "ci95_high": -0.12915484309104958,
+      "ci95_low": -0.2011233753440252,
+      "cohen_dz": -1.745639538331335,
+      "mean_improvement": -0.16513910921753738,
+      "n": 29,
+      "paired_t_pvalue": 3.6998672314362987e-10,
+      "paired_t_statistic": -9.400556607764429,
+      "wilcoxon_pvalue": 7.078051567077637e-08,
+      "wilcoxon_pvalue_holm": 7.078051567077637e-08,
+      "wilcoxon_statistic": 7.0
+    },
+    "self_rate_step2": {
+      "ci95_high": -0.033481678307566126,
+      "ci95_low": -0.04869279957474516,
+      "cohen_dz": -2.0549109533361123,
+      "mean_improvement": -0.041087238941155645,
+      "n": 29,
+      "paired_t_pvalue": 9.826059446254355e-12,
+      "paired_t_statistic": -11.066034147700845,
+      "wilcoxon_pvalue": 3.725290298461914e-09,
+      "wilcoxon_pvalue_holm": 1.4901161193847656e-08,
+      "wilcoxon_statistic": 0.0
+    },
+    "self_rate_step4": {
+      "ci95_high": -0.045678424268541976,
+      "ci95_low": -0.0702495091712346,
+      "cohen_dz": -1.794655291937452,
+      "mean_improvement": -0.05796396671988829,
+      "n": 29,
+      "paired_t_pvalue": 2.0332167027668865e-10,
+      "paired_t_statistic": -9.664514519079267,
+      "wilcoxon_pvalue": 1.1175870895385742e-08,
+      "wilcoxon_pvalue_holm": 3.3527612686157227e-08,
+      "wilcoxon_statistic": 2.0
+    }
+  },
+  "subjects": 29
+}

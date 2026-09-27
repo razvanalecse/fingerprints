@@ -1,14 +1,15 @@
 # Final figures
 
-This directory contains publication-ready aggregate plots. No figure here
-contains a NIST fingerprint image.
+This directory contains the complete public figure package. No figure here
+contains a NIST fingerprint image. `figure_index.csv` lists every figure, its
+category, and the exact metric artefact used to create it.
 
-- `socofing_baselines.png`: deterministic Track-A comparison.
-- `nist302_model_mae.svg`: held-out real-pixel MAE with the source split caveat
-  included directly in the figure.
-- `uncertainty_vs_anchor_distance.png`: uncertainty localization by distance
-  from examiner-verified evidence.
-- `selective_reconstruction.png`: error-coverage curve under abstention.
+The package includes reconstruction examples from SOCOFing, mask families,
+training curves, performance versus observed fraction, mask-geometry
+comparisons, DDIM uncertainty trends, DDIM-versus-RePaint quality/cost,
+factorial and RQ6 curves, Monte-Carlo K sensitivity, NIST distance strata,
+per-image error distributions, selective reconstruction, and confidence
+intervals.
 
 Permitted examples include metric curves, confidence intervals, calibration
 plots, ablation summaries, sampling-time comparisons, and SOCOFing examples if
